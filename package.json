@@ -23,18 +23,18 @@
     "base64-img": "^1.0.4",
     "chalk": "^2.4.2",
     "code-highlight-linenums": "^0.2.1",
-    "commander": "^2.19.0",
+    "commander": "^2.20.0",
     "epub-gen": "^0.1.0",
     "font-awesome": "^4.7.0",
-    "fs-jetpack": "^2.2.1",
-    "highlight.js": "^9.14.2",
+    "fs-jetpack": "^2.2.2",
+    "highlight.js": "^9.15.8",
     "html-entities": "^1.2.1",
-    "image-size": "^0.7.1",
-    "markdown-link-check": "^3.7.2",
-    "moment-timezone": "^0.5.23",
+    "image-size": "^0.7.4",
+    "markdown-link-check": "^3.7.3",
+    "moment-timezone": "^0.5.25",
     "mustache": "^3.0.1",
     "puppeteer": "^1.10.0",
     "remarkable": "^1.7.1",
-    "through2": "^3.0.0"
+    "through2": "^3.0.1"
   }
 }
