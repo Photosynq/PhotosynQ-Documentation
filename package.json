@@ -1,6 +1,6 @@
 {
   "name": "photosynq-documentation",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Create a search index from markdown documents, build master documents and generate pdfs from markdown.",
   "bin": {
     "pqc": "./index.js"
@@ -10,7 +10,7 @@
     "build": ". compile.sh HEAD",
     "release": ". compile.sh",
     "test": "node index.js test-links",
-    "server": "docsify serve ./docs"
+    "start": "docsify serve ./docs"
   },
   "author": "Sebastian Kuhlgert <sebastian.kuhlgert@gmail.com>",
   "contributors": [
@@ -18,6 +18,10 @@
     "Sean Reed",
     "Sebastian Kuhlgert"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PhotosynQ/PhotosynQ-Documentation"
+  },
   "license": "MIT",
   "dependencies": {
     "base64-img": "^1.0.4",
