@@ -435,7 +435,6 @@ function compileHTML(md) {
 		html: true,
 		breaks: true,
 		linkify: true,
-		plugins: [katex],
 		highlight: function (str, lang) {
 			if (lang && hljs.getLanguage(lang)) {
 				try {
@@ -458,6 +457,9 @@ function compileHTML(md) {
 			return ''; // use external default escaping
 		}
 	});
+
+	mdParser.use(katex);
+
 	var html = mdParser.render(md);
 	html = html.split('\n');
 	html = html.map(function (element) {
