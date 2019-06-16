@@ -546,6 +546,11 @@ var createPDF = function (options) {
 			path: jetpack.path(__dirname, "node_modules", "highlight.js", "styles", "github.css")
 		});
 
+		/** Make sure to install all katex fonts into your font library! */
+		await page.addStyleTag({
+			path: jetpack.path(__dirname, "node_modules", "katex", "dist", "katex.css")
+		});
+
 		/** Make sure to install font-awesome into your font library! */
 		await page.addStyleTag({
 			path: jetpack.path(__dirname, "node_modules", "font-awesome", "css", "font-awesome.css")
@@ -586,6 +591,7 @@ var createEPUB = function () {
 	cssString += jetpack.read(jetpack.path(cwd, "node_modules", "highlight.js", "styles", "github.css"));
 	cssString += jetpack.read(jetpack.path(cwd, "src", "css", "linenumbers.css"));
 	cssString += jetpack.read(jetpack.path(cwd, 'node_modules', 'font-awesome', 'css', 'font-awesome.css')).replace(/\.\.\/fonts\/fontawesome/g, './fonts/fontawesome');
+	cssString += jetpack.read(jetpack.path(cwd, "node_modules", "katex", "dist", "katex.css")).replace(/fonts\/KaTeX/g, './fonts/KaTeX');
 
 	var option = {
 		title: "", // *Required, title of the book.
@@ -593,7 +599,29 @@ var createEPUB = function () {
 		// publisher: "", // optional
 		version: 3, // or 2
 		css: cssString, // sting with css
-		fonts: [jetpack.path(cwd, 'node_modules', 'font-awesome', 'fonts', 'fontawesome-webfont.ttf')],
+		fonts: [
+			jetpack.path(cwd, 'node_modules', 'font-awesome', 'fonts', 'fontawesome-webfont.ttf'),
+			jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_AMS-Regular.ttf'),
+			jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_Caligraphic-Bold.ttf'),
+			jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_Caligraphic-Regular.ttf'),
+			jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_Fraktur-Bold.ttf'),
+			jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_Fraktur-Regular.ttf'),
+			jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_Main-Bold.ttf'),
+			jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_Main-Italic.ttf'),
+			jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_Main-Regular.ttf'),
+			jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_Math-BoldItalic.ttf'),
+			jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_Math-Italic.ttf'),
+			jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_Math-Regular.ttf'),
+			jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_SansSerif-Bold.ttf'),
+			jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_SansSerif-Italic.ttf'),
+			jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_SansSerif-Regular.ttf'),
+			jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_Script-Regular.ttf'),
+			jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_Size1-Regular.ttf'),
+			jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_Size2-Regular.ttf'),
+			jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_Size3-Regular.ttf'),
+			jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_Size4-Regular.ttf'),
+			jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_Typewriter-Regular.ttf')
+		],
 		lang: 'en',
 		tocTitle: 'Contents',
 		customHtmlTocTemplatePath: jetpack.path(cwd, 'src', 'templates', 'toc.xhtml.ejs'),
@@ -603,7 +631,7 @@ var createEPUB = function () {
 		remarkable: {
 			html: true,
 			linkify: true,
-			plugins: []
+			plugins: [katex]
 		},
 		verbose: true
 	};
