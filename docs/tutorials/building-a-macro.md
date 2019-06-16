@@ -24,7 +24,7 @@ In order to build your first Macro, make sure you have the [Desktop App] install
 
 In the previous tutorial we built a protocol to measure photosystem II efficiency. Now we can build a simple macro to automatically calculate it every time you take a measurement.
 
-##### Initial Code
+#### Initial Code
 
 ```javascript
 /**
@@ -60,6 +60,14 @@ var fmp = MathMEAN(json.data_raw.slice(63,68));
 #### Deriving values and adding them to the output
 
 Now we can calculate Phi2 and LEF. For LEF we also need the light intensity. We can insert the light intensity by selecting `light_intensity` from the variables in the top menu.
+
+##### Equations
+
+(1) $\phi_{II} = \frac{ Fm' - Fs}{Fm'}$
+
+(2) $LEF = \phi_{II} \times PAR \times 0.4$
+
+##### Equations as Code
 
 ```javascript
 var phi2 = (fmp-fs)/fmp;
