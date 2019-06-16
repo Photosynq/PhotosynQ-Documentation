@@ -39,6 +39,7 @@
     "mustache": "^3.0.1",
     "puppeteer": "^1.10.0",
     "remarkable": "^1.7.1",
+    "remarkable-katex": "^1.0.1",
     "through2": "^3.0.1"
   }
 }

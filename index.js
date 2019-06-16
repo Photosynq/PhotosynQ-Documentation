@@ -6,6 +6,7 @@ const moment = require('moment-timezone');
 const Mustache = require('mustache');
 const epub = require('epub-gen');
 const Remarkable = require('remarkable');
+const katex = require('remarkable-katex');
 const Entities = require('html-entities').XmlEntities;
 const version = require('./package.json').version;
 const through2 = require('through2');
@@ -434,7 +435,7 @@ function compileHTML(md) {
 		html: true,
 		breaks: true,
 		linkify: true,
-		plugins: [],
+		plugins: [katex],
 		highlight: function (str, lang) {
 			if (lang && hljs.getLanguage(lang)) {
 				try {
