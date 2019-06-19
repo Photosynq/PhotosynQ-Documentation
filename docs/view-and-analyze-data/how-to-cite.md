@@ -6,7 +6,7 @@
 
 We would like to make it as easy as possible for you to insert citations into your Project description, your Project results, even in Protocol or Macro descriptions and Forum posts. You will find next to the text formatting tools a <i class="fa fa-university"></i> Library icon. Click on the button (1) and add the DOI number of your reference (2). The reference including a link (3) will be added at the cursor position in the text.
 
-![(1) Open the citation search box. (2) Enter the DOI number from your citation and press ok. (3) If a citation could be found, the reference is entered at the cursor position.](images/add-reference.png)
+![(1) Open the citation search box. (2) Enter the DOI number from your citation and press ok. (3) If a citation could be found, the reference is entered at the cursor position.](./images/add-reference.png)
 
 ## Using an Instrument
 
@@ -26,7 +26,7 @@ Baker, N.R. (2008) **Chlorophyll fluorescence: A probe of photosynthesis in vivo
 
 ## Parameters
 
-The MultispeQ can measure a whole variety of fluorescence and absorbance based parameters as well as environmental parameters. You can find a list with the most common ones [here](instruments/what-does-the-multispeq-measure).
+The MultispeQ can measure a whole variety of fluorescence and absorbance based parameters as well as environmental parameters. You can find a list with the most common ones [here](../instruments/what-does-the-multispeq-measure).
 
 ## Fluorescence Based Parameters
 

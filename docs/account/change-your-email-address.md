@@ -11,7 +11,9 @@ Need to change your current email address? No problem. Just follow the steps to 
 5. Click on **Update** to save your changes!
 6. Open your email inbox and click on the confirmation link inside the email that was just send to you.
 
-!> **Note:** Please note that the change is not effective until you have confirmed the change in the confirmation email!
+::: warning
+**Note:** Please note that the change is not effective until you have confirmed the change in the confirmation email!
+:::
 
 ### Troubleshooting
 
@@ -19,4 +21,6 @@ Before you contact us, make sure you checked the following steps:
 
 - If the confirmation email is not in your inbox, please check your spam folder as well.
 
-!> **Still Issues?** Please contact us (<support@photosynq.org>), so we can try to help you out.
+::: warning
+**Still Issues?** Please contact us (<support@photosynq.org>), so we can try to help you out.
+:::

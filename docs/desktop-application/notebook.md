@@ -10,7 +10,9 @@ To take measurements and save them you have to run a Protocol from the **Protoco
 
 After the measurement is done, select the **Save** button or shortcut `Ctrl+S / ⌘S` to bring up the save dialog. Add a name for the measurement, as well as a name for the experiment. Further you can add notes and attach an image selecting a file from your local disk or using your webcam. Use the **Save** button at the bottom of dialog to save the measurement to the Notebook.
 
-?> **Tip:** Notebook measurements are saved with the protocol used in the measurement. This is helpful, when developing a new Protocol and comparing variables.
+::: tip
+**Tip:** Notebook measurements are saved with the protocol used in the measurement. This is helpful, when developing a new Protocol and comparing variables.
+:::
 
 ## View Measurements
 
@@ -53,4 +55,6 @@ You can export the whole Notebook (consider this a backup), by selecting **File 
 
 To import a set of exported measurements or an entire Notebook, simply select **File → Import Notebook** from the main menu bar. Select the file you want to import from your local hard-drive and data will be imported into your Notebook.
 
-!> **Note:** Duplicates will be imported without a warning.
+::: warning
+**Note:** Duplicates will be imported without a warning.
+:::

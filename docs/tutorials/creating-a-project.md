@@ -1,5 +1,5 @@
 # Creating a Project
-{docsify-readtime}
+
 **Before You Start...**
 
 Before you go on the PhotosynQ website to create your project, first you have a few things to think about…
@@ -13,7 +13,7 @@ Imagine you are working on the field in the picture below. Your goal is to figur
 1. I am trying to learn how different varieties respond to treatments.
 2. Each individual plot will have a certain variety of my crop, treatment and other project design questions paired with it, like leaf position, or replication.
 
-![Field with crops grown under five different treatments](images/projects-field-with-different-treatments.png)
+![Field with crops grown under five different treatments](./images/projects-field-with-different-treatments.png)
 
 ***
 
@@ -21,7 +21,7 @@ Imagine you are working on the field in the picture below. Your goal is to figur
 
 Log into PhotosynQ and select Create from the menu bar at the top of the page or from the menu underneath your picture on your user page. Give it a good name that relates to your project. Naming your project just “crop testing”  would be a poor idea, as there are dozens of projects already about crops or with just the name “test” (you know who you are). Something like “Crop Response to Unique Treatments October 2017” will make your project distinct and easily searchable.
 
-![Start a new Project by choosing a category and a descriptive name](images/projects-new-project.png)
+![Start a new Project by choosing a category and a descriptive name](./images/projects-new-project.png)
 
 ***
 
@@ -29,7 +29,7 @@ Log into PhotosynQ and select Create from the menu bar at the top of the page or
 
 **Pick the protocol** that best suits your device/needs, for 99% of people the pre-selected protocol will do. If you have an Instrument other than a MultispeQ v1.0, or maybe small leaves, this protocol will be different. In this case select a protocol from the advanced list. Also, be sure to read the protocol description to make sure that it measures the parameters you are interested in and is compatible with your device and firmware version.
 
-![Select a Protocol. The standard protocol will be sufficient for most users.](images/projects-select-protocol.png)
+![Select a Protocol. The standard protocol will be sufficient for most users.](./images/projects-select-protocol.png)
 
 ***
 
@@ -42,7 +42,7 @@ Here is where you need to take your answers to the aforementioned questions and 
 3. Leaf Position, maybe the treatment will affect lower leaves differently than top leaves
 4. Replication, every good experiment has multiple reps after all!
 
-![Add questions to collect additional information](images/projects-add-questions.png)
+![Add questions to collect additional information](./images/projects-add-questions.png)
 
 #### Tips and Tricks for Choosing the Best Project Questions.
 Knowing how answers work is key for fast data collection and successful data analysis later on.
@@ -50,7 +50,7 @@ Knowing how answers work is key for fast data collection and successful data ana
 1. **“Multiple Choice”**, is the safest and quickest option, provided you know all the possible answers.
 2. **”Short Answers”**  can used to provide answers to questions, but be careful! You might answer “red corn” once and then “Red corn.” Both may be the correct, but they will be sorted as different answers by the data explorer, since the answers are case sensitive.
 3. **“Multiple Choice with Pictures”**, is useful if you want to provide visual guidance, other than that, it is the same as a Multiple Choice Questions. Pictures cannot be analyzed in PhotosynQ.
-4. **“Take a Picture”** questions can be cumbersome on both the measurer and when analyzing data later on. If a picture is only sometimes needed, use the **notes function** with the [Desktop](desktop-application/adding-notes-and-pictures) or [Mobile](mobile-application/adding-notes-and-pictures) Applications instead.
+4. **“Take a Picture”** questions can be cumbersome on both the measurer and when analyzing data later on. If a picture is only sometimes needed, use the **notes function** with the [Desktop](../desktop-application/adding-notes-and-pictures) or [Mobile](../mobile-application/adding-notes-and-pictures) Applications instead.
 
 You might notice there is a question for uploading questions/answers via a CSV, and this can be a powerful tool, especially if you have a large, well thought out experiment.
 
@@ -63,7 +63,7 @@ You might notice there is a question for uploading questions/answers via a CSV, 
 
 In the next screen, you will be asked to provide a Project Location. This is just so others have an idea of where the project is taking place. A project can have multiple locations, if you, for example, have a group of collaborators around the world.
 
-![Add locations to your project](images/projects-add-location.png)
+![Add locations to your project](./images/projects-add-location.png)
 
 ***
 
@@ -71,7 +71,7 @@ In the next screen, you will be asked to provide a Project Location. This is jus
 
 The Description Page is next, and here you will fill in information about your project so that others can have a better understanding of your project.
 
-![Add locations to your project](images/projects-add-description.png)
+![Add locations to your project](./images/projects-add-description.png)
 
 1.  You can fill out a full description of what your learning objectives are, how and where the experiment will be conducted, and maybe how others can get involved and help out if it is a more open, collaborative project. Use the preview button to see what the text looks like if you use formatting.
 
@@ -89,7 +89,7 @@ The review step allows you to see all the information about your project up to t
 
 ### Settings
 
-![Project Settings](images/projects-settings.png)
+![Project Settings](./images/projects-settings.png)
 
 The last step is to select select who can contribute to your project and who you would like to  invite invite or collaborate or be an administrator for the project besides you.
 
@@ -107,11 +107,11 @@ Once your project is updated and you have connected to your Instrument like the 
 
 When you collect data in your project, the way it is collected, and later interpreted/displayed is dependent on the protocol and the associated macro selected in project creation. If you chose Leaf Photosynthesis V1.0 like most, the measurement should take about ~15 seconds and return data on your phone that looks something like this:
 
-![Finished Measurement](images/projects-finished-measurement.png)
+![Finished Measurement](./images/projects-finished-measurement.png)
 
 Measurements are either cached on the phone, or uploaded automatically to your project. Your results can be viewed and analyzed online by logging into PhotosynQ and finding your project in your profile. While you can see individual measurements on your phone, logging on to PhotosynQ will allow you to look at your whole dataset.
 
-For more help on how to collect high quality data, best measurement practices, uploading cached data or some tricks for data collection day, check out our [Data Collection Tutorial](tutorials/data-collection)!
+For more help on how to collect high quality data, best measurement practices, uploading cached data or some tricks for data collection day, check out our [Data Collection Tutorial](./data-collection)!
 
 ***
 
@@ -119,4 +119,4 @@ For more help on how to collect high quality data, best measurement practices, u
 
 Data can be viewed using the PhotosynQ data explorer on the PhotosynQ website.
 
-After your day of data collection, viewing PhotosynQ data is quick and easy! Log in to your PhotosynQ online account and go to your profile page by clicking your name on the home-screen. After this, find your project on the dashboard, click and allow your landing page with your data to load up. For a more in depth look into data viewing, series creation, making graphs or downloading your data, check out our tutorial [here](tutorials/data-viewing). If you need some more help understanding the online data analysis tools, we have a guide for that too, check it out [here](tutorials/data-analysis).
+After your day of data collection, viewing PhotosynQ data is quick and easy! Log in to your PhotosynQ online account and go to your profile page by clicking your name on the home-screen. After this, find your project on the dashboard, click and allow your landing page with your data to load up. For a more in depth look into data viewing, series creation, making graphs or downloading your data, check out our tutorial [here](./data-viewing). If you need some more help understanding the online data analysis tools, we have a guide for that too, check it out [here](./data-analysis).

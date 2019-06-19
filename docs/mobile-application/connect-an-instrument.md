@@ -2,7 +2,9 @@
 
 You can use Bluetooth to connect your Instrument to your device.
 
-!> **Note:** Before connecting your MultispeQ to the Desktop App you need to turn on the MultispeQ by pressing and holding the power button for at least 5 seconds.
+::: warning
+**Note:** Before connecting your MultispeQ to the Desktop App you need to turn on the MultispeQ by pressing and holding the power button for at least 5 seconds.
+:::
 
 ![Turning on the MultispeQ using the button in the back](../instruments/images/multispeq-power-button.jpg)
 
@@ -10,7 +12,7 @@ You can use Bluetooth to connect your Instrument to your device.
 
 When connecting an Instrument for the first time, you have to pair it with your device. The pairing only needs to be done once, and only repeated, if the Instrument has been paired with a different device in between.
 
-![Connect a new Instrument](images/android-connect-new-instrument.png)
+![Connect a new Instrument](./images/android-connect-new-instrument.png)
 
 1. Go to the **My Projects** page within the app.
 2. Select the Instrument icon on the top right of the page.
@@ -26,7 +28,7 @@ When connecting an Instrument for the first time, you have to pair it with your 
 
 In case you already paired your Instrument with a device, you only have to select your Instrument from the list to connect it.
 
-![Connect an Instrument that has already been paired](images/android-connect-instrument.png)
+![Connect an Instrument that has already been paired](./images/android-connect-instrument.png)
 
 1. Go to the **My Projects** page within the app.
 2. Select the Instrument icon on the top right of the page.

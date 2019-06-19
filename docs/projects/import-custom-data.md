@@ -12,7 +12,7 @@ If you have created a Project (project lead) or you are an administrator, you ca
 
 Now follow the three steps to ensure that you upload the data correctly.
 
-![Adding additional data](images/import-steps.png)
+![Adding additional data](./images/import-steps.png)
 
 The first step is to download the spreadsheet template. It will contain several columns, including the unique ID for every measurement, the time the data was collected (UTC) and the project questions.
 
@@ -24,15 +24,21 @@ When you are done you can remove the columns with the Project questions. Save yo
 
 Now the data is available for viewing and working with on the website, as well as the external libraries.
 
-?> **Tip:** If you are missing a dataset, leave the cell blank.
+::: tip
+**Tip:** If you are missing a dataset, leave the cell blank.
+:::
 
-!> **Note:** The csv file that has been downloaded, is comma separated. When saving the additional data, make sure the data is still separated by a comma.
+::: warning
+**Note:** The csv file that has been downloaded, is comma separated. When saving the additional data, make sure the data is still separated by a comma.
+:::
 
 ## Updating Data
 
 If you take more measurements, you want to add or remove a parameter or correct a mistake, select **Import data** from you Projects' options menu. Download the spreadsheet again. Now it contains all the data, that has been previously uploaded. Make your changes, save the file and re-upload it. The changes are available right away.
 
-!> **Note:** When uploading data, the old data will be overwritten without a warning.
+::: warning
+**Note:** When uploading data, the old data will be overwritten without a warning.
+:::
 
 ### Add a Parameter
 
@@ -56,19 +62,19 @@ The data imported into the project is available for viewing like the data genera
 
 ### Plotting / Map
 
-![View Imported Data in the Spreadsheet](images/import-data-plot.png)
+![View Imported Data in the Spreadsheet](./images/import-data-plot.png)
 
 `Numerical` data can be used in plots as well as on the map when showing a heatmap. In the dropdown menu for selecting a parameter there is a category labeled **Custom Parameters**, which contains all available parameters from the imported data.
 
 ### Spreadsheet
 
-![View Imported Data in the Spreadsheet](images/import-data-spreadsheet.png)
+![View Imported Data in the Spreadsheet](./images/import-data-spreadsheet.png)
 
 When viewing the Project data, you can open the spreadsheet and select the **Imported Data (Custom Data)** option from the **Protocols** dropdown menu.
 
 ### Filtering
 
-![View Imported Data in the Spreadsheet](images/import-data-filter.png)
+![View Imported Data in the Spreadsheet](./images/import-data-filter.png)
 
 When categorical data is imported, it can be used to filter the data into series. This is a way of adding filters in addition to the Project Questions.
 

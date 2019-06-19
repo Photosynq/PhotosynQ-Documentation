@@ -4,13 +4,15 @@ An important feature of the PhotosynQ platform is the ability to connect plant p
 
 ## Planning Data Collection
 
-![Example layout for a field experiment](images/project-field-layout.png)
+![Example layout for a field experiment](./images/project-field-layout.png)
 
 ### Setting up CSV File
 
 Any spreadsheet software including Excel, Numbers, Calc, etc. can be used to create a csv file. When setting up the file to upload multiple Project Questions, the first row will be used as the question and all subsequent rows as answers. Each column represents a new question. Make sure, there is an equal number of answers to each question.
 
-!> **Note:** When saving the csv file, make sure to select a comma as a separator.
+::: warning
+**Note:** When saving the csv file, make sure to select a comma as a separator.
+:::
 
 ### Ordering the Data
 
@@ -18,30 +20,36 @@ The order of the answers has to reflect the path the data collector would take t
 
 ### Example
 
-![Generating 4 Project Questions from a csv file](images/project-question-csv.png)
+![Generating 4 Project Questions from a csv file](./images/project-question-csv.png)
 
 The Based on the example field layout above, 4 Project Questions would be generated from the provided csv file: POT #, Genotype, Irrigation, Replicate
 
-!> **Note:** The example assumes there is only one measurement per pot. If more measurements are supposed to be collected, it needs to be reflected in the csv.
+::: warning
+**Note:** The example assumes there is only one measurement per pot. If more measurements are supposed to be collected, it needs to be reflected in the csv.
+:::
 
 ## Setting up Project Questions
 
-![Adding Project Questions from a csv file](images/upload-project-questions.png)
+![Adding Project Questions from a csv file](./images/upload-project-questions.png)
 
 To set up Project Questions from a csv file, select **Upload Questions/Answers from spreadsheet (.csv)** from the **Add a question** dropdown menu during the **Questions for collaborators** step in the project creation.
 
 ## Taking Measurements
 
-![Use Auto Increment to answer Questions for new measurements automatically](images/auto-increment-questions.png)
+![Use Auto Increment to answer Questions for new measurements automatically](./images/auto-increment-questions.png)
 
 When using the Mobile Application for collecting measurements, Project questions have the option for *auto incrementing* answers. Check the **Auto Increment** box, to automatically add the next answer with each question.
 
 Once the **Auto Increment** box has been checked, all available answers are listed. Select the answer that is supposed to be used as a **starting point**. Depending on the number of answers you will have to scroll a bit to find the answer that is needed. Repeat the steps with the rest of the answers to the Project Questions.
 
-?> **Tip:** When multiple people are collecting data in the field, they should start at different locations to randomize the data collection. This will be easier to accomplish when using the preset Question/Answer combinations as they guide the data collectors through the experiment.
+::: tip
+**Tip:** When multiple people are collecting data in the field, they should start at different locations to randomize the data collection. This will be easier to accomplish when using the preset Question/Answer combinations as they guide the data collectors through the experiment.
+:::
 
 ### New Measurement
 
 After each measurement, the Mobile Application will automatically input the next answers when **New Measurement** is selected.
 
-!> **Note:** The Desktop Application is not supporting this function.
+::: warning
+**Note:** The Desktop Application is not supporting this function.
+:::

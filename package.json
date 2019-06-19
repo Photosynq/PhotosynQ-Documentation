@@ -1,16 +1,14 @@
 {
   "name": "photosynq-documentation",
-  "version": "1.0.2",
-  "description": "Create a search index from markdown documents, build master documents and generate pdfs from markdown.",
-  "bin": {
-    "pqc": "./index.js"
-  },
+  "version": "1.2.0",
+  "description": "Create a static page for the documentation as well as pdfs and an ebook from markdown files.",
   "main": "index.js",
   "scripts": {
     "build": ". compile.sh HEAD",
     "release": ". compile.sh",
     "test": "node index.js test-links",
-    "start": "docsify serve ./docs"
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
   "author": "Sebastian Kuhlgert <sebastian.kuhlgert@gmail.com>",
   "contributors": [
@@ -41,5 +39,13 @@
     "remarkable": "^1.7.1",
     "remarkable-katex": "^1.0.1",
     "through2": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.0.0-rc.1",
+    "@vuepress/plugin-google-analytics": "^1.0.0-rc.1",
+    "@vuepress/plugin-pwa": "^1.0.0-rc.1",
+    "markdown-it-katex": "^2.0.3",
+    "markdown-it-mermaid": "^0.2.5",
+    "vuepress": "^1.0.0-rc.1"
   }
 }

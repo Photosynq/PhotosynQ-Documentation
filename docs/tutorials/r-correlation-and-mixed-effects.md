@@ -1,6 +1,6 @@
 Correlation and Mixed Effects
 ---
-{docsify-readtime}
+
 ### Introduction
 
 In this tutorial we want to evaluate how the parameters we measure with the MultispeQ relate to crop outputs. We will use the same experiment that we used in the previous tutorial: "ANOVA and multivariate analysis."

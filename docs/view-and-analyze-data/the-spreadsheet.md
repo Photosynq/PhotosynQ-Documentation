@@ -6,7 +6,7 @@ The spreadsheet allows you to view and download the data in the familiar spreads
 
 Just select the **<i class="fa fa-table"></i> Spreadsheet** from the right menu underneath the Project name.
 
-![Spreadsheet menu, with dropdown menus for Protocols, Macros and Saving, as well as the currently displayed protocol name.](images/spreadsheet-menu.png)
+![Spreadsheet menu, with dropdown menus for Protocols, Macros and Saving, as well as the currently displayed protocol name.](./images/spreadsheet-menu.png)
 
 ## Protocols
 
@@ -17,7 +17,10 @@ multiple Protocols or you imported additional data, use the dropdown to select d
 2. Pick the protocol you want to view.
 3. Select **More** from above the spreadsheet to select additional information including *Users*, *Device IDs*, *Notes*, *Photos*, *Location* and *Status (e.g. flagged)*
 
-?> **Info:** When you add additional data to your measurements later on, the additional data will be available as
+::: tip
+**Info:** When you add additional data to your measurements later on, the additional data will be available as
+:::
+
 **Imported Data (Custom Data)**.
 
 ## More
@@ -26,7 +29,9 @@ Select additional data you want to include into the spreadsheet by checking the 
 outside of the dropdown. The spreadsheet is then updated and the columns with the additional information are appended to the
 end. The additional information includes *Users*, *Device IDs*, *Notes*, *Photos*, *Location* and *Status (e.g. flagged)*.
 
-?> **Info:** The settings are not saved, so next time you open this page, you have to make these selections again.
+::: tip
+**Info:** The settings are not saved, so next time you open this page, you have to make these selections again.
+:::
 
 ## Download Data
 
@@ -44,13 +49,15 @@ a color or the measurement ID. These special cases are described below:
 
 Click on the number in the **ID** column to navigate to the individual measurement. The measurement will be opened in a new tab.
 
-!> **Note:** Measurement IDs are unique across the PhotosynQ platform, so they are helpful to specifically identify a measurement within your dataset.
+::: warning
+**Note:** Measurement IDs are unique across the PhotosynQ platform, so they are helpful to specifically identify a measurement within your dataset.
+:::
 
 ## Traces
 
 Some columns are may contain information, that is not just a single value, but a trace. An example would be a Phi2 fluorescence kinetic. In this case a trace <i class="fa fa-line-chart"></i> icon is shown. When hovering over the icon, the trace will be shown, overlaying the series menu on the right. Copying a trace from the spreadsheet, or saving the spreadsheet will return the values of the trace as a comma separated string.
 
-![Example for a trace displayed, when hovering over a column cell with a trace <i class="fa fa-line-chart"></i>.](images/spreadsheet-trace.png)
+![Example for a trace displayed, when hovering over a column cell with a trace <i class="fa fa-line-chart"></i>.](./images/spreadsheet-trace.png)
 
 ## Images
 

@@ -12,9 +12,9 @@ Files are named using the help or tutorial title, e.g. `this-is-the-chapter-1.md
 
 ```shell
 ├── docs
-│   ├── _404.md                 // 404 Error Pagefile
-│   ├── _sidebar.md             // Sidebar Menu file
-│   ├── _navbar.md              // Top Navigation Menu file
+│   ├── Readme.md               // Landing Page
+│   ├── .vuepress               // Vuepress folder
+│   │   └── config.js           // Change Page content and layout here
 │   ├── account                 // Account Chapters folder
 │   │   └── images
 │   ├── desktop-application     // Desktop Application Chapters folder
@@ -40,15 +40,27 @@ Files are named using the help or tutorial title, e.g. `this-is-the-chapter-1.md
 
 All images are placed in the `images` folder in the corresponding chapter folders. For now we don't have any special naming conventions.
 
-Include images as `![A figure description](images/file.*)`
+Include images as `![A figure description](./images/file.*)`
 
 Make sure to use png, jpeg or gifs if animations are necessary.
 
 ### Special functions
 
-`?> **Tip:** This is a Tip for you.` Will create a blue info box on the website. Don't use line breaks.
+```
+::: tip
+**Tip:** This is a Tip for you.
+:::
+```
 
-`!> **Note:** This is a Note for you.` Will create a yellow note box on the website. Don't use line breaks.
+Will create a blue info box on the website. Don't use line breaks.
+
+```
+:::
+**Note:** This is a Note for you.
+:::
+```
+
+Will create a yellow note box on the website. Don't use line breaks.
 
 `<i class="fa fa-..."></i>` Will include the corresponding <https://fontawesome.com/v4.7.0/icons> icon (v4.7.0) on the website.
 
@@ -86,10 +98,16 @@ The standard structure for documenting a command is the following:
 
 ### Test Help Documentation
 
-Requires *docsify-cli* to be installed. Open the url in a browser when the server is started.
+Requires *yarn* to be used. Open the url in a browser when the server is started.
 
 ```shell
-npm run server
+yarn docs:dev
+```
+
+Run a test build of the static pages.
+
+```shell
+yarn docs:build
 ```
 
 ### Compile Master documents
@@ -99,11 +117,11 @@ To generate one big help document and one tutorials document, use the compile sc
 #### Build from latest commit
 
 ```shell
-npm run build
+yarn build
 ```
 
 #### Build from latest tag (release)
 
 ```shell
-npm run release
+yarn release
 ```

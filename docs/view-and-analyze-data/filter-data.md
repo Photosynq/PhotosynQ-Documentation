@@ -8,7 +8,9 @@ You can filter your data by **Project Questions**, **Users**, **Devices** and **
 2. Expand Project Question or Questions you want to filter by.
 3. Select your answer or answers for each Question.
 
-?> **Tip:** See the examples on how the series are generated.
+::: tip
+**Tip:** See the examples on how the series are generated.
+:::
 
 ## Add a single Series
 
@@ -32,10 +34,10 @@ Adding a single or multiple **Series** has a different logic in which filters ar
 
 All of the measurements that include any of the selected filters will be contained in **one series.**
 
-![Single Series: Select your filters and select Add.](images/filter-data-one-series.png)
+![Single Series: Select your filters and select Add.](./images/filter-data-one-series.png)
 
 ### **Multiple Series:**
 
 This selection will generate a separate series for each unique combination of filters.
 
-![Multiple Series: Select your filters and select the Import as separate series option.](images/filter-data-multiple-series.png)
+![Multiple Series: Select your filters and select the Import as separate series option.](./images/filter-data-multiple-series.png)

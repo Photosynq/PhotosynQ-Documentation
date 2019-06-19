@@ -1,6 +1,6 @@
 ANOVA and Multivariate Analysis
 ---
-{docsify-readtime}
+
 ### Introduction
 Many PhotosynQ users are interested in comparing the performance of different treatments, crop varieties, etc. A common approach to separate different groups is to use Analysis of Variance (ANOVA). However, many of the parameters measured by the MultispeQ device are affected by numerous factors including:
 

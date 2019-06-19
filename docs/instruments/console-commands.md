@@ -2,7 +2,9 @@
 
 Using the Console in the Desktop application, you can use these commands to directly communicate with the Instrument. It allows to change settings and display informations, which are mostly only for advanced users or developers. When working with the console and these commands, be careful!
 
-!> **Note:** Some of the commands will introduce changes without warning, which could cause the Instrument to malfunction.
+::: warning
+**Note:** Some of the commands will introduce changes without warning, which could cause the Instrument to malfunction.
+:::
 
 ## Command Switches
 
@@ -14,7 +16,7 @@ Using the Console in the Desktop application, you can use these commands to dire
 
 ### 1053
 
-Continous feed of roll, pitch, compass, direction, tilt and tilt direction. Cancel the command with `-1+`
+Continuous feed of roll, pitch, compass, direction, tilt and tilt direction. Cancel the command with `-1+`
 
 **Example:**
 
@@ -1312,7 +1314,7 @@ get_co2
 
 ### light `deprecated`
 
-Turn on 5V to turn on a light. Replace the <light number> with the number of a light, e.g. `light1`
+Turn on 5V to turn on a light. Replace the `<light number>` with the number of a light, e.g. `light1`
 
 **Example:**
 

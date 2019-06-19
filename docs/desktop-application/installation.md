@@ -9,32 +9,36 @@ Taking measurements in the in the lab, developing new measurement protocols and 
 
 ## Installation
 
-<!-- tabs:start -->
+### Windows
 
-### **Windows**
-
-![Installation of the Application with the one-click installer (Windows)](images/install-application-win.png)
+![Installation of the Application with the one-click installer (Windows)](./images/install-application-win.png)
 
 1. Navigate to the file you just downloaded.
 2. Double click on the executable file to start the installation.
 3. The app gets installed into the default windows application folder (e.g. `C:\Program Files`).
 4. A short-cut is added to the Desktop.
 
-?> When using Windows older than Windows 10, a serial driver needs to be installed. Download the **Windows Serial Installer** from here: [Download](https://www.pjrc.com/teensy/serial_install.exe)
+::: tip
+When using Windows older than Windows 10, a serial driver needs to be installed. Download the **Windows Serial Installer** from here: [Download](https://www.pjrc.com/teensy/serial_install.exe)
+:::
 
-### **Mac**
+***
 
-![Installation of the Application from the Disk-Image (macOS)](images/install-application-mac.png)
+### MacOS
+
+![Installation of the Application from the Disk-Image (macOS)](./images/install-application-mac.png)
 
 1. Navigate to the file you just downloaded.
 2. Double click the file to open the disk-image.
 3. Drag 'n drop the app icon onto the application icon.
 
-### **Linux**
+***
 
-!> **Note:** Right now there is no version available. If you are interested in helping us testing, please send a request to <support@photosynq.org>.
+### Linux
 
-<!-- tabs:end -->
+::: warning
+**Note:** Right now there is no version available. If you are interested in helping us testing, please send a request to <support@photosynq.org>.
+:::
 
 ## Starting the app for the first time
 
@@ -42,13 +46,17 @@ When you are starting the app for the first time you will be asked for your logi
 
 Further you will be asked if you want to activate the location services. The location is used together with measurements in projects. You can activate or deactivate the services at any time in the [application settings].
 
-!> **Note:** MacOS users will be asked if they want to give the application access to their keychain. Please select **Always Allow** to give permission to the PhotosynQ app to safely store and access the login information from the keychain.
+::: warning
+**Note:** MacOS users will be asked if they want to give the application access to their keychain. Please select **Always Allow** to give permission to the PhotosynQ app to safely store and access the login information from the keychain.
+:::
 
 ## Updates
 
 Updates are downloaded and installed automatically to make sure, you always have the latest version of the app.
 
-?> **Tip:** You can activate / deactivate the automatic updates in the [application settings] at any time.
+::: tip
+**Tip:** You can activate / deactivate the automatic updates in the [application settings] at any time.
+:::
 
 ### Troubleshooting
 
@@ -59,4 +67,4 @@ Sometimes the app does not work as expected. Please try this first:
 - Make sure you have an internet connection.
 - Restart the device before installing.
 
-[application settings]: desktop-application/settings
+[application settings]: ./settings

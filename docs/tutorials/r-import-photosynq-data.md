@@ -1,8 +1,6 @@
 Import PhotosynQ data Into R Studio
 ---
 
-{docsify-readtime}
-
 You can import Project data right out of PhotosynQ into R. All you need is a login to <https://photosynq.org> and the ID for the Project you want to analyze. You can find this ID on the left side of the Project page or in the list of Projects on your User page. Otherwise you can import Project data into R studio by reading the data from a csv file on your computer.
 
 ### Import Libraries

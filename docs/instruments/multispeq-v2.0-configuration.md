@@ -1,6 +1,6 @@
 # MultispeQ v2.0 Configuration
 
-![MultispeQ v2.0 measurements](images/multispeq-v2.0-measurements.png)
+![MultispeQ v2.0 measurements](./images/multispeq-v2.0-measurements.png)
 
 | Body | Measurements |
 |:----|:----|
@@ -37,7 +37,7 @@ There are sets of five LEDs each on the **main body** and the **leaf clamp**.
 
 ### Emission Spectra for LEDs
 
-![Emission spectra for LEDs build in the MultispeQ v2.0 - Emission normalized to maximum emission peak](images/multispeq-v2.0-led-emission-spectra.png)
+![Emission spectra for LEDs build in the MultispeQ v2.0 - Emission normalized to maximum emission peak](./images/multispeq-v2.0-led-emission-spectra.png)
 
 ## Detectors
 
@@ -48,7 +48,9 @@ The MultispeQ v2.0 comes with two detectors. One covering the near infrared on t
 | 1 | 700nm - 1150nm | Hamamatsu, S6775-01 (main body) | [view][S6775-01] |
 | 3\* | 400nm - 700nm | Hamamatsu, S6775 (leaf clamp) | [view][S6775] |
 
-\!> **\*Note:** The detector 3 is covered with a BG-18 bandpass filter with a center wavelength around 493 nm. If you are using the detector to detect signals on the edges of the detection range, expect the signal strength to be low.
+::: warning
+**\*Note:** The detector 3 is covered with a BG-18 bandpass filter with a center wavelength around 493 nm. If you are using the detector to detect signals on the edges of the detection range, expect the signal strength to be low.
+:::
 
 ## Sensors
 

@@ -10,15 +10,17 @@ You can set ranges for individual *numeric* **Parameters**, allowing you to excl
 
 1. Select **Add** to add a new Threshold
 
-    ![Open Threshholds](images/set-threshold.png)
+    ![Open Threshholds](./images/set-threshold.png)
 
 2. Choose the **Parameter** and set the range.
 3. Add more Thresholds if you like.
 4. Select **Apply** to reflect the thresholds in your views, except for the spreadsheet view.
 
-    ![Set Threshhold](images/set-thresholds-2.png)
+    ![Set Threshhold](./images/set-thresholds-2.png)
 
-?> **Tip:** Thresholds are applied only for the duration of a session, unlike flagged data. This allows you to exclude outliers, especially when you are not the Project administrator or lead.
+::: tip
+**Tip:** Thresholds are applied only for the duration of a session, unlike flagged data. This allows you to exclude outliers, especially when you are not the Project administrator or lead.
+:::
 
 ## Remove Thresholds
 
