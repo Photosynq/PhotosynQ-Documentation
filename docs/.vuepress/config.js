@@ -8,7 +8,7 @@ module.exports = {
         ['script', {src: 'https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0/mermaid.min.js' }]
 
     ],
-    base: '/test/',
+    base: '/',
     home: true,
     locales: {
         '/': {
