@@ -1,6 +1,6 @@
 # Building an Advanced Macro
 
-When building a Macro for a Protocol using the `_protocol_set_` command, you start of the same way as building a macro described in the previous example ([Building a Macro](./building-a-macro)). But since a protocol set was used, accessing the retuned Parameters has changed a little.
+When building a Macro for a Protocol using the `_protocol_set_` command, you start of the same way as building a macro described in the previous example ([Building a Macro](./building-a-macro.md)). But since a protocol set was used, accessing the retuned Parameters has changed a little.
 
 ## The `json.set` Object
 

@@ -24,7 +24,7 @@ If you are not the Project Lead, you can leave the Project by selecting **Leave 
 
 ## Contributing to a Project
 
-To contribute to a Project, you can start taking Measurements by selecting **Take Measurement** at the bottom of the screen. When you have an Instrument connected, you will be shown the next screen to answer all the Project related questions. Otherwise you will be prompted to connect an Instrument before you continue (See [Connect an Instrument](./connect-an-instrument)).
+To contribute to a Project, you can start taking Measurements by selecting **Take Measurement** at the bottom of the screen. When you have an Instrument connected, you will be shown the next screen to answer all the Project related questions. Otherwise you will be prompted to connect an Instrument before you continue (See [Connect an Instrument](./connect-an-instrument.md)).
 
 In case you have an Instrument connected a list of all available Project questions will displayed and depending on the type of question you will have the following input options:
 
@@ -61,5 +61,5 @@ After the measurement has been taken, you can save the results to the Project us
 If you have long list of Projects, you can search for your Project by tapping on the <i class="fa fa-search" aria-hidden="true"></i> search icon next to the word Projects in the top bar. Use the back ← arrow in the top bar to return to the full list.
 
 ::: tip
-**Tip:** If you are looking for new Projects to participate in, use [Discover](./discover) from the Menu.
+**Tip:** If you are looking for new Projects to participate in, use [Discover](./discover.md) from the Menu.
 :::

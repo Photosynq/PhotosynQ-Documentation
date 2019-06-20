@@ -47,7 +47,7 @@ To start generating **Series**
 **Tip:** The most important parameters will be listed as **Primary Parameters** and **Project Questions**. If the parameter you are looking for is not in these two categories, scroll to the bottom of the drop down menu and look under **Advanced**.
 :::
 
-For more help with plotting data, please visit the [Help Center](../view-and-analyze-data/data-plot-data).
+For more help with plotting data, please visit the [Help Center](../view-and-analyze-data/data-plot-data.md).
 
 ![Plotting tool](./images/data-viewing-plotting-tool.jpg)
 

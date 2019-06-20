@@ -67,4 +67,4 @@ Sometimes the app does not work as expected. Please try this first:
 - Make sure you have an internet connection.
 - Restart the device before installing.
 
-[application settings]: ./settings
+[application settings]: ./settings.md

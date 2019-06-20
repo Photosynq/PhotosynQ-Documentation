@@ -19,7 +19,7 @@ Downloads are *not* available to everyone. You have to be signed in and either a
 
 #### Data Viewer
 
-When you are viewing the Project data using the data viewer, you can save your current selection in the spreadsheet as a `.csv`. See more in the section [The Spreadsheet](./the-spreadsheet).
+When you are viewing the Project data using the data viewer, you can save your current selection in the spreadsheet as a `.csv`. See more in the section [The Spreadsheet](./the-spreadsheet.md).
 
 #### Spreadsheet
 

@@ -17,7 +17,7 @@ Both applications, the mobile and the desktop allow scanning barcodes to answer 
 The mobile app is using the devices front camera to scan the barcode.
 
 ::: tip
-**Tip:** If the camera doesn’t open automatically, make sure that **Barcode auto-capture** is selected in the [application settings](../mobile-application/settings).
+**Tip:** If the camera doesn’t open automatically, make sure that **Barcode auto-capture** is selected in the [application settings](../mobile-application/settings.md).
 :::
 
 ### Desktop Application

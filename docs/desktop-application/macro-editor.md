@@ -8,7 +8,7 @@ The **Menu Bar** holds dropdown menus, that allow you to write your Macro faster
 
 Use the **Measurement** button to select a measurement from your Notebook, that you want to use as a template for your Macro. You can pick a new measurement at any time. When you load an existing Macro, the measurement saved along with the macro is automatically loaded.
 
-The **Functions** dropdown contains all the preset functions that are supplied by PhotosynQ to make calculations faster and avoid recurring programming tasks. Find a list of all available functions [here](../macros/provided-functions).
+The **Functions** dropdown contains all the preset functions that are supplied by PhotosynQ to make calculations faster and avoid recurring programming tasks. Find a list of all available functions [here](../macros/provided-functions.md).
 
 The **Variables** dropdown contains the variables accessible from the underlying measurement. When using a measurement with a protocol set, the variables depend on the selected set.
 

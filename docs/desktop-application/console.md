@@ -28,4 +28,4 @@ When disconnecting an Instrument, the list of commands will be emptied. If you w
 
 ## Available Commands
 
-You can find a list of console commands [here](../instruments/console-commands) or you can use the command `--help or -h` inside the console. The command will return a list of available commands and a brief description. Use `[command] --help or -h` to get more information about an individual command.
+You can find a list of console commands [here](../instruments/console-commands.md) or you can use the command `--help or -h` inside the console. The command will return a list of available commands and a brief description. Use `[command] --help or -h` to get more information about an individual command.

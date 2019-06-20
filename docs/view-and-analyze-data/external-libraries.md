@@ -18,7 +18,7 @@ After you installed the library, you can start accessing the data directly from 
 
 ### Accessing Project Data
 
-To access the data from a Project you just need a [PhotosynQ Account](../account/create-an-account) and the **Project ID**. You can find the Project ID in the sidebar of the Project Page and in the list of Projects on your User page.
+To access the data from a Project you just need a [PhotosynQ Account](../account/create-an-account.md) and the **Project ID**. You can find the Project ID in the sidebar of the Project Page and in the list of Projects on your User page.
 
 The following simple script can be used to generate a data-frame containing the project data.
 

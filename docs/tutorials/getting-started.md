@@ -20,7 +20,7 @@ Before you can start using PhotosynQ, you will need to create an account.
 
 You can use Bluetooth or USB to connect your Instrument with your device. Depending on the Instrument and device, some connection options may not be available.
 
-For data collection in the field, most people will use the mobile app. So lets focus on connecting the MultispeQ to your android phone. For tips on how to connect to the PhotosynQ desktop app please check out [Connect an Instrument - Desktop](../desktop-application/connect-an-instrument) or [Connect an Instrument - Mobile](../mobile-application/connect-an-instrument).
+For data collection in the field, most people will use the mobile app. So lets focus on connecting the MultispeQ to your android phone. For tips on how to connect to the PhotosynQ desktop app please check out [Connect an Instrument - Desktop](../desktop-application/connect-an-instrument.md) or [Connect an Instrument - Mobile](../mobile-application/connect-an-instrument.md).
 
 **Before connecting your MultispeQ to the Android or Desktop App you need to turn on the MultispeQ by pressing and holding the power button for 5 seconds.** There is no indicator light to let you know if it is turned on.
 
@@ -40,7 +40,7 @@ For data collection in the field, most people will use the mobile app. So lets f
 **You are now ready to take measurements with your MultispeQ!**
 
 ::: tip
-If you are having trouble connecting to the MultispeQ, please look for trouble shooting tips on [Connect an Instrument - Desktop](../desktop-application/connect-an-instrument) or [Connect an Instrument - Mobile](../mobile-application/connect-an-instrument)
+If you are having trouble connecting to the MultispeQ, please look for trouble shooting tips on [Connect an Instrument - Desktop](../desktop-application/connect-an-instrument.md) or [Connect an Instrument - Mobile](../mobile-application/connect-an-instrument.md)
 :::
 
 ***

@@ -22,7 +22,7 @@ The key to chain multiple Protocols together into one is the `_protocol_set_` co
 
 ## Macro required!
 
-In contrast to regular Protocols, when using Protocol Sets you have to use a Macro in order to output Parameters. That way, you have full control over the output of complex measurement Protocols (see [Building Advanced Macros](./building-advanced-macros)).
+In contrast to regular Protocols, when using Protocol Sets you have to use a Macro in order to output Parameters. That way, you have full control over the output of complex measurement Protocols (see [Building Advanced Macros](./building-advanced-macros.md)).
 
 ## Special Commands
 

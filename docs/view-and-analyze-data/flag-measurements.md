@@ -11,7 +11,7 @@ You can flag any measurement, for any reason. However, you have to provide a rea
 Within a given Project, the only people who can flag a measurement are:
 
 - The Project lead
-- Anyone who has [administrative rights](../projects/managing-project-settings) for the Project
+- Anyone who has [administrative rights](../projects/managing-project-settings.md) for the Project
 - The individual who collected the measurement of interest
 
 ## How to flag a measurement

@@ -26,7 +26,7 @@ Baker, N.R. (2008) **Chlorophyll fluorescence: A probe of photosynthesis in vivo
 
 ## Parameters
 
-The MultispeQ can measure a whole variety of fluorescence and absorbance based parameters as well as environmental parameters. You can find a list with the most common ones [here](../instruments/what-does-the-multispeq-measure).
+The MultispeQ can measure a whole variety of fluorescence and absorbance based parameters as well as environmental parameters. You can find a list with the most common ones [here](../instruments/what-does-the-multispeq-measure.md).
 
 ## Fluorescence Based Parameters
 

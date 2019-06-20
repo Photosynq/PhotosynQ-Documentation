@@ -50,7 +50,7 @@ Knowing how answers work is key for fast data collection and successful data ana
 1. **“Multiple Choice”**, is the safest and quickest option, provided you know all the possible answers.
 2. **”Short Answers”**  can used to provide answers to questions, but be careful! You might answer “red corn” once and then “Red corn.” Both may be the correct, but they will be sorted as different answers by the data explorer, since the answers are case sensitive.
 3. **“Multiple Choice with Pictures”**, is useful if you want to provide visual guidance, other than that, it is the same as a Multiple Choice Questions. Pictures cannot be analyzed in PhotosynQ.
-4. **“Take a Picture”** questions can be cumbersome on both the measurer and when analyzing data later on. If a picture is only sometimes needed, use the **notes function** with the [Desktop](../desktop-application/adding-notes-and-pictures) or [Mobile](../mobile-application/adding-notes-and-pictures) Applications instead.
+4. **“Take a Picture”** questions can be cumbersome on both the measurer and when analyzing data later on. If a picture is only sometimes needed, use the **notes function** with the [Desktop](../desktop-application/adding-notes-and-pictures.md) or [Mobile](../mobile-application/adding-notes-and-pictures.md) Applications instead.
 
 You might notice there is a question for uploading questions/answers via a CSV, and this can be a powerful tool, especially if you have a large, well thought out experiment.
 
@@ -111,7 +111,7 @@ When you collect data in your project, the way it is collected, and later interp
 
 Measurements are either cached on the phone, or uploaded automatically to your project. Your results can be viewed and analyzed online by logging into PhotosynQ and finding your project in your profile. While you can see individual measurements on your phone, logging on to PhotosynQ will allow you to look at your whole dataset.
 
-For more help on how to collect high quality data, best measurement practices, uploading cached data or some tricks for data collection day, check out our [Data Collection Tutorial](./data-collection)!
+For more help on how to collect high quality data, best measurement practices, uploading cached data or some tricks for data collection day, check out our [Data Collection Tutorial](./data-collection.md)!
 
 ***
 
@@ -119,4 +119,4 @@ For more help on how to collect high quality data, best measurement practices, u
 
 Data can be viewed using the PhotosynQ data explorer on the PhotosynQ website.
 
-After your day of data collection, viewing PhotosynQ data is quick and easy! Log in to your PhotosynQ online account and go to your profile page by clicking your name on the home-screen. After this, find your project on the dashboard, click and allow your landing page with your data to load up. For a more in depth look into data viewing, series creation, making graphs or downloading your data, check out our tutorial [here](./data-viewing). If you need some more help understanding the online data analysis tools, we have a guide for that too, check it out [here](./data-analysis).
+After your day of data collection, viewing PhotosynQ data is quick and easy! Log in to your PhotosynQ online account and go to your profile page by clicking your name on the home-screen. After this, find your project on the dashboard, click and allow your landing page with your data to load up. For a more in depth look into data viewing, series creation, making graphs or downloading your data, check out our tutorial [here](./data-viewing.md). If you need some more help understanding the online data analysis tools, we have a guide for that too, check it out [here](./data-analysis.md).
