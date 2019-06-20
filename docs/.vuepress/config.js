@@ -29,7 +29,7 @@ module.exports = {
     },
     extend: '@vuepress/theme-default',
     themeConfig: {
-        logo: '/icons/favicon-96x96.png',
+        logo: '/logo_menu.svg',
         nav: [
             {
                 text: 'Documents',
