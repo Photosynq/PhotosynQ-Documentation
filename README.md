@@ -64,6 +64,14 @@ Will create a yellow note box on the website. Don't use line breaks.
 
 `<i class="fa fa-..."></i>` Will include the corresponding <https://fontawesome.com/v4.7.0/icons> icon (v4.7.0) on the website.
 
+### Installation
+
+Make sure to use yarn and not npm to allow for correct functionality with vuepress.
+
+```shell
+yarn install
+```
+
 ### Firmware
 
 The firmware folder contains individual files for each command, using the command as a filename `command.json`. Use the following command generate a template file for a new command.
