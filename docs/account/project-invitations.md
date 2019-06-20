@@ -13,7 +13,7 @@ To invite collaborators while creating a Project:
 3. After typing in the email address, click the **Add** button. You can invite as many collaborators has you want, and you can choose if you want them to be a collaborator (meaning they can contribute data) or an administrator (meaning they can edit you Project)
 4. Once you have finished inviting collaborators, click **Save and Finish** from the bottom of the page
 
-![Invite Collaborator](images/invite-collaborator.jpg)
+![Invite Collaborator](./images/invite-collaborator.jpg)
 
 Inviting collaborators to an existing Project:
 
@@ -22,9 +22,11 @@ Inviting collaborators to an existing Project:
 3. Select **Settings**
 4. Follow steps 1-4 above to invite collaborators
 
-![Project options](images/project-options.jpg)
+![Project options](./images/project-options.jpg)
 
-?> **Tip:** If you have selected the **Anyone** option from the "Who can contribute data to your Project" menu, then you do not need to send an invitation to collaborators. Instead they can **join** the Project from the Project homepage by clicking the **Join Team** button.
+::: tip
+**Tip:** If you have selected the **Anyone** option from the "Who can contribute data to your Project" menu, then you do not need to send an invitation to collaborators. Instead they can **join** the Project from the Project homepage by clicking the **Join Team** button.
+:::
 
 ## Accept Invitations
 
@@ -32,9 +34,13 @@ Inviting collaborators to an existing Project:
 2. On the left hand side click on **Invitations**. The little badge indicates if there are new invites.
 3. Check your list of available invitations and click on **Join** if you want to collaborate.
 
-!> **Note:** You will receive an email as well. Click on the link inside the email to join the Project.
+::: warning
+**Note:** You will receive an email as well. Click on the link inside the email to join the Project.
+:::
 
-?> **Tip:** Below the Project name it is indicated if you are invited as a **Collaborator** or **Administrator**.
+::: tip
+**Tip:** Below the Project name it is indicated if you are invited as a **Collaborator** or **Administrator**.
+:::
 
 ![Invitations](../projects/images/invitations.png)
 

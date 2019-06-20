@@ -1,7 +1,5 @@
 # Analyzing your Data
 
-{docsify-readtime}
-
 ## Introduction
 
 Many of the parameters measured by the MultispeQ (e.g. Phi2, PhiNPQ, and PhiNO) respond rapidly to changes in light intensity. For this reason, the analysis of PhotosynQ data often requires multivariate or more sophisticated analytical methods.

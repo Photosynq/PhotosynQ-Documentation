@@ -6,4 +6,4 @@ If you are taking measurements with the desktop app, after every measurement you
 2. Type in a note, use the computer's camera to take a picture, or upload an image from your computer.
 3. Once you have added all of your notes and images, select **Add**.
 
-![Adding Desktop Notes (1) and Pictures (2)](images/notes.png)
+![Adding Desktop Notes (1) and Pictures (2)](./images/notes.png)

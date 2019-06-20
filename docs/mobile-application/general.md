@@ -6,7 +6,7 @@ The PhotosynQ Mobile Application allows to contribute to Projects and run indivi
 
 An internet connection is required when starting the app, to sign in and synchronize Projects, Protocols and Instrument information. Measurements taken for a Project can be cached and uploaded later, so they can be collected in areas without an internet connection.
 
-The app will use mobile data for the internet connection which might lead to additional charges based on your mobile data plan. Make sure to check the **WiFi only** option in the apps [settings menu](mobile-application/settings).
+The app will use mobile data for the internet connection which might lead to additional charges based on your mobile data plan. Make sure to check the **WiFi only** option in the apps [settings menu](./settings).
 
 ## Energy Saving
 

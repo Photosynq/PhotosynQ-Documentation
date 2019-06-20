@@ -51,7 +51,9 @@ The standard MultispeQ protocol measures the following parameters*:
 |tP700|"Tau" P700: the lifetime of P700 electron transfer. P700 is the primary electron acceptor of PS1.|
 |V_initial_P700|The initial rate of P700 steady-state electron transfer.
 
-!> \*Some of the parameters are not available for the beta version of the MultispeQ
+::: danger
+\*Some of the parameters are not available for the beta version of the MultispeQ
+:::
 
 ***
 

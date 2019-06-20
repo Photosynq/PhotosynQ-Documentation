@@ -2,7 +2,7 @@
 
 If you want to analyze a measurement using your own calculation, create a macro to do the calculation for you. When a Protocol has a Macro associated, the Macro will calculate 
 
-![The Macro Editor](images/macro-editor.png)
+![The Macro Editor](./images/macro-editor.png)
 
 ## Create New Macro
 
@@ -11,7 +11,7 @@ If you want to analyze a measurement using your own calculation, create a macro 
 3. Select a measurement from the dialog, the macro should analyze. The measurements are selected from the notebook. If you don't have a measurement saved to your notebook, take one with the protocol the macro is for save it to your notebook.
 4. Start coding...
 
-If you need more help on how to get started, please look at this [Tutorial](tutorials/building-a-macro)
+If you need more help on how to get started, please look at this [Tutorial](../tutorials/building-a-macro)
 
 ## Edit a Macro
 
@@ -24,7 +24,9 @@ You can change one of your Macros or extend an already existing one at any time.
 5. Update the description if needed.
 6. Save the changes by **Save As**.
 
-?> **Tip:** In case you altered a macro someone else had made, change the name too. In this case you only have the option **Save as**.
+::: tip
+**Tip:** In case you altered a macro someone else had made, change the name too. In this case you only have the option **Save as**.
+:::
 
 ## Save a Macro
 

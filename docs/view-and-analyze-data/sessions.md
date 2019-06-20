@@ -10,13 +10,15 @@ With every session the following parameters get saved:
 4. Plot
 5. Map position and heat-map settings
 
-!> **Note:** Sessions are **not** saving the exact state, but your settings. So if there are new measurements are added, the session will take those into account as well, the next time you apply a session to your dataset.
+::: warning
+**Note:** Sessions are **not** saving the exact state, but your settings. So if there are new measurements are added, the session will take those into account as well, the next time you apply a session to your dataset.
+:::
 
 ## Save a Session
 
 If you have an analysis in the data viewer you would like to save you can create a new Session.
 
-![1. Open Sessions, 2. Save a Session, 3. Load a session](images/project-sessions.png)
+![1. Open Sessions, 2. Save a Session, 3. Load a session](./images/project-sessions.png)
 
 1. Open the Sessions from the  <i class="fa fa-bars"></i> menu
 2. Select `New` Session or one of the already existing ones choosing the <i class="fa fa-save"></i> disk icon. Add/change the name and save the Session

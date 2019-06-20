@@ -6,7 +6,7 @@ You can find the Applications Settings under the **Settings dialog** clicking on
 + **Windows & Linux** Menu → Edit → Preferences
 + **Mac** Menu → PhotosynQ → Preferences
 
-![Desktop Application Settings Dialog](images/settings.png)
+![Desktop Application Settings Dialog](./images/settings.png)
 
 ## Auto Update
 
@@ -46,9 +46,13 @@ The disk-space used by the Application to save things like Projects, Protocols a
 **Reset**
 All Projects, Protocols, Macros, images, cached Measurements and your Notebook will be deleted. Also you will be signed out. To synchronize your data from PhotosynQ you have to sign in again.
 
-!> **Note:** Make sure you have your Notebook exported, in case you want to use it in the future.
+::: warning
+**Note:** Make sure you have your Notebook exported, in case you want to use it in the future.
+:::
 
 **Clear Cache**
 All Projects, Protocols, Macros and images will be deleted and your data from PhotosynQ will be synchronized again.
 
-!> **Note:** Measurements cached and your Notebook will not be deleted.
+::: warning
+**Note:** Measurements cached and your Notebook will not be deleted.
+:::

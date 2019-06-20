@@ -7,7 +7,9 @@ In Projects you can define Questions which have to be answered before each measu
 - What is the replicate?
 - any many more...
 
-?> **Tip:** See the [Tutorials](tutorials/data-collection) on more information on Project Questions.
+::: tip
+**Tip:** See the [Tutorials(../tutorials/data-collection) on more information on Project Questions.
+:::
 
 ## Adding Project Questions
 
@@ -19,7 +21,7 @@ In Projects you can define Questions which have to be answered before each measu
 6. Select 'Done reorder.'
 7. If you have added all of your questions and you are happy with the order of the questions, click on 'Save and Next.'
 
-![Add a Question](images/add-a-question.png)
+![Add a Question](./images/add-a-question.png)
 
 ### Multiple Choice
 
@@ -30,7 +32,9 @@ This is the best choice if you know all of the possible answers to the question
 3. Click on 'ADD ANSWER' to add an additional answer box
 4. Once you have input all of your answers, select 'Save.'
 
-?> **Tip:** Each answer needs to have its own answer box
+::: tip
+**Tip:** Each answer needs to have its own answer box
+:::
 
 ### Multiple Choice (with images)
 
@@ -59,7 +63,7 @@ Choose this question type if you want to force the data collector to take an ima
 
 ### Upload Questions/Answers form spreadsheet (.csv)
 
-This option is best for Projects that involve a large population of plants or many Project questions. For directions on how to set up your .csv, see the '[Using the csv Upload Feature](tutorials/data-collection)' document.
+This option is best for Projects that involve a large population of plants or many Project questions. For directions on how to set up your .csv, see the '[Using the csv Upload Feature](../tutorials/data-collection)' document.
 
 1. Drag and drop the csv into the box or click on the box to choose the csv file to upload.
 2. Select 'Save.' It may take up to a minute for the file to upload.

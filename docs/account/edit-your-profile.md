@@ -17,4 +17,6 @@ Your profile on PhotosynQ will help others to learn more about you and start col
 4. Select the photo you would like to use and click **Open**.
 5. Click on **Update** to save your new photo!
 
-?> **Tip:** Adding a biography and a photo will help other users who may be interested in collaborating with you!
+::: tip
+**Tip:** Adding a biography and a photo will help other users who may be interested in collaborating with you!
+:::

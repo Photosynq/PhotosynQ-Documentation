@@ -2,7 +2,9 @@
 
 When writing a Protocol, certain parts might be repeated several times. So instead of repeating the instructions several times, defining repeats can help to reduce complexity and make it easier to write the Protocol. A good example for using repeats would be a fluorescence induction kinetic, where a number of saturation pulses is given. With the help of repeats, the protocol for the saturation pulse is defined once and then can be repeated.
 
-?> **Tip**: Repeats can be a very powerful tool when used in combination with protocol-sets reducing the size of a Protocol to a minimum.
+::: tip
+**Tip**: Repeats can be a very powerful tool when used in combination with protocol-sets reducing the size of a Protocol to a minimum.
+:::
 
 ## Using Repeats
 
@@ -34,11 +36,11 @@ The following example shows how to use two types of repeats, the `set_repeats` a
 
 ### Protocol Sequence
 
-![Repeat sequence](images/repeat-timeline.png)
+![Repeat sequence](./images/repeat-timeline.png)
 
 ## Repeats and variables
 
-When using variable arrays (`v_arrays`) the number of repeats can be based on the number of values within one of the arrays in the `v_arrays`. The array can be referenced using the indicator `#l` with the position (index) of the array `#l<index>`. Find help on how to use variable arrays [here](protocols/variables.md).
+When using variable arrays (`v_arrays`) the number of repeats can be based on the number of values within one of the arrays in the `v_arrays`. The array can be referenced using the indicator `#l` with the position (index) of the array `#l<index>`. Find help on how to use variable arrays [here](./variables.md).
 
 ```javascript
 [
@@ -63,7 +65,7 @@ When using variable arrays (`v_arrays`) the number of repeats can be based on th
 
 ### Protocol Sequence (variable arrays)
 
-![Repeat sequence](images/repeat-timeline.png)
+![Repeat sequence](./images/repeat-timeline.png)
 
 ## Skip Repeats
 
@@ -92,4 +94,4 @@ When creating a Protocol using `_protocol_set_` in combination with `set_repeats
 
 ### Protocol Sequence (skip)
 
-![Repeat sequence](images/repeat-timeline-skip.png)
+![Repeat sequence](./images/repeat-timeline-skip.png)
