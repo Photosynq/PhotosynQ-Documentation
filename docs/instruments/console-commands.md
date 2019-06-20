@@ -2,7 +2,9 @@
 
 Using the Console in the Desktop application, you can use these commands to directly communicate with the Instrument. It allows to change settings and display informations, which are mostly only for advanced users or developers. When working with the console and these commands, be careful!
 
-!> **Note:** Some of the commands will introduce changes without warning, which could cause the Instrument to malfunction.
+::: warning
+**Note:** Some of the commands will introduce changes without warning, which could cause the Instrument to malfunction.
+:::
 
 ## Command Switches
 
@@ -1088,7 +1090,7 @@ usb
 
 ***
 
-### 1054 `deprecated`
+### 1054 <Badge text="deprecated" type="error"/>
 
 **Example:**
 
@@ -1103,7 +1105,7 @@ usb
 
 ***
 
-### 4048 `deprecated`
+### 4048 <Badge text="deprecated" type="error"/>
 
 Read multiple pulses with increasing intensity or pulse width for linearity test. With constant DAC value and pulse width, it is good for a pulse-to-pulse stdev test.
 
@@ -1120,7 +1122,7 @@ Read multiple pulses with increasing intensity or pulse width for linearity test
 
 ***
 
-### adc1 `deprecated`
+### adc1 <Badge text="deprecated" type="error"/>
 
 **Example:**
 
@@ -1135,7 +1137,7 @@ adc1
 
 ***
 
-### adc\_check `deprecated`
+### adc\_check <Badge text="deprecated" type="error"/>
 
 Output all ADC values
 
@@ -1152,7 +1154,7 @@ adc_check
 
 ***
 
-### all\_sensors `deprecated`
+### all\_sensors <Badge text="deprecated" type="error"/>
 
 Continuously all sensor output including par, temp, rH and pressure, until user enter `-1+`
 
@@ -1169,7 +1171,7 @@ all_sensors
 
 ***
 
-### calibrate\_compass `deprecated`
+### calibrate\_compass <Badge text="deprecated" type="error"/>
 
 **Example:**
 
@@ -1184,7 +1186,7 @@ calibrate_compass
 
 ***
 
-### calibrate\_leds `deprecated`
+### calibrate\_leds <Badge text="deprecated" type="error"/>
 
 **Example:**
 
@@ -1199,7 +1201,7 @@ calibrate_leds
 
 ***
 
-### calibrate\_leds\_manual `deprecated`
+### calibrate\_leds\_manual <Badge text="deprecated" type="error"/>
 
 **Example:**
 
@@ -1214,7 +1216,7 @@ calibrate_leds_manual
 
 ***
 
-### constant\_light `deprecated`
+### constant\_light <Badge text="deprecated" type="error"/>
 
 Starting constant light source. Stop output using the command `-1+`.
 
@@ -1231,7 +1233,7 @@ constant_light
 
 ***
 
-### cut\_through `deprecated`
+### cut\_through <Badge text="deprecated" type="error"/>
 
 **Example:**
 
@@ -1246,7 +1248,7 @@ cut_through
 
 ***
 
-### cycle5v `deprecated`
+### cycle5v <Badge text="deprecated" type="error"/>
 
 **Example:**
 
@@ -1261,7 +1263,7 @@ cycle5v
 
 ***
 
-### dac50 `deprecated`
+### dac50 <Badge text="deprecated" type="error"/>
 
 Set all DAC outputs to 50%
 
@@ -1278,7 +1280,7 @@ dac50
 
 ***
 
-### feed\_watchdog `deprecated`
+### feed\_watchdog <Badge text="deprecated" type="error"/>
 
 **Example:**
 
@@ -1293,7 +1295,7 @@ feed_watchdog
 
 ***
 
-### get\_co2 `deprecated`
+### get\_co2 <Badge text="deprecated" type="error"/>
 
 Sensair S8 CO2 requests.  Only works if you have connected the sensair on Serial Port 3
 
@@ -1310,9 +1312,9 @@ get_co2
 
 ***
 
-### light `deprecated`
+### light <Badge text="deprecated" type="error"/>
 
-Turn on 5V to turn on a light. Replace the <light number> with the number of a light, e.g. `light1`
+Turn on 5V to turn on a light. Replace the &lt;light number&gt; with the number of a light, e.g. `light1`
 
 **Example:**
 
@@ -1327,7 +1329,7 @@ light<light number>
 
 ***
 
-### on\_5v `deprecated`
+### on\_5v <Badge text="deprecated" type="error"/>
 
 Turn on 5V for 30 seconds
 
@@ -1344,7 +1346,7 @@ on_5v
 
 ***
 
-### print\_all `deprecated`
+### print\_all <Badge text="deprecated" type="error"/>
 
 print everything in the eeprom (all values defined in eeprom.h)
 
@@ -1361,7 +1363,7 @@ print_all
 
 ***
 
-### pulse `deprecated`
+### pulse <Badge text="deprecated" type="error"/>
 
 **Example:**
 

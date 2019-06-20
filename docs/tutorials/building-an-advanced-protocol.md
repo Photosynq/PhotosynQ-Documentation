@@ -1,8 +1,10 @@
 # Building an Advanced Protocl
-{docsify-readtime}
+
 In the previous tutorial we showed you how to write a Protocol for a simple Phi2 measurement. Make sure you are familiar with this first example, before you tackle this next tutorial. Here we want to explain to you how to build a complex Protocol, which combines simple Protocols like the Phi2 from the previous example into one set of Protocols, a **Protocol Set**.
 
-?> **Tip:** The advantage of using a Protocol with a _Protocol set_, rather selecting multiple Protocols to be executed one after another is, that your Macro has access to all protocols inside that set.
+::: tip
+**Tip:** The advantage of using a Protocol with a _Protocol set_, rather selecting multiple Protocols to be executed one after another is, that your Macro has access to all protocols inside that set.
+:::
 
 ## Protocol Sets
 
@@ -20,7 +22,7 @@ The key to chain multiple Protocols together into one is the `_protocol_set_` co
 
 ## Macro required!
 
-In contrast to regular Protocols, when using Protocol Sets you have to use a Macro in order to output Parameters. That way, you have full control over the output of complex measurement Protocols (see [Building Advanced Macros](tutorials/building-advanced-macros)).
+In contrast to regular Protocols, when using Protocol Sets you have to use a Macro in order to output Parameters. That way, you have full control over the output of complex measurement Protocols (see [Building Advanced Macros](./building-advanced-macros.md)).
 
 ## Special Commands
 

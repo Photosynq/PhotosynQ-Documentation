@@ -2,7 +2,7 @@
 
 PhotosynQ offers you **External Libraries** for [Python] and [R-Project]. To get started, install the library for the language you are using. Then navigate to your Project page. Select **External Libraries** from the download options which brings up a dialog with code examples for **Python** and **R**. Simply copy the code into your script to generate a data-frame. Your email address and Project ID are already included, so you can execute the code right away.
 
-![Dialog with code snippet to import the Project data into a data-frame](images/external-libraries.png)
+![Dialog with code snippet to import the Project data into a data-frame](./images/external-libraries.png)
 
 ## Python
 
@@ -18,7 +18,7 @@ After you installed the library, you can start accessing the data directly from 
 
 ### Accessing Project Data
 
-To access the data from a Project you just need a [PhotosynQ Account](account/create-an-account) and the **Project ID**. You can find the Project ID in the sidebar of the Project Page and in the list of Projects on your User page.
+To access the data from a Project you just need a [PhotosynQ Account](../account/create-an-account.md) and the **Project ID**. You can find the Project ID in the sidebar of the Project Page and in the list of Projects on your User page.
 
 The following simple script can be used to generate a data-frame containing the project data.
 
@@ -58,7 +58,9 @@ protocol = 'Protocol name'
 dt_filtered = df[( df[protocol]['status'] == 'submitted')]
 ```
 
-?> **Tip:** Please find more information about functions in this library on [GitHub](https://github.com/Photosynq/PhotosynQ-Python)
+::: tip
+**Tip:** Please find more information about functions in this library on [GitHub](https://github.com/Photosynq/PhotosynQ-Python)
+:::
 
 ## R (R-Studio)
 
@@ -115,7 +117,9 @@ library(dplyr)
 df_filtered <- filter(df$`Protocol Name`, status == "submitted")
 ```
 
-?> **Tip:** Please find more information about functions in this library on [GitHub](https://github.com/Photosynq/PhotosynQ-R)
+::: tip
+**Tip:** Please find more information about functions in this library on [GitHub](https://github.com/Photosynq/PhotosynQ-R)
+:::
 
 [Python]: https://www.python.org/
 [R-Project]: https://www.r-project.org/

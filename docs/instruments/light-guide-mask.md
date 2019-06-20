@@ -6,13 +6,13 @@ Masking the light guide, so that the leaf is fully covering the opening becomes 
 
 Reducing the surface of the light guide by masking parts of it can help overcome those issues.
 
-![MultispeQ without and with a masked light guide](images/instrument-without-with-mask.png)
+![MultispeQ without and with a masked light guide](./images/instrument-without-with-mask.png)
 
 ## Make the Mask
 
 The light guide mask can be cut out of black construction paper and a leather hole punch can be used to create the holes for the air channels and light guide. The holes for the air channels need to be 4.5mm in diameter. Depending on the size of plant being measured, the hole for the light guide can range from 2 – 4mm in diameter. If available, a laser cutter can be used with the template instead.
 
-![Mask Template](images/light-guide-mask.png)
+![Mask Template](./images/light-guide-mask.png)
 
 **Light Guide Mask Template:** [Download](https://photosynqprod.s3.amazonaws.com/files/specialfeatures/leaf-mask-file.pdf)
 
@@ -22,21 +22,23 @@ The light guide mask can be cut out of black construction paper and a leather ho
 
 Pre-fold the perforated creases of the mask (along the red lines). Insert the set of holes over the air channels.
 
-![Attach the mask to the air channels](images/assemble-mask-1.png)
+![Attach the mask to the air channels](./images/assemble-mask-1.png)
 
 ### Step 2
 
 Fold the mask around the leaf clamp of the instrument. Continue wrapping the mask around the leaf clamp of the instrument so it covers the light guide.
 
-![Attach the mask to the air channels](images/assemble-mask-2.png)
+![Attach the mask to the air channels](./images/assemble-mask-2.png)
 
 ### Step 3
 
 Fold the end of the mask over the air channels. This will secure it onto the instrument. We recommend adding clear tape along the folds of the mask to increase longevity and stability on the MultispeQ.
 
-![Fold the end over the air channels](images/assemble-mask-3.png)
+![Fold the end over the air channels](./images/assemble-mask-3.png)
 
-!> **Note:** Make sure when using tape not to cover the air channels or light guide.
+::: warning
+**Note:** Make sure when using tape not to cover the air channels or light guide.
+:::
 
 ### Step 4
 

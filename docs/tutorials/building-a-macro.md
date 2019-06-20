@@ -1,12 +1,12 @@
 # Building a Macro
-{docsify-readtime}
+
 ### Why do PhotosynQ measurements require Protocols and Macros?
 
 On the PhotosynQ platform, we use **Protocols** to provide specific measurement instructions to the Instrument, such as the MultispeQ. Every time a measurement is taken, the Protocol is sent to the Instrument, and the results are sent back.
 
 You can choose to attach a **Macro** to a Protocol. Macros are used to make calculations after a measurement has been taken. Not every measurement requires post processing (e.g. a simple temperature measurement), but if you want to calculate a parameter from the measurement **Trace** or want to compare parameters (e.g. ambient temperature vs. leaf temperature), a Macro will calculate the parameters of interest and display the results instantly on your mobile device (e.g. a phone).
 
-![The steps involved in taking a measurement](images/protocols-macros-workflow.jpg)
+![The steps involved in taking a measurement](./images/protocols-macros-workflow.jpg)
 
 ### How do Macros work
 
@@ -24,7 +24,7 @@ In order to build your first Macro, make sure you have the [Desktop App] install
 
 In the previous tutorial we built a protocol to measure photosystem II efficiency. Now we can build a simple macro to automatically calculate it every time you take a measurement.
 
-##### Initial Code
+#### Initial Code
 
 ```javascript
 /**
@@ -50,7 +50,7 @@ return output;
 
 In order to calculate the parameters **Fs** (steady state fluorescence) and **Fmp** (maximum fluorescence), you have to access the recorded fluorescence trace. The Macro editor allows you to select the regions, by using the graph of the trace. In the example below, check range and select the region of interest. Then click on the <i class="fa fa-arrows-h"></i> icon to add the selected range into your code, `json.data_raw.slice(63,68)` in this case. We use the already pre-defined method `MathMEAN( array )` from the Function Menu to calculate the mean of the values in the selected range.
 
-![Selecting a range of values using the Macro editor](images/macros-building-a-macro.png)
+![Selecting a range of values using the Macro editor](./images/macros-building-a-macro.png)
 
 ```javascript
 var fs = MathMEAN(json.data_raw.slice(1,5));
@@ -60,6 +60,14 @@ var fmp = MathMEAN(json.data_raw.slice(63,68));
 #### Deriving values and adding them to the output
 
 Now we can calculate Phi2 and LEF. For LEF we also need the light intensity. We can insert the light intensity by selecting `light_intensity` from the variables in the top menu.
+
+##### Equations
+
+(1) $\phi_{II} = \frac{ Fm' - Fs}{Fm'}$
+
+(2) $LEF = \phi_{II} \times PAR \times 0.4$
+
+##### Equations as Code
 
 ```javascript
 var phi2 = (fmp-fs)/fmp;

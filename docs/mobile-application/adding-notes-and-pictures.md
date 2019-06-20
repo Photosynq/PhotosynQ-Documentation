@@ -9,6 +9,8 @@ To modify a measurement:
 3. To add a note, select the *Note* icon from the menu at the top of the screen, type the note into the text-box and select **Save Note**.
 4. To add a picture, select the *Camera* icon from the menu at the top of the screen, take the picture and select **OK**
 
-!> **Note:** if you go back and add another note, it will overwrite your last note with the new note.
+::: warning
+**Note:** if you go back and add another note, it will overwrite your last note with the new note.
+:::
 
-![Adding Mobile Notes and Pictures](images/android-add-note.png)
+![Adding Mobile Notes and Pictures](./images/android-add-note.png)

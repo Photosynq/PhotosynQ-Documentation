@@ -2,7 +2,9 @@
 
 PhotosynQ Instruments come pre-calibrated from the factory. Over time you can repeat the calibrations to ensure high quality measurements. Depending on the Instrument the available calibrations can vary. Currently you need to use the Desktop Application to adjust your Instrument settings.
 
-!> **Note:** The Chrome App does not support Instrument Calibrations. Please switch to the new Desktop Application.
+::: warning
+**Note:** The Mobile Application does not support Instrument Settings.
+:::
 
 ## Desktop App
 
@@ -12,15 +14,48 @@ When using the Desktop App in order to repeat the Instrument Calibrations, follo
 2. Select **Instrument** from the **Settings** dialog.
 3. Depending on the connected Instrument, you will see your available calibrations.
 
-![Settings Dialog to show available Instrument calibrations.](images/instrument-settings-desktop-app.png)
+![Calibrations Dialog to show available Instrument calibrations.](./images/instrument-calibrations-desktop-app.png)
 
-## Calibrations MultispeQ v1.0
+## Calibrations - MultispeQ
 
-!> **Note:** Available soon
+| Calibrate PAR Sensor | Description |
+| -------------------- |-------------|
+| ... | ... |
+| ... | ... |
 
-## Calibrations MultispeQ v2.0
+::: warning
+**Note:** These calibration steps require the CaliQ instrument
+:::
 
-| Calibration | Description |
-|-------------|-------------|
-| Open/Close Positions | Re-calibrate the open/close position of the leaf clamp. This is required, when the Instrument is not properly starting a protocol that starts on open or close. |
-| Compass | Calibrate the Instrument's internal compass. |
+| Calibrate LEDs | Description |
+| -------------- |-------------|
+| ... | ... |
+| ... | ... |
+| ... | ... |
+
+::: warning
+**Note:** These calibration steps require the CaliQ instrument
+:::
+
+| Electronic Offsets | Description |
+| ------------------ |-------------|
+| ... | ... |
+| ... | ... |
+
+| Calibrate Leaf Thickness | Description |
+| ------------------------ |-------------|
+| ... | ... |
+
+::: warning
+**Note:** These calibration steps require calibration cards
+:::
+
+| Calibrate Relative Chlorophyll | Description |
+| ------------------------------ |-------------|
+| ... | ... |
+| ... | ... |
+| ... | ... |
+
+::: warning
+**Note:** These calibration steps require calibration cards
+:::

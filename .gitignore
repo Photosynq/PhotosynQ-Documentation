@@ -1,6 +1,7 @@
 # Script generated files #
 ##########################
 .vscode/
+.vuepress/dist/
 dist/
 node_modules/
 

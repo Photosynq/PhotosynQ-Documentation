@@ -1,4 +1,4 @@
-# Download data `beta`
+# Download data <Badge text="beta" type="warn"/>
 
 While the data viewer allows you to analyze the collected measurements for a Project, it might become necessary to download the dataset and work in a different software. There are multiple ways to access the data. You can:
 
@@ -7,23 +7,25 @@ While the data viewer allows you to analyze the collected measurements for a Pro
 3. Download the data as a `JSON` formatted file (.json)
 4. Use the Python or R libraries (external libraries) to import the Project dataset as a data-frame
 
-!> **Note:** We are strongly recommending to view your data in the data viewer and flag data if necessary, before downloading the dataset. This will ensure the highest quality and best results for your subsequent analysis.
+::: warning
+**Note:** We are strongly recommending to view your data in the data viewer and flag data if necessary, before downloading the dataset. This will ensure the highest quality and best results for your subsequent analysis.
+:::
 
 #### Availability
 
 Downloads are *not* available to everyone. You have to be signed in and either a Project lead or a Project contributor, to have access to those files.
 
-![Download Options on the Project Page.](images/download-options.png)
+![Download Options on the Project Page.](./images/download-options.png)
 
 #### Data Viewer
 
-When you are viewing the Project data using the data viewer, you can save your current selection in the spreadsheet as a `.csv`. See more in the section [The Spreadsheet](view-and-analyze-data/the-spreadsheet).
+When you are viewing the Project data using the data viewer, you can save your current selection in the spreadsheet as a `.csv`. See more in the section [The Spreadsheet](./the-spreadsheet.md).
 
 #### Spreadsheet
 
 The spreadsheet is structured the same way, it is in the data viewer. If you use multiple protocols, you will have multiple sheets. Each sheet will have the name of the protocol.
 
-![Spreadsheet opened in Excel](images/download-spreadsheet.png)
+![Spreadsheet opened in Excel](./images/download-spreadsheet.png)
 
 #### JSON
 
@@ -72,6 +74,6 @@ When you download the data as a `JSON` you will receive it with more information
 
 Just select **External Libraries** from the download options on the Project page. This will bring up a modal dialog with code examples for **Python** and **R**. Simply copy the code into your script to generate a data-frame.
 
-![Dialog with code snippet to import the Project data into a data-frame](images/external-libraries.png)
+![Dialog with code snippet to import the Project data into a data-frame](./images/external-libraries.png)
 
 More on how to use the libraries, see the link to the [software](https://photosynq.org/software#analysis) page and [tutorials](tutorials/analysis) at the bottom of the dialog.

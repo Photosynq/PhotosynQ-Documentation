@@ -6,6 +6,8 @@ If you have administrative rights on a Project, either because you created the P
 2. Using the 'Options' drop down menu on the left of the screen, select what you want to edit.
 3. Once you have finished making changes, you can 'Save and close' or you can navigate through other sections of your Project using the 'Back' and 'Save and Next' buttons.
 
-!> **Note:** If you do not see the 'Options' menu on the left side of your Project homepage, this means that you do not have administrative access to this Project.
+::: warning
+**Note:** If you do not see the 'Options' menu on the left side of your Project homepage, this means that you do not have administrative access to this Project.
+:::
 
 ![Project options](../account/images/project-options.jpg)

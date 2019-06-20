@@ -21,4 +21,6 @@ Sign in to access your work on PhotosynQ. You can only have one account active a
 2. Enter your email address and password.
 3. Click on **Sign in**.
 
-!> **Note:** Make sure you have an internet connection when you sign in so your work can be synchronized.
+::: warning
+**Note:** Make sure you have an internet connection when you sign in so your work can be synchronized.
+:::

@@ -1,7 +1,5 @@
 # Getting Started
 
-{docsify-readtime}
-
 ## Creating an Account
 
 Before you can start using PhotosynQ, you will need to create an account.
@@ -22,11 +20,11 @@ Before you can start using PhotosynQ, you will need to create an account.
 
 You can use Bluetooth or USB to connect your Instrument with your device. Depending on the Instrument and device, some connection options may not be available.
 
-For data collection in the field, most people will use the mobile app. So lets focus on connecting the MultispeQ to your android phone. For tips on how to connect to the PhotosynQ desktop app please check out [Connect an Instrument - Desktop](desktop-application/connect-an-instrument) or [Connect an Instrument - Mobile](desktop-application/connect-an-instrument).
+For data collection in the field, most people will use the mobile app. So lets focus on connecting the MultispeQ to your android phone. For tips on how to connect to the PhotosynQ desktop app please check out [Connect an Instrument - Desktop](../desktop-application/connect-an-instrument.md) or [Connect an Instrument - Mobile](../mobile-application/connect-an-instrument.md).
 
 **Before connecting your MultispeQ to the Android or Desktop App you need to turn on the MultispeQ by pressing and holding the power button for 5 seconds.** There is no indicator light to let you know if it is turned on.
 
-![Connect an Instrument: The arrow indicates the power and reset button.](images/getting-started-turn-multispeq-on.jpg)
+![Connect an Instrument: The arrow indicates the power and reset button.](./images/getting-started-turn-multispeq-on.jpg)
 
 1. In the app, select the Instrument icon on the top right corner.
 2. A list of available Bluetooth Instrument will appear.
@@ -37,11 +35,13 @@ For data collection in the field, most people will use the mobile app. So lets f
 5. A pop-up will appear asking to pair the device by entering the Instrument PIN. **The PIN is 1234 and is the same for every MultispeQ.**
 6. After pairing the MultispeQ, you will be taken back to the Device list. Select your MultispeQ from the list, if the screen B (below) appears your device is connected.
 
-![Android - Bluetooth: (A) Scanning for MultispeQ devices. (B) Information about the connected device.](images/getting-started-connect-multispeq.jpg)
+![Android - Bluetooth: (A) Scanning for MultispeQ devices. (B) Information about the connected device.](./images/getting-started-connect-multispeq.jpg)
 
 **You are now ready to take measurements with your MultispeQ!**
 
-?> If you are having trouble connecting to the MultispeQ, please look for trouble shooting tips on [Connect an Instrument - Desktop](desktop-application/connect-an-instrument) or [Connect an Instrument - Mobile](desktop-application/connect-an-instrument)
+::: tip
+If you are having trouble connecting to the MultispeQ, please look for trouble shooting tips on [Connect an Instrument - Desktop](../desktop-application/connect-an-instrument.md) or [Connect an Instrument - Mobile](../mobile-application/connect-an-instrument.md)
+:::
 
 ***
 
@@ -56,6 +56,6 @@ For data collection in the field, most people will use the mobile app. So lets f
   2. Reading the directions is vital to taking proper measurements.
 - Any additional questions about projects can be asked on the project discussion online.
 
-![My Projects: List of joined or created projects available for data contribution.](images/getting-started-my-projects.jpg)
+![My Projects: List of joined or created projects available for data contribution.](./images/getting-started-my-projects.jpg)
 
 Take a few measurements using the **Getting Started with MultispeQ** project or [create your own project](https://photosynq.org/projects/categories).

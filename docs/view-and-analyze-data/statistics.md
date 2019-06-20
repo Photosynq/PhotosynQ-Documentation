@@ -7,7 +7,7 @@ A very basic set of statistical tools for your Project data analysis.
 1. Select the **<i class="fa fa-bar-chart"></i> Statistics** from the right menu underneath the Project name.
 2. Choose the type of statistics you wish to perform and select the significance level.
 
-![Statistics](images/statistics.png)
+![Statistics](./images/statistics.png)
 
 ## Summary
 
@@ -19,7 +19,7 @@ A very basic set of statistical tools for your Project data analysis.
 2. Select one-tailed or two-tailed, depending on your dataset.
 3. Click on **Run t-test** to show the results.
 
-![T-test](images/t-test.jpg)
+![T-test](./images/t-test.jpg)
 
 ## ANOVA
 
@@ -27,7 +27,7 @@ A very basic set of statistical tools for your Project data analysis.
 2. Check **Create correlation matrix** to generate a table of t-test.
 3. Click **Run ANOVA**.
 
-![ANOVA](images/anova-selection.jpg)
+![ANOVA](./images/anova-selection.jpg)
 
 ## Chi Square test
 

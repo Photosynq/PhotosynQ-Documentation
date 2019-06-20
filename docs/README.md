@@ -1,43 +1,44 @@
-# PhotosynQ Documentation
+---
+home: true
+heroImage: logo.svg
+heroText: Documentation
+tagline: PHENOTYPE WITH PHOTOSYNQ
+actionText: Get Started →
+actionLink: /tutorials/getting-started
+features:
+- title: The MultispeQ
+  details: The MultispeQ is PhotosynQ's handheld device to measure photosynthetic parameters derived from absorbance and fluorescence measurements.
+  linkText: MultispeQ v2.0
+  link: instruments/multispeq-v2.0.html
 
-<!-- columns:2 -->
+- title: Mobile | Android
+  details: The current version of the Android mobile app is available through the Google Play Store. You will be notified in case there are updates available.
+  linkText: Mobile Application
+  link: mobile-application/photosynq-for-android.html
 
-* ### Getting Started {docsify-ignore}
-  Welcome to PhotosynQ! Get ready to create a Project and take some measurements using a MultispeQ. [Getting Started](/tutorials/getting-started)
-* ### Using a MultispeQ {docsify-ignore}
-  The MultispeQ is PhotosynQ's handheld device. Use it together with a [Mobile Device](/mobile-application/connect-an-instrument) or [Desktop Computer](/desktop-application/connect-an-instrument).
+- title: Desktop | Windows & Mac
+  details: The current version of desktop app available for Windows 7 or higher and for macOS 10.11.6 or higher. Updates are delivered through the app.
+  linkText: Desktop Application
+  link: desktop-application/installation.html
 
-***
+- title: Projects
+  details: On the PhotosynQ platform measurements are collected for a Project, including measurement Projects and Questions.
+  linkText: Projects
+  link: projects/what-are-projects.html
 
-<!-- columns:2 -->
+- title: View & Analyze Data
+  details: We are providing libraries for Python and R to access PhotosynQ Project Data to perform an advanced data analysis.
+  linkText: Data Analysis
+  link: https://photosynq.org/software#analysis
 
-* ### Projects {docsify-ignore}
-  On the PhotosynQ platform measurements are collected for a Project, including measurement Projects and Questions. Learn how to [set up a Project](tutorials/creating-a-project).
-* ### Parameters & References {docsify-ignore}
-  The MultispeQ is capable to measure a large variety of parameters. Find a list of the most common ones [here](/view-and-analyze-data/how-to-cite).
+- title: Firmware
+  details: You get notified when there is an update available for your Instrument if you use the PhotosynQ mobile or desktop application.
+  linkText: Firmware
+  link: instruments/firmware-updates.html
 
-***
-
-<!-- columns:2 -->
-
-* ### Mobile | Android {docsify-ignore}
-  Our current version of the Android mobile app is available through the Google Play Store. You will be notified in case there are updates available. [Google Play Store](https://play.google.com/store/apps/details?id=org.photosynq.android.photosynq&hl=en).
-
-* ### Desktop | Windows & Mac {docsify-ignore}
-  Our current version of desktop app available for Windows 7 or higher and for macOS 10.11.6 or higher. Go to our software page to download the latest version. Updates are delivered through the app [Software](https://photosynq.org/software#desktop).
-
-***
-
-<!-- columns:2 -->
-
-* ### Analysis | External Libraries {docsify-ignore}
-  We are providing libraries for Python and R to access PhotosynQ Project Data to perform an advanced data analysis. [Software](https://photosynq.org/software#analysis).
-
-* ### Firmware {docsify-ignore}
-  You get notified when there is an update available for your Instrument if you use the PhotosynQ mobile or desktop application. More on [Firmware Updates](instruments/firmware-updates) and [Firmware Releases](https://github.com/Photosynq/MultispeQ-Firmware/releases)
-
-> Interested in contributing and helping to improve the documentation? Visit **[contributing.md]** to learn how to become part of the project!
-
-![GitHub release](https://img.shields.io/github/release/Photosynq/PhotosynQ-Documentation.svg?style=flat-square ":no-zoom") ![GitHub Release Date](https://img.shields.io/github/release-date/PhotosynQ/PhotosynQ-Documentation.svg?style=flat-square ":no-zoom") ![GitHub](https://img.shields.io/github/license/PhotosynQ/PhotosynQ-Documentation.svg?style=flat-square ":no-zoom")
-
-[contributing.md]: https://github.com/Photosynq/PhotosynQ-Documentation/blob/master/contributing.md
+footer: © PhotosynQ, LLC
+footerShields:
+  - https://img.shields.io/github/release/Photosynq/PhotosynQ-Documentation.svg?style=flat-square
+  - https://img.shields.io/github/release-date/PhotosynQ/PhotosynQ-Documentation.svg?style=flat-square
+  - https://img.shields.io/github/license/PhotosynQ/PhotosynQ-Documentation.svg?style=flat-square
+---

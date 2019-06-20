@@ -1,12 +1,12 @@
 # Building a Protocol
-{docsify-readtime}
+
 ### Why do PhotosynQ measurements require Protocols and Macros?
 
 On the PhotosynQ platform, we use **Protocols** to provide specific measurement instructions to the Instrument, such as the MultispeQ. Every time a measurement is taken, the Protocol is sent to the Instrument, and the results are sent back.
 
 You can choose to attach a **Macro** to a Protocol. Macros are used to make calculations after a measurement has been taken. Not every measurement requires post processing (e.g. a simple temperature measurement), but if you want to calculate a parameter from the measurement **Trace** or want to compare parameters (e.g. ambient temperature vs. leaf temperature), a Macro will calculate the parameters of interest and display the results instantly on your mobile device (e.g. a phone).
 
-![The steps involved in taking a measurement](images/protocols-macros-workflow.jpg)
+![The steps involved in taking a measurement](./images/protocols-macros-workflow.jpg)
 
 ### How do Protocols work
 
@@ -24,7 +24,7 @@ In order to build your first Protocol, make sure you have the [Desktop App] inst
 ### Measuring Photosystem II efficiency
 
 In this tutorial, we show you how to acquire a simple Phi2 value using the MultispeQ. Before we start, lets take a look at the measurement.
-![A simple fluorescence trace, recorded at a low light intensity.](images/protocols-building-a-protocol.png)
+![A simple fluorescence trace, recorded at a low light intensity.](./images/protocols-building-a-protocol.png)
 
 **The measurement is divided into three parts:**
 
@@ -195,7 +195,9 @@ Putting all the pieces together, the protocol to measure Phi2 looks like this:
 ]
 ```
 
-?> **Tip:** Continue with the Macro Tutorial to learn how to calculate Phi2 from the recorded measurement.
+::: tip
+**Tip:** Continue with the Macro Tutorial to learn how to calculate Phi2 from the recorded measurement.
+:::
 
 [JSON_URL]: https://www.w3schools.com/js/js_json_intro.asp
 [Desktop App]: https://photosynq.org/software#desktop

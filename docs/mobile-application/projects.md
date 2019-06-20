@@ -2,13 +2,13 @@
 
 The Application allows you to take your Instrument together with your mobile device anywhere you want to take measurements. It's build in a way, that is intended to make large scale data collection in the field as easy as possible. To work with Projects you can select **My Projects** from the Menu.
 
-![My Projects Menu Bar](images/android-projects-menu.png)
+![My Projects Menu Bar](./images/android-projects-menu.png)
 
 ## My Projects
 
 My Projects is listing all projects you have created or joined, providing name, part of the about section and a Project image. You can update the list of Projects as well as the Projects themselves, by swiping down until the loading icon appears. Once it has disappeared, the list and Projects are updated.
 
-![Projects](images/android-projects.png)
+![Projects](./images/android-projects.png)
 
 ## Select a Project
 
@@ -24,7 +24,7 @@ If you are not the Project Lead, you can leave the Project by selecting **Leave 
 
 ## Contributing to a Project
 
-To contribute to a Project, you can start taking Measurements by selecting **Take Measurement** at the bottom of the screen. When you have an Instrument connected, you will be shown the next screen to answer all the Project related questions. Otherwise you will be prompted to connect an Instrument before you continue (See [Connect an Instrument](mobile-application/connect-an-instrument)).
+To contribute to a Project, you can start taking Measurements by selecting **Take Measurement** at the bottom of the screen. When you have an Instrument connected, you will be shown the next screen to answer all the Project related questions. Otherwise you will be prompted to connect an Instrument before you continue (See [Connect an Instrument](./connect-an-instrument.md)).
 
 In case you have an Instrument connected a list of all available Project questions will displayed and depending on the type of question you will have the following input options:
 
@@ -36,7 +36,7 @@ In case you have an Instrument connected a list of all available Project questio
 
 You have to answer all Project Questions in order to contribute a measurement. You can select Keep Answers below the Take Measurement button, if you take multiple measurement with the same set of answers.
 
-![Question options for Projects, Multiple Choice, User Answer & Scan Barcode, Attach Photo](images/android-project-questions.png)
+![Question options for Projects, Multiple Choice, User Answer & Scan Barcode, Attach Photo](./images/android-project-questions.png)
 
 ### Scan Codes
 
@@ -46,11 +46,13 @@ Answers can also be given, by scanning Bar or QR codes (requires webcam). Select
 
 Once you have answered all the Project Questions you can select the Take Measurement button in the right side bar. The measurement will use the protocols listed underneath the button, as well as your Current Location as indicated on the small map. If no location information is available, you will see the warning Unknown Location. In this case you can still contribute a measurement, just laking the geo tag.
 
-!> **Note:** When you push the Take Measurement* button, the measurement, depending on the Protocol, might start right away.
+::: warning
+**Note:** When you push the Take Measurement* button, the measurement, depending on the Protocol, might start right away.
+:::
 
 ## Save Contribution
 
-![Results for a Protocol for a Project](images/android-projects-results.png)
+![Results for a Protocol for a Project](./images/android-projects-results.png)
 
 After the measurement has been taken, you can save the results to the Project using the Save button above the measurement results or you can Discard the measurement and repeat it. When you want to save your measurement, you can add notes and an image, either using a local file or your webcam and then save it to the Project using the Save button at the bottom of the dialog. When you don't have an internet connection your measurement will be cached and submitted to the Project, the next time you have a connection and the app is able to synchronize.
 
@@ -58,4 +60,6 @@ After the measurement has been taken, you can save the results to the Project us
 
 If you have long list of Projects, you can search for your Project by tapping on the <i class="fa fa-search" aria-hidden="true"></i> search icon next to the word Projects in the top bar. Use the back ← arrow in the top bar to return to the full list.
 
-?> **Tip:** If you are looking for new Projects to participate in, use [Discover](mobile-application/discover) from the Menu.
+::: tip
+**Tip:** If you are looking for new Projects to participate in, use [Discover](./discover.md) from the Menu.
+:::

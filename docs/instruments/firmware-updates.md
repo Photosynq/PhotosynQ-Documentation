@@ -2,7 +2,9 @@
 
 Normally, the PhotosynQ apps automatically notify you when there is a new firmware version available for your Instrument. In this case you can follow the instructions, and the apps will download the correct version and install it on your Instrument.
 
-!> **Note:** We do not recommend that anyone uploads any other versions of the firmware or from unknown sources, unless you know what you are doing!
+::: warning
+**Note:** We do not recommend that anyone uploads any other versions of the firmware or from unknown sources, unless you know what you are doing!
+:::
 
 ## Automatic Firmware Update
 
@@ -12,7 +14,7 @@ When you connect to an Instrument using the mobile app or the desktop app, you w
 
 ## Mobile App (Android)
 
-![(1) Connect your Instrument. (2) Check for updates. (3) Select the update to install. (4) Confirm the update. (5) Wait for the update installation. (6) Reconnect and confirm the update has been installed.](images/firmware-update-android.png)
+![(1) Connect your Instrument. (2) Check for updates. (3) Select the update to install. (4) Confirm the update. (5) Wait for the update installation. (6) Reconnect and confirm the update has been installed.](./images/firmware-update-android.png)
 
 ### Step 1
 
@@ -40,7 +42,7 @@ After the update is finished the Instrument will restart. Check if version numbe
 
 ## Desktop App
 
-![(1) Connect your Instrument, and click on the Update button (2) Confirm the update installation. (3-4) Update Progress and Instrument Restart. (5) Reconnect the Instrument after successful installation.](images/firmware-update-desktop.png)
+![(1) Connect your Instrument, and click on the Update button (2) Confirm the update installation. (3-4) Update Progress and Instrument Restart. (5) Reconnect the Instrument after successful installation.](./images/firmware-update-desktop.png)
 
 ### Step 1
 
@@ -68,9 +70,11 @@ After the update is finished the Instrument will restart. Check if version numbe
 
 **"Pre-releases"** of the firmware are not installed automatically on your Instrument. Go to [Github][Firmware-Github] to download the most recent firmware for your Instrument.
 
-!> **Note:** Pre-Releases can only be installed using the Desktop app at your own risk.
+::: warning
+**Note:** Pre-Releases can only be installed using the Desktop app at your own risk.
+:::
 
-![(1) Connect your Instrument, and click on the check button (2) Select Manual Update, select your firmware file and confirm the update. (3-4) Update Progress and Instrument Restart. Make sure that after reconnecting, your Instrument has the firmware installed.](images/firmware-manual-desktop.png)
+![(1) Connect your Instrument, and click on the check button (2) Select Manual Update, select your firmware file and confirm the update. (3-4) Update Progress and Instrument Restart. Make sure that after reconnecting, your Instrument has the firmware installed.](./images/firmware-manual-desktop.png)
 
 ### Preparation
 

@@ -1,5 +1,5 @@
 # Taking Quality Measurements
-{docsify-readtime}
+
 Once you have selected the Project that you want to contribute measurements to, you can start taking quality measurements by following these steps:
 
 1. Before clamping the leaf, answer all of the questions listed in the Project
@@ -8,7 +8,9 @@ Once you have selected the Project that you want to contribute measurements to, 
 4. The protocol will take ~15 seconds to complete. Once the measurement is complete, confirm that the measurement quality is good.
 5. Select **ACCEPT** if you want to submit the measurement to the website or **DISCARD** if you want to discard the measurement and try again.
 
-?> **Tip:** If you are using the default protocol **Leaf Photosynthesis v1.0** the measurement will automatically start once you have opened the clamp and closed it over the leaf. Other protocols the measurement may begin as soon as you select **Take Measurement**. - **Make sure you know when the protocol you are using begins!**
+::: tip
+**Tip:** If you are using the default protocol **Leaf Photosynthesis v1.0** the measurement will automatically start once you have opened the clamp and closed it over the leaf. Other protocols the measurement may begin as soon as you select **Take Measurement**. - **Make sure you know when the protocol you are using begins!**
+:::
 
 #### Best Measurement Practices
 
@@ -18,7 +20,7 @@ Once you have selected the Project that you want to contribute measurements to, 
    - In order for the compass measurement to be accurate, clamp the leaf on the left side when facing the stem.
    - Make sure the leaf completely covers the light guide (B). If the leaves you are measuring are too small, you may need to [mask](https://photosynqprod.s3.amazonaws.com/files/specialfeatures/measuring-small-leaves.pdf) the light guides and recalibrate the MultispeQ
 
-![Best Measurement Practices](images/data-collection-clamp-leaf.jpg)
+![Best Measurement Practices](./images/data-collection-clamp-leaf.jpg)
 
 ***
 
@@ -26,11 +28,13 @@ Once you have selected the Project that you want to contribute measurements to, 
 
 Once you have completed a measurement you will have the opportunity to examine it before submitting it to the website. Lets take a quick tour of your measurement!
 
-!> **Note:** This section of the tutorial covers the default MultispeQ plant health protocol: **Leaf Photosynthesis v1.0**, and may not represent the results from other protocols.
+::: warning
+**Note:** This section of the tutorial covers the default MultispeQ plant health protocol: **Leaf Photosynthesis v1.0**, and may not represent the results from other protocols.
+:::
 
 The graphical representation of the measurement is called a **trace**. The parameters output by the PhotosynQ platform are generated from values within this trace.
 
-![Understanding a Measurement](images/data-collection-results.jpg)
+![Understanding a Measurement](./images/data-collection-results.jpg)
 
 #### Most Important Parameters
 
@@ -54,9 +58,11 @@ If you click on **Show More** you can see many more details about the sensor rea
 
 Now that you are familiar with the parameters, you can check the quality of each measurement. If a measurement is out of the acceptable range or is too noisy a red **danger** or yellow **warning** notification will pop up describing the problem. Blue notifications are for information only.
 
-![Measurement Notifications](images/data-collection-measurement-notification.jpg)
+![Measurement Notifications](./images/data-collection-measurement-notification.jpg)
 
-?> **Tip:** The easiest way to ensure quality data is to discard poor data before it gets submitted to the website!
+::: tip
+**Tip:** The easiest way to ensure quality data is to discard poor data before it gets submitted to the website!
+:::
 
 One of the most common warning messages you will receive is that your data is too noisy. Noise can come from the sample shaking in the wind, the leaf slipping in the measurement chamber or a shaky hand. Stabilizing your hand and leaf stem often helps, but sometimes things are more complex. For example, if you measure a dead leaf, the app informs you that the values are very low, meaning that either you didn't measure a plant or something is probably wrong.
 
@@ -68,7 +74,7 @@ Once you submit the measurement you can see it in the **Measurements** tab, avai
 
 To take another measurement, click on **new measurement**.
 
-![Submitting a Measurement](images/data-collection-submit-measurement.jpg)
+![Submitting a Measurement](./images/data-collection-submit-measurement.jpg)
 
 #### Submit Cached Data
 
@@ -77,7 +83,7 @@ If you would prefer to manually submit your data, or to limit the auto upload fe
 - This provides you more freedom to reconfirm all the measurements before submitting them to the website.
 - Before measurements are submitted to the website, you can add notes, pictures, or even delete measurements directly from the **Measurements** tab.
 
-![Settings](images/data-collection-settings-notes.jpg)
+![Settings](./images/data-collection-settings-notes.jpg)
 
 ***
 

@@ -1,6 +1,6 @@
 # Macro Editor
 
-![The Macro Editor Window](images/macro-editor.png)
+![The Macro Editor Window](./images/macro-editor.png)
 
 ## Menu Bar
 
@@ -8,7 +8,7 @@ The **Menu Bar** holds dropdown menus, that allow you to write your Macro faster
 
 Use the **Measurement** button to select a measurement from your Notebook, that you want to use as a template for your Macro. You can pick a new measurement at any time. When you load an existing Macro, the measurement saved along with the macro is automatically loaded.
 
-The **Functions** dropdown contains all the preset functions that are supplied by PhotosynQ to make calculations faster and avoid recurring programming tasks. Find a list of all available functions [here](macros/provided-functions).
+The **Functions** dropdown contains all the preset functions that are supplied by PhotosynQ to make calculations faster and avoid recurring programming tasks. Find a list of all available functions [here](../macros/provided-functions.md).
 
 The **Variables** dropdown contains the variables accessible from the underlying measurement. When using a measurement with a protocol set, the variables depend on the selected set.
 
@@ -24,11 +24,11 @@ Protocols contain a variety of key value pairs like `data_raw` with the trace al
 
 On the left hand-side there are not only the row numbers indicated, but also potential issues (warnings) and errors. Hover over the indicator with the mouse cursor to get an issue explanation. In case of errors, the error message will also be shown in the macro output when the automatic calculation is activated.
 
-![Warning about a potential issue in the code](images/macro-editor-warning.png)
+![Warning about a potential issue in the code](./images/macro-editor-warning.png)
 
 Sometimes the Macro code can be quite extensive. Use the keyboard shortcut `Ctrl+F / ⌘F` to search your code. Further the autosuggest function will list available functions, measurement variables and local variables as you type. You can bring up the autosuggest menu at any time using the shortcut `Ctrl+Space / ⌥Space`.
 
-![While typing available variables and functions are autosuggested.](images/macro-editor-autosuggest.png)
+![While typing available variables and functions are autosuggested.](./images/macro-editor-autosuggest.png)
 
 ## Traces
 
@@ -38,4 +38,6 @@ Most Protocols use at last one of the detectors record traces or spectra. To mak
 
 The Macro is executed as you are writing the code, so you can see for example, how changes in an equation affect the output in real time. By default this automatic calculation is activated, indicated by the checkbox labeled with **Auto**. In some cases, the calculations can cause the editor to behave sluggish, especially when you output a lot of traces. In this case you can deactivate the automatic calculations by removing the check from the checkbox. To see the Macro output you can run a calculation using the keyboard shortcut `Ctrl+Shift+R / ⌥⇧R` or `Ctrl+Enter / ⌘Enter`.
 
-?> **Tip:** Make sure you test your Macro extensively, using multiple measurements. Otherwise, you might end up with a large number of failed calculations.
+::: tip
+**Tip:** Make sure you test your Macro extensively, using multiple measurements. Otherwise, you might end up with a large number of failed calculations.
+:::

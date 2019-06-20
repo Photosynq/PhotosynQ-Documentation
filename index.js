@@ -6,6 +6,7 @@ const moment = require('moment-timezone');
 const Mustache = require('mustache');
 const epub = require('epub-gen');
 const Remarkable = require('remarkable');
+const katex = require('remarkable-katex');
 const Entities = require('html-entities').XmlEntities;
 const version = require('./package.json').version;
 const through2 = require('through2');
@@ -14,7 +15,7 @@ const markdownLinkCheck = require('markdown-link-check');
 const chalk = require('chalk');
 const hljs = require('highlight.js');
 const hljsLinenums = require('code-highlight-linenums');
-const puppeteer = require('puppeteer');
+const puppeteer = require('puppeteer-1.10.0');
 const timeStamp = 'YYYY-MM-DDTHH:mm:ssZ';
 
 var commands = function (options) {
@@ -117,6 +118,8 @@ var commands = function (options) {
 		var protocols = [];
 		var consolecmds = [];
 
+		const entities = new Entities();
+
 		var files = jetpack.list('./firmware');
 		var active = [];
 		var deprecated = [];
@@ -138,9 +141,9 @@ var commands = function (options) {
 			var content = null;
 			if (files[f].match(/\.json$/)) {
 				content = jetpack.read('./firmware/' + files[f], 'json');
-				var document = '### ' + content.name.replace(/(\_)/g, '\\$1') + ((content.deprecated) ? ' `deprecated`' : '') + '\n\n';
+				var document = '### ' + content.name.replace(/(\_)/g, '\\$1') + ((content.deprecated) ? ' <Badge text="deprecated" type="error"/>' : '') + '\n\n';
 				if (content.description != "")
-					document += content.description + '\n\n';
+					document += entities.encode(content.description) + '\n\n';
 				if (content.alias.length > 0)
 					document += '**Alias:** ' + content.alias.map(function (a) {
 						return '`' + a + '`';
@@ -415,12 +418,19 @@ var compileMD = function (options) {
 
 		files[file] = jetpack.read(list[i]) + '\n';
 
-		// Remove docsify specific tags
-		files[file] = files[file].replace(/([\t ]{0,}\{docsify\-[\d\w]+\}\s{0,})/gm, '');
-
+		// Image Links
 		var dir = file.split('/').slice(0, -1).join('/');
 		files[file] = files[file].replace(/!\[([^\]]*)\]\((.*?)\s*("(?:.*[^"])")?\s*\)/g, function (match, g1, g2, g3) {
-			return `![${g1}](${jetpack.path(dir, g2)})`;
+			var link = '';
+			if(g2.match(/data:image/)){
+				link = g2;
+			}
+			else{
+				link = jetpack.path('dist', 'tmp', dir, g2);
+
+				// link = link.replace(jetpack.cwd(),'http://localhost:3000 ');
+			}
+			return `![${g1}](${link})`;
 		});
 	}
 	md = Mustache.render(md, { date: date, version: (options.tag || '--') }, files);
@@ -434,7 +444,6 @@ function compileHTML(md) {
 		html: true,
 		breaks: true,
 		linkify: true,
-		plugins: [],
 		highlight: function (str, lang) {
 			if (lang && hljs.getLanguage(lang)) {
 				try {
@@ -457,6 +466,9 @@ function compileHTML(md) {
 			return ''; // use external default escaping
 		}
 	});
+
+	mdParser.use(katex);
+
 	var html = mdParser.render(md);
 	html = html.split('\n');
 	html = html.map(function (element) {
@@ -470,12 +482,24 @@ function compileHTML(md) {
 			}
 		}
 
-		if (element.match(/\s{0,}(\!>|\!\&gt;)/)) {
-			element = element.replace(/^(<p>)(\s{0,}(\!>|\!\&gt;)\s{0,})/i, '<p class="note">');
+		if (element.match(/:{3,4}\s+tip/)) {
+			element = '<p class="tip">';
 		}
 
-		if (element.match(/\s{0,}(\?>|\?\&gt;)/)) {
-			element = element.replace(/^(<p>)(\s{0,}(\?>|\?\&gt;)\s{0,})/i, '<p class="tip">');
+		if (element.match(/:{3,4}\s+warning/)) {
+			element = '<p class="note">';
+		}
+
+		if (element.match(/:{3,4}\s+danger/)) {
+			element = '<p class="danger">';
+		}
+
+		if (element.match(/:::<\/p>/)){
+			element = "</p>";
+		}
+
+		if (element.match(/(<Badge\s+text=\")([\d\w\s]+)(\"\s+type=\")(tip|warn|error)(\"\/>)/i)) {
+			element = element.replace(/(<Badge\s+text=\")([\d\w\s]+)(\"\s+type=\")(tip|warn|error)(\"\/>)/i, `<span class="badge $4">$2</span>`) || element;
 		}
 
 		if (element.match(/(<h1)(.+)(\{main\-chapter\})(<\/h1>)/i)) {
@@ -526,7 +550,7 @@ var createPDF = function (options) {
 	(async () => {
 		const browser = await puppeteer.launch({
 			headless: true,
-			args: ["--disable-web-security"]
+			args: ["--disable-web-security", "--allow-file-access-from-files", "--enable-local-file-accesses", "--no-sandbox"]
 		});
 
 		const page = await browser.newPage();
@@ -543,6 +567,11 @@ var createPDF = function (options) {
 
 		await page.addStyleTag({
 			path: jetpack.path(__dirname, "node_modules", "highlight.js", "styles", "github.css")
+		});
+
+		/** Make sure to install all katex fonts into your font library! */
+		await page.addStyleTag({
+			path: jetpack.path(__dirname, "node_modules", "katex", "dist", "katex.min.css")
 		});
 
 		/** Make sure to install font-awesome into your font library! */
@@ -585,6 +614,7 @@ var createEPUB = function () {
 	cssString += jetpack.read(jetpack.path(cwd, "node_modules", "highlight.js", "styles", "github.css"));
 	cssString += jetpack.read(jetpack.path(cwd, "src", "css", "linenumbers.css"));
 	cssString += jetpack.read(jetpack.path(cwd, 'node_modules', 'font-awesome', 'css', 'font-awesome.css')).replace(/\.\.\/fonts\/fontawesome/g, './fonts/fontawesome');
+	cssString += jetpack.read(jetpack.path(cwd, "node_modules", "katex", "dist", "katex.min.css")).replace(/fonts\/KaTeX/g, './fonts/KaTeX');
 
 	var option = {
 		title: "", // *Required, title of the book.
@@ -592,7 +622,29 @@ var createEPUB = function () {
 		// publisher: "", // optional
 		version: 3, // or 2
 		css: cssString, // sting with css
-		fonts: [jetpack.path(cwd, 'node_modules', 'font-awesome', 'fonts', 'fontawesome-webfont.ttf')],
+		fonts: [
+			jetpack.path(cwd, 'node_modules', 'font-awesome', 'fonts', 'fontawesome-webfont.ttf'),
+			jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_AMS-Regular.ttf'),
+			jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_Caligraphic-Bold.ttf'),
+			jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_Caligraphic-Regular.ttf'),
+			jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_Fraktur-Bold.ttf'),
+			jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_Fraktur-Regular.ttf'),
+			jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_Main-Bold.ttf'),
+			jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_Main-Italic.ttf'),
+			jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_Main-Regular.ttf'),
+			jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_Math-BoldItalic.ttf'),
+			jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_Math-Italic.ttf'),
+			jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_Math-Regular.ttf'),
+			jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_SansSerif-Bold.ttf'),
+			jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_SansSerif-Italic.ttf'),
+			jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_SansSerif-Regular.ttf'),
+			jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_Script-Regular.ttf'),
+			jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_Size1-Regular.ttf'),
+			jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_Size2-Regular.ttf'),
+			jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_Size3-Regular.ttf'),
+			jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_Size4-Regular.ttf'),
+			jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_Typewriter-Regular.ttf')
+		],
 		lang: 'en',
 		tocTitle: 'Contents',
 		customHtmlTocTemplatePath: jetpack.path(cwd, 'src', 'templates', 'toc.xhtml.ejs'),
@@ -602,7 +654,7 @@ var createEPUB = function () {
 		remarkable: {
 			html: true,
 			linkify: true,
-			plugins: []
+			plugins: [katex]
 		},
 		verbose: true
 	};
@@ -748,7 +800,6 @@ program
 	.option('-s, --source [dir]', 'Compile files from a different source')
 	.description('Manage firmware commands')
 	.action(commands);
-
 
 program
 	.command('test-links')

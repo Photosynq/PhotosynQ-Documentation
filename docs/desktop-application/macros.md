@@ -2,7 +2,7 @@
 
 Macros are used to calculate parameters from a measurement. To work with Macros you can select **Macros** from the left side bar, you can select **View → Macros** from the top menu bar or you can use the shortcut `Ctrl+4 / ⌘4`.
 
-![The Macro List](images/macro-list.png)
+![The Macro List](./images/macro-list.png)
 
 **My Macros** shows a list of Macros you have created. **Explore** will provide a list of all Macros currently available on the Platform. Click on the list headers to sort the list of Macros by name, creator and date.
 

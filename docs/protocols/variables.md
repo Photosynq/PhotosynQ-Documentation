@@ -38,7 +38,7 @@ Now values can be added by adding an array to the `v_arrays` array.
 
 The Protocol allows you to access the value of the variables arrays (`v_arrays`) by either selecting a specific value or changing the value depending on protocol or  protocol-set repeats. The easiest way to access those variables is using the **Variables** function in the protocol editor.
 
-![Selecting a variable from the Variables Menu](images/protocol-varaiables-tab.png)
+![Selecting a variable from the Variables Menu](./images/protocol-varaiables-tab.png)
 
 A double click on a value in the variables tree, will insert the selector for a single value, for example `@n0:1`. When selecting the set with a double click, you will add the selector for a protocol repeat, e.g. `@p0`. In case a selector is needed when a protocol-set is repeated, add the selector for a protocol repeat and replace the `@p` with an `@s`.
 
@@ -60,7 +60,9 @@ In this example the variables are used to define the number of pulses. To indica
 ]
 ```
 
-!> **Note:** When counting the index (position) of an array or a value within an array, always start at **0**.
+::: warning
+**Note:** When counting the index (position) of an array or a value within an array, always start at **0**.
+:::
 
 ## Using Repeats with Variables
 

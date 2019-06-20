@@ -9,8 +9,12 @@ Project settings allow Project Lead's to decide you can contribute data to the P
 5. Each collaborator will receive an invitation email, they are not collaborators until they follow the link in the email.
 6. Once you have finished adding collaborators, select 'Create Project.'
 
-?> **Tip:** If you have a large Project where you may have many different data collectors, then it is easiest to select 'anyone' instead of individually inviting everyone who will collect data.
+::: tip
+**Tip:** If you have a large Project where you may have many different data collectors, then it is easiest to select 'anyone' instead of individually inviting everyone who will collect data.
+:::
 
-!> **Note:** All the confirmed collaborators will be listed on the bottom left under 'Collaborators' and all outstanding invitations will be listed on the bottom right under 'Invitations.'
+::: warning
+**Note:** All the confirmed collaborators will be listed on the bottom left under 'Collaborators' and all outstanding invitations will be listed on the bottom right under 'Invitations.'
+:::
 
 ![Invite Collaborator](../account/images/invite-collaborator.jpg)
