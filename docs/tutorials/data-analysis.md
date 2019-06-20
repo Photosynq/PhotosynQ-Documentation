@@ -36,9 +36,9 @@ These are basic tutorials on how to do advanced data analysis outside the data v
 
 [Python-View1]: /tutorials/python-connect-python-to-photosynq
 
-[R-View1]: /tutorials/r-import-photosynq-data
-[R-View2]: /tutorials/r-anova-and-multivariate-analysis
-[R-View3]: /tutorials/r-correlation-and-mixed-effects
+[R-View1]: /tutorials/r-import-photosynq-data.md
+[R-View2]: /tutorials/r-anova-and-multivariate-analysis.md
+[R-View3]: /tutorials/r-correlation-and-mixed-effects.md
 
 [R-PDF1]: https://photosynqprod.s3.amazonaws.com/files/tutorials/data_analysis/r_import_photosynq_data.pdf
 [R-PDF2]: https://photosynqprod.s3.amazonaws.com/files/tutorials/data_analysis/r_anova_and_multivariate_analysis.pdf
