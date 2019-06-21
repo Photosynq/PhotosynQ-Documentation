@@ -243,12 +243,16 @@ module.exports = {
         docsDir: 'docs',
         docsBranch: 'development',
         editLinks: true,
-        editLinkText: 'Help us improve this page!'
+        editLinkText: 'Help us improve this page!',
+        algolia: {
+            apiKey: (require('./.env.json')['algolia-key'] || ''),
+            indexName: (require('./.env.json')['algolia-idxName'] || '')
+        }
     },
     plugins: [
         ['@vuepress/back-to-top', true ],
         ['@vuepress/google-analytics', {
-            'ga': 'UA-55158217-2'
+            'ga': (require('./.env.json')['ga-key'] || '')
         }],
         ['@vuepress/pwa', {
             serviceWorker: true,

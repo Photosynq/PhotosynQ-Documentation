@@ -1,8 +1,9 @@
 # Script generated files #
 ##########################
 .vscode/
-.vuepress/dist/
 dist/
+docs/.vuepress/dist/
+docs/.vuepress/.env.json
 node_modules/
 
 # OS generated files #
