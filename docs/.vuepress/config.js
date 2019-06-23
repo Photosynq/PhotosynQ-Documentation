@@ -257,6 +257,10 @@ module.exports = {
         ['@vuepress/pwa', {
             serviceWorker: true,
             updatePopup: true
+        }],
+        ['sitemap', {
+            hostname: 'https://help.photosynq.org',
+            outFile: 'sitemap.xml'
         }]
         // ,
         // ['@vuepress/medium-zoom', {
