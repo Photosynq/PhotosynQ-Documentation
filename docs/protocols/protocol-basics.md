@@ -6,7 +6,7 @@ Protocols are instructions for Instruments like the MultispeQ on how to run a me
 **Tip:** Protocols can be associated with **Macros** which are small pieces of code that help you analyze a measurement immediately after it has been collected. When a Macro is available, it is indicated on the Website as well as in the Desktop Application.
 :::
 
-## Website
+## Browser
 
 1. Go to your user profile by clicking on your user name in the top menu bar. If you are not signed in, do that first.
 2. Select the **Protocols** tab to list all of your Protocols.
@@ -26,7 +26,7 @@ Protocols are instructions for Instruments like the MultispeQ on how to run a me
 
 ## Mobile Application
 
-1. Tab the <i class="fa fa-bars"></i> overflow menu in the top left corner.
+1. Tap the <i class="fa fa-bars"></i> overflow menu in the top left corner.
 2. Select **Quick Measurements** from the menu.
 
 ![View Protocols within the Mobile Android Application](./images/android-quick-measurements.png)
