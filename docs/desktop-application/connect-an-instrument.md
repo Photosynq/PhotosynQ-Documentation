@@ -1,6 +1,6 @@
 # Connect an Instrument
 
-You can use Bluetooth or USB to connect your Instrument with your computer. Depending on the Instrument and computer, some connection options may not be available.
+You can use **Bluetooth** or **USB** to connect your Instrument with your computer. Depending on the Instrument and computer, some connection options may not be available.
 
 ::: warning
 **Note:** Before connecting your MultispeQ to the Desktop App you need to turn on the MultispeQ by pressing and holding the power button for at least 5 seconds.
@@ -14,7 +14,7 @@ You can use Bluetooth or USB to connect your Instrument with your computer. Depe
 2. Choose the **Connection** tab from the settings menu.
 3. Pick the port the Instrument is connected to from the dropdown menu:
     - Windows: **COM{number}**
-    - Mac OS: **usbmodem{number}**
+    - MacOS: **usbmodem{number}**
     - Linux: **ACM{number}**
 4. Connect the instrument by clicking on **Connect**.
 
@@ -25,7 +25,7 @@ You can use Bluetooth or USB to connect your Instrument with your computer. Depe
 3. Choose the **Connection** tab from the dialog.
 4. Pick the port the Instrument is connected to from the dropdown menu:
     - Windows: **COM{number}**
-    - Mac OS: **Instrument-name_{number}**
+    - MacOS: **Instrument-name_{number}**
     - Linux: **Not available**
 5. Connect the device by clicking on **Connect**.
 

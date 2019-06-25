@@ -5,7 +5,7 @@ Taking measurements in the in the lab, developing new measurement protocols and 
 ## Download the PhotosynQ Application
 
 1. Go to [https://photosynq.org/software](https://photosynq.org/software/#desktop) and scroll to the **Desktop App**.
-2. Download the app for your operating system.
+2. Download the application for your operating system.
 
 ## Installation
 
@@ -26,7 +26,7 @@ When using Windows older than Windows 10, a serial driver needs to be installed.
 
 ### MacOS
 
-![Installation of the Application from the Disk-Image (macOS)](./images/install-application-mac.png)
+![Installation of the Application from the Disk-Image (MacOS)](./images/install-application-mac.png)
 
 1. Navigate to the file you just downloaded.
 2. Double click the file to open the disk-image.
@@ -39,6 +39,14 @@ When using Windows older than Windows 10, a serial driver needs to be installed.
 ::: warning
 **Note:** Right now there is no version available. If you are interested in helping us testing, please send a request to <support@photosynq.org>.
 :::
+
+## Minimum Requirements
+
+| Operating System |    Requirements     |
+| :--------------- | :------------------ |
+| MacOS            | OS X 10.10 or above |
+| Windows          | Windows 7 or above  |
+| Linux            | not available       |
 
 ## Starting the app for the first time
 
