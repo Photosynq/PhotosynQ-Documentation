@@ -149,6 +149,7 @@ module.exports = {
                     'projects/adding-a-project-description',
                     'projects/editing-a-project',
                     'projects/managing-project-settings',
+                    'projects/project-collaborators',
                     'projects/import-custom-data',
                     'projects/barcodes',
                     'projects/large-scale-projects'
