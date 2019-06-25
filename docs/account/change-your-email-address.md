@@ -2,11 +2,11 @@
 
 Need to change your current email address? No problem. Just follow the steps to update your profile to maintain you access to you account.
 
-## Update your email in your user profile
+## User profile
 
-1. Go to <https://photosynq.org> and sign in to your account.
-2. Open your user page by clicking on your name in the top **Menu**.
-3. On the left hand side click on **Account Settings**.
+1. Go to <https://photosynq.org> and [sign in] to your account.
+2. Open your user page by clicking on your **avatar** in the top **Menu**.
+3. On the left hand side click on **Manage Profile** in the menu underneath your avatar.
 4. Update your email address.
 5. Click on **Update** to save your changes!
 6. Open your email inbox and click on the confirmation link inside the email that was just send to you.
@@ -24,3 +24,5 @@ Before you contact us, make sure you checked the following steps:
 ::: warning
 **Still Issues?** Please contact us (<support@photosynq.org>), so we can try to help you out.
 :::
+
+[sign in]: ./sign-in-to-photosynq.md
