@@ -8,7 +8,7 @@ Macros are small pieces of code with calculations for Protocols that are run aft
 **Tip:** PhotosynQ is providing a number of pre-build functions to make it easier building a Macros and to avoid writing the same code for standard problems like calculating an average, over and over again.
 :::
 
-## Website
+## Browser
 
 1. Go to your user profile by clicking on your user name in the top menu bar. If you are not signed in, do that first.
 2. Select the **Macros** tab to list all of your Macros.
