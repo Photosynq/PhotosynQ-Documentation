@@ -27,9 +27,9 @@ features:
   link: projects/what-are-projects.html
 
 - title: View & Analyze Data
-  details: We are providing libraries for Python and R to access PhotosynQ Project Data to perform an advanced data analysis.
+  details: Data from Projects can be analyzed online, as well as using libraries for Python and R for advanced data analysis.
   linkText: Data Analysis
-  link: https://photosynq.org/software#analysis
+  link: view-and-analyze-data/view-your-project-data.html
 
 - title: Firmware
   details: You get notified when there is an update available for your Instrument if you use the PhotosynQ mobile or desktop application.

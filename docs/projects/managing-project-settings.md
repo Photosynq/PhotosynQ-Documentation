@@ -17,4 +17,4 @@ Project settings allow Project Lead's to decide you can contribute data to the P
 **Note:** All the confirmed collaborators will be listed on the bottom left under 'Collaborators' and all outstanding invitations will be listed on the bottom right under 'Invitations.'
 :::
 
-![Invite Collaborator](../account/images/invite-collaborator.jpg)
+![Invite Collaborator](./images/invite-collaborator.jpg)

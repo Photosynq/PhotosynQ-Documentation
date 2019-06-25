@@ -3,6 +3,7 @@ module.exports = {
     description: 'Documentation on how to use the PhotosynQ platform, including the web, mobile and desktop applications as well as the instruments.',
     head: [
         ['link', { rel: 'icon', href: '/icons/favicon-32x32.png' }],
+        ['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' }],
         ['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css' }],
         ['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/mermaid/7.0.0/mermaid.css' }],
         ['script', {src: 'https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0/mermaid.min.js' }]
@@ -149,6 +150,7 @@ module.exports = {
                     'projects/adding-a-project-description',
                     'projects/editing-a-project',
                     'projects/managing-project-settings',
+                    'projects/project-collaborators',
                     'projects/import-custom-data',
                     'projects/barcodes',
                     'projects/large-scale-projects'
@@ -257,6 +259,10 @@ module.exports = {
         ['@vuepress/pwa', {
             serviceWorker: true,
             updatePopup: true
+        }],
+        ['sitemap', {
+            hostname: 'https://help.photosynq.org',
+            outFile: 'sitemap.xml'
         }]
         // ,
         // ['@vuepress/medium-zoom', {

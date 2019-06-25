@@ -168,6 +168,10 @@
 
 ***
 
+{{> docs/projects/project-collaborators.md}}
+
+***
+
 {{> docs/projects/import-custom-data.md}}
 
 ***

@@ -2,7 +2,7 @@
 
 Join Projects to contribute measurements and receive notifications when new posts are made to the discussion.
 
-## Website
+## Browser
 
 When you visit the Project page, click on **Join** in the left menu bar.
 

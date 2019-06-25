@@ -2,7 +2,7 @@
 
 ## Creating an Account
 
-Before you can start using PhotosynQ, you will need to create an account.
+Before you can start using PhotosynQ, you will need to create a free account.
 
 1. You can create an account from the [website](https://photosynq.org/), the desktop app, or the mobile app.
    - Using the website: click on the ‘sign up’ button in the upper right corner of the website.

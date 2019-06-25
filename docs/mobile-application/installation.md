@@ -4,10 +4,9 @@ The mobile Android application is available on [Google Play] and requires a Goog
 
 ## Download
 
-1. Open [Google Play]
-2. Search for **PhotosynQ**
-3. Tab the **Install** button. Check your permissions and **Accept**
-4. Start the app by selecting the app icon from your phone start screen
+1. Find the PhotosynQ App in the [Google Play Store]
+2. Tap the **Install** button. Check your permissions and **Accept**
+3. Start the app by tapping the app icon from your phone start screen
 
 ## Permissions
 
@@ -22,6 +21,16 @@ The PhotosynQ Application is requesting the following permissions to allow its p
 | Access Bluetooth settings          | Required to connect the Instrument via Bluetooth with the device                                                                       |
 | Prevent phone from sleeping        | The device is prevented from going to sleep to allow longer measurement protocols and easier working with the application in the field |
 
+## Minimum Requirements
+
+| Operating System |    Requirements      |
+| :--------------- | :------------------- |
+| Android          | Android 4.4 or above |
+
+## Sign in to PhotosynQ
+
+Once you’ve installed the PhotosynQ app, you can sign in with your account login or [create a new account].
+
 ### Troubleshooting
 
 Sometimes the app does not work as expected. Please try this first:
@@ -32,4 +41,5 @@ Sometimes the app does not work as expected. Please try this first:
 - Make sure you have sufficient storage.
 - Make sure you have an internet connection.
 
-[Google Play]: https://play.google.com
+[Google Play Store]: https://play.google.com/store/apps/details?id=org.photosynq.android.photosynq
+[create a new account]: ../account/create-an-account.md
