@@ -212,11 +212,14 @@ var commands = function (options) {
 		protocols += '[string]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String\n';
 		protocols += '[boolean]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean\n';
 
-		var consolecmdfile = jetpack.read('./docs/instruments/console-commands.md');
-		consolecmds = consolecmdfile.replace(/(## Available Commands\s+)((.|\n)*)/gm, '$1') + consolecmds;
-
-		var protocolsfile = jetpack.read('./docs/protocols/commands.md');
-		protocols = protocolsfile.replace(/(## Available Commands\s+)((.|\n)*)/gm, '$1') + protocols;
+		var consolecmdfile = jetpack.read('./firmware/docs/console-commands.md');
+		consolecmds = Mustache.render(consolecmdfile, {
+			"console-commands": consolecmds
+		});
+		var protocolsfile = jetpack.read('./firmware/docs/protocol-commands.md')
+		protocols = Mustache.render(protocolsfile, {
+			"protocol-commands": protocols
+		});
 
 		jetpack.write('./docs/instruments/console-commands.md', consolecmds);
 		jetpack.write('./docs/protocols/commands.md', protocols);
