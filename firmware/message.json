@@ -11,11 +11,6 @@
   ],
   "example": "\"message\": [\n  [ <message type>, <message> ],\n  ...\n],",
   "type": "protocol",
-  "editor": "table",
-  "time": {
-    "modified": "2018-07-30T23:15:11+00:00",
-    "created": "2017-06-06T18:32:47+00:00"
-  },
   "deprecated": false,
   "dependencies": [
     "pulses",

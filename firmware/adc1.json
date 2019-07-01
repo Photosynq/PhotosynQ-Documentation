@@ -7,11 +7,6 @@
   "values": [],
   "example": "adc1",
   "type": "console",
-  "editor": "",
-  "time": {
-    "modified": "2018-09-25T18:55:11+00:00",
-    "created": "2017-06-06T19:22:04+00:00"
-  },
   "deprecated": true,
   "dependencies": [],
   "parent": "",

@@ -9,11 +9,6 @@
   ],
   "example": "\"energy_save_timeout\": <number>,",
   "type": "protocol",
-  "editor": "fixed",
-  "time": {
-    "modified": "2018-07-30T23:15:11+00:00",
-    "created": "2017-08-17T14:50:05+00:00"
-  },
   "deprecated": false,
   "dependencies": [],
   "parent": "",

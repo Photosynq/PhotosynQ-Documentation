@@ -7,11 +7,6 @@
   "values": [],
   "example": "set_energy_save_time+<number>",
   "type": "console",
-  "editor": "",
-  "time": {
-    "modified": "2018-07-30T23:15:11+00:00",
-    "created": "2017-09-18T22:24:25+00:00"
-  },
   "deprecated": false,
   "dependencies": [],
   "parent": "",

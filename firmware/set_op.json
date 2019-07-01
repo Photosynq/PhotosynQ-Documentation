@@ -6,8 +6,7 @@
   "input": "",
   "values": [],
   "example": "set_op+",
-  "type": "",
-  "editor": "",
+  "type": "console",
   "compatibility": {
     "MultispeQ 1": [
       "2.0038"
@@ -15,10 +14,6 @@
     "MultispeQ 2": [
       "2.0038"
     ]
-  },
-  "time": {
-    "modified": "2018-10-23T18:51:12+00:00",
-    "created": "2018-10-23T18:51:12+00:00"
   },
   "deprecated": false,
   "dependencies": [],

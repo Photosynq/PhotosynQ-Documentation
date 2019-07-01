@@ -7,11 +7,6 @@
   "values": [],
   "example": "\"set_led_delay\": [\n  [ <number LED>, <number duration in ms>, <number PAR> ],\n  ...\n],\n\n// The following example gives two,\n// 20 second pre-illuminations with the red LED (#2),\n// the first at 0 µE * s⁻¹ * m⁻² and the second at 100 µE * s⁻¹ * m⁻²:\n\n\"set_led_delay\": [\n  [2, 20000,0],\n  [2, 20000,100]\n],\n",
   "type": "protocol",
-  "editor": "fixed",
-  "time": {
-    "modified": "2018-07-30T23:15:11+00:00",
-    "created": "2017-08-17T14:49:12+00:00"
-  },
   "deprecated": false,
   "dependencies": [],
   "parent": "",

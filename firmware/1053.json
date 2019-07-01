@@ -1,17 +1,12 @@
 {
   "name": "1053",
   "abstract": "",
-  "description": "Continous feed of roll, pitch, compass, direction, tilt and tilt direction. Cancel the command with `-1+`",
+  "description": "Continuous feed of roll, pitch, compass, direction, tilt and tilt direction. Cancel the command with `-1+`",
   "alias": [],
   "input": "",
   "values": [],
   "example": "1053",
   "type": "console",
-  "editor": "",
-  "time": {
-    "modified": "2018-07-30T23:15:11+00:00",
-    "created": "2017-06-06T19:27:09+00:00"
-  },
   "deprecated": false,
   "dependencies": [],
   "parent": "",

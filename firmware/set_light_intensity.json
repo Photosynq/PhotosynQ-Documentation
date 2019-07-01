@@ -7,11 +7,6 @@
   "values": [],
   "example": "\"set_light_intensity\": <number>,",
   "type": "protocol",
-  "editor": "fixed",
-  "time": {
-    "modified": "2018-07-30T23:15:11+00:00",
-    "created": "2017-08-17T20:14:15+00:00"
-  },
   "deprecated": false,
   "dependencies": [],
   "parent": "",

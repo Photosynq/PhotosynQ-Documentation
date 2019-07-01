@@ -9,11 +9,6 @@
   ],
   "example": "\"energy_min_wake_time\": <number>,",
   "type": "protocol",
-  "editor": "fixed",
-  "time": {
-    "modified": "2018-07-30T23:15:11+00:00",
-    "created": "2017-08-17T15:49:58+00:00"
-  },
   "deprecated": true,
   "dependencies": [],
   "parent": "",
