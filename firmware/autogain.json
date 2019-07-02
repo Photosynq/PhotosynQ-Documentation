@@ -7,11 +7,6 @@
   "values": [],
   "example": "\"autogain\": [\n  [<index>, <pulsed_LED>, <detector>, <pulse_duration>, <target_value>],\n  ...\n],",
   "type": "protocol",
-  "editor": "fixed",
-  "time": {
-    "modified": "2018-07-30T23:15:11+00:00",
-    "created": "2017-08-16T19:45:09+00:00"
-  },
   "deprecated": false,
   "dependencies": [],
   "parent": "",

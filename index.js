@@ -16,10 +16,18 @@ const chalk = require('chalk');
 const hljs = require('highlight.js');
 const hljsLinenums = require('code-highlight-linenums');
 const puppeteer = require('puppeteer-1.10.0');
-const timeStamp = 'YYYY-MM-DDTHH:mm:ssZ';
+const { spawnSync } = require('child_process');
+
+
+function file_updated(file){
+    let updated = false;
+    try {
+        updated = parseInt(spawnSync('git', ['log', '-1', '--format=%ct', file]).stdout.toString('utf-8')) * 1000
+    } catch (e) { }
+    return updated;
+}
 
 var commands = function (options) {
-	var time = moment().utc().format(timeStamp);
 
 	if (options.new !== undefined) {
 		var file = "./firmware/" + options.new + ".json";
@@ -39,12 +47,7 @@ var commands = function (options) {
 			"values": [],
 			"example": "",
 			"type": "",
-			"editor": "",
 			"compatibility": {},
-			"time": {
-				"modified": time,
-				"created": time
-			},
 			"deprecated": false,
 			"dependencies": [],
 			"parent": "",
@@ -83,10 +86,9 @@ var commands = function (options) {
 			output += chalk.grey(' + ' + cmd.compatibility[instruments[i]].join('\n + ') + '\n');
 		}
 
-		output += 'Created: ' + chalk.grey(cmd.time.created + '\n');
-		output += 'Modified: ' + chalk.grey(cmd.time.modified + '\n');
+		output += 'Last Updated: ' + chalk.grey( file_updated(file) + '\n');
 		output += 'Url: ' + chalk.grey(cmd.url + '\n');
-		output += 'Dependancies: ' + chalk.cyan((cmd.dependencies.join(', ') || '') + '\n');
+		output += 'Dependencies: ' + chalk.cyan((cmd.dependencies.join(', ') || '') + '\n');
 		output += 'Parent: ' + chalk.grey(cmd.parent + '\n');
 
 		if (cmd.deprecated)
@@ -103,7 +105,6 @@ var commands = function (options) {
 			if (files[f].match(/\.json$/)) {
 				content = jetpack.read('./firmware/' + files[f], 'json');
 				if (!content.depreacted) {
-					content.time.modified = time;
 					if (content.versions.indexOf(options.release) == -1)
 						content.versions.push(options.release);
 				}
@@ -120,85 +121,78 @@ var commands = function (options) {
 
 		const entities = new Entities();
 
-		var files = jetpack.list('./firmware');
+		var files = jetpack.find('./firmware', {matching: ['*.json']});
 		var active = [];
 		var deprecated = [];
 
 		for (var f in files) {
-			var content = null;
-			if (files[f].match(/\.json$/)) {
-				content = jetpack.read('./firmware/' + files[f], 'json');
-				if (content.deprecated)
-					deprecated.push(files[f]);
-				else
-					active.push(files[f]);
-			}
+			var content = jetpack.read(files[f], 'json') || null;
+			if (content.deprecated)
+				deprecated.push(files[f]);
+			else
+				active.push(files[f]);
 		}
 
 		files = active.concat(deprecated);
 
 		for (var f in files) {
-			var content = null;
-			if (files[f].match(/\.json$/)) {
-				content = jetpack.read('./firmware/' + files[f], 'json');
-				var document = '### ' + content.name.replace(/(\_)/g, '\\$1') + ((content.deprecated) ? ' <Badge text="deprecated" type="error"/>' : '') + '\n\n';
-				if (content.description != "")
-					document += entities.encode(content.description) + '\n\n';
-				if (content.alias.length > 0)
-					document += '**Alias:** ' + content.alias.map(function (a) {
-						return '`' + a + '`';
-					}) + '\n\n';
+			var content = jetpack.read(files[f], 'json') || null;
+			var document = '### ' + content.name.replace(/(\_)/g, '\\$1') + ((content.deprecated) ? ' <Badge text="deprecated" type="error"/>' : '') + '\n\n';
+			if (content.description != "")
+				document += content.description.replace(/(?<!`)</gm,'&lt;').replace(/>(?!`)/gm,'&gt;') + '\n\n';
+			if (content.alias.length > 0)
+				document += '**Alias:** ' + content.alias.map(function (a) {
+					return '`' + a + '`';
+				}) + '\n\n';
 
-				if (content.input != "") {
-					document += '**Input:** ';
-					if (['array', 'boolean', 'number', 'object', 'string'].indexOf(content.input) > -1)
-						document += `[${content.input}]`;
-					else
-						document += content.input;
-					document += '\n\n';
-				}
+			if (content.input != "") {
+				document += '**Input:** ';
+				if (['array', 'boolean', 'number', 'object', 'string'].indexOf(content.input) > -1)
+					document += `[${content.input}]`;
+				else
+					document += content.input;
+				document += '\n\n';
+			}
 
-				if (content.values.length > 0)
-					document += '**Values:**\n\n' + content.values.map(function (a) {
-						return '+ ' + a;
-					}).join(' ') + '\n\n';
+			if (content.values.length > 0)
+				document += '**Values:**\n\n' + content.values.map(function (a) {
+					return '+ ' + a;
+				}).join(' ') + '\n\n';
 
-				if (content.example != "" && content.type == 'console')
-					document += '**Example:**\n\n```bash\n' + content.example + '\n```\n\n';
+			if (content.example != "" && content.type == 'console')
+				document += '**Example:**\n\n```bash\n' + content.example + '\n```\n\n';
 
-				if (content.example != "" && content.type == 'protocol')
-					document += '**Example:**\n\n```javascript\n' + content.example + '\n```\n\n';
+			if (content.example != "" && content.type == 'protocol')
+				document += '**Example:**\n\n```javascript\n' + content.example + '\n```\n\n';
 
-				// document += '**Last Edited:** '+ moment(content.time.modified).format('LL') +'\n\n';
+			if (content.dependencies.length > 0)
+				document += '**Dependencies:**\n\n' + content.dependencies.map(function (a) {
+					return `+ ${a}`;
+				}).join('\n') + '\n\n';
 
-				if (content.dependencies.length > 0)
-					document += '**Dependancies:**\n\n' + content.dependencies.map(function (a) {
-						return `+ ${a}`;
-					}).join('\n') + '\n\n';
+			if (content.parent != "")
+				document += '**Parent:** <' + content.parent + '>\n\n';
 
-				if (content.parent != "")
-					document += '**Parent:** <' + content.parent + '>\n\n';
+			if (Object.keys(content.compatibility).length > 0) {
+				document += '**Instruments:**\n\n';
+				document += Object.keys(content.compatibility).map(function (a) {
+					if (content.compatibility[a].length == 0)
+						return `+ ${a}: \`not available\``;
+					return `+ ${a}: ` + content.compatibility[a].reverse().map(function (b) {
+						return '`' + b + '`';
+					}).join(' ');
 
-				if (Object.keys(content.compatibility).length > 0) {
-					document += '**Instruments:**\n\n';
-					document += Object.keys(content.compatibility).map(function (a) {
-						if (content.compatibility[a].length == 0)
-							return `+ ${a}: \`not available\``;
-						return `+ ${a}: ` + content.compatibility[a].reverse().map(function (b) {
-							return '`' + b + '`';
-						}).join(' ');
+				}).join('\n') + '\n\n';
+			}
 
-					}).join('\n') + '\n\n';
+			document += `*Last Updated: ${ moment( file_updated(files[f]) ).format('LL') || 'unknown' }*\n\n`;
 
-				}
+			if (content.type == 'console') {
+				consolecmds.push(document.trim());
+			}
 
-				if (content.type == 'console') {
-					consolecmds.push(document.trim());
-				}
-
-				if (content.type == 'protocol') {
-					protocols.push(document.trim());
-				}
+			if (content.type == 'protocol') {
+				protocols.push(document.trim());
 			}
 		}
 
@@ -212,11 +206,14 @@ var commands = function (options) {
 		protocols += '[string]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String\n';
 		protocols += '[boolean]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean\n';
 
-		var consolecmdfile = jetpack.read('./docs/instruments/console-commands.md');
-		consolecmds = consolecmdfile.replace(/(## Available Commands\s+)((.|\n)*)/gm, '$1') + consolecmds;
-
-		var protocolsfile = jetpack.read('./docs/protocols/commands.md');
-		protocols = protocolsfile.replace(/(## Available Commands\s+)((.|\n)*)/gm, '$1') + protocols;
+		var consolecmdfile = jetpack.read('./firmware/docs/console-commands.md');
+		consolecmds = Mustache.render(consolecmdfile, {
+			"console-commands": consolecmds
+		});
+		var protocolsfile = jetpack.read('./firmware/docs/protocol-commands.md')
+		protocols = Mustache.render(protocolsfile, {
+			"protocol-commands": protocols
+		});
 
 		jetpack.write('./docs/instruments/console-commands.md', consolecmds);
 		jetpack.write('./docs/protocols/commands.md', protocols);
@@ -535,6 +532,17 @@ function compileHTML(md) {
 	// Clean up to avoid empty pages
 	html = html.join('\n'); //.replace(/(<hr>)(\n<h[1-4]>)/gim,'$2'); // h1-4 can lead to a page break
 	html = html.replace(/<hr>\n{0,}<hr>/gim, '<hr>'); // Two page breaking <hr> in a row
+
+	html = `<!DOCTYPE html>
+	<html lang="en">
+		<head>
+			<meta charset="UTF-8">
+			<title>PhotosynQ Documentation</title>
+		</head>
+		<body>
+			${html}
+		</body>
+	</html>`
 	// jetpack.write('./dist/'+html.length+'.html',html);
 	return html;
 }

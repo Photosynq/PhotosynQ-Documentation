@@ -9,11 +9,6 @@
   "values": [],
   "example": "print_memory",
   "type": "console",
-  "editor": "",
-  "time": {
-    "modified": "2018-07-30T23:15:11+00:00",
-    "created": "2017-06-06T19:22:30+00:00"
-  },
   "deprecated": false,
   "dependencies": [],
   "parent": "",

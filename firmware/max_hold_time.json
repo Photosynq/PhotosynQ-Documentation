@@ -7,11 +7,6 @@
   "values": [],
   "example": "\"max_hold_time\": <number>,",
   "type": "protocol",
-  "editor": "fixed",
-  "time": {
-    "modified": "2018-07-30T23:15:11+00:00",
-    "created": "2017-08-17T14:49:00+00:00"
-  },
   "deprecated": false,
   "dependencies": [],
   "parent": "",

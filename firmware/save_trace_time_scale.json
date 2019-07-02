@@ -10,11 +10,6 @@
   ],
   "example": "\"save_trace_time_scale\": <number>,",
   "type": "protocol",
-  "editor": "fixed",
-  "time": {
-    "modified": "2018-07-30T23:15:11+00:00",
-    "created": "2017-08-17T14:49:48+00:00"
-  },
   "deprecated": false,
   "dependencies": [],
   "parent": "",

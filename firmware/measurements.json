@@ -6,13 +6,8 @@
   "input": "",
   "values": [],
   "example": "\"measurements\": <number>",
-  "type": "",
-  "editor": "",
+  "type": "protocol",
   "compatibility": {},
-  "time": {
-    "modified": "2018-10-23T22:13:26+00:00",
-    "created": "2018-10-23T22:13:26+00:00"
-  },
   "deprecated": false,
   "dependencies": [],
   "parent": "",

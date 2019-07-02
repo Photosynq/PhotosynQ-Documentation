@@ -7,11 +7,6 @@
   "values": [],
   "example": "\"_protocol_set_\": [\n   { Protocol 1 },\n   ...\n],",
   "type": "protocol",
-  "editor": "fixed",
-  "time": {
-    "modified": "2018-07-30T23:15:11+00:00",
-    "created": "2017-08-17T14:50:19+00:00"
-  },
   "deprecated": false,
   "dependencies": [],
   "parent": "",
