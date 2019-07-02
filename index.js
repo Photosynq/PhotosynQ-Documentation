@@ -532,6 +532,17 @@ function compileHTML(md) {
 	// Clean up to avoid empty pages
 	html = html.join('\n'); //.replace(/(<hr>)(\n<h[1-4]>)/gim,'$2'); // h1-4 can lead to a page break
 	html = html.replace(/<hr>\n{0,}<hr>/gim, '<hr>'); // Two page breaking <hr> in a row
+
+	html = `<!DOCTYPE html>
+	<html lang="en">
+		<head>
+			<meta charset="UTF-8">
+			<title>PhotosynQ Documentation</title>
+		</head>
+		<body>
+			${html}
+		</body>
+	</html>`
 	// jetpack.write('./dist/'+html.length+'.html',html);
 	return html;
 }
