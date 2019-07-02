@@ -16,7 +16,7 @@ Using the Console in the Desktop application, you can use these commands to dire
 
 ### 1053
 
-Continous feed of roll, pitch, compass, direction, tilt and tilt direction. Cancel the command with `-1+`
+Continuous feed of roll, pitch, compass, direction, tilt and tilt direction. Cancel the command with `-1+`
 
 **Example:**
 
@@ -28,6 +28,8 @@ Continous feed of roll, pitch, compass, direction, tilt and tilt direction. Canc
 
 + MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
+
+*Last Updated: July 1, 2019*
 
 ***
 
@@ -43,6 +45,8 @@ any_light
 
 + MultispeQ 1: `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `not available`
+
+*Last Updated: July 1, 2019*
 
 ***
 
@@ -61,6 +65,8 @@ battery
 + MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
 
+*Last Updated: July 1, 2019*
+
 ***
 
 ### compiled
@@ -78,6 +84,8 @@ compiled
 + MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
 
+*Last Updated: July 1, 2019*
+
 ***
 
 ### configure\_bluetooth
@@ -94,6 +102,8 @@ configure_bluetooth
 
 + MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
+
+*Last Updated: July 1, 2019*
 
 ***
 
@@ -113,6 +123,8 @@ device_info
 
 + MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
+
+*Last Updated: July 1, 2019*
 
 ***
 
@@ -137,6 +149,8 @@ digital_write
 + MultispeQ 1: `2.0038` `2.0036` `2.0035`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
 
+*Last Updated: July 1, 2019*
+
 ***
 
 ### expr
@@ -152,6 +166,8 @@ expr
 + MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
 
+*Last Updated: July 1, 2019*
+
 ***
 
 ### flow\_calibration\_set\_point
@@ -162,6 +178,8 @@ expr
 
 + MultispeQ 1: `2.0038` `2.0036` `2.0035`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
+
+*Last Updated: July 1, 2019*
 
 ***
 
@@ -180,6 +198,8 @@ flow_calibration_setting
 + MultispeQ 1: `2.0038` `2.0036` `2.0035`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
 
+*Last Updated: July 1, 2019*
+
 ***
 
 ### flow\_calibration\_value
@@ -196,6 +216,8 @@ flow_calibration_value
 
 + MultispeQ 1: `2.0038` `2.0036` `2.0035`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
+
+*Last Updated: July 1, 2019*
 
 ***
 
@@ -214,6 +236,8 @@ flow_off
 + MultispeQ 1: `2.0038` `2.0036` `2.0035`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
 
+*Last Updated: July 1, 2019*
+
 ***
 
 ### flow\_v
@@ -229,6 +253,8 @@ flow_v
 + MultispeQ 1: `2.0038` `2.0036` `2.0035`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
 
+*Last Updated: July 1, 2019*
+
 ***
 
 ### get\_flow
@@ -243,6 +269,8 @@ get_flow
 
 + MultispeQ 1: `2.0038` `2.0036` `2.0035`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
+
+*Last Updated: July 1, 2019*
 
 ***
 
@@ -260,6 +288,8 @@ hall
 
 + MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
+
+*Last Updated: July 1, 2019*
 
 ***
 
@@ -280,6 +310,8 @@ hello
 + MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
 
+*Last Updated: July 1, 2019*
+
 ***
 
 ### indicate
@@ -299,6 +331,8 @@ indicate+<Red>+<Green>+<Blue>
 + MultispeQ 1: `2.0038` `2.0036` `2.0035`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
 
+*Last Updated: July 1, 2019*
+
 ***
 
 ### indicate\_off
@@ -315,6 +349,8 @@ indicate_off
 
 + MultispeQ 1: `2.0038` `2.0036` `2.0035`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
+
+*Last Updated: July 1, 2019*
 
 ***
 
@@ -333,6 +369,8 @@ memory
 + MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
 
+*Last Updated: July 1, 2019*
+
 ***
 
 ### p2p
@@ -350,6 +388,8 @@ p2p
 + MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
 
+*Last Updated: July 1, 2019*
+
 ***
 
 ### par\_led
@@ -366,6 +406,8 @@ par_led
 
 + MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
+
+*Last Updated: July 1, 2019*
 
 ***
 
@@ -385,6 +427,8 @@ print_date
 + MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
 
+*Last Updated: July 1, 2019*
+
 ***
 
 ### print\_magnetometer
@@ -400,6 +444,8 @@ print_magnetometer
 + MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
 
+*Last Updated: July 1, 2019*
+
 ***
 
 ### print\_magnetometer\_bias
@@ -414,6 +460,8 @@ print_magnetometer_bias
 
 + MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
+
+*Last Updated: July 1, 2019*
 
 ***
 
@@ -434,6 +482,8 @@ print_memory
 + MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
 
+*Last Updated: July 1, 2019*
+
 ***
 
 ### readonce
@@ -451,6 +501,8 @@ readonce
 + MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
 
+*Last Updated: July 1, 2019*
+
 ***
 
 ### reboot
@@ -465,6 +517,8 @@ reboot
 
 + MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
+
+*Last Updated: July 1, 2019*
 
 ***
 
@@ -485,6 +539,8 @@ reset
 + MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
 
+*Last Updated: July 1, 2019*
+
 ***
 
 ### reset\_flow\_calibration
@@ -502,6 +558,8 @@ reset_flow_calibration
 + MultispeQ 1: `2.0038` `2.0036` `2.0035`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
 
+*Last Updated: July 1, 2019*
+
 ***
 
 ### reset\_flow\_zero\_point
@@ -516,6 +574,8 @@ reset_flow_zero_point
 
 + MultispeQ 1: `2.0038` `2.0036` `2.0035`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
+
+*Last Updated: July 1, 2019*
 
 ***
 
@@ -534,6 +594,8 @@ scan_i2c
 + MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
 
+*Last Updated: July 1, 2019*
+
 ***
 
 ### set\_accelerometer
@@ -548,6 +610,8 @@ set_accelerometer
 
 + MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
+
+*Last Updated: July 1, 2019*
 
 ***
 
@@ -564,6 +628,8 @@ set_accelerometer_bias
 + MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
 
+*Last Updated: July 1, 2019*
+
 ***
 
 ### set\_colorcal1
@@ -578,6 +644,8 @@ set_colorcal1
 
 + MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
+
+*Last Updated: July 1, 2019*
 
 ***
 
@@ -594,6 +662,8 @@ set_colorcal2
 + MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
 
+*Last Updated: July 1, 2019*
+
 ***
 
 ### set\_colorcal3
@@ -609,6 +679,8 @@ set_colorcal3
 + MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
 
+*Last Updated: July 1, 2019*
+
 ***
 
 ### set\_colorcal\_blanks
@@ -623,6 +695,27 @@ set_colorcal_blanks
 
 + MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
+
+*Last Updated: July 1, 2019*
+
+***
+
+### set\_cp
+
+Set the **close** position of the leave clamp.
+
+**Example:**
+
+```bash
+set_cp+
+```
+
+**Instruments:**
+
++ MultispeQ 1: `2.0038`
++ MultispeQ 2: `2.0038`
+
+*Last Updated: July 1, 2019*
 
 ***
 
@@ -640,6 +733,8 @@ set_dac
 
 + MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
+
+*Last Updated: July 1, 2019*
 
 ***
 
@@ -659,6 +754,8 @@ hours+min+sec+day+month+year
 + MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
 
+*Last Updated: July 1, 2019*
+
 ***
 
 ### set\_default\_flow\_rate
@@ -676,6 +773,8 @@ set_default_flow_rate+<number>
 + MultispeQ 1: `2.0038` `2.0036` `2.0035`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
 
+*Last Updated: July 1, 2019*
+
 ***
 
 ### set\_detector1\_offset
@@ -690,6 +789,8 @@ set_detector1_offset
 
 + MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
+
+*Last Updated: July 1, 2019*
 
 ***
 
@@ -706,6 +807,8 @@ set_detector2_offset
 + MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
 
+*Last Updated: July 1, 2019*
+
 ***
 
 ### set\_detector3\_offset
@@ -721,6 +824,8 @@ set_detector3_offset
 + MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
 
+*Last Updated: July 1, 2019*
+
 ***
 
 ### set\_detector4\_offset
@@ -735,6 +840,8 @@ set_detector4_offset
 
 + MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
+
+*Last Updated: July 1, 2019*
 
 ***
 
@@ -755,6 +862,8 @@ set_device_info
 + MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
 
+*Last Updated: July 1, 2019*
+
 ***
 
 ### set\_energy\_save\_time
@@ -771,6 +880,8 @@ set_energy_save_time+<number>
 
 + MultispeQ 1: `2.0038` `2.0036` `2.0035`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
+
+*Last Updated: July 1, 2019*
 
 ***
 
@@ -789,6 +900,8 @@ set_flow
 + MultispeQ 1: `2.0038` `2.0036` `2.0035`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
 
+*Last Updated: July 1, 2019*
+
 ***
 
 ### set\_led\_par
@@ -803,6 +916,8 @@ set_led_par
 
 + MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
+
+*Last Updated: July 1, 2019*
 
 ***
 
@@ -819,6 +934,8 @@ set_magnetometer
 + MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
 
+*Last Updated: July 1, 2019*
+
 ***
 
 ### set\_magnetometer\_bias
@@ -834,6 +951,27 @@ set_magnetometer_bias
 + MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
 
+*Last Updated: July 1, 2019*
+
+***
+
+### set\_op
+
+Set the **open** position of the leave clamp.
+
+**Example:**
+
+```bash
+set_op+
+```
+
+**Instruments:**
+
++ MultispeQ 1: `2.0038`
++ MultispeQ 2: `2.0038`
+
+*Last Updated: July 1, 2019*
+
 ***
 
 ### set\_open\_closed\_positions
@@ -844,6 +982,8 @@ set_magnetometer_bias
 
 + MultispeQ 1: `2.0038` `2.0036` `2.0035`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
+
+*Last Updated: July 1, 2019*
 
 ***
 
@@ -860,6 +1000,8 @@ set_par
 + MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
 
+*Last Updated: July 1, 2019*
+
 ***
 
 ### set\_serial
@@ -874,6 +1016,8 @@ set_serial
 
 + MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
+
+*Last Updated: July 1, 2019*
 
 ***
 
@@ -894,6 +1038,8 @@ set_shutdown_time+<seconds>
 + MultispeQ 1: `2.0038` `2.0036` `2.0035`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
 
+*Last Updated: July 1, 2019*
+
 ***
 
 ### set\_thickness
@@ -909,6 +1055,8 @@ set_thickness
 + MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
 
+*Last Updated: July 1, 2019*
+
 ***
 
 ### set\_thickness\_quick
@@ -923,6 +1071,8 @@ set_thickness_quick
 
 + MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
+
+*Last Updated: July 1, 2019*
 
 ***
 
@@ -941,6 +1091,8 @@ set_user_defined+<EEPROM Location>+<value>
 + MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
 
+*Last Updated: July 1, 2019*
+
 ***
 
 ### single\_pulse
@@ -957,6 +1109,8 @@ single_pulse
 
 + MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
+
+*Last Updated: July 1, 2019*
 
 ***
 
@@ -975,6 +1129,8 @@ sleep
 + MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
 
+*Last Updated: July 1, 2019*
+
 ***
 
 ### start\_watchdog
@@ -989,6 +1145,8 @@ start_watchdog
 
 + MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
+
+*Last Updated: July 1, 2019*
 
 ***
 
@@ -1005,6 +1163,8 @@ stop_watchdog
 + MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
 
+*Last Updated: July 1, 2019*
+
 ***
 
 ### tcs\_length
@@ -1019,6 +1179,8 @@ tcs_length
 
 + MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
+
+*Last Updated: July 1, 2019*
 
 ***
 
@@ -1037,6 +1199,8 @@ temp
 + MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
 
+*Last Updated: July 1, 2019*
+
 ***
 
 ### testmode
@@ -1051,6 +1215,8 @@ testmode
 
 + MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
+
+*Last Updated: July 1, 2019*
 
 ***
 
@@ -1071,6 +1237,8 @@ upgrade
 + MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
 
+*Last Updated: July 1, 2019*
+
 ***
 
 ### usb
@@ -1088,6 +1256,8 @@ usb
 + MultispeQ 1: `2.0038` `2.0036` `2.0035`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
 
+*Last Updated: July 1, 2019*
+
 ***
 
 ### 1054 <Badge text="deprecated" type="error"/>
@@ -1102,6 +1272,8 @@ usb
 
 + MultispeQ 1: `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `not available`
+
+*Last Updated: July 1, 2019*
 
 ***
 
@@ -1120,6 +1292,8 @@ Read multiple pulses with increasing intensity or pulse width for linearity test
 + MultispeQ 1: `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `not available`
 
+*Last Updated: July 1, 2019*
+
 ***
 
 ### adc1 <Badge text="deprecated" type="error"/>
@@ -1134,6 +1308,8 @@ adc1
 
 + MultispeQ 1: `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `not available`
+
+*Last Updated: July 1, 2019*
 
 ***
 
@@ -1152,6 +1328,8 @@ adc_check
 + MultispeQ 1: `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `not available`
 
+*Last Updated: July 1, 2019*
+
 ***
 
 ### all\_sensors <Badge text="deprecated" type="error"/>
@@ -1169,6 +1347,8 @@ all_sensors
 + MultispeQ 1: `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `not available`
 
+*Last Updated: July 1, 2019*
+
 ***
 
 ### calibrate\_compass <Badge text="deprecated" type="error"/>
@@ -1183,6 +1363,8 @@ calibrate_compass
 
 + MultispeQ 1: `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `not available`
+
+*Last Updated: July 1, 2019*
 
 ***
 
@@ -1199,6 +1381,8 @@ calibrate_leds
 + MultispeQ 1: `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `not available`
 
+*Last Updated: July 1, 2019*
+
 ***
 
 ### calibrate\_leds\_manual <Badge text="deprecated" type="error"/>
@@ -1213,6 +1397,8 @@ calibrate_leds_manual
 
 + MultispeQ 1: `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `not available`
+
+*Last Updated: July 1, 2019*
 
 ***
 
@@ -1231,6 +1417,8 @@ constant_light
 + MultispeQ 1: `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `not available`
 
+*Last Updated: July 1, 2019*
+
 ***
 
 ### cut\_through <Badge text="deprecated" type="error"/>
@@ -1246,6 +1434,8 @@ cut_through
 + MultispeQ 1: `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `not available`
 
+*Last Updated: July 1, 2019*
+
 ***
 
 ### cycle5v <Badge text="deprecated" type="error"/>
@@ -1260,6 +1450,8 @@ cycle5v
 
 + MultispeQ 1: `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `not available`
+
+*Last Updated: July 1, 2019*
 
 ***
 
@@ -1278,6 +1470,8 @@ dac50
 + MultispeQ 1: `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `not available`
 
+*Last Updated: July 1, 2019*
+
 ***
 
 ### feed\_watchdog <Badge text="deprecated" type="error"/>
@@ -1292,6 +1486,8 @@ feed_watchdog
 
 + MultispeQ 1: `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `not available`
+
+*Last Updated: July 1, 2019*
 
 ***
 
@@ -1310,6 +1506,8 @@ get_co2
 + MultispeQ 1: `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `not available`
 
+*Last Updated: July 1, 2019*
+
 ***
 
 ### light <Badge text="deprecated" type="error"/>
@@ -1326,6 +1524,8 @@ light<light number>
 
 + MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
+
+*Last Updated: July 1, 2019*
 
 ***
 
@@ -1344,6 +1544,8 @@ on_5v
 + MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
 
+*Last Updated: July 1, 2019*
+
 ***
 
 ### print\_all <Badge text="deprecated" type="error"/>
@@ -1361,6 +1563,8 @@ print_all
 + MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
 
+*Last Updated: July 1, 2019*
+
 ***
 
 ### pulse <Badge text="deprecated" type="error"/>
@@ -1375,3 +1579,5 @@ pulse
 
 + MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
+
+*Last Updated: July 1, 2019*
