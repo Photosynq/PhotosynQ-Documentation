@@ -14,4 +14,6 @@ Using the Console in the Desktop application, you can use these commands to dire
 
 ## Available Commands
 
+[[TOC]]
+
 {{{ console-commands }}}

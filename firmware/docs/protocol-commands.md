@@ -4,4 +4,6 @@ The listed commands can be used to build measurement protocols. Some commands re
 
 ## Available Commands
 
+[[TOC]]
+
 {{{ protocol-commands }}}
