@@ -41,5 +41,6 @@ Sometimes the app does not work as expected. Please try this first:
 - Make sure you have sufficient storage.
 - Make sure you have an internet connection.
 
+[Google Play]: https://play.google.com/store/apps
 [Google Play Store]: https://play.google.com/store/apps/details?id=org.photosynq.android.photosynq
 [create a new account]: ../account/create-an-account.md
