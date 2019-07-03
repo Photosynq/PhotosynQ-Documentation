@@ -795,6 +795,19 @@ var createEPUB = function () {
 		});
 };
 
+var macros = function(){
+	var filePath = jetpack.path('node_modules', 'photosynq-helpers', 'docs', 'documentation.md');
+	var content = jetpack.read(filePath) || "";
+	// Change header level
+	content = content.replace(/^(#+)/gm,'$1#');
+	var template = jetpack.read('./macros/docs/provided-functions.md');
+	var md = Mustache.render(template, {
+		"macro-functions": content
+	});
+	jetpack.write('./docs/macros/provided-functions.md', md);
+	console.log(chalk.green('File generated.'));
+}
+
 program
 	.version(version);
 
@@ -808,6 +821,11 @@ program
 	.option('-s, --source [dir]', 'Compile files from a different source')
 	.description('Manage firmware commands')
 	.action(commands);
+
+program
+	.command('macros')
+	.description('Generate Macro function documentation (from helpers)')
+	.action(macros);
 
 program
 	.command('test-links')
