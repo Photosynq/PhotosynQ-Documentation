@@ -436,6 +436,9 @@ var compileMD = function (options) {
 			}
 			return `![${g1}](${link})`;
 		});
+
+		// Remove TOCs
+		files[file] = files[file].replace(/(\[\[TOC\]\]\n)/gm, '');
 	}
 	md = Mustache.render(md, { date: date, version: (options.tag || '--') }, files);
 	jetpack.write(options.output, md);
