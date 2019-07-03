@@ -23,9 +23,9 @@
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "@vuepress/plugin-back-to-top": "^1.0.0-rc.1",
-    "@vuepress/plugin-google-analytics": "^1.0.0-rc.1",
-    "@vuepress/plugin-pwa": "^1.0.0-rc.1",
+    "@vuepress/plugin-back-to-top": "^1.0.2",
+    "@vuepress/plugin-google-analytics": "^1.0.2",
+    "@vuepress/plugin-pwa": "^1.0.2",
     "base64-img": "^1.0.4",
     "chalk": "^2.4.2",
     "code-highlight-linenums": "^0.2.1",
@@ -41,11 +41,12 @@
     "markdown-link-check": "^3.7.3",
     "moment-timezone": "^0.5.25",
     "mustache": "^3.0.1",
+    "photosynq-helpers": "github:Photosynq/helpers#v1.0.1",
     "puppeteer-1.10.0": "npm:puppeteer@1.10.0",
     "remarkable": "^1.7.1",
     "remarkable-katex": "^1.0.1",
     "through2": "^3.0.1",
-    "vuepress": "^1.0.0-rc.1",
+    "vuepress": "^1.0.2",
     "vuepress-plugin-sitemap": "^2.1.2"
   }
 }
