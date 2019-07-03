@@ -353,7 +353,7 @@ var compileMD = function (options) {
 	}
 
 	var md = jetpack.read(options.input);
-	var src_path = '.';
+	var src_path = './';
 
 	var date = moment().format('LL');
 	if (options.date !== undefined) {
@@ -386,7 +386,7 @@ var compileMD = function (options) {
 	hmFiles = helpMaster.match(/(\{+\s?\>\s)([\w\d\.\/-]+)(\}+)/g);
 
 	for (var i in hmFiles) {
-		hmFiles[i] = src_path.replace(/^(\.\/)/, '') + "/" + hmFiles[i].replace(/(\{+\s?\>\s)([\w\d\.\/-]+)(\}+)/, '$2');
+		hmFiles[i] = jetpack.path(src_path, hmFiles[i].replace(/(\{+\s?\>\s)([\w\d\.\/-]+)(\}+)/, '$2') );
 	}
 
 	/**
@@ -394,19 +394,18 @@ var compileMD = function (options) {
 	 */
 
 	for (var i in list) {
-		if (hmFiles.indexOf(list[i]) == -1)
-			console.log(chalk.red('File missing in master: ') + list[i]);
+		var l = jetpack.path(list[i]);
+		if (hmFiles.indexOf(l) == -1)
+			console.log(chalk.red('File missing in master: ') + l);
 	}
 
 	/**
 	 * Files not in directory
 	 */
 	for (var i in hmFiles) {
-		var q = hmFiles[i];
-		if (list.indexOf(q) == -1)
-			console.log(chalk.red('File missing in directory: ') + q);
+		if(!jetpack.exists(hmFiles[i]))
+			console.log(chalk.red('File missing in directory: ') + hmFiles[i]);
 	}
-
 	var files = {};
 	var file = null;
 	for (var i in list) {
@@ -430,9 +429,12 @@ var compileMD = function (options) {
 				link = g2;
 			}
 			else{
-				link = jetpack.path('dist', 'tmp', dir, g2);
-
-				// link = link.replace(jetpack.cwd(),'http://localhost:3000 ');
+				if (options.source) {
+					link = jetpack.path( src_path, dir, g2);
+				}
+				else{
+					link = jetpack.path( dir, g2);
+				}
 			}
 			return `![${g1}](${link})`;
 		});
