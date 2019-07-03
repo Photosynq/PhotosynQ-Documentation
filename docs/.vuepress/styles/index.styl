@@ -29,3 +29,22 @@ body
 .page
   a
     color: #428bca
+
+.table-of-contents
+  li
+    list-style none
+  & > ul
+    padding: 0px
+    & > li
+      & > a
+        display none
+      & > ul
+        padding: 0px
+        column-count: 3
+        column-width: 200px
+        & > li a .badge
+          font-size: x-small
+          height: auto;
+          line-height: 1.5 em;
+          padding: 0 3px;
+          vertical-align: middle !important
