@@ -17,7 +17,7 @@ const hljs = require('highlight.js');
 const hljsLinenums = require('code-highlight-linenums');
 const puppeteer = require('puppeteer-1.10.0');
 const { spawnSync } = require('child_process');
-
+const chokidar = require('chokidar');
 
 function file_updated(file){
     let updated = false;
@@ -243,6 +243,13 @@ var commands = function (options) {
 		jetpack.write('./dist/firmware-commands.json', merged, { jsonIndent: 2 });
 		console.log(chalk.green(`${Object.keys(merged).length} Files merged`));
 		return;
+	}
+
+	if(options.watch !== undefined){
+		chokidar.watch('./firmware', {ignored: /(^|[\/\\])\../, ignoreInitial: true}).on('all', (event, path) => {
+			console.log(event, path);
+			spawnSync('node', ['index','cmd','-d']);
+		});
 	}
 
 };
@@ -819,6 +826,7 @@ program
 	.option('-d, --documents', 'Generate new help documents')
 	.option('-m, --merge', 'Merge all files into one JSON file')
 	.option('-s, --source [dir]', 'Compile files from a different source')
+	.option('-w, --watch', 'Watch for changes and re-build documents')
 	.description('Manage firmware commands')
 	.action(commands);
 
