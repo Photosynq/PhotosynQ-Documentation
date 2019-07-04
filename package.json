@@ -4,8 +4,9 @@
   "description": "Create a static page for the documentation as well as pdfs and an ebook from markdown files.",
   "main": "index.js",
   "scripts": {
-    "build": ". compile.sh HEAD",
-    "release": ". compile.sh",
+    "prerelease": "node index.js macros && node index.js cmd -d",
+    "release": "node compile.js",
+    "postrelease": "yarn docs:build",
     "test": "node index.js test-links",
     "predocs:dev": "node index.js macros && node index.js cmd -d",
     "docs:dev": "vuepress dev docs",
