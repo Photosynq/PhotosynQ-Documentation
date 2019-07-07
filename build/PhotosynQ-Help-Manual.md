@@ -250,6 +250,10 @@
 
 {{> docs/view-and-analyze-data/how-to-cite.md}}
 
+***
+
+{{> docs/view-and-analyze-data/references.md}}
+
 # Protocols {main-chapter}
 
 {{> docs/protocols/protocol-basics.md}}

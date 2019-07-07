@@ -177,7 +177,8 @@ module.exports = {
                     'view-and-analyze-data/sessions',
                     'view-and-analyze-data/download-data',
                     'view-and-analyze-data/external-libraries',
-                    'view-and-analyze-data/how-to-cite'
+                    'view-and-analyze-data/how-to-cite',
+                    'view-and-analyze-data/references'
                 ]
             },
             {
