@@ -189,6 +189,11 @@ module.exports = {
                     'protocols/protocol-basics',
                     'protocols/run-a-protocol',
                     'protocols/create-edit-protocol',
+                    'protocols/structure',
+                    'protocols/pulses',
+                    'protocols/lights',
+                    'protocols/detectors',
+                    'protocols/sensors',
                     'protocols/repeats',
                     'protocols/variables',
                     'protocols/commands'
