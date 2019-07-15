@@ -268,6 +268,26 @@
 
 ***
 
+{{> docs/protocols/structure.md}}
+
+***
+
+{{> docs/protocols/pulses.md}}
+
+***
+
+{{> docs/protocols/lights.md}}
+
+***
+
+{{> docs/protocols/detectors.md}}
+
+***
+
+{{> docs/protocols/sensors.md}}
+
+***
+
 {{> docs/protocols/repeats.md}}
 
 ***
