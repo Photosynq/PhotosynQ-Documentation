@@ -2,7 +2,7 @@
 
 When you are analyzing your collected data you can save your progress as a session. Sessions are also a way of sharing interesting results with collaborators. Shareable Sessions have a unique link that can be shared with others.
 
-With every session the following parameters get saved:
+**With every session the following parameters get saved:**
 
 1. Selected Series (Filters)
 2. Thresholds (if set and applied)
@@ -31,7 +31,7 @@ In order to delete a session, you just have to follow the following steps:
 1. Open the Sessions from the  <i class="fa fa-bars"></i> menu
 2. Click on the <i class="fa fa-times"></i> cross icon next to the name and confirm deleting the session
 
-## Sharing Sessions
+## Sharing a Session
 
 You can share sessions with other users. Simply check the check box named *shareable*, to make it available to others. You will get the additional <i class="fa fa-clipboard"></i> clipboard icon next to your session name. Simply click it to copy the session link to your clipboard and share it with others.
 
@@ -39,4 +39,4 @@ You can stop sharing the session at any time, just **1.** open the session, **2.
 
 ## Auto Save
 
-Your current view gets automatically saved, so that you can return to exactly the point you have left of.
+Your current view gets automatically saved, so that you can return to exactly the point you have left off.

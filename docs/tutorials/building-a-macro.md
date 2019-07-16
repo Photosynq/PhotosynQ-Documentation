@@ -123,4 +123,4 @@ return output;
     PAR = 17
 
 [JavaScript_URL]: https://www.w3schools.com/js/
-[Desktop App]: https://chrome.google.com/webstore/detail/photosynq/mdbljehgiahgijmaeehfigldmmaofilg
+[Desktop App]: https://photosynq.org/software#desktop

@@ -1,6 +1,6 @@
 # Create / Edit a Macro
 
-If you want to analyze a measurement using your own calculation, create a macro to do the calculation for you. When a Protocol has a Macro associated, the Macro will calculate 
+If you want to analyze a measurement using your own calculation, create a macro to do the calculation for you. When a Protocol has a Macro associated, the Macro will calculate all parameters derived from the measurement immediately after the measurement is done. When the measurement is saved for a Project, the raw measurement is send to the cloud where the macro is doing the calculations again.
 
 ![The Macro Editor](./images/macro-editor.png)
 

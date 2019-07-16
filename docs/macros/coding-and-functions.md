@@ -51,6 +51,7 @@ Some functions are needed over and over again, like calculating the average, fin
 var values = [1,2,3,4,5,6];
 output['Mean'] = MathMEAN(values);
 ```
+
 ***
 
 ### Order Parameters
@@ -68,7 +69,7 @@ Just replace `P1`, `P2`, etc. with the names of the parameters you want to be or
 
 ### Show additional Traces
 
-The recorded trace `json.data_raw` will be shown with a measurement. In case you would like to show some extra traces based on your calculations, just add an array to your output parameters. This array need _more than 4 values_ to be shown as a sparkline.
+The recorded trace `json.data_raw` will be shown with a measurement. In case you would like to show some extra traces based on your calculations, just add an array to your output parameters. This array need _more than 4 values_ to be shown as a spark-line.
 
 ```javascript
 // Add a trace to macro output
