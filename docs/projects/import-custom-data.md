@@ -78,7 +78,6 @@ When viewing the Project data, you can open the spreadsheet and select the **Imp
 
 When categorical data is imported, it can be used to filter the data into series. This is a way of adding filters in addition to the Project Questions.
 
-
 ## Use Cases
 
 **Yield** data is not available at the time of the measurement. When analyzing the data on PhotosynQ the yield data can be added later to analyze it with the previously taken measurements.
