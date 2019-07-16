@@ -9,7 +9,7 @@ The "first" step to look at your data is to plot parameters against each other. 
 3. Enter a plot title if you don't like the auto-suggestion.
 4. Click on **Plot** to close the dialog and show the plot.
 
-## Different Plot Types
+## Available Plot Types
 
 ### Scatter
 
@@ -18,7 +18,9 @@ You have a couple options for scatter plots, using **Makers**, **Lines** or **bo
 1. Select the **Parameters** you would like to graph.
 2. When you select markers, you can add additional parameters for marker size and color.
 
-## Bar
+![Available Scatter Plots](./images/plot-data-scatter.png)
+
+### Bar
 
 Bar charts available to display averages. You can display the **standard deviation or error** along with the average.
 
@@ -28,6 +30,8 @@ Bar charts available to display averages. You can display the **standard deviati
 ### Histogram
 
 There are two types of histograms, a **regular** bar chart and a **2D histogram** for two parameters. The values are displayed as a heat map. Further you have **box plots** available.
+
+![Available Histogram Plots](./images/plot-data-histograms.png)
 
 1. Pick the **Parameter** from the dropdown menu.
 2. Box plots can be grouped by a **Category**. Currently only the Project questions are available as categories.
@@ -70,6 +74,8 @@ Scatter plots allow you to select data points by using the box or lasso selectio
 
 1. Add the selected data as a new Series.
 2. Save the selected data points with the corresponding measurement ids, Project Questions and time stamps as a comma delimited file (.csv).
+
+![Select data points from scatter plots](./images/plot-data-selection.gif)
 
 ### Linear Regression
 
