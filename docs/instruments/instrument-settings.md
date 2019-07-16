@@ -18,14 +18,18 @@ When using the Desktop App to change the Instrument settings, follow these steps
 
 ## Settings - MultispeQ
 
+### Calibrations
+
 | Leaf Clamp Positions | Description |
 | -------------------- |-------------|
-| Opened Position | Set the **opened** position by clamping the .... and clicking on the `Set` button |
-| Closed Position | Set the **closed** position by clamping the .... and clicking on the `Set` button |
+| Opened Position | Set the **opened** position by holding the clamp open at **~ 4mm** and clicking on the `Set` button |
+| Closed Position | Set the **closed** position by holding the clamp open at **~ 2mm** and clicking on the `Set` button |
 
 | Recalibrate Compass | Description |
 | ------------------- | ----------- |
 | Compass | Calibrate the Instruments internal compass. After starting the calibration, start moving the Instrument in a steady motion, describing a sphere |
+
+### Settings
 
 | Power Management | Description |
 | ---------------- | ----------- |
@@ -36,7 +40,8 @@ When using the Desktop App to change the Instrument settings, follow these steps
 | Instrument Indicators | Description |
 | --------------------- | ----------- |
 | Indicator (blink) | The Indicator light will flash every 10s, reporting the battery status (by color) and that the Instrument is on |
-| Clamp Switch | N/A |
+
+### Miscellaneous
 
 | Instrument Information | Description |
 | ---------------------- | ----------- |
@@ -44,4 +49,3 @@ When using the Desktop App to change the Instrument settings, follow these steps
 | Connection | Check if the Instrument is connected and properly communicating. The  |
 | CaliQ Connection | Check if the CaliQ is connected and properly to the MultispeQ. |
 | Instrument Clock | The Instrument's internal clock gets set to the device's time it is connected to |
-| Update EEPROM | N/A |
