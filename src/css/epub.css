@@ -183,6 +183,10 @@ input:disabled, textarea:disabled {
   border-radius: 0px;
 }
 
+.title-tip {
+  font-weight: 600;
+}
+
 .warning {
   background-color: rgba(255,229,100,0.3);
   border-color: rgb(231, 192, 0);
@@ -194,6 +198,11 @@ input:disabled, textarea:disabled {
   border-radius: 0px;
 }
 
+.title-warning {
+  font-weight: 600;
+  color: rgb(178, 148, 0);
+}
+
 .danger {
   background-color: rgb(255, 230, 230);
   border-color: rgb(204, 0, 0);
@@ -203,6 +212,11 @@ input:disabled, textarea:disabled {
   border-style: solid;
   border-width: 0px 0px 0px 5px !important;
   border-radius: 0px;
+}
+
+.title-danger {
+  font-weight: 600;
+  color: rgb(153, 0, 0);
 }
 
 .badge {

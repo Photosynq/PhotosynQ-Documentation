@@ -4,8 +4,8 @@
 
 As we explained in the [Data Collection](./data-collection?id=submitting-quality-measurements.md) tutorial, the best way to keep your data set clean is to discard low quality measurements before they get submitted to PhotosynQ. To help users filter out bad measurements, we have added a series of issue warnings to the default *Leaf Photosynthesis MultispeQ v1.0* and *Photosynthesis RIDES* protocols. These issue warnings are displayed in **red** on the results screen of both the android and desktop apps. We recommend that users discard measurements with warning message's, unless they are certain the measurement is accurate. If a poor quality measurement does get submitted to the website you will be able to **Flag** the data in the data explorer (see below).
 
-::: tip
-**Tip:** The *Leaf Photosynthesis MultispeQ v1.0* protocol also has **yellow** issue warnings as well. These are for information only and you should NOT discard measurements for yellow warnings unless you are sure the measurements is bad.
+::: tip Tip
+The *Leaf Photosynthesis MultispeQ v1.0* protocol also has **yellow** issue warnings as well. These are for information only and you should NOT discard measurements for yellow warnings unless you are sure the measurements is bad.
 :::
 
 ![Issue warnings on the android (left) and desktop (right) apps](./images/data-quality-issue-warning-in-apps.jpg)
@@ -24,15 +24,15 @@ As we explained in the [Data Collection](./data-collection?id=submitting-quality
 	b. Select the **data quality** tab
 	c. Select the **Show Issues** button below **Data Issues**
 
-::: warning
-**Note:** Only *non-flagged* measurements with issues will be displayed on the dashboard.
+::: warning Note
+Only *non-flagged* measurements with issues will be displayed on the dashboard.
 :::
 
 ![1. Add panel to the dashboard 2. Open the Data Quality tab from the Dialog and select the **Show Issues** button. 3. The panel will be added to the dashboard.](./images/data-quality-dashboard-issues.png)
 
-2. In the **Spreadsheet** view, there is an **Issues** column that will display how many issues exist for a given measurement (left).
+1. In the **Spreadsheet** view, there is an **Issues** column that will display how many issues exist for a given measurement (left).
 
-3. In the single datum view, any issues will be present as a red bar above the measurement results (right).
+2. In the single datum view, any issues will be present as a red bar above the measurement results (right).
 
 ![1. Identifying issues in the spreadsheet (left) 2. Click on the ID in the first column to select bring up the data view. 3. See the details in the single datum view.](./images/data-quality-spreadsheet-single-datum.png)
 

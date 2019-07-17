@@ -195,8 +195,8 @@ Putting all the pieces together, the protocol to measure Phi2 looks like this:
 ]
 ```
 
-::: tip
-**Tip:** Continue with the Macro Tutorial to learn how to calculate Phi2 from the recorded measurement.
+::: tip Tip
+Continue with the Macro Tutorial to learn how to calculate Phi2 from the recorded measurement.
 :::
 
 [JSON_URL]: https://www.w3schools.com/js/js_json_intro.asp

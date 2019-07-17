@@ -36,8 +36,8 @@ Fold the end of the mask over the air channels. This will secure it onto the ins
 
 ![Fold the end over the air channels](./images/assemble-mask-3.png)
 
-::: warning
-**Note:** Make sure when using tape not to cover the air channels or light guide.
+::: warning Note
+Make sure when using tape not to cover the air channels or light guide.
 :::
 
 ### Step 4

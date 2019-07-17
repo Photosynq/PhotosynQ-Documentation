@@ -36,8 +36,8 @@ When using Windows older than Windows 10, a serial driver needs to be installed.
 
 ### Linux
 
-::: warning
-**Note:** Right now there is no version available. If you are interested in helping us testing, please send a request to <support@photosynq.org>.
+::: warning Note
+Right now there is no version available. If you are interested in helping us testing, please send a request to <support@photosynq.org>.
 :::
 
 ## Minimum Requirements
@@ -54,16 +54,16 @@ When you are starting the app for the first time you will be asked for your logi
 
 Further you will be asked if you want to activate the location services. The location is used together with measurements in projects. You can activate or deactivate the services at any time in the [application settings].
 
-::: warning
-**Note:** MacOS users will be asked if they want to give the application access to their keychain. Please select **Always Allow** to give permission to the PhotosynQ app to safely store and access the login information from the keychain.
+::: warning Note
+MacOS users will be asked if they want to give the application access to their keychain. Please select **Always Allow** to give permission to the PhotosynQ app to safely store and access the login information from the keychain.
 :::
 
 ## Updates
 
 Updates are downloaded and installed automatically to make sure, you always have the latest version of the app.
 
-::: tip
-**Tip:** You can activate / deactivate the automatic updates in the [application settings] at any time.
+::: tip Tip
+You can activate / deactivate the automatic updates in the [application settings] at any time.
 :::
 
 ### Troubleshooting

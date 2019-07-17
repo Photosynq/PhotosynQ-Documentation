@@ -14,6 +14,6 @@ When you visit a new Project click on **Join**.
 
 When you click on a new Project click on **Join** in the right menu bar.
 
-::: tip
-**Tip:** Some Projects cannot be joined, since they are limited to a closed group of users (indicated by the <i class="fa fa-lock"></i> lock icon). If you are interested in joining, ask for an invitation as a collaborator.
+::: tip Tip
+Some Projects cannot be joined, since they are limited to a closed group of users (indicated by the <i class="fa fa-lock"></i> lock icon). If you are interested in joining, ask for an invitation as a collaborator.
 :::

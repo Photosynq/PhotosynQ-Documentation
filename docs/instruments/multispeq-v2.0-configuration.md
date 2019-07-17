@@ -48,8 +48,8 @@ The MultispeQ v2.0 comes with two detectors. One covering the near infrared on t
 | 1 | 700nm - 1150nm | Hamamatsu, S6775-01 (main body) | [view][S6775-01] |
 | 3\* | 400nm - 700nm | Hamamatsu, S6775 (leaf clamp) | [view][S6775] |
 
-::: warning
-**\*Note:** The detector 3 is covered with a BG-18 bandpass filter with a center wavelength around 493 nm. If you are using the detector to detect signals on the edges of the detection range, expect the signal strength to be low.
+::: warning *Note
+The detector 3 is covered with a BG-18 bandpass filter with a center wavelength around 493 nm. If you are using the detector to detect signals on the edges of the detection range, expect the signal strength to be low.
 :::
 
 ## Sensors

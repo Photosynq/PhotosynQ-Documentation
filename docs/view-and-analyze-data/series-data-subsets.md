@@ -2,8 +2,8 @@
 
 Series are subsets of your complete Project dataset. You can generate them by **filtering** your dataset based on your **Project Questions**.
 
-::: tip
-**Tip:** You start out with the **Whole Dataset** selected. When you have filtered your dataset, it will be restored, the next time you load your Project data.
+::: tip Tip
+You start out with the **Whole Dataset** selected. When you have filtered your dataset, it will be restored, the next time you load your Project data.
 :::
 
 ## Add a Series
@@ -17,8 +17,8 @@ Series are subsets of your complete Project dataset. You can generate them by **
 1. Hover with your pointer over the series and click on **&times;** to remove the series.
 2. Confirm that you want to remove the selected series.
 
-::: tip
-**Tip:** You can remove all series at once, opening the <i class="fa fa-bars"></i> dropdown menu and selecting **Remove all Series**.
+::: tip Tip
+You can remove all series at once, opening the <i class="fa fa-bars"></i> dropdown menu and selecting **Remove all Series**.
 :::
 
 ## Rename a Series

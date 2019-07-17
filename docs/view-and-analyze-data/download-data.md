@@ -7,8 +7,8 @@ While the data viewer allows you to analyze the collected measurements for a Pro
 3. Download the data as a `JSON` formatted file (.json)
 4. Use the Python or R libraries (external libraries) to import the Project dataset as a data-frame
 
-::: warning
-**Note:** We are strongly recommending to view your data in the data viewer and flag data if necessary, before downloading the dataset. This will ensure the highest quality and best results for your subsequent analysis.
+::: warning Note
+We are strongly recommending to view your data in the data viewer and flag data if necessary, before downloading the dataset. This will ensure the highest quality and best results for your subsequent analysis.
 :::
 
 ## Availability

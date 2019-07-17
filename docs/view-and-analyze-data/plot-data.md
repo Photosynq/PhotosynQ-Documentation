@@ -37,8 +37,8 @@ There are two types of histograms, a **regular** bar chart and a **2D histogram*
 2. Box plots can be grouped by a **Category**. Currently only the Project questions are available as categories.
 3. For the 2D histograms, select a second Parameter and a color gradient.
 
-::: tip
-**Tip:** Adding **Marker Size and / or Color** will help to emphasize differences and trends, as well as show relationships between Parameters.
+::: tip Tip
+Adding **Marker Size and / or Color** will help to emphasize differences and trends, as well as show relationships between Parameters.
 :::
 
 ## Working with Plots

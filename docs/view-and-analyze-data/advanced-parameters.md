@@ -2,8 +2,8 @@
 
 Most measurement Protocols will output a large set of parameters derived from the recorded traces and sensors. Most Users might not need all of these Parameters in their data analysis. In order to make the analysis using the **Data Viewer** more accessible, you can hide those **Advanced Parameters** and only show the more frequently used **Primary Parameters**. Some Protocols don't have their Parameters separated, in which case they are all considered **Primary Parameters**.
 
-::: warning
-**Note:** By default, **Advanced Parameters** are hidden.
+::: warning Note
+By default, **Advanced Parameters** are hidden.
 :::
 
 ## Show/Hide Parameters
@@ -12,8 +12,8 @@ If you want to show or hide the **Advanced Parameters**, simply select the menu 
 
 ![Showing **Advanced Parameters** inside the Data Viewer.](./images/advanced-parameters.jpg)
 
-::: warning
-**Note:** In case an **Advanced Parameters** is used for a graph and saved to the dashboard, the **Advanced Parameters** will be shown by default.
+::: warning Note
+In case an **Advanced Parameters** is used for a graph and saved to the dashboard, the **Advanced Parameters** will be shown by default.
 :::
 
 ## Creating Macros

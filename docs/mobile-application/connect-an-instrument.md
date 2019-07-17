@@ -2,8 +2,8 @@
 
 You can use Bluetooth to connect your Instrument to your device. Make sure you have Bluetooth activated and given the necessary permissions to use it.
 
-::: warning
-**Note:** Before connecting your MultispeQ to the Desktop App you need to turn on the MultispeQ by pressing and holding the power button for at least 5 seconds.
+::: warning Note
+Before connecting your MultispeQ to the Desktop App you need to turn on the MultispeQ by pressing and holding the power button for at least 5 seconds.
 :::
 
 ![Turning on the MultispeQ using the button in the back](../instruments/images/multispeq-power-button.jpg)

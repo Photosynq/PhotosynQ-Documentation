@@ -2,8 +2,8 @@
 
 PhotosynQ Instruments have settings, which you can change, to make the Instrument better fit you needs. They vary between Instruments. Currently you need to use the Desktop Application to adjust your Instrument settings.
 
-::: warning
-**Note:** The Mobile Application does not support Instrument Settings.
+::: warning Note
+The Mobile Application does not support Instrument Settings.
 :::
 
 ## Desktop Application

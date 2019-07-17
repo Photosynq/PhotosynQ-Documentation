@@ -24,20 +24,20 @@ When you are done you can remove the columns with the Project questions. Save yo
 
 Now the data is available for viewing and working with on the website, as well as the external libraries.
 
-::: tip
-**Tip:** If you are missing a dataset, leave the cell blank.
+::: tip Tip
+If you are missing a dataset, leave the cell blank.
 :::
 
-::: warning
-**Note:** The csv file that has been downloaded, is comma separated. When saving the additional data, make sure the data is still separated by a comma.
+::: warning Note
+The csv file that has been downloaded, is comma separated. When saving the additional data, make sure the data is still separated by a comma.
 :::
 
 ## Updating Data
 
 If you take more measurements, you want to add or remove a parameter or correct a mistake, select **Import data** from you Projects' options menu. Download the spreadsheet again. Now it contains all the data, that has been previously uploaded. Make your changes, save the file and re-upload it. The changes are available right away.
 
-::: warning
-**Note:** When uploading data, the old data will be overwritten without a warning.
+::: warning Note
+When uploading data, the old data will be overwritten without a warning.
 :::
 
 ### Add a Parameter

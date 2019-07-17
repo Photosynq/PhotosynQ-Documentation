@@ -491,16 +491,11 @@ function compileHTML(md) {
 			}
 		}
 
-		if (element.match(/:{3,4}\s+tip/)) {
-			element = '<p class="tip">';
-		}
-
-		if (element.match(/:{3,4}\s+warning/)) {
-			element = '<p class="note">';
-		}
-
-		if (element.match(/:{3,4}\s+danger/)) {
-			element = '<p class="danger">';
+		if(element.match(/:{3,4}\s+(tip|warning|danger)\s?(.*)/)){
+			var m = element.match(/:{3,4}\s+(tip|warning|danger)\s?(.*)/);
+			if(m[2] !== "")
+				header = `<p class="title-${m[1]}">${m[2].trim()}</p>`;
+			element = `${header}<p class="${m[1]}">`;
 		}
 
 		if (element.match(/:::<\/p>/)){

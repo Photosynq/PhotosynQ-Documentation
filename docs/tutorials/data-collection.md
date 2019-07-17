@@ -8,8 +8,8 @@ Once you have selected the Project that you want to contribute measurements to, 
 4. The protocol will take ~15 seconds to complete. Once the measurement is complete, confirm that the measurement quality is good.
 5. Select **ACCEPT** if you want to submit the measurement to the website or **DISCARD** if you want to discard the measurement and try again.
 
-::: tip
-**Tip:** If you are using the default protocol **Leaf Photosynthesis v1.0** the measurement will automatically start once you have opened the clamp and closed it over the leaf. Other protocols the measurement may begin as soon as you select **Take Measurement**. - **Make sure you know when the protocol you are using begins!**
+::: tip Tip
+If you are using the default protocol **Leaf Photosynthesis v1.0** the measurement will automatically start once you have opened the clamp and closed it over the leaf. Other protocols the measurement may begin as soon as you select **Take Measurement**. - **Make sure you know when the protocol you are using begins!**
 :::
 
 #### Best Measurement Practices
@@ -28,8 +28,8 @@ Once you have selected the Project that you want to contribute measurements to, 
 
 Once you have completed a measurement you will have the opportunity to examine it before submitting it to the website. Lets take a quick tour of your measurement!
 
-::: warning
-**Note:** This section of the tutorial covers the default MultispeQ plant health protocol: **Leaf Photosynthesis v1.0**, and may not represent the results from other protocols.
+::: warning Note
+This section of the tutorial covers the default MultispeQ plant health protocol: **Leaf Photosynthesis v1.0**, and may not represent the results from other protocols.
 :::
 
 The graphical representation of the measurement is called a **trace**. The parameters output by the PhotosynQ platform are generated from values within this trace.
@@ -60,8 +60,8 @@ Now that you are familiar with the parameters, you can check the quality of each
 
 ![Measurement Notifications](./images/data-collection-measurement-notification.jpg)
 
-::: tip
-**Tip:** The easiest way to ensure quality data is to discard poor data before it gets submitted to the website!
+::: tip Tip
+The easiest way to ensure quality data is to discard poor data before it gets submitted to the website!
 :::
 
 One of the most common warning messages you will receive is that your data is too noisy. Noise can come from the sample shaking in the wind, the leaf slipping in the measurement chamber or a shaky hand. Stabilizing your hand and leaf stem often helps, but sometimes things are more complex. For example, if you measure a dead leaf, the app informs you that the values are very low, meaning that either you didn't measure a plant or something is probably wrong.

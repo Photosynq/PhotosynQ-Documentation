@@ -2,8 +2,8 @@
 
 You can use **Bluetooth** or **USB** to connect your Instrument with your computer. Depending on the Instrument and computer, some connection options may not be available.
 
-::: warning
-**Note:** Before connecting your MultispeQ to the Desktop App you need to turn on the MultispeQ by pressing and holding the power button for at least 5 seconds.
+::: warning Note
+Before connecting your MultispeQ to the Desktop App you need to turn on the MultispeQ by pressing and holding the power button for at least 5 seconds.
 :::
 
 ![Connect an Instrument](./images/connect-an-instrument.png)

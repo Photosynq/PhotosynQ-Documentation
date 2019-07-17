@@ -24,8 +24,8 @@ After selecting **Measurements** from the Menu, a list will all Measurements tak
 
 Measurements that have been recorded for a Project can be supplemented with notes and photos or deleted, if they are not intended to be uploaded to a Project on the PhotosynQ cloud (See [Adding Notes and Pictures](./adding-notes-and-pictures.md)).
 
-::: warning
-**Note:** You can only supplement the Measurements with information. The answers given for a Measurement cannot be altered!
+::: warning Note
+You can only supplement the Measurements with information. The answers given for a Measurement cannot be altered!
 :::
 
 ## Uploading Measurements
@@ -34,14 +34,14 @@ Measurements can be uploaded in bulk or individually. To upload them all at once
 
 Once a Measurement is uploaded successfully, it is labeled with a green cloud icon.
 
-::: tip
-**Tip:** Make sure you upload cached measurements on a regular basis. Specially if you share the phone with others. Otherwise you might forget that there are measurements still on the device.
+::: tip Tip
+Make sure you upload cached measurements on a regular basis. Specially if you share the phone with others. Otherwise you might forget that there are measurements still on the device.
 :::
 
 ## Submitted Measurements
 
 Measurements that have already been uploaded are indicated by a cloud icon. You can select *Cleanup Measurements* from the <i class="fa fa-ellipsis-v" aria-hidden="true"></i> more options menu to remove those from the list.
 
-::: warning
-**Note:** Measurements which have been uploaded can not be altered and re-uploaded.
+::: warning Note
+Measurements which have been uploaded can not be altered and re-uploaded.
 :::

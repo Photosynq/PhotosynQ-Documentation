@@ -7,8 +7,8 @@ In Projects you can define Questions which have to be answered before each measu
 - What is the replicate?
 - any many more...
 
-::: tip
-**Tip:** See the [Tutorials(../tutorials/data-collection) on more information on Project Questions.
+::: tip Tip
+See the [Tutorials(../tutorials/data-collection) on more information on Project Questions.
 :::
 
 ## Adding Project Questions
@@ -32,8 +32,8 @@ This is the best choice if you know all of the possible answers to the question
 3. Click on 'ADD ANSWER' to add an additional answer box
 4. Once you have input all of your answers, select 'Save.'
 
-::: tip
-**Tip:** Each answer needs to have its own answer box
+::: tip Tip
+Each answer needs to have its own answer box
 :::
 
 ### Multiple Choice (with images)

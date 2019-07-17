@@ -2,8 +2,8 @@
 
 When writing a Protocol, certain parts might be repeated several times. So instead of repeating the instructions several times, defining repeats can help to reduce complexity and make it easier to write the Protocol. A good example for using repeats would be a fluorescence induction kinetic, where a number of saturation pulses is given. With the help of repeats, the protocol for the saturation pulse is defined once and then can be repeated.
 
-::: tip
-**Tip**: Repeats can be a very powerful tool when used in combination with protocol-sets reducing the size of a Protocol to a minimum.
+::: tip Tip
+Repeats can be a very powerful tool when used in combination with protocol-sets reducing the size of a Protocol to a minimum.
 :::
 
 ## Using Repeats

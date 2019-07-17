@@ -60,8 +60,8 @@ In this example the variables are used to define the number of pulses. To indica
 ]
 ```
 
-::: warning
-**Note:** When counting the index (position) of an array or a value within an array, always start at **0**.
+::: warning Note
+When counting the index (position) of an array or a value within an array, always start at **0**.
 :::
 
 ## Using Repeats with Variables

@@ -24,8 +24,8 @@ You can invite collaborators to join your Project either when you are creating a
 
 ![Project options](./images/project-options.jpg)
 
-::: tip
-**Tip:** If you have selected the **Anyone** option from the "Who can contribute data to your Project" menu, then you do not need to send an invitation to collaborators. Instead they can **join** the Project from the Project homepage by clicking the **Join Team** button.
+::: tip Tip
+If you have selected the **Anyone** option from the "Who can contribute data to your Project" menu, then you do not need to send an invitation to collaborators. Instead they can **join** the Project from the Project homepage by clicking the **Join Team** button.
 :::
 
 ## Invite an Administrator

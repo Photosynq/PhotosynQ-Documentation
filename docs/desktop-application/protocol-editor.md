@@ -16,16 +16,16 @@ In order to get started or to avoid typing the same code over and over again, sn
 
 **My Snippets:** Here you can save your own snippets. Just highlight the code you want to save and select the **Add** button. Give it a name and hit Enter to save it or ESC to cancel. When hovering over a snippet, use **&times;** to delete a snippet. To add your snippet to the code, just position the cursor where you want to insert it in the code. Double click on the snippet in the list to insert it.
 
-::: warning
-**Note:** Snippets saved under **My Snippets** are saved locally only.
+::: warning Note
+Snippets saved under **My Snippets** are saved locally only.
 :::
 
 ## Structure
 
 Protocols using `_protocol_sets_` can get very complicated. In this tab a list of available protocols within the set is shown. Drag and Drop the elements of the list to re-arrange the protocols within the set or to delete them, clicking the **&times;** icon. You will not be asked, if you want to delete the set, instead use the shortcut `Ctrl+Z` or `⌘+Z` to undo the last step. Double click a protocol to sets the cursor to the beginning of the selected protocol within the code.
 
-::: tip
-**Tip:** Use the command `label` to name your protocols within the set and to have easy access to their output within a Macro.
+::: tip Tip
+Use the command `label` to name your protocols within the set and to have easy access to their output within a Macro.
 :::
 
 ## More

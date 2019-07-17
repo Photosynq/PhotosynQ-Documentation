@@ -38,13 +38,13 @@ To start generating **Series**
 
 ### Graph Data
 
-1. Click on the graph creator icon in the data viewer. 
+1. Click on the graph creator icon in the data viewer.
 2. Select the kind of graph that you want to create from the dialog box. You can choose between a variety of scatter, bar, and histogram charts.
 3. Use the drop down menu's to choose which parameters you wish to graph.
 4. After you have chosen the parameters to graph, select **Plot**.
 
-::: tip
-**Tip:** The most important parameters will be listed as **Primary Parameters** and **Project Questions**. If the parameter you are looking for is not in these two categories, scroll to the bottom of the drop down menu and look under **Advanced**.
+::: tip Tip
+The most important parameters will be listed as **Primary Parameters** and **Project Questions**. If the parameter you are looking for is not in these two categories, scroll to the bottom of the drop down menu and look under **Advanced**.
 :::
 
 For more help with plotting data, please visit the [Help Center](../view-and-analyze-data/data-plot-data.md).
@@ -85,6 +85,6 @@ In order to access a single measurement, you have multiple options:
 
 ![Single Measurement. Use the Next and Previous buttons to navigate between measurements.](./images/data-viewing-single-measurement.png)
 
-::: tip
-**Tip:** Viewing a single measurement allows you to verify a measurement and flag if necessary to indicate an insufficient quality, labeling error, etc.
+::: tip Tip
+Viewing a single measurement allows you to verify a measurement and flag if necessary to indicate an insufficient quality, labeling error, etc.
 :::

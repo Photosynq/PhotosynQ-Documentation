@@ -8,8 +8,8 @@ You can view the data collected for your Project at an time to follow the progre
 2. Navigate to your Project by selecting it from the **Projects** or **Collaborations** Tab.
 3. Select **View Data** from the menu on the left of the Project page.
 
-::: warning
-**Note:** If you have collected more than 1000 measurements or you have a slow internet connection it might take a while to load all the data.
+::: warning Note
+If you have collected more than 1000 measurements or you have a slow internet connection it might take a while to load all the data.
 :::
 
 ### Troubleshooting

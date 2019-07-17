@@ -10,8 +10,8 @@ When you are analyzing your collected data you can save your progress as a sessi
 4. Plot
 5. Map position and heat-map settings
 
-::: warning
-**Note:** Sessions are **not** saving the exact state, but your settings. So if there are new measurements are added, the session will take those into account as well, the next time you apply a session to your dataset.
+::: warning Note
+Sessions are **not** saving the exact state, but your settings. So if there are new measurements are added, the session will take those into account as well, the next time you apply a session to your dataset.
 :::
 
 ## Save a Session

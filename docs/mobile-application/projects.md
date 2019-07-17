@@ -46,8 +46,8 @@ Answers can also be given, by scanning Bar or QR codes (requires webcam). Select
 
 Once you have answered all the Project Questions you can select the Take Measurement button in the right side bar. The measurement will use the protocols listed underneath the button, as well as your Current Location as indicated on the small map. If no location information is available, you will see the warning Unknown Location. In this case you can still contribute a measurement, just laking the geo tag.
 
-::: warning
-**Note:** When you push the Take Measurement* button, the measurement, depending on the Protocol, might start right away.
+::: warning Note
+When you push the Take Measurement* button, the measurement, depending on the Protocol, might start right away.
 :::
 
 ## Save Contribution
@@ -60,6 +60,6 @@ After the measurement has been taken, you can save the results to the Project us
 
 If you have long list of Projects, you can search for your Project by tapping on the <i class="fa fa-search" aria-hidden="true"></i> search icon next to the word Projects in the top bar. Use the back ← arrow in the top bar to return to the full list.
 
-::: tip
-**Tip:** If you are looking for new Projects to participate in, use [Discover](./discover.md) from the Menu.
+::: tip Tip
+If you are looking for new Projects to participate in, use [Discover](./discover.md) from the Menu.
 :::

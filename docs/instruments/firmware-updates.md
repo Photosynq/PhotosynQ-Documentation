@@ -2,8 +2,8 @@
 
 Normally, the PhotosynQ apps automatically notify you when there is a new firmware version available for your Instrument. In this case you can follow the instructions, and the apps will download the correct version and install it on your Instrument.
 
-::: warning
-**Note:** We do not recommend that anyone uploads any other versions of the firmware or from unknown sources, unless you know what you are doing!
+::: warning Note
+We do not recommend that anyone uploads any other versions of the firmware or from unknown sources, unless you know what you are doing!
 :::
 
 ## Automatic Firmware Update
@@ -70,8 +70,8 @@ After the update is finished the Instrument will restart. Check if version numbe
 
 **"Pre-releases"** of the firmware are not installed automatically on your Instrument. Go to [Github][Firmware-Github] to download the most recent firmware for your Instrument.
 
-::: warning
-**Note:** Pre-Releases can only be installed using the Desktop app at your own risk.
+::: warning Note
+Pre-Releases can only be installed using the Desktop app at your own risk.
 :::
 
 ![(1) Connect your Instrument, and click on the check button (2) Select Manual Update, select your firmware file and confirm the update. (3-4) Update Progress and Instrument Restart. Make sure that after reconnecting, your Instrument has the firmware installed.](./images/firmware-manual-desktop.png)

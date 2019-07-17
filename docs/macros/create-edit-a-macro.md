@@ -24,8 +24,8 @@ You can change one of your Macros or extend an already existing one at any time.
 5. Update the description if needed.
 6. Save the changes by **Save As**.
 
-::: tip
-**Tip:** In case you altered a macro someone else had made, change the name too. In this case you only have the option **Save as**.
+::: tip Tip
+In case you altered a macro someone else had made, change the name too. In this case you only have the option **Save as**.
 :::
 
 ## Save a Macro

@@ -58,8 +58,8 @@ protocol = 'Protocol name'
 dt_filtered = df[( df[protocol]['status'] == 'submitted')]
 ```
 
-::: tip
-**Tip:** Please find more information about functions in this library on [GitHub](https://github.com/Photosynq/PhotosynQ-Python)
+::: tip Tip
+Please find more information about functions in this library on [GitHub](https://github.com/Photosynq/PhotosynQ-Python)
 :::
 
 ## R (R-Studio)
@@ -117,8 +117,8 @@ library(dplyr)
 df_filtered <- filter(df$`Protocol Name`, status == "submitted")
 ```
 
-::: tip
-**Tip:** Please find more information about functions in this library on [GitHub](https://github.com/Photosynq/PhotosynQ-R)
+::: tip Tip
+Please find more information about functions in this library on [GitHub](https://github.com/Photosynq/PhotosynQ-R)
 :::
 
 [Python]: https://www.python.org/

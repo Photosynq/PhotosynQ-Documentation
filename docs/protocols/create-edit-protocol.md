@@ -11,8 +11,8 @@ If you want setup your own measurements, or make changes to existing ones.
 3. Connect the Instrument you want to use the Protocol with.
 4. Start building your Protocol...
 
-::: tip
-**Tip:** Use **<i class="fa fa-play"></i> Run** to test your Protocol at any time.
+::: tip Tip
+Use **<i class="fa fa-play"></i> Run** to test your Protocol at any time.
 :::
 
 ## Edit a Protocol
@@ -26,8 +26,8 @@ You can change one of your Protocols or extend an already existing one at any ti
 5. Update the description if needed.
 6. Save the changes by **Save As**.
 
-::: tip
-**Tip:** Often it is easier to start altering an already existing Protocol. To save it change the name too and the only option available is **Save as**.
+::: tip Tip
+Often it is easier to start altering an already existing Protocol. To save it change the name too and the only option available is **Save as**.
 :::
 
 ## Save a Protocol

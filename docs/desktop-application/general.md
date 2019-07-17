@@ -35,8 +35,8 @@ An internet connection is required when starting the app, to sign in and synchro
 | Ctrl+-          | ⌘-     | Decrease Font Size                    |
 | Ctrl+0          | ⌘0     | Reset Font Size                       |
 
-::: tip
-**Tip:** More shortcuts for the Editors [here](https://github.com/ajaxorg/ace/wiki/Default-Keyboard-Shortcuts)
+::: tip Tip
+More shortcuts for the Editors [here](https://github.com/ajaxorg/ace/wiki/Default-Keyboard-Shortcuts)
 :::
 
 ## Energy Saving

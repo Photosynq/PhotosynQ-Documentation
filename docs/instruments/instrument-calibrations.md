@@ -2,8 +2,8 @@
 
 PhotosynQ Instruments come pre-calibrated from the factory. Over time you can repeat the calibrations to ensure high quality measurements. Depending on the Instrument the available calibrations can vary. Currently you need to use the Desktop Application to adjust your Instrument settings.
 
-::: warning
-**Note:** The Mobile Application does not support Instrument Settings.
+::: warning Note
+The Mobile Application does not support Instrument Settings.
 :::
 
 ## Desktop App
@@ -23,8 +23,8 @@ When using the Desktop App in order to repeat the Instrument Calibrations, follo
 | ... | ... |
 | ... | ... |
 
-::: warning
-**Note:** These calibration steps require the CaliQ instrument
+::: warning Note
+These calibration steps require the CaliQ instrument
 :::
 
 | Calibrate LEDs | Description |
@@ -33,8 +33,8 @@ When using the Desktop App in order to repeat the Instrument Calibrations, follo
 | ... | ... |
 | ... | ... |
 
-::: warning
-**Note:** These calibration steps require the CaliQ instrument
+::: warning Note
+These calibration steps require the CaliQ instrument
 :::
 
 | Electronic Offsets | Description |
@@ -46,8 +46,8 @@ When using the Desktop App in order to repeat the Instrument Calibrations, follo
 | ------------------------ |-------------|
 | ... | ... |
 
-::: warning
-**Note:** These calibration steps require calibration cards
+::: warning Note
+These calibration steps require calibration cards
 :::
 
 | Calibrate Relative Chlorophyll | Description |
@@ -56,6 +56,6 @@ When using the Desktop App in order to repeat the Instrument Calibrations, follo
 | ... | ... |
 | ... | ... |
 
-::: warning
-**Note:** These calibration steps require calibration cards
+::: warning Note
+These calibration steps require calibration cards
 :::

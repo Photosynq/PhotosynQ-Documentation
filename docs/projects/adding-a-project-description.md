@@ -14,6 +14,6 @@ You have the option to add tags to your Projects. An individual tag must be all 
 
 You can add photos to your Project by dragging and dropping them into the Photos box or by clicking in the photos box and selecting your photos.
 
-::: tip
-**Tip:** Uploading a unique Project photo can help you quickly find your Project, especially in the Android App
+::: tip Tip
+Uploading a unique Project photo can help you quickly find your Project, especially in the Android App
 :::
