@@ -1,10 +1,10 @@
 # General Information
 
-The PhotosynQ Desktop Application allows to build and test measurement Protocols, Macros, contribute to Projects and save small scale experiments to the Notebook. It requires a PhotosynQ account and an internet connection when signing in and synchronizing content with the PhotosynQ cloud.
+The PhotosynQ Desktop Application allows you to build and test measurement Protocols and Macros, contribute to Projects and save small scale experiments to the Notebook. It requires a PhotosynQ account and an internet connection when signing in and synchronizing content with the PhotosynQ cloud.
 
 ## Internet connection
 
-An internet connection is required when starting the app, to sign in and synchronize Projects, Protocols, Macros and Instrument information. Saving Protocols and Macros, as well as measurements requires an internet connection as well. Measurements taken for a Project can be cached and uploaded later, so they can be collected in areas without an internet connection.
+An internet connection is required when starting the app and to sign in and synchronize Projects, Protocols, Macros and Instrument information. Saving Protocols, Macros and measurements requires an internet connection as well. Measurements taken for a Project can be cached and uploaded later, so they can be collected in areas without an internet connection.
 
 ## Keyboard Shortcuts
 

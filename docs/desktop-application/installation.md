@@ -1,6 +1,6 @@
 # Installing the Application
 
-Taking measurements in the in the lab, developing new measurement protocols and macros? The desktop application allows you to do that, amongst many other more bench top related tasks.
+Taking measurements in the lab or developing new measurement protocols and macros? The desktop application allows you to do that amongst many other bench top related tasks.
 
 ## Download the PhotosynQ Application
 

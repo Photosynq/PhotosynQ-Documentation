@@ -39,7 +39,7 @@ To start generating **Series**
 ### Graph Data
 
 1. Click on the graph creator icon in the data viewer.
-2. Select the kind of graph that you want to create from the dialog box. You can choose between a variety of scatter, bar, and histogram charts.
+2. Select the kind of graph that you want to create from the dialog box. You can choose between a variety of scatter, bar and histogram charts.
 3. Use the drop down menu's to choose which parameters you wish to graph.
 4. After you have chosen the parameters to graph, select **Plot**.
 

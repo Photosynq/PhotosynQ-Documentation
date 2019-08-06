@@ -1,8 +1,6 @@
 # Create / Edit a Protocol
 
-When getting started using the PhotosynQ platform with an instrument like the MultispeQ, several measurement Protocols are provided. But taking measurements
-
-If you want setup your own measurements, or make changes to existing ones.
+When getting started using the PhotosynQ platform with an instrument like the MultispeQ, several preset measurement Protocols are provided. These Protocols have Macros connected that calculate a defined set of parameters from the measurement data. If your experiment requires more or different parameters or an altered Protocol, you can setup your own measurement Protocol or make changes to an existing one.
 
 ## Create New Protocol
 

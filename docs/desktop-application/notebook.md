@@ -29,7 +29,7 @@ With every measurement in the Notebook, the Protocol used gets saved as well. Wh
 
 ## Edit Measurement
 
-In contrast to Projects, measurements inside the **Notebook** can be edited. Select a measurement with a click from the list to bring up the details in the sidebar on the right. Now you can change the **Name**, **Experiment**, and **Notes** for the measurement. Also you can add an image from a local source or your webcam or delete an existing one. When changing an image, the changes get saved automatically, otherwise you have to confirm your changes using the **Save** button at the top.
+In contrast to Projects, measurements inside the **Notebook** can be edited. Select a measurement with a click from the list to bring up the details in the sidebar on the right. Now you can change the **Name**, **Experiment** and **Notes** for the measurement. Also, you can add an image from a local source or your webcam or delete an existing one. When changing an image, the changes get saved automatically, otherwise you have to confirm your changes using the **Save** button at the top.
 
 ## Delete Measurement(s)
 

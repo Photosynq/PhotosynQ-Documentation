@@ -21,13 +21,13 @@ The Desktop Application also allows to edit Protocols. When using the Protocol E
 
 ## Mobile Application
 
-The Mobile Application allows to run Protocols without Projects as **Quick Measurements**. These measurements cannot be saved.
+The Mobile Application allows you to run Protocols without Projects as **Quick Measurements**. These measurements cannot be saved.
 
 ![Run a Protocol as a Quick Measurement](./images/android-quick-measurements.png)
 
 1. Tap the <i class="fa fa-bars"></i> overflow menu in the top left corner.
 2. Select **Quick Measurements** from the menu.
-3. Tap on a protocol in the list to **run** it
+3. Tap on a protocol in the list to **run** it.
 
 ::: tip Tip
 Quick Measurements only show your Protocols. Use search to find a Protocols made by other users.

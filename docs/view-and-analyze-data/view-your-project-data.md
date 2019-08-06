@@ -1,6 +1,6 @@
 # View Project Data
 
-You can view the data collected for your Project at an time to follow the progress.
+You can view the data collected for your Project at any time to follow the progress.
 
 ## Browser
 

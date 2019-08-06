@@ -9,7 +9,7 @@ Need to change your current email address? No problem. Just follow the steps to 
 3. On the left hand side click on **Manage Profile** in the menu underneath your avatar.
 4. Update your email address.
 5. Click on **Update** to save your changes!
-6. Open your email inbox and click on the confirmation link inside the email that was just send to you.
+6. Open your email inbox and click on the confirmation link inside the email that was just sent to you.
 
 ::: warning Note
 Please note that the change is not effective until you have confirmed the change in the confirmation email!

@@ -4,7 +4,7 @@ Not only can you search your own Projects, but you can search through all Projec
 
 ## Join a Project
 
-If you search for Projects and you find a Project you would like to participate in, you can join them from the app using the Join button. The Project will be automatically added to your list of My Projects and will also be available under Collaborations on your user profile at the website and in the mobile app.
+If you search for Projects and you find a Project you would like to participate in, you can join them from the app using the Join button. The Project will be automatically added to your list of **My Projects**, as well as in the Desktop application and will also be available under **Collaborations** on your user profile at the website.
 
 ::: warning Note
 Some Projects cannot be joined, since they are only accessible to a small group of people. These Projects are indicated by a small lock icon in front of the Project title.

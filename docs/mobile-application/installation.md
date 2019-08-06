@@ -4,26 +4,26 @@ The mobile Android application is available on [Google Play] and requires a Goog
 
 ## Download
 
-1. Find the PhotosynQ App in the [Google Play Store]
-2. Tap the **Install** button. Check your permissions and **Accept**
-3. Start the app by tapping the app icon from your phone start screen
+1. Find the PhotosynQ App in the [Google Play Store].
+2. Tap the **Install** button. Check your permissions and **Accept**.
+3. Start the app by tapping the app icon from your phone start screen.
 
 ## Permissions
 
 The PhotosynQ Application is requesting the following permissions to allow its proper functionality.
 
-| Permission                         | Application functionality                                                                                                              |
-| ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
-| Take Pictures & Videos             | The camera access is needed to allow adding pictures to Measurements and scan barcodes                                                 |
-| Approximate Location               | The geo-location is needed to add the location information (longitude, latitude) to Measurements                                       |
-| Modify / delete content of SD card | Required for caching Measurements on the device                                                                                        |
-| Full network access                | Required for signing in, downloading Projects and Protocols and uploading Measurements.                                                |
-| Access Bluetooth settings          | Required to connect the Instrument via Bluetooth with the device                                                                       |
-| Prevent phone from sleeping        | The device is prevented from going to sleep to allow longer measurement protocols and easier working with the application in the field |
+| Permission                         | Application functionality                                                                                                               |
+| ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| Take Pictures & Videos             | The camera access is needed to allow the addition of pictures to Measurements and to scan barcodes.                                     |
+| Approximate Location               | The geo-location is needed to add the location information (longitude, latitude) to Measurements.                                       |
+| Modify / delete content of SD card | Required for caching Measurements on the device.                                                                                        |
+| Full network access                | Required for signing in, downloading Projects and Protocols and uploading Measurements.                                                 |
+| Access Bluetooth settings          | Required to connect the Instrument via Bluetooth with the device.                                                                       |
+| Prevent phone from sleeping        | The device is prevented from going to sleep to allow longer measurement protocols and easier working with the application in the field. |
 
 ## Minimum Requirements
 
-| Operating System |    Requirements      |
+| Operating System | Requirements         |
 | :--------------- | :------------------- |
 | Android          | Android 4.4 or above |
 

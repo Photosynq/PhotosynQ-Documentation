@@ -42,13 +42,13 @@ In case you are the Project Lead, you will see an **Edit** button next to the **
 
 If you have long list of Projects, you can use the search field in the top left corner, by clicking into the input field or using the shortcut `Ctrl+f / ⌘f` and entering the search term followed by the enter key. Use the `×` button inside the input field or the `ESC` key to reset the search and show the complete list again.
 
-To find new Projects select the **Search** button from above the list of **My Projects** and the search field in the upper right corner will be automatically selected. Type in your search term followed by the enter key. The first 10 search results are shown. Scroll to the end of the list and click on the **Load More** button to see more results. More Projects will be shown in increments of 10 and more result are loaded, when you reach the end of the list.
+To find new Projects select the **Search** button from above the list of **My Projects** and the search field in the upper right corner will be automatically selected. Type in your search term followed by the enter key. The first 10 search results are shown. Scroll to the end of the list and click on the **Load More** button to see more results. More Projects will be shown in increments of 10 and more result are loaded as you reach the end of the list.
 
 Click on a Project in the list of search results to see detailed information in the right side bar.
 
 ## Join a Project
 
-If you search for Projects and you find a Project you would like to participate in, you can join them from the app using the **Join** button. The Project will be automatically added to your list of **My Projects** and will also be available under **Collaborations** on your user profile at the website and in the mobile app.
+If you search for Projects and you find a Project you would like to participate in, you can join them from the app using the **Join** button. The Project will be automatically added to your list of **My Projects**, as well as in the mobile application and will also be available under **Collaborations** on your user profile at the website.
 
 Some Projects cannot be joined, since they are only accessible to a small group of people. These Projects are indicated by a small **lock** icon in front of the Project title.
 
@@ -58,15 +58,15 @@ To contribute to a Project, select a Project from the **My Projects** list and c
 
 ![Contributions to a Project with Project Questions, including Multiple Choice, Short Answer, Adding Images](./images/project-contribute.png)
 
-A list of all available Project questions will displayed and depending on the type of question you will have the following input options:
+A list of all available Project questions will be displayed and depending on the type of question you will have the following input options:
 
-+ A dropdown list with available answers
++ A dropdown list with available answers.
 + An input field, if you have to enter an individual answer. A list of already given answers will be shown as you type.
 + If the Project has images attached to the list of answers, select an image to answer the question.
 
 ### Answering Questions
 
-You have to answer all **Project Questions** in order to contribute a measurement. You can select **Keep Answers** below the **Take Measurement** button, if you take multiple measurement with the same set of answers.
+You have to answer all **Project Questions** in order to contribute a measurement. You can select **Keep Answers** below the **Take Measurement** button, if you take multiple measurements with the same set of answers.
 
 ### Scan Codes
 
@@ -82,4 +82,4 @@ When you push the **Take Measurement** button, the measurement, depending on the
 
 ### Save Contribution
 
-After the measurement has been taken, you can save the results to the Project using the **Save** button above the measurement results or you can **Discard** the measurement and repeat it. When you want to save your measurement, you can add notes and an image, either using a local file or your webcam and then save it to the Project using the **Save** button at the bottom of the dialog. When you don't have an internet connection your measurement will be cached and submitted to the Project, the next time you have a connection and the app is able to synchronize.
+After the measurement has been taken, you can save the results to the Project using the **Save** button above the measurement results or you can **Discard** the measurement and repeat it. When you want to save your measurement, you can add notes and an image either using a local file or your webcam and then save it to the Project using the **Save** button at the bottom of the dialog. When you don't have an internet connection your measurement will be cached and submitted to the Project the next time you have a connection and the app is able to synchronize.

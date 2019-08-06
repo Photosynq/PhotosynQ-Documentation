@@ -15,31 +15,37 @@ The "first" step to look at your data is to plot parameters against each other. 
 
 You have a couple options for scatter plots, using **Makers**, **Lines** or **both**. The contour plots will only show lines.
 
-1. Select the **Parameters** you would like to graph.
-2. When you select markers, you can add additional parameters for marker size and color.
++ Select the **Parameters** you would like to graph.
++ When you select markers, you can add additional parameters for marker size and color.
 
 ![Available Scatter Plots](./images/plot-data-scatter.png)
-
-### Bar
-
-Bar charts available to display averages. You can display the **standard deviation or error** along with the average.
-
-1. Pick the **Parameter** you would like to average.
-2. You can group the averages by a **Category**. Currently only the Project questions are available as categories.
-
-### Histogram
-
-There are two types of histograms, a **regular** bar chart and a **2D histogram** for two parameters. The values are displayed as a heat map. Further you have **box plots** available.
-
-![Available Histogram Plots](./images/plot-data-histograms.png)
-
-1. Pick the **Parameter** from the dropdown menu.
-2. Box plots can be grouped by a **Category**. Currently only the Project questions are available as categories.
-3. For the 2D histograms, select a second Parameter and a color gradient.
 
 ::: tip Tip
 Adding **Marker Size and / or Color** will help to emphasize differences and trends, as well as show relationships between Parameters.
 :::
+
+### Bar
+
+Bar charts are available to display averages. You can display the **standard deviation or error** along with the average.
+
++ Pick the **Parameter** you would like to average.
++ You can group the averages by a **Category**. Currently only the Project questions are available as categories.
+
+### Histogram
+
+There are two types of histograms, a **regular** bar chart and a **2D histogram** for two parameters. The values are displayed as a heat map. Further, you have **box plots** available.
+
+![Available Histogram Plots](./images/plot-data-histograms.png)
+
++ Pick the **Parameter** from the dropdown menu.
++ Box plots can be grouped by a **Category**. Currently only the Project questions are available as categories.
++ For the 2D histograms, select a second Parameter and a color gradient.
+
+### Scatter Plot Matrix (SPLOM) <Badge text="beta" type="warn"/>
+
+The scatterplot matrix, or SPLOM, is a tool that uses multiple scatter plots to visualize correlations (if any) between a series of parameters. These scatter plots are then organized into a matrix, making it easier to find potential correlations.
+
++ Pick two or more parameters from the selection box.
 
 ## Working with Plots
 

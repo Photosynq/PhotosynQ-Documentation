@@ -43,16 +43,16 @@ The language used inside the Application. Currently only English is supported. W
 
 The disk-space used by the Application to save things like Projects, Protocols and Macros, as well as images and your Notebook.
 
+**Clear Cache**
+All Projects, Protocols, Macros and images will be deleted and your data from PhotosynQ will be synchronized again.
+
+::: warning Note
+Your Notebook and cached Measurements will not be deleted.
+:::
+
 **Reset**
 All Projects, Protocols, Macros, images, cached Measurements and your Notebook will be deleted. Also you will be signed out. To synchronize your data from PhotosynQ you have to sign in again.
 
 ::: warning Note
 Make sure you have your Notebook exported, in case you want to use it in the future.
-:::
-
-**Clear Cache**
-All Projects, Protocols, Macros and images will be deleted and your data from PhotosynQ will be synchronized again.
-
-::: warning Note
-Measurements cached and your Notebook will not be deleted.
 :::

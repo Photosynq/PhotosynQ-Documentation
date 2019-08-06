@@ -13,11 +13,11 @@ To help you getting started, here is a list of commonly used terms to help you t
 | **Firmware** | The software installed on an Instrument. |
 | **Flag** | Some measurements might be of low quality, so they can be **flagged**. **Flagged** data is hidden during analysis but is **NOT** deleted from the Project. |
 | **Instrument** | Equipment that connects to **Apps** and are used to take **Measurements** (e.g. the MultispeQ). |
-| **Macro** | **Macros** are small pieces of code connected to a **Protocol** to help analyzing the measurement, right after it is finished. |
+| **Macro** | **Macros** are small pieces of code connected to a **Protocol** to help in analyzing the measurement right after it is finished. |
 | **Project** | **Measurements** collected on PhotosynQ are organized and stored in **Projects**. Users can define **Protocols** and **Project Questions** for each **Project.**  |
 | **Project Administrator** | **Project Administrators** get invited by a **Project Lead** to help manage the **Project** and take measurements. |
 | **Project Collaborator** | **Project Collaborators** join Projects or get invited by a **Project Lead** or **Administrator** to take measurements. |
-| **Project Data Viewer** | A web app that allows users to filter, visualize, and map their data online.  |
+| **Project Data Viewer** | A web app that allows users to filter, visualize and map their data online.  |
 | **Project Lead** | The **Project Lead** is the person who initially creates a Project. Also, the **Project Lead** invites **Administrators** and **Collaborators**. |
 | **Project Questions** | Answering these **Questions** before every measurement improves the analysis and documentation of each contribution. |
 | **Protocol** | **Protocols** are instructions for an Instrument on how to conduct a measurement. |

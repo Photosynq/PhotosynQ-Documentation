@@ -3,7 +3,7 @@
 Series are subsets of your complete Project dataset. You can generate them by **filtering** your dataset based on your **Project Questions**.
 
 ::: tip Tip
-You start out with the **Whole Dataset** selected. When you have filtered your dataset, it will be restored, the next time you load your Project data.
+You start out with the **Whole Dataset** selected. When you have filtered your dataset it will be restored the next time you load your Project data.
 :::
 
 ## Add a Series

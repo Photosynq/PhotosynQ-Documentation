@@ -20,16 +20,16 @@ If you have an analysis in the data viewer you would like to save you can create
 
 ![1. Open Sessions, 2. Save a Session, 3. Load a session](./images/project-sessions.png)
 
-1. Open the Sessions from the  <i class="fa fa-bars"></i> menu
-2. Select `New` Session or one of the already existing ones choosing the <i class="fa fa-save"></i> disk icon. Add/change the name and save the Session
-3. To load a Session, just click on the Session you want to load and confirm
+1. Open the Sessions from the  <i class="fa fa-bars"></i> menu.
+2. Select `New` Session or one of the already existing ones choosing the <i class="fa fa-save"></i> disk icon. Add/change the name and save the Session.
+3. To load a Session, just click on the Session you want to load and confirm.
 
 ## Delete a Session
 
 In order to delete a session, you just have to follow the following steps:
 
-1. Open the Sessions from the  <i class="fa fa-bars"></i> menu
-2. Click on the <i class="fa fa-times"></i> cross icon next to the name and confirm deleting the session
+1. Open the Sessions from the  <i class="fa fa-bars"></i> menu.
+2. Click on the <i class="fa fa-times"></i> cross icon next to the name and confirm deleting the session.
 
 ## Sharing a Session
 
@@ -39,4 +39,4 @@ You can stop sharing the session at any time, just **1.** open the session, **2.
 
 ## Auto Save
 
-Your current view gets automatically saved, so that you can return to exactly the point you have left off.
+Your current view gets automatically saved so that you can return to exactly the point you have left off.

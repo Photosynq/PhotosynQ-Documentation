@@ -73,7 +73,7 @@ The Description Page is next, and here you will fill in information about your p
 
 ![Add locations to your project](./images/projects-add-description.png)
 
-1.  You can fill out a full description of what your learning objectives are, how and where the experiment will be conducted, and maybe how others can get involved and help out if it is a more open, collaborative project. Use the preview button to see what the text looks like if you use formatting.
+1. You can fill out a full description of what your learning objectives are, how and where the experiment will be conducted, and maybe how others can get involved and help out if it is a more open, collaborative project. Use the preview button to see what the text looks like if you use formatting.
 
 2. You will also need to categorize your project, so that it can be properly sorted, maybe you are doing your research project, and so you would pick the research category, or maybe you are working with students and the education selection would be more appropriate.
 

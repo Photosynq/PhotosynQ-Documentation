@@ -1,14 +1,14 @@
 # Project Questions
 
-In Projects you can define Questions which have to be answered before each measurement (optional). These Questions can be used to input additional non sensor data (e.g. plant height) or to filter and categorize your measurements when you explore your Project data. Project Questions are important for improving the analysis and documentation of every contribution. Example questions could include:
+In Projects you have the option to define Questions which have to be answered before each measurement. These Questions can be used to input additional non sensor data (e.g. plant height) or to filter and categorize your measurements when you explore your Project data. Project Questions are important for improving the analysis and documentation of every contribution. Example questions could include:
 
 - What is the variety?
 - What is the treatment?
 - What is the replicate?
-- any many more...
+- And many more...
 
 ::: tip Tip
-See the [Tutorials(../tutorials/data-collection) on more information on Project Questions.
+See the [Tutorials](../tutorials/data-collection.md) for more information on Project Questions.
 :::
 
 ## Adding Project Questions
@@ -42,7 +42,6 @@ This type of question is particularly useful if the images help to answer the qu
 
 1. Input the question in the 'Question' box
 2. Drag and drop first image into the box or click on the box to choose the file to upload. It may take up to a minute for the file to upload.
-
 3. Once you have selected the image, an 'Image Text' box will appear. **You must add an image description in the box.**
 4. Drag and drop or select another image and repeat step 3.
 5. Once you have added all of your answers, select 'Save.'

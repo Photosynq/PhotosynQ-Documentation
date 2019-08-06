@@ -1,6 +1,6 @@
 # PhotosynQ for Android
 
-Taking measurements in the field, on the move? You can use the app to find and join Projects, take measurements and contribute them.
+Taking measurements in the field, on the move? You can use the app to find and join Projects, take measurements and contribute to them.
 
 ## Supported Android Versions
 

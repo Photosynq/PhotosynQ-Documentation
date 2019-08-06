@@ -8,7 +8,7 @@ An important feature of the PhotosynQ platform is the ability to connect plant p
 
 ### Setting up CSV File
 
-Any spreadsheet software including Excel, Numbers, Calc, etc. can be used to create a csv file. When setting up the file to upload multiple Project Questions, the first row will be used as the question and all subsequent rows as answers. Each column represents a new question. Make sure, there is an equal number of answers to each question.
+Any spreadsheet software including Excel, Numbers, Calc, etc. can be used to create a csv file. When setting up the file to upload multiple Project Questions, the first row will be used as the question and all subsequent rows as answers. Each column represents a new question. Make sure there is an equal number of answers to each question.
 
 ::: warning Note
 When saving the csv file, make sure to select a comma as a separator.
@@ -22,7 +22,7 @@ The order of the answers has to reflect the path the data collector would take t
 
 ![Generating 4 Project Questions from a csv file](./images/project-question-csv.png)
 
-The Based on the example field layout above, 4 Project Questions would be generated from the provided csv file: POT #, Genotype, Irrigation, Replicate
+Based on the example field layout above, four Project Questions would be generated from the provided csv file: POT #, Genotype, Irrigation and Replicate.
 
 ::: warning Note
 The example assumes there is only one measurement per pot. If more measurements are supposed to be collected, it needs to be reflected in the csv.

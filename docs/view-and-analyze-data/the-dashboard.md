@@ -40,5 +40,5 @@ A click on a **Parameter Average Panel** will bring up the statistics summary fo
 | **User**   | Flagged and un-flagged data points per user |
 
 ::: tip Tip
-These panels can help you identifying issues with a user, device or with the approach in general in which measurements are taken.
+These panels can help you identifying issues with a user, Instrument or with the approach in general in which measurements are taken.
 :::

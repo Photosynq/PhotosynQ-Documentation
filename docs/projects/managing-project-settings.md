@@ -1,9 +1,9 @@
 # Project Settings
 
-Project settings allow Project Lead's to decide you can contribute data to the Project and who can act as an administrator on the Project.
+Project settings allow Project Leads to decide who can contribute data to the Project and who can act as an administrator on the Project.
 
 1. Select who can contribute to your Project by selecting 'anyone' or 'contributors only' from the drop down menu.
-2. If you selected 'Collaborators only' you will need to invite each collaborator
+2. If you selected 'Collaborators only' you will need to invite each collaborator.
 3. To invite collaborators, enter their email address in the box 'Invite Collaborator' and click 'Add.'
 4. You can add as many collaborators as you need.
 5. Each collaborator will receive an invitation email, they are not collaborators until they follow the link in the email.

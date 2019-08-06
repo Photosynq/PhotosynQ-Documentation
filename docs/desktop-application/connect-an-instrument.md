@@ -34,6 +34,6 @@ Before connecting your MultispeQ to the Desktop App you need to turn on the Mult
 If you are having trouble connecting to your Instrument, please go through this checklist first:
 
 - Make sure your Instrument is fully charged (at least 6h, or over night).
-- Make sure you have turned on the Instrument by pressing and holding the power button for at least 5 seconds. **The Instrument will automatically shut off after 3 hours of inactivity by default**
+- Make sure you have turned on the Instrument by pressing and holding the power button for at least 5 seconds. **The Instrument will automatically shut off after 3 hours of inactivity by default**.
 - If you were using the Instrument with another mobile device, you will need to press and hold the power button for 5 seconds to disconnect it from the current device and make it available to the new one.
 - If you are using Windows 8 or lower, make sure you have the [serial driver](https://www.pjrc.com/teensy/td_download.html) installed.
