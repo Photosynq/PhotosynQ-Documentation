@@ -4976,9 +4976,9 @@ performance-now@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/performance-now/-/performance-now-2.1.0.tgz#6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
 
-"photosynq-helpers@github:Photosynq/helpers#v1.0.1":
-  version "1.0.0"
-  resolved "https://codeload.github.com/Photosynq/helpers/tar.gz/714641d0042b477d2346b826c46c30a6651ef674"
+"photosynq-helpers@github:Photosynq/helpers#v1.1.0":
+  version "1.1.0"
+  resolved "https://codeload.github.com/Photosynq/helpers/tar.gz/fcc9256226b9121951230322a03dda284dcc3d5a"
 
 pify@^2.0.0:
   version "2.3.0"

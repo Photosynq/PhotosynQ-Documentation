@@ -43,7 +43,7 @@
     "markdown-link-check": "^3.7.3",
     "moment-timezone": "^0.5.26",
     "mustache": "^3.0.1",
-    "photosynq-helpers": "github:Photosynq/helpers#v1.0.1",
+    "photosynq-helpers": "github:Photosynq/helpers#v1.1.0",
     "puppeteer-1.10.0": "npm:puppeteer@1.10.0",
     "remarkable": "^1.7.4",
     "remarkable-katex": "^1.0.1",
