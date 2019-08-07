@@ -1,4 +1,4 @@
-# Building an Advanced Protocl
+# Building an Advanced Protocol
 
 In the previous tutorial we showed you how to write a Protocol for a simple Phi2 measurement. Make sure you are familiar with this first example, before you tackle this next tutorial. Here we want to explain to you how to build a complex Protocol, which combines simple Protocols like the Phi2 from the previous example into one set of Protocols, a **Protocol Set**.
 
