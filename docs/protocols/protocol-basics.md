@@ -14,7 +14,7 @@ Protocols can be associated with **Macros** which are small pieces of code that 
 
 ## Desktop Application
 
-1. Open your protocols by selecting **Protocols** from the left menu bar or using the shortcut `Ctrl+3 / ⌘3`.
+1. Open your protocols by selecting **Protocols** from the left menu bar or using the shortcut <kbd>Ctrl/⌘</kbd>+<kbd>3</kbd>.
 2. Click on **My Protocols** to list all your protocols, if it is not already available.
 3. Click on a protocol in the list to show detailed information in the side bar.
 

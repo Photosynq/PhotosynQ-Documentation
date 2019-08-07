@@ -992,8 +992,8 @@ Function to perform a non-linear regression.
 
 -   `data` **[object][3]** Data for the non-linear regression needs to be provided as an array of x,y pairs. `[[x1,y1], [x2,y2], ..., [xn,yn]]`
 -   `options` **[object][3]** 
-    -   `options.equation` **[string][4]** Formula for the function to be fitted
-    -   `options.initial` **[Array][1]&lt;[number][2]>** Array with the initial guesses for parameters in equation
+    -   `options.equation` **([string][4] \| [function][33])** Select preset equation (string) or supply function
+    -   `options.initial` **[Array][1]&lt;[number][2]>** Array with the initial guesses for parameters in equation [a, b, ..., h]
     -   `options.iterations` **[number][2]** Number of iterations (maximum 2000) (optional, default `200`)
     -   `options.cPts` **[number][2]?** Number of datapoints
     -   `options.cVar` **[number][2]** Number of independant variables
@@ -1018,14 +1018,14 @@ Function to perform a non-linear regression.
 ```javascript
 NonLinearRegression(
  [
-   [x1,y1],
-   [x2,y2],
-   ...,
-   [xn,yn]
+	  [x1, y1],
+	  [x2, y2],
+	  ...,
+	  [xn, yn]
  ],
  {
-	  equation: "",
-	  initial: [a, b, ..., h]
+	  equation: "b + a * e(- x / c)",
+	  initial: [a, b, c]
  }
 )
 
@@ -1054,6 +1054,33 @@ NonLinearRegression(
 //   iterations: <number>,
 //   RMS_errors: <array>
 // }
+```
+
+```javascript
+// Use a custom fitting function
+// The function can contain the following parameters:
+// x, t, a, b, c, .. h
+// Not all parameters have to be defined and they can
+// be in a random order. Use parameter names in alphabetical
+// order (e.g. a and b, a and c without b will not work)
+var decay = function(x,a,b,c){
+return b + a * Math.exp( -x / c );
+};
+
+NonLinearRegression(
+ [
+	  [x1, y1],
+	  [x2, y2],
+	  ...,
+	  [xn, yn]
+ ],
+ {
+	  equation: decay,
+	  initial: [a, b, c]
+ }
+)
+// The returned object has the same structure as object in
+// in the previous example.
 ```
 
 Returns **[object][3]** 
@@ -1198,4 +1225,6 @@ Returns **[object][3]** pushes the message into the output object
 [31]: https://www.w3schools.com/jsref/jsref_tan.asp
 
 [32]: http://statpages.info/nonlin.html
+
+[33]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/function
 

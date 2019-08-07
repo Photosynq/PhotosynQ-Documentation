@@ -10,7 +10,7 @@ When getting started using the PhotosynQ platform with an instrument like the Mu
 4. Start building your Protocol...
 
 ::: tip Tip
-Use **<i class="fa fa-play"></i> Run** to test your Protocol at any time.
+Use **<i class="fa fa-play"></i> Run** or the shortcut <kbd>Ctrl/⌘</kbd>+<kbd>↵</kbd> to test your Protocol at any time.
 :::
 
 ## Edit a Protocol
@@ -20,7 +20,7 @@ You can change one of your Protocols or extend an already existing one at any ti
 1. Select **Protocols** from the left menu bar.
 2. Click on the Protocol in the list and click on **Edit** in the sidebar.
 3. Make your changes to the Protocol.
-4. Select **Save as...** from the File menu or use the shortcut `CTRL/⌘+⇧+s`.
+4. Select **Save as...** from the File menu or use the shortcut <kbd>Ctrl/⌘</kbd>+<kbd>Shift/⇧</kbd>+<kbd>S</kbd>.
 5. Update the description if needed.
 6. Save the changes by **Save As**.
 
@@ -32,7 +32,7 @@ Often it is easier to start altering an already existing Protocol. To save it ch
 
 Once you have finished your Protocol, save your work to use it in your Projects and to share it with the community.
 
-1. When you have the Protocol Editor open, select **Save** from the File menu or use the shortcut `CTRL/⌘+s`.
+1. When you have the Protocol Editor open, select **Save** from the File menu or use the shortcut <kbd>Ctrl/⌘</kbd>+<kbd>S</kbd>.
 2. In the save dialog, add a Protocol name, description and pick a Protocol category.
 3. Make sure, the correct macro is connected (not mandatory)
 4. Save the Protocol by selecting **Save**.

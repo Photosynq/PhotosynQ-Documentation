@@ -2,7 +2,7 @@
 
 While most users will use a mobile device in the field to collect data for Projects, the Desktop App provides almost all the features of the mobile app for data collection, as well as a few more for managing Projects.
 
-To work with Projects you can select **Projects** from the left side bar, you can select **View → Projects** from the top menu bar or you can use the shortcut `Ctrl+1 / ⌘1`.
+To work with Projects you can select **Projects** from the left side bar, you can select **View → Projects** from the top menu bar or you can use the shortcut <kbd>Ctrl/⌘</kbd>+<kbd>1</kbd>.
 
 ![The Project List](./images/project-list.png)
 
@@ -12,7 +12,7 @@ When working with Projects, you will find a list of all the Projects you have jo
 
 A **single click** will bring up details about the Project in the right side bar, a **double click** will bring up the Project contribution with the Project questions. You can use the up and down arrow keys to navigate within the list.
 
-If you create a new Project on the website, it will be automatically listed in your Desktop app under *My Projects** as well. In case the Project is not available in the list, try to synchronize the app, selecting **Synchronize** from the left menu bar, **File → Synchronize** from the top menu bar or the shortcut `Ctrl+Alt+S / ⌥⌘S`.
+If you create a new Project on the website, it will be automatically listed in your Desktop app under *My Projects** as well. In case the Project is not available in the list, try to synchronize the app, selecting **Synchronize** from the left menu bar, **File → Synchronize** from the top menu bar or the shortcut <kbd>Ctrl/⌥</kbd>+<kbd>Alt/⌘</kbd>+<kbd>S</kbd>.
 
 ## Select a Project
 
@@ -36,11 +36,11 @@ The **Discussion** tab allows to discuss the Project in the same way as you can 
 
 ### Editing a Project
 
-In case you are the Project Lead, you will see an **Edit** button next to the **Contribute** button. When you select the **Edit** button, it will bring up the Project on the website so you can edit it (make sure you are signed in on the website). The changes to the Project will be synchronized with the app automatically. In case you cannot see the changes, try to synchronize the app, selecting **Synchronize** from the left menu bar, **File → Synchronize** from the top menu bar or the shortcut `Ctrl+Alt+S / ⌥⌘S`.
+In case you are the Project Lead, you will see an **Edit** button next to the **Contribute** button. When you select the **Edit** button, it will bring up the Project on the website so you can edit it (make sure you are signed in on the website). The changes to the Project will be synchronized with the app automatically. In case you cannot see the changes, try to synchronize the app, selecting **Synchronize** from the left menu bar, **File → Synchronize** from the top menu bar or the shortcut <kbd>Ctrl/⌥</kbd>+<kbd>Alt/⌘</kbd>+<kbd>S</kbd>.
 
 ## Search
 
-If you have long list of Projects, you can use the search field in the top left corner, by clicking into the input field or using the shortcut `Ctrl+f / ⌘f` and entering the search term followed by the enter key. Use the `×` button inside the input field or the `ESC` key to reset the search and show the complete list again.
+If you have long list of Projects, you can use the search field in the top left corner, by clicking into the input field or using the shortcut <kbd>Ctrl/⌘</kbd>+<kbd>F</kbd> and entering the search term followed by the enter key. Use the <i class="fa fa-times-circle"></i> button inside the input field or the <kbd>Esc</kbd> key to reset the search and show the complete list again.
 
 To find new Projects select the **Search** button from above the list of **My Projects** and the search field in the upper right corner will be automatically selected. Type in your search term followed by the enter key. The first 10 search results are shown. Scroll to the end of the list and click on the **Load More** button to see more results. More Projects will be shown in increments of 10 and more result are loaded as you reach the end of the list.
 

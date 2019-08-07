@@ -242,3 +242,12 @@ input:disabled, textarea:disabled {
 .badge.error {
   background-color: rgb(218, 89, 97);
 }
+
+kbd {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+    background: #eee;
+    border: solid 0.15rem #ddd;
+    border-bottom: solid 0.25rem #ddd;
+    border-radius: 0.15rem;
+    padding: 0 0.15em;
+}

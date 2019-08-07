@@ -16,7 +16,7 @@ PhotosynQ is providing a number of pre-build functions to make it easier buildin
 
 ## Desktop
 
-1. Open you macros by selecting macros from the left menu bar or use the shortcut  `Ctrl+4 / ⌘4`.
+1. Open you macros by selecting macros from the left menu bar or use the shortcut <kbd>Ctrl/⌘</kbd>+<kbd>4</kbd>.
 2. Click on the **My Macros** to list all your macros, if it is not already available.
 3. Click on a Macro in the list to show detailed information in the side bar.
 

@@ -22,7 +22,7 @@ Snippets saved under **My Snippets** are saved locally only.
 
 ## Structure
 
-Protocols using `_protocol_sets_` can get very complicated. In this tab a list of available protocols within the set is shown. Drag and Drop the elements of the list to re-arrange the protocols within the set or to delete them click the **&times;** icon. You will not be asked if you want to delete the set, instead use the shortcut `Ctrl+Z` or `⌘+Z` to undo the last step. Double click a Protocol to set the cursor to the beginning of the selected protocol within the code.
+Protocols using `_protocol_sets_` can get very complicated. In this tab a list of available protocols within the set is shown. Drag and Drop the elements of the list to re-arrange the protocols within the set or to delete them click the **&times;** icon. You will not be asked if you want to delete the set, instead use the shortcut <kbd>Ctrl/⌘</kbd>+<kbd>Z</kbd> to undo the last step. Double click a Protocol to set the cursor to the beginning of the selected protocol within the code.
 
 ::: tip Tip
 Use the command `label` to name your protocols within the set and to have easy access to their output within a Macro.
@@ -30,7 +30,7 @@ Use the command `label` to name your protocols within the set and to have easy a
 
 ## More
 
-This tab in the side-bar holds a list of commands, configurations and variables based on the connected instrument or the `v_arrays` inside the protocol. Commands and configurations are also available through the auto-suggest by typing or using the shortcut `Ctrl+Space` or `^+Space`.
+This tab in the side-bar holds a list of commands, configurations and variables based on the connected instrument or the `v_arrays` inside the protocol. Commands and configurations are also available through the auto-suggest by typing or using the shortcut <kbd>Ctrl/^</kbd>+<kbd>Space</kbd>.
 
 ### Commands
 

@@ -8,7 +8,7 @@ To take measurements and save them you have to run a Protocol from the **Protoco
 
 ## Save to Notebook
 
-After the measurement is done, select the **Save** button or shortcut `Ctrl+S / ⌘S` to bring up the save dialog. Add a name for the measurement, as well as a name for the experiment. Further you can add notes and attach an image selecting a file from your local disk or using your webcam. Use the **Save** button at the bottom of dialog to save the measurement to the Notebook.
+After the measurement is done, select the **Save** button or shortcut <kbd>Ctrl/⌘</kbd>+<kbd>S</kbd> to bring up the save dialog. Add a name for the measurement, as well as a name for the experiment. Further you can add notes and attach an image selecting a file from your local disk or using your webcam. Use the **Save** button at the bottom of dialog to save the measurement to the Notebook.
 
 ::: tip Tip
 Notebook measurements are saved with the protocol used in the measurement. This is helpful, when developing a new Protocol and comparing variables.
@@ -16,7 +16,7 @@ Notebook measurements are saved with the protocol used in the measurement. This 
 
 ## View Measurements
 
-To view a list of your taken measurements you can select **Notebook** from the left side bar, you can select **View → Notebook** from the top menu bar or you can use the shortcut `Ctrl+2 / ⌘2`.
+To view a list of your taken measurements you can select **Notebook** from the left side bar, you can select **View → Notebook** from the top menu bar or you can use the shortcut <kbd>Ctrl/⌘</kbd>+<kbd>2</kbd>.
 
 The measurements you have taken, are listed by experiments. If you want to change the sorting, use the **Sort by** dropdown menu above the table.
 A click on a measurement will bring up details in the side bar on the right. You can also use the up and down arrow keys to navigate within the list.
@@ -39,7 +39,7 @@ To delete multiple measurements, select the measurements to delete, by checking 
 
 ## Search
 
-You can search the list of measurements by clicking into the input field or using the shortcut `Ctrl+f / ⌘f` and entering the search term followed by the enter key. Further you can select all measurements with an image attached, all your Favorites or all measurements from a specific experiment by selecting it from the dropdown menu next to the search field. Use the `×` button inside the input field or the `ESC` key to reset the search and show the complete list again.
+You can search the list of measurements by clicking into the input field or using the shortcut <kbd>Ctrl/⌘</kbd>+<kbd>F</kbd> and entering the search term followed by the enter key. Further you can select all measurements with an image attached, all your Favorites or all measurements from a specific experiment by selecting it from the dropdown menu next to the search field. Use the <i class="fa fa-times-circle"></i> button inside the input field or the <kbd>Esc</kbd> key to reset the search and show the complete list again.
 
 ## Favorite Measurement(s)
 

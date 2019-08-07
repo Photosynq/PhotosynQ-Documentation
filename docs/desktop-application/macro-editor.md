@@ -26,7 +26,7 @@ On the left hand-side there are not only the row numbers indicated, but also pot
 
 ![Warning about a potential issue in the code](./images/macro-editor-warning.png)
 
-Sometimes the Macro code can be quite extensive. Use the keyboard shortcut `Ctrl+F / ⌘F` to search your code. Further the autosuggest function will list available functions, measurement variables and local variables as you type. You can bring up the autosuggest menu at any time using the shortcut `Ctrl+Space / ⌥Space`.
+Sometimes the Macro code can be quite extensive. Use the keyboard shortcut <kbd>Ctrl/⌘</kbd>+<kbd>F</kbd> to search your code. Further the autosuggest function will list available functions, measurement variables and local variables as you type. You can bring up the autosuggest menu at any time using the shortcut <kbd>Ctrl/^</kbd>+<kbd>Space</kbd>.
 
 ![While typing available variables and functions are autosuggested.](./images/macro-editor-autosuggest.png)
 
@@ -36,7 +36,7 @@ Most Protocols use at last one of the Instrument's detectors to record traces or
 
 ## Macro Output
 
-The Macro is executed as you are writing the code, so you can see, for example, how changes in an equation affect the output in real time. By default this automatic calculation is activated, indicated by the checkbox labeled with **Auto**. In some cases, the calculations can cause the editor to behave sluggish, especially when you output a lot of traces. In this case you can deactivate the automatic calculations by removing the check from the checkbox. To see the Macro output you can run a calculation using the keyboard shortcut `Ctrl+Shift+R / ⌥⇧R` or `Ctrl+Enter / ⌘Enter`.
+The Macro is executed as you are writing the code, so you can see, for example, how changes in an equation affect the output in real time. By default this automatic calculation is activated, indicated by the checkbox labeled with **Auto**. In some cases, the calculations can cause the editor to behave sluggish, especially when you output a lot of traces. In this case you can deactivate the automatic calculations by removing the check from the checkbox. To see the Macro output you can run a calculation using the keyboard shortcut <kbd>Ctrl/⌘</kbd>+<kbd>Shift/⇧</kbd>+<kbd>R</kbd> or <kbd>Ctrl/⌘</kbd>+<kbd>↵</kbd>.
 
 ::: tip Tip
 Make sure you test your Macro extensively, using multiple measurements. Otherwise, you might end up with a large number of failed calculations.
