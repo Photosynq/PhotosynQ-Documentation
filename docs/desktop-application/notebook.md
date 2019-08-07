@@ -49,11 +49,11 @@ To more easily find important measurements, you can mark them as favorites by se
 
 You can share measurements with others, by exporting them from the Notebook. Select the measurements by checking the checkboxes in the measurement list. Then pick **Export Selected** from the **Action** dropdown menu above the measurement list. Enter a filename and save the selected measurements to a location on your hard-drive.
 
-You can export the whole Notebook (consider this a backup), by selecting **File → Export Notebook** from the main menu bar. Enter a filename and save the entire notebook to a location on your hard-drive.
+You can export the whole Notebook (consider this a backup), by selecting **File → Export Notebook...** from the main menu bar. Enter a filename and save the entire notebook to a location on your hard-drive.
 
 ## Import Measurements / Notebook
 
-To import a set of exported measurements or an entire Notebook, simply select **File → Import Notebook** from the main menu bar. Select the file you want to import from your local hard-drive and data will be imported into your Notebook.
+To import a set of exported measurements or an entire Notebook, simply select **File → Import Notebook...** from the main menu bar. Select the file you want to import from your local hard-drive and data will be imported into your Notebook.
 
 ::: warning Note
 Duplicates will be imported without a warning.
