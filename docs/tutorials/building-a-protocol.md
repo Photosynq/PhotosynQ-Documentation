@@ -28,23 +28,23 @@ In this tutorial, we show you how to acquire a simple Phi2 value using the Multi
 2. **50** Pulses at a saturating light intensity
 3. **20** Pulses at ambient light intensity
 
-This is all we need to record the photosystem II quantum efficiency, or Phi2. The following protocol has another 4000 pulses prior to the above-mentioned protocol, to adapt the leaf to the ambient light intensity, which is recreated inside the MultispeQ Instrument.
+This is all we need to record the photosystem II quantum efficiency, or Phi2.
 
 ### Pulses
 
-A measurement is divided into pulses. Pulses can be grouped into pulse sets. The example below shows a total of **4,090** pulses grouped into **4** pulse sets. Most of the following parameters require you to define those **4** groups. `pulses` defines those groups, `pulse_distance` defines how far apart each pulse is (in *µs*). The command `pulse_length` defines the pulse duration in *µs*.
+A measurement is divided into pulses. Pulses can be grouped into pulse sets. The example below shows a total of **90** pulses grouped into **3** pulse sets. Most of the following parameters require you to define those **3** groups. `pulses` defines those groups, `pulse_distance` defines how far apart each pulse is (in *µs*). The command `pulse_length` defines the pulse duration in *µs*.
 
 ```javascript
 [
     {
         "pulses": [
-            4000, 20, 50, 20
+            20, 50, 20
         ],
         "pulse_distance": [
-            1000, 10000, 10000, 10000
+            10000, 10000, 10000
         ],
         "pulse_length": [
-            [ 30 ], [ 30 ], [ 30 ], [ 30 ]
+            [ 30 ], [ 30 ], [ 30 ]
         ],
         ...
     }
@@ -60,10 +60,10 @@ Once we have defined are pulse groups, we need to define the lights we want to u
     {
         ...,
         "pulsed_lights": [
-            [ 0 ], [ 3 ], [ 3 ], [ 3 ]
+            [ 3 ], [ 3 ], [ 3 ]
         ],
         "pulsed_lights_brightness": [
-            [ 0 ], [ 2000 ], [ 2000 ], [ 2000 ]
+            [ 2000 ], [ 2000 ], [ 2000 ]
         ],
         ...
     }
@@ -79,10 +79,10 @@ In this protocol we need an actinic light (which is not pulsed), so the plant ha
     {
         ...,
         "nonpulsed_lights": [
-            [ 2 ], [ 2 ], [ 2 ], [ 2 ]
+            [ 2 ], [ 2 ], [ 2 ]
         ],
         "nonpulsed_lights_brightness": [
-            [ "light_intensity" ], [ "light_intensity" ], [ 4500 ], [ "light_intensity" ]
+            [ "light_intensity" ], [ 4500 ], [ "light_intensity" ]
         ],
         ...
     }
@@ -98,7 +98,7 @@ Next we have to define the detector we want to use to record the fluorescence co
     {
         ...,
         "detectors": [
-            [ 0 ], [ 1 ], [ 1 ], [ 1 ]
+            [ 1 ], [ 1 ], [ 1 ]
         ]
         ...,
     }
@@ -142,28 +142,28 @@ Putting all the pieces together, the protocol to measure Phi2 looks like this:
 [
     {
         "pulses": [
-            4000, 20, 50, 20
+            20, 50, 20
         ],
         "pulse_distance": [
-            1000, 10000, 10000, 10000
+            10000, 10000, 10000
         ],
         "pulse_length": [
-            [ 30 ], [ 30 ], [ 30 ], [ 30 ]
+            [ 30 ], [ 30 ], [ 30 ]
         ],
         "pulsed_lights": [
-            [ 0 ], [ 3 ], [ 3 ], [ 3 ]
+            [ 3 ], [ 3 ], [ 3 ]
         ],
         "pulsed_lights_brightness": [
-            [ 0 ], [ 2000 ], [ 30 ], [ 30 ]
+            [ 2000 ], [ 30 ], [ 30 ]
         ],
         "nonpulsed_lights": [
-            [ 2 ], [ 2 ], [ 2 ], [ 2 ]
+            [ 2 ], [ 2 ], [ 2 ]
         ],
         "nonpulsed_lights_brightness": [
-            [ "light_intensity" ], [ "light_intensity" ], [ 4500 ], [ "light_intensity" ]
+            [ "light_intensity" ], [ 4500 ], [ "light_intensity" ]
         ],
         "detectors": [
-            [ 0 ], [ 1 ], [ 1 ], [ 1 ]
+            [ 1 ], [ 1 ], [ 1 ]
         ],
         "environmental": [
             [ "light_intensity" ]
