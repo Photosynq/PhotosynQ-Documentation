@@ -1,6 +1,6 @@
 # References
 
-## Reviews
+## Reviews & Articles
 
 For a general purpose overview of fluorescence- and absorbance-based photosynthetic parameters, and their interpretation, we recommend the following sources:
 
@@ -103,8 +103,8 @@ If you want to add a link to the platform, please use: <https://photosynq.org>
 
 Also we would like to strongly encourage you to share the link(s) to your projects so others can see the data you have collected. This goes hand in hand with writing a short result section on the platform, perhaps including a link to your publication...
 
-::: danger
-Some of the parameters are not available for the beta version of the MultispeQ
+::: danger Parameter Availability
+The availability of parameters depends on the version and type of the Instrument, as well as on the Measurement Protocol.
 :::
 
 [doi:10.1016/S0304-4165(89)80016-9]: https://doi.org/10.1016/S0304-4165(89)80016-9
