@@ -25,11 +25,11 @@ See the [Tutorials](../tutorials/data-collection.md) for more information on Pro
 
 ### Multiple Choice
 
-This is the best choice if you know all of the possible answers to the question
+This is the best choice if you know all of the possible answers to the question.
 
-1. Input the question in the 'Question' box
+1. Input the question in the 'Question' box.
 2. Input the first answer in the 'Answers' field.
-3. Click on 'ADD ANSWER' to add an additional answer box
+3. Click on 'ADD ANSWER' to add an additional answer box.
 4. Once you have input all of your answers, select 'Save.'
 
 ::: tip Tip
@@ -38,9 +38,9 @@ Each answer needs to have its own answer box
 
 ### Multiple Choice (with images)
 
-This type of question is particularly useful if the images help to answer the question. An example might be determining the growth stage of a crop by inputting images of each growth stage as possible answers
+This type of question is particularly useful if the images help to answer the question. An example might be determining the growth stage of a crop by inputting images of each growth stage as possible answers.
 
-1. Input the question in the 'Question' box
+1. Input the question in the 'Question' box.
 2. Drag and drop first image into the box or click on the box to choose the file to upload. It may take up to a minute for the file to upload.
 3. Once you have selected the image, an 'Image Text' box will appear. **You must add an image description in the box.**
 4. Drag and drop or select another image and repeat step 3.
