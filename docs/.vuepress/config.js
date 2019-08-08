@@ -215,10 +215,10 @@ module.exports = {
                 collapsable: true,
                 sidebarDepth: 1,
                 children: [
+                    'instruments/overview',
                     'instruments/multispeq-v2.0',
                     'instruments/multispeq-v2.0-configuration',
                     'instruments/multispeq-v1.0-configuration',
-                    'instruments/what-does-the-multispeq-measure',
                     'instruments/instrument-settings',
                     'instruments/instrument-calibrations',
                     'instruments/firmware-updates',

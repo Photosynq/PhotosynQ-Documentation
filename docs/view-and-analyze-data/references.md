@@ -10,9 +10,46 @@ Baker, N.R., Harbinson, J., and Kramer, D.M. (2007) **Determining the limitation
 
 Baker, N.R. (2008) **Chlorophyll fluorescence: A probe of photosynthesis in vivo.** *Annu. Rev. Plant Biol.* 59: 89-113 [doi:10.1146/annurev.arplant.59.032607.092759]
 
-## Parameters
+Kramer, D. M., and Evans, J. R. (2011). **The importance of energy balance in improving photosynthetic productivity.** *Plant Physiol.* 155, 70–8. [doi:10.1104/pp.110.166652].
 
-The MultispeQ can measure a whole variety of fluorescence and absorbance based parameters as well as environmental parameters. You can find a list with the most common ones [here](../instruments/what-does-the-multispeq-measure.md).
+Cruz, J. A., Savage, L. J., Zegarac, R., Hall, C. C., Satoh-Cruz, M., Davis, G. A., et al. (2016). **Dynamic Environmental Photosynthetic Imaging Reveals Emergent Phenotypes.** *Cell Syst.* 2, 365–377. [doi:10.1016/j.cels.2016.06.001].
+
+## Environmental Parameters
+
+### Light
+
+| Parameter | Details |
+| --------- | ------- |
+|Light Intensity (PAR)|Photosynthetically active radiation. Fraction of the incoming light (400 - 700 nm) which can be utilized for photosynthesis; µmol photons \* s⁻¹ \* m⁻²|
+|R|The raw amount of red light captured by the PAR sensor|
+|G|The raw amount of green light captured by the PAR sensor|
+|B|The raw amount of blue light captured by the PAR sensor|
+
+### Atmospheric Parameters
+
+| Parameter | Details |
+| --------- | ------- |
+|Ambient Humidity|Relative humidity in percent (%)|
+|Ambient Pressure|Atmospheric pressure (mbar) - This value is not corrected to sea level as found in weather reports |
+|Ambient Temperature|Ambient temperature in degree Celsius (℃)|
+
+### Leaf Parameters
+
+| Parameter | Details |
+| --------- | ------- |
+|contactless_temp|Surface temperature in degree Celsius (℃) |
+|Leaf Temperature Differential|  **Leaf Temperature** ( or **contactless_temp**) minus **Ambient Temperature**, negative numbers mean that the leaf is cooler than the surrounding air and vice versa. |
+|Thickness| The thickness of the leaf as measured by the Hall Effect sensor in (µm)|
+
+### Positional Information
+
+| Parameter | Details |
+| --------- | ------- |
+|angle_direction, compass_direction|Abbreviated cardinal direction (e.g. NW - North West)|
+|compass|Cardinal direction in degrees from North|
+|Leaf Angle|The angle of the leaf, from 0 - 90 degrees|
+|roll|Roll is the angle the Instrument is held along the long axis|
+|pitch|Pitch is the angle the Instrument is held along the short axis|
 
 ## Fluorescence Based Parameters
 
@@ -66,9 +103,15 @@ If you want to add a link to the platform, please use: <https://photosynq.org>
 
 Also we would like to strongly encourage you to share the link(s) to your projects so others can see the data you have collected. This goes hand in hand with writing a short result section on the platform, perhaps including a link to your publication...
 
+::: danger
+Some of the parameters are not available for the beta version of the MultispeQ
+:::
+
 [doi:10.1016/S0304-4165(89)80016-9]: https://doi.org/10.1016/S0304-4165(89)80016-9
 
 [doi:10.1016/S1360-1385(02)00010-9]: https://doi.org/10.1016/S1360-1385(02)00010-9
+
+[doi:10.1111/j.1365-3040.2007.01680.x]: https://doi.org/10.1111/j.1365-3040.2007.01680.x
 
 [doi:j.1365-3040.2007.01680.x]: https://doi.org/10.1111/j.1365-3040.2007.01680.x
 
@@ -97,3 +140,7 @@ Also we would like to strongly encourage you to share the link(s) to your projec
 [doi:10.3389/fpls.2017.00719]: https://doi.org/10.3389/fpls.2017.00719
 
 [doi:10.2134/agronj1989.00021962008100010019x]: https://doi.org/10.2134/agronj1989.00021962008100010019x
+
+[doi:10.1104/pp.110.166652]: https://doi.org/10.1104/pp.110.166652
+
+[doi:10.1016/j.cels.2016.06.001]: https://doi.org/10.1016/j.cels.2016.06.001
