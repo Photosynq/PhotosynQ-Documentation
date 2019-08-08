@@ -16,6 +16,7 @@ Now the instrument has an charging indicator and an RGB progress/action indicato
 + [Getting Started](./multispeq-v2.0.md)
 + [Configuration](./multispeq-v2.0-configuration.md)
 + [Get an Instrument](https://photosynq.org/buy-multispeq)
++ [References & Parameters](../view-and-analyze-data/references.md)
 :::
 
 ## MultispeQ v1.0
@@ -28,6 +29,7 @@ The signal quality has been increased to allow absorbance based measurements lik
 
 ::: tip More
 + [Configuration](./multispeq-v1.0-configuration.md)
++ [References & Parameters](../view-and-analyze-data/references.md)
 :::
 
 ::: warning
@@ -47,7 +49,7 @@ Kuhlgert, S., Austic, G., Zegarac, R. Osei-Bonsu, I.,Hoh, D., Chilvers, M. I., e
 :::
 
 ::: warning
-This version of the Instrument is no longer available.
+This version of the Instrument is *no longer available* and *no longer supported*.
 :::
 
 ## Prototypes
