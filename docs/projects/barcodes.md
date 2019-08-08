@@ -8,7 +8,7 @@ At this point each barcode can only be associated with ONE Project Question. You
 
 ## Reading Barcodes
 
-Both applications, the mobile and the desktop, allow scanning barcodes to answer Project Questions. The desktop application should allow for external barcode scanners as well.
+Both applications, the mobile and the desktop, allow scanning barcodes to answer Project Questions. The desktop application allows for external barcode scanners as well.
 
 ### Mobile Application
 
@@ -24,10 +24,10 @@ If the camera doesn’t open automatically, make sure that **Barcode auto-captur
 
 ![Scanning a QR Code using the devices webcam](./images/barcode-scan-desktop.png)
 
-In the desktop application you can scan codes where you see the <i class="fa fa-qrcode"></i> QR code icon. The camera starts and the code can be scanned. If you have multiple cameras, you can select the camera from the dropdown menu. Once the code is recognized, it will be entered into the input field and the camera dialog closes.
+In the desktop application you can scan codes where you see the <i class="fa fa-qrcode"></i> QR code icon. The camera will open and the code can be scanned. If you have multiple cameras, you can select the camera from the dropdown menu. Once the code is recognized, it will be entered into the input field and the camera will close.
 
 ::: tip Tip
-In case no camera shows up, make sure to grant the application access to the camera.
+If no camera shows up, make sure to grant the application access to the camera.
 :::
 
 ## Creating Barcodes
@@ -36,10 +36,10 @@ If you are not using barcodes in your every day research, you can create differe
 
 ![Generating Barcodes for Projects](./images/barcodes.png)
 
-There are four easy steps to take to generate the barcodes you need. **First**, provide a list with phrases, parameters, etc. that you want to encode in a bar- or QR-code. For each line a new code will be generated. **Second**, you select the type of code you want to use. We recommend to use either the CODE128 or QR-code format since they provide the most compatibility. The **third** step is generating the codes by clicking on the **Generate** button. If you have all the codes needed for your project, you can print the codes by clicking on **Print** or use the print function of your browser.
+There are four easy steps to take to generate the barcodes you need. **First**, provide a list with phrases, parameters, etc. that you want to encode in a bar- or QR-code. For each line a new code will be generated. **Second**, select the type of code you want to use. We recommend to use either the CODE128 or QR-code format since they provide the most compatibility. The **third** step is generating the codes by clicking on the **Generate** button. If you have all the codes needed for your project, you can print the codes by clicking on **Print** or use the print function of your browser.
 
 ::: tip Tip
-Make sure you print off the codes not too small or in a low resolution, since some phones might not be able to read the codes. Codes with long words might get very complex which can lead to problems reading the code with low quality cameras.
+Make sure the codes are not too small or in a low resolution when printed, since some phones might not be able to read the codes. Codes with long words might get very complex which can lead to problems reading the code with low quality cameras.
 :::
 
 ::: warning Note
@@ -58,4 +58,4 @@ Not all types of codes are compatible with numbers, letters or words.
 
 ![Barcode using a stake to label and indicate a plant](./images/barcode-example.png)
 
-For Projects with large number of varieties or identifiers which are difficult to read, barcodes or QR-codes can be a tool to prevent mistakes entering the Project Questions and accelerate data collection. If you are planing on conducting a long term experiment, you probably want to laminate your barcodes or print them on a water resistant material.
+For Projects with large number of varieties or identifiers which are difficult to read, barcodes or QR-codes can be a tool to prevent mistakes when entering and answer to a Project Questions and accelerate data collection. If you are planing on conducting a long term experiment, we recommend laminating your barcodes or printing them on a water resistant material.
