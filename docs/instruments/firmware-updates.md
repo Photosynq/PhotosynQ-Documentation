@@ -1,4 +1,4 @@
-# How to Install Firmware Updates
+# Firmware Updates
 
 Normally, the PhotosynQ apps automatically notify you when there is a new firmware version available for your Instrument. In this case you can follow the instructions, and the apps will download the correct version and install it on your Instrument.
 
