@@ -12,7 +12,7 @@ Internally one of the sensors has been moved to improve measurements using a con
 
 Now the instrument has an charging indicator and an RGB progress/action indicator LED.
 
-::: tip More
+::: tip More Information
 + [Getting Started](./multispeq-v2.0.md)
 + [Configuration](./multispeq-v2.0-configuration.md)
 + [Get an Instrument](https://photosynq.org/buy-multispeq)
@@ -27,7 +27,7 @@ The MultispeQ v1.0 is based on the experiences we gained from our development of
 
 The signal quality has been increased to allow absorbance based measurements like the electrochromic shift in the field within a reasonable time. The ergonomics and the leaf clamping has been improved based on experiences in the field.
 
-::: tip More
+::: tip More Information
 + [Configuration](./multispeq-v1.0-configuration.md)
 + [References & Parameters](../view-and-analyze-data/references.md)
 :::
