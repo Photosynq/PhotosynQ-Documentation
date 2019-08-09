@@ -296,6 +296,10 @@
 
 ***
 
+{{> protocols/mathematical-expressions.md}}
+
+***
+
 {{> docs/protocols/commands.md}}
 
 # Macros {main-chapter}

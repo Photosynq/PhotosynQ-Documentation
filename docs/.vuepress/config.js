@@ -196,6 +196,7 @@ module.exports = {
                     'protocols/sensors',
                     'protocols/repeats',
                     'protocols/variables',
+                    'protocols/mathematical-expressions',
                     'protocols/commands'
                 ]
             },
