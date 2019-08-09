@@ -41,6 +41,6 @@ The sensor commands are available in the protocol editor when an instrument is c
 
 Not all sensors in PhotosynQ instruments need to be recalibrated like the contactless temperature sensor. They come factory calibrated. In case they do require re-calibration, like the PAR sensor, you will find instructions under [Instrument Calibrations](../instruments/instrument-calibrations.md).
 
-::: tip
+::: tip Sensor Acclimation
 Sensors like the temperature, rel. humidity and barometric pressure sensor need to acclimate to provide the correct ambient measurements. So when taking the instrument into an environment that is very different from the one it was stored in, make sure to provide an appropriate amount of time for acclimation.
 :::
