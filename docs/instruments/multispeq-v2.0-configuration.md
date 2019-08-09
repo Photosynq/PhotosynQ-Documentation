@@ -95,7 +95,7 @@ The MultispeQ v2.0 has a Li-ion battery which can be charged through the micro U
 
 Kuhlgert, S., Austic, G., Zegarac, R. Osei-Bonsu, I.,Hoh, D., Chilvers, M. I., et al. (2016). **MultispeQ Beta: a tool for large-scale plant phenotyping connected to the open PhotosynQ network.** *R. Soc. Open Sci.* 3, 160592. [doi:10.1098/rsos.160592].
 
-[LXZ1]: http://www.lumileds.com/products/color-leds/luxeon-z-colors
+[LXZ1]: https://www.lumileds.com/uploads/415/DS105-pdf
 
 [OSRAM SFH 4441]: https://www.osram-os.com/osram_os/en/products/product-catalog/infrared-emitters%2c-detectors-andsensors/infrared-emitters/power-emitter-gt40mw/emitter-with-940-nm/sfh-4441/index.jsp
 
