@@ -8,9 +8,9 @@ Some of the commands will introduce changes without warning, which could cause t
 
 ## Command Switches
 
-**Silent:** `s+`  Sets command console in silent mode. Commands will not send back queries for user input.  s+ will remain in effect until reset or user enters `v+`
+**Silent:** `s+`  Sets command console in silent mode. Commands will not send back queries for user input. `s+` will remain in effect until reset or user enters `v+`.
 
-**Verbose:** `v+` Sets command console in verbose mode. When available, commands will send back queries for user input.  v+ will remain in effect until reset or user enters `s+`
+**Verbose:** `v+` Sets command console in verbose mode. When available, commands will send back queries for user input. `v+` will remain in effect until reset or user enters `s+`.
 
 ## Available Commands
 
