@@ -2,6 +2,8 @@
 
 If you are using the Desktop app you don't have to use **Projects** to save measurements. The **Notebook** allows save individual measurement along with notes and images. This is made for small scale experiments, as well as for testing and developing new measurement protocols.
 
+![List of Measurements inside the Notebook](./images/notebook.png)
+
 ## Take a Measurement
 
 To take measurements and save them you have to run a Protocol from the **Protocol List** or the **Protocol Editor**. Measurements taken using **Projects** can't be saved to the Notebook.
@@ -45,13 +47,13 @@ You can search the list of measurements by clicking into the input field or usin
 
 To more easily find important measurements, you can mark them as favorites by selecting the bookmark icon <i class="fa fa-bookmark-o"></i>. To mark multiple measurements as favorites, select the measurements by checking the checkboxes in the measurement list. Then pick **Favorite Selected** from the **Action** dropdown menu above the measurement list.
 
-## Export Measurements / Notebook
+## Export Measurement(s)
 
 You can share measurements with others, by exporting them from the Notebook. Select the measurements by checking the checkboxes in the measurement list. Then pick **Export Selected** from the **Action** dropdown menu above the measurement list. Enter a filename and save the selected measurements to a location on your hard-drive.
 
 You can export the whole Notebook (consider this a backup), by selecting **File → Export Notebook...** from the main menu bar. Enter a filename and save the entire notebook to a location on your hard-drive.
 
-## Import Measurements / Notebook
+## Import Measurement(s)
 
 To import a set of exported measurements or an entire Notebook, simply select **File → Import Notebook...** from the main menu bar. Select the file you want to import from your local hard-drive and data will be imported into your Notebook.
 
