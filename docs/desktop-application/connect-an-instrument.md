@@ -14,7 +14,7 @@ Before connecting your MultispeQ to the Desktop App you need to turn on the Mult
 2. Choose the **Connection** tab from the settings menu.
 3. Pick the port the Instrument is connected to from the dropdown menu:
     - Windows: **COM{number}**
-    - MacOS: **usbmodem{number}**
+    - macOS: **usbmodem{number}**
     - Linux: **ACM{number}**
 4. Connect the instrument by clicking on **Connect**.
 
@@ -25,7 +25,7 @@ Before connecting your MultispeQ to the Desktop App you need to turn on the Mult
 3. Choose the **Connection** tab from the dialog.
 4. Pick the port the Instrument is connected to from the dropdown menu:
     - Windows: **COM{number}**
-    - MacOS: **Instrument-name_{number}**
+    - macOS: **Instrument-name_{number}**
     - Linux: **Not available**
 5. Connect the device by clicking on **Connect**.
 

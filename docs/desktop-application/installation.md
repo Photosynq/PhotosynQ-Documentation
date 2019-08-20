@@ -24,9 +24,9 @@ When using Windows older than Windows 10, a serial driver needs to be installed.
 
 ***
 
-### MacOS
+### macOS
 
-![Installation of the Application from the Disk-Image (MacOS)](./images/install-application-mac.png)
+![Installation of the Application from the Disk-Image (macOS)](./images/install-application-mac.png)
 
 1. Navigate to the file you just downloaded.
 2. Double click the file to open the disk-image.
@@ -37,16 +37,16 @@ When using Windows older than Windows 10, a serial driver needs to be installed.
 ### Linux
 
 ::: warning Note
-Right now there is no version available. If you are interested in helping us testing, please send a request to <support@photosynq.org>.
+Right now there is no stable version available. If you are interested in helping us testing, please send a request to <support@photosynq.org>.
 :::
 
 ## Minimum Requirements
 
 | Operating System |    Requirements     |
 | :--------------- | :------------------ |
-| MacOS            | OS X 10.10 or above |
-| Windows          | Windows 7 or above  |
-| Linux            | not available       |
+| macOS            | macOS 10.10 and later |
+| Windows (x86)    | Windows 7 and later  |
+| Linux (x64)      | Ubuntu 12.04, Fedora 21, Debian 8 and later |
 
 ## Starting the app for the first time
 
