@@ -31,6 +31,10 @@ When activated, the code in the Protocol Editor will be shown more compact (350 
 
 The Location Services are deactivated by default. We strongly recommend to activate them, so your location is attached to your measurements. This becomes very handy, if you have collaborations across multiple locations.
 
+## Appearance (macOS)
+
+By default the Application's appearance is the system default, but you can switch between **Dark** and **Light** mode independent of your system settings. When switching, no restart of the Application is required.
+
 ## Version
 
 Simply the release version of the Application.
