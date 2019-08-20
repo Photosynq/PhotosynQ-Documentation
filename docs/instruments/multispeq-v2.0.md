@@ -51,10 +51,10 @@ The Action Indicator has the following
 
 | Indicator | Function |
 | --------- | -------- |
-| ![Instrument idle and fully charged](./images/indicator-idle-full.png) | Instrument is on, and fully charged. The indicator is flashing every 5s |
-| ![Instrument idle and battery not fully charged](./images/indicator-idle-empty.png) | Instrument is on, and battery is emptying. The indicator is flashing every 5s |
-| ![Instrument clamp open](./images/indicator-clamp-open.png) | Instrument clamp open. The indicator is flashing rapidly. |
-| ![Instrument busy](./images/indicator-busy.png) | Instrument is busy (e.g. Measurement). The indicator is constantly on |
+| ![Instrument idle and fully charged](./images/indicator-idle-full.svg) | Instrument is on, and fully charged. The indicator is flashing every 5s |
+| ![Instrument idle and battery not fully charged](./images/indicator-idle-empty.svg) | Instrument is on, and battery is emptying. The indicator is flashing every 5s |
+| ![Instrument clamp open](./images/indicator-clamp-open.svg) | Instrument clamp open. The indicator is flashing rapidly. |
+| ![Instrument busy](./images/indicator-busy.svg) | Instrument is busy (e.g. Measurement). The indicator is constantly on |
 
 ### Power/Reset Button
 
