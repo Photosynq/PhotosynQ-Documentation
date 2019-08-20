@@ -17,6 +17,7 @@ An internet connection is required when starting the app and to sign in and sync
 | Ctrl+5          | ⌘5   | Show Protocol Editor                     |
 | Ctrl+6          | ⌘6   | Show Macro Editor                        |
 | Ctrl+7          | ⌘7   | Open Instrument Console                  |
+| Ctrl+Shift+L    | ⌘⇧L  | Open Preferences - Measurement History   |
 | Ctrl+F          | ⌘F   | Search                                   |
 | Ctrl+S          | ⌘S   | Save - Protocol / Macro / Measurement    |
 | Shift+Ctrl+S    | ⇧⌘S  | Save As - Protocol / Macro / Measurement |
