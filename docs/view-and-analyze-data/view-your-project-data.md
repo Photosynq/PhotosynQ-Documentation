@@ -17,3 +17,7 @@ If you have collected more than 1000 measurements or you have a slow internet co
 If you use a mobile device to analyze the data, the memory might not be sufficient enough to display everything.
 
 We strongly recommend to use a **Desktop Computer** to view and analyze your data!
+
+::: warning Internet Explorer
+Viewing data is not possible using the Internet Explorer. Please consider using Microsoft Edge or any other browser.
+:::
