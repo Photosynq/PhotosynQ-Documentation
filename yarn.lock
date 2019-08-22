@@ -838,6 +838,13 @@
   dependencies:
     cross-spawn "^6.0.5"
 
+"@vuepress/plugin-medium-zoom@^1.0.0-rc.1":
+  version "1.0.0-rc.1"
+  resolved "https://registry.yarnpkg.com/@vuepress/plugin-medium-zoom/-/plugin-medium-zoom-1.0.0-rc.1.tgz#78b81aad55621cf192667421eb73497cfe265068"
+  integrity sha512-yjMtzat6SUIsXHEjPn2xDYDqBdvRjJ9sZamBMAlodc95+P4BOce/VB6Q9VJeoCQ+Y7EW6hqisM8bQxluRWfbtA==
+  dependencies:
+    medium-zoom "^0.4.0"
+
 "@vuepress/plugin-nprogress@^1.0.3":
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-nprogress/-/plugin-nprogress-1.0.3.tgz#a0d6913193c933171b4695bf153efb0c29a76421"
@@ -4278,6 +4285,11 @@ mdurl@^1.0.1:
 media-typer@0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/media-typer/-/media-typer-0.3.0.tgz#8710d7af0aa626f8fffa1ce00168545263255748"
+
+medium-zoom@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/medium-zoom/-/medium-zoom-0.4.0.tgz#8e13c9b754903c0c903220611af0d3cd373a4222"
+  integrity sha512-0z7yMfd6I1BTCAa8QaR4cp5AqDkQD571GzhHIbbfefKEssGLSvs+4Xai/itOAncm4FBlF5gUoMQ22yW9/f8Sig==
 
 mem@^4.0.0:
   version "4.3.0"

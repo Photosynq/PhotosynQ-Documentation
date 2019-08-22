@@ -270,16 +270,12 @@ module.exports = {
         ['sitemap', {
             hostname: 'https://help.photosynq.org',
             outFile: 'sitemap.xml'
+        }],
+        ['@vuepress/medium-zoom', {
+            selector: '.theme-default-content img',
+            options: {
+                margin: 16
+            }
         }]
-        // ,
-        // ['@vuepress/medium-zoom', {
-        //     selector: 'img.zoom-custom-imgs',
-        //     // See: https://github.com/francoischalifour/medium-zoom#options
-        //     options: {
-        //         margin: 16
-        //     }
-        // }],
-        // ['vuepress-plugin-reading-time'],
-        // ['vuepress-plugin-element-tabs']
     ]
 };
