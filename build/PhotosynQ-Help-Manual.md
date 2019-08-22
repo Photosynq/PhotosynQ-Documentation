@@ -296,7 +296,7 @@
 
 ***
 
-{{> protocols/mathematical-expressions.md}}
+{{> docs/protocols/mathematical-expressions.md}}
 
 ***
 
