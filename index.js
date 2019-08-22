@@ -5,7 +5,8 @@ const jetpack = require('fs-jetpack');
 const moment = require('moment-timezone');
 const Mustache = require('mustache');
 const epub = require('epub-gen');
-const Remarkable = require('remarkable');
+const {Remarkable} = require('remarkable');
+const {linkify} = require('remarkable/linkify');
 const katex = require('remarkable-katex');
 const Entities = require('html-entities').XmlEntities;
 const version = require('./package.json').version;
@@ -452,7 +453,6 @@ function compileHTML(md) {
 	var mdParser = new Remarkable({
 		html: true,
 		breaks: true,
-		linkify: true,
 		highlight: function (str, lang) {
 			if (lang && hljs.getLanguage(lang)) {
 				try {
@@ -474,7 +474,7 @@ function compileHTML(md) {
 
 			return ''; // use external default escaping
 		}
-	});
+	}).use(linkify);
 
 	mdParser.use(katex);
 
@@ -668,8 +668,7 @@ var createEPUB = function () {
 		content: [],
 		remarkable: {
 			html: true,
-			linkify: true,
-			plugins: [katex]
+			plugins: [katex,linkify]
 		},
 		verbose: true
 	};
