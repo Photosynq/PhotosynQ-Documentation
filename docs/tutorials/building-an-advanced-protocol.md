@@ -45,28 +45,28 @@ The command `previous_light_intensity` allows to measure the light intensity in 
             {
                 "label": "Phi2",
                 "pulses": [
-                    4000, 20, 50, 20
+                    20, 50, 20
                 ],
                 "pulse_distance": [
-                    1000, 10000, 10000, 10000
+                    10000, 10000, 10000
                 ],
                 "pulse_length": [
-                    [ 30 ], [ 30 ], [ 30 ], [ 30 ]
+                    [ 30 ], [ 30 ], [ 30 ]
                 ],
                 "pulsed_lights": [
-                    [ 0 ], [ 3 ], [ 3 ], [ 3 ]
+                    [ 3 ], [ 3 ], [ 3 ]
                 ],
                 "pulsed_lights_brightness": [
-                    [ 0 ], [ 2000 ], [ 2000 ], [ 2000 ]
+                    [ 2000 ], [ 2000 ], [ 2000 ]
                 ],
                 "nonpulsed_lights": [
-                    [ 2 ], [ 2 ], [ 2 ], [ 2 ]
+                    [ 2 ], [ 2 ], [ 2 ]
                 ],
                 "nonpulsed_lights_brightness": [
-                    [ "light_intensity" ], [ "light_intensity" ], [ 4500 ], [ "light_intensity" ]
+                    [ "light_intensity" ], [ 4500 ], [ "light_intensity" ]
                 ],
                 "detectors": [
-                    [ 0 ], [ 1 ], [ 1 ], [ 1 ]
+                    [ 1 ], [ 1 ], [ 1 ]
                 ],
                 "environmental": [
                     [ "light_intensity" ]
