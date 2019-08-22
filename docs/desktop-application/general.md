@@ -20,7 +20,7 @@ An internet connection is required when starting the app and to sign in and sync
 | Ctrl+Shift+L    | ⌘⇧L  | Open Preferences - Measurement History   |
 | Ctrl+F          | ⌘F   | Search                                   |
 | Ctrl+S          | ⌘S   | Save - Protocol / Macro / Measurement    |
-| Shift+Ctrl+S    | ⇧⌘S  | Save As - Protocol / Macro / Measurement |
+| Ctrl+Shift+S    | ⌘⇧S  | Save As - Protocol / Macro / Measurement |
 | Ctrl+Alt+S      | ⌃⌘S  | Synchronize Application with PhotosynQ   |
 | Ctrl+Comma      | ⌘,   | Open Preferences                         |
 
