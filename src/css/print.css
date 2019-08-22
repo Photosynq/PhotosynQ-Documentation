@@ -195,14 +195,17 @@ input:disabled, textarea:disabled {
   color: #737373;
 }
 
+.custom-block {
+  page-break-inside: avoid !important;
+  padding: 0.1rem 1.5rem;
+  border-left-width: 0.5rem;
+  border-left-style: solid;
+  margin: 1rem 0;
+}
+
 .tip {
   background-color: rgb(243, 245, 247);
   border-color: rgb(66, 185, 131);
-  padding:15px;
-  margin-bottom: 20px;
-  border-style: solid;
-  border-width: 0px 0px 0px 5px !important;
-  border-radius: 0px;
 }
 
 .title-tip {
@@ -213,11 +216,6 @@ input:disabled, textarea:disabled {
   background-color: rgba(255,229,100,0.3);
   border-color: rgb(231, 192, 0);
   color: rgb(107, 89, 0);
-  padding:15px;
-  margin-bottom: 20px;
-  border-style: solid;
-  border-width: 0px 0px 0px 5px !important;
-  border-radius: 0px;
 }
 
 .title-warning {
@@ -229,11 +227,6 @@ input:disabled, textarea:disabled {
   background-color: rgb(255, 230, 230);
   border-color: rgb(204, 0, 0);
   color: rgb(77, 0, 0);
-  padding:15px;
-  margin-bottom: 20px;
-  border-style: solid;
-  border-width: 0px 0px 0px 5px !important;
-  border-radius: 0px;
 }
 
 .title-danger {

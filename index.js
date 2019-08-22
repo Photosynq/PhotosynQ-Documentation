@@ -493,13 +493,17 @@ function compileHTML(md) {
 
 		if(element.match(/:{3,4}\s+(tip|warning|danger)\s?(.*)/)){
 			var m = element.match(/:{3,4}\s+(tip|warning|danger)\s?(.*)/);
-			if(m[2] !== "")
+			var header = "";
+			if(m[2] != "" && m[2] != "<br>"){
 				header = `<p class="title-${m[1]}">${m[2].trim()}</p>`;
-			element = `${header}<p class="${m[1]}">`;
+				element = `<div class="custom-block ${m[1]}">${header}<p>`;
+			}
+			else
+				element = `<div class="custom-block ${m[1]}"><p>`;
 		}
 
 		if (element.match(/:::<\/p>/)){
-			element = "</p>";
+			element = "</p></div>";
 		}
 
 		if (element.match(/(<Badge\s+text=\")([\d\w\s]+)(\"\s+type=\")(tip|warn|error)(\"\/>)/i)) {
