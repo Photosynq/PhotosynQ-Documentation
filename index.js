@@ -358,7 +358,7 @@ var compileMD = function (options) {
 
 	var date = moment().format('LL');
 	if (options.date !== undefined) {
-		date = moment(options.date).format('LL');
+		date = moment(options.date.replace(/"/g,'')).format('LL');
 	}
 
 	if (options.source !== undefined)
