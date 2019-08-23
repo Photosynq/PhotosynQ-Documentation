@@ -230,7 +230,7 @@ Adjusting Energy Save Timeout Time. The value of time is in milliseconds, and mu
 + MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
 
-*Last Updated: July 1, 2019*
+*Last Updated: August 9, 2019*
 
 ***
 
@@ -820,7 +820,7 @@ This command returns values from the device memory (EEPROM). This includes value
 + MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
 
-*Last Updated: July 1, 2019*
+*Last Updated: August 9, 2019*
 
 ***
 
@@ -880,7 +880,7 @@ This command saves a value to a location in the device memory (EEPROM).
 + MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
 
-*Last Updated: July 1, 2019*
+*Last Updated: August 9, 2019*
 
 ***
 
