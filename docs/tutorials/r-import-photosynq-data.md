@@ -1,9 +1,8 @@
-Import PhotosynQ data Into R Studio
----
+# Import PhotosynQ data Into R Studio
 
 You can import Project data right out of PhotosynQ into R. All you need is a login to <https://photosynq.org> and the ID for the Project you want to analyze. You can find this ID on the left side of the Project page or in the list of Projects on your User page. Otherwise you can import Project data into R studio by reading the data from a csv file on your computer.
 
-### Import Libraries
+## Import Libraries
 
 ```r
 library(PhotosynQ)
@@ -11,7 +10,7 @@ library(PhotosynQ)
 
 If you don't have the library installed go to <https://github.com/PhotosynQ/PhotosynQ-R> and follow the instructions on how to install the library with R.
 
-### Access the Project Data
+## Access the Project Data
 
 We will use the same Project for all three R tutorials in this section. Project data is also available for download as a csv so that you can follow along and, hopefully, get the same results!
 
@@ -24,7 +23,7 @@ df <- PhotosynQ::getProject("john.doe@domain.com",243)
 
 Replace the ID and the email address with your information. A popup window will ask you to enter your password.
 
-### View the Project Data
+## View the Project Data
 
 Now we want to view all of the data in our Project. In this example we used two different protocols, so we need to create a unique data-frame for each protocol. If you are using the MultispeQ v1.0 we have created a new default protocol (Leaf Photosynthesis MultispeQ V1.0) that includes all of the standard PhotosynQ parameters in a single protocol.
 
@@ -41,7 +40,7 @@ View(chlorophyll)
 View(photosynthesis)
 ```
 
-### Transform Data
+## Transform Data
 
 Many of the parameters measured by the MultispeQ Instrument are affected by factors including:
 
@@ -56,9 +55,9 @@ Many of the parameters measured by the MultispeQ Instrument are affected by fact
 
 In order to account for these factors, we will need to transform some of the data that we have imported from <https://photosynq.org> so that we can incorporate them into the statistical models.
 
-Standard transformations include:  
+Standard transformations include:
 +transform the light intensity by its square root to make its effect on photosynthetic parameters linear. This is important when you are using linear models like the ANOVA and Mixed Effects models in the next two tutorials
-+Convert the time data from the date/time column to a numeric variable. 
++Convert the time data from the date/time column to a numeric variable.
 
 ```r
 # We are calculating the square root of the light intensity (PAR). This transformation helps to make the effect of light intensity on Phi2 linear.
@@ -68,14 +67,14 @@ photosynthesis$sqrtPAR <- sqrt(photosynthesis$light_intensity)
 photosynthesis$TimeOfDay <- as.POSIXlt(photosynthesis$time)$hour + as.POSIXlt(photosynthesis$time)$min/60 + as.POSIXlt(photosynthesis$time)$sec/3600
 ```
 
-### Uploading csv Data
+## Uploading csv Data
 
 You may need to upload data from a csv into R for analysis. You can do this using the following code.
 
 ```r
 # Set the main folder location for your data
 your_location = "C:/.../"
-# The main data file, located in the main folder, is called... 
+# The main data file, located in the main folder, is called...
 file_name = "sun2.csv"
 # Let's pull that data file into R and call it data_raw
 my_data = read.csv(str_c(your_location, file_name))

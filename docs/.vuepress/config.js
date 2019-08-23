@@ -177,7 +177,8 @@ module.exports = {
                     'view-and-analyze-data/sessions',
                     'view-and-analyze-data/download-data',
                     'view-and-analyze-data/external-libraries',
-                    'view-and-analyze-data/how-to-cite'
+                    'view-and-analyze-data/how-to-cite',
+                    'view-and-analyze-data/references'
                 ]
             },
             {
@@ -188,8 +189,14 @@ module.exports = {
                     'protocols/protocol-basics',
                     'protocols/run-a-protocol',
                     'protocols/create-edit-protocol',
+                    'protocols/structure',
+                    'protocols/pulses',
+                    'protocols/lights',
+                    'protocols/detectors',
+                    'protocols/sensors',
                     'protocols/repeats',
                     'protocols/variables',
+                    'protocols/mathematical-expressions',
                     'protocols/commands'
                 ]
             },
@@ -209,10 +216,10 @@ module.exports = {
                 collapsable: true,
                 sidebarDepth: 1,
                 children: [
+                    'instruments/overview',
                     'instruments/multispeq-v2.0',
                     'instruments/multispeq-v2.0-configuration',
                     'instruments/multispeq-v1.0-configuration',
-                    'instruments/what-does-the-multispeq-measure',
                     'instruments/instrument-settings',
                     'instruments/instrument-calibrations',
                     'instruments/firmware-updates',
@@ -263,16 +270,12 @@ module.exports = {
         ['sitemap', {
             hostname: 'https://help.photosynq.org',
             outFile: 'sitemap.xml'
+        }],
+        ['@vuepress/medium-zoom', {
+            selector: '.theme-default-content img',
+            options: {
+                margin: 16
+            }
         }]
-        // ,
-        // ['@vuepress/medium-zoom', {
-        //     selector: 'img.zoom-custom-imgs',
-        //     // See: https://github.com/francoischalifour/medium-zoom#options
-        //     options: {
-        //         margin: 16
-        //     }
-        // }],
-        // ['vuepress-plugin-reading-time'],
-        // ['vuepress-plugin-element-tabs']
     ]
 };

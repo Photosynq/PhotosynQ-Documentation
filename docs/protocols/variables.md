@@ -4,7 +4,7 @@ Protocols for PhotosynQ instruments can use variables to be more flexible and ma
 
 ## Defining Variables
 
-The values for the variables in Protocols are saved in the variables arrays (`v_arrays`). Not only do they allow to hold multiple values, but also allow to be used in combination with repeats to change values with each repeat.
+The values for the variables in Protocols are saved in the variables arrays (`v_arrays`). Not only do these allow you to hold multiple values, but they can also be used in combination with repeats to change values with each repeat.
 
 When **variables** are supposed to be used, first the `v_arrays` key needs to be added as shown below. The `v_arrays` array can hold up to **4** arrays each with a maximum number of **10** numbers.
 
@@ -60,13 +60,13 @@ In this example the variables are used to define the number of pulses. To indica
 ]
 ```
 
-::: warning
-**Note:** When counting the index (position) of an array or a value within an array, always start at **0**.
+::: warning Note
+When counting the index (position) of an array or a value within an array, always start at **0**.
 :::
 
 ## Using Repeats with Variables
 
-Sometimes selecting a single value is not useful when it comes to using variables. This could be the case, if a protocol is build, where with each repeat, the light intensity is changed, the pulse duration increases, a different LED is selected, etc. In this case the `v_arrays` can be used in combination with protocol or protocol-set repeats to provide a different value with each iteration of the protocol.
+Sometimes selecting a single value is not useful when it comes to using variables. This could be the case if a protocol is built where with each repeat the light intensity is changed, the pulse duration increases, a different LED is selected, etc. In this case the `v_arrays` can be used in combination with protocol or protocol-set repeats to provide a different value with each iteration of the protocol.
 
 When repeating a protocol or a protocol within a protocol-set, the variable is selected using `@p` followed by the index of the array within the variable arrays `@p<array`. The following example increases the light intensity with each protocol repeat.
 

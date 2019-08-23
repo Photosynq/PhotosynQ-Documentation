@@ -18,8 +18,8 @@ You can set ranges for individual *numeric* **Parameters**, allowing you to excl
 
     ![Set Threshhold](./images/set-thresholds-2.png)
 
-::: tip
-**Tip:** Thresholds are applied only for the duration of a session, unlike flagged data. This allows you to exclude outliers, especially when you are not the Project administrator or lead.
+::: tip Tip
+Thresholds are applied only for the duration of a session, unlike flagged data. This allows you to exclude outliers, especially when you are not the Project administrator or lead.
 :::
 
 ## Remove Thresholds

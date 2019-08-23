@@ -16,6 +16,6 @@ Your profile on PhotosynQ helps others to learn more about you and to start coll
 3. Click on **Select Photo** underneath the current one and upload your new picture.
 4. Scroll down to the bottom and click on **Update** to save your new photo!
 
-::: tip
-**Tip:** Keeping you biography and institute/organization up to date will help others to find you and start collaborations.
+::: tip Tip
+Keeping you biography and institute/organization up to date will help others to find you and start collaborations.
 :::

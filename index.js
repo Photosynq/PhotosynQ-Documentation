@@ -5,7 +5,8 @@ const jetpack = require('fs-jetpack');
 const moment = require('moment-timezone');
 const Mustache = require('mustache');
 const epub = require('epub-gen');
-const Remarkable = require('remarkable');
+const {Remarkable} = require('remarkable');
+const {linkify} = require('remarkable/linkify');
 const katex = require('remarkable-katex');
 const Entities = require('html-entities').XmlEntities;
 const version = require('./package.json').version;
@@ -17,7 +18,7 @@ const hljs = require('highlight.js');
 const hljsLinenums = require('code-highlight-linenums');
 const puppeteer = require('puppeteer-1.10.0');
 const { spawnSync } = require('child_process');
-
+const chokidar = require('chokidar');
 
 function file_updated(file){
     let updated = false;
@@ -245,6 +246,13 @@ var commands = function (options) {
 		return;
 	}
 
+	if(options.watch !== undefined){
+		chokidar.watch('./firmware', {ignored: /(^|[\/\\])\../, ignoreInitial: true}).on('all', (event, path) => {
+			console.log(event, path);
+			spawnSync('node', ['index','cmd','-d']);
+		});
+	}
+
 };
 
 var pingLinks = function () {
@@ -346,7 +354,7 @@ var compileMD = function (options) {
 	}
 
 	var md = jetpack.read(options.input);
-	var src_path = '.';
+	var src_path = './';
 
 	var date = moment().format('LL');
 	if (options.date !== undefined) {
@@ -379,7 +387,7 @@ var compileMD = function (options) {
 	hmFiles = helpMaster.match(/(\{+\s?\>\s)([\w\d\.\/-]+)(\}+)/g);
 
 	for (var i in hmFiles) {
-		hmFiles[i] = src_path.replace(/^(\.\/)/, '') + "/" + hmFiles[i].replace(/(\{+\s?\>\s)([\w\d\.\/-]+)(\}+)/, '$2');
+		hmFiles[i] = jetpack.path(src_path, hmFiles[i].replace(/(\{+\s?\>\s)([\w\d\.\/-]+)(\}+)/, '$2') );
 	}
 
 	/**
@@ -387,19 +395,18 @@ var compileMD = function (options) {
 	 */
 
 	for (var i in list) {
-		if (hmFiles.indexOf(list[i]) == -1)
-			console.log(chalk.red('File missing in master: ') + list[i]);
+		var l = jetpack.path(list[i]);
+		if (hmFiles.indexOf(l) == -1)
+			console.log(chalk.red('File missing in master: ') + l);
 	}
 
 	/**
 	 * Files not in directory
 	 */
 	for (var i in hmFiles) {
-		var q = hmFiles[i];
-		if (list.indexOf(q) == -1)
-			console.log(chalk.red('File missing in directory: ') + q);
+		if(!jetpack.exists(hmFiles[i]))
+			console.log(chalk.red('File missing in directory: ') + hmFiles[i]);
 	}
-
 	var files = {};
 	var file = null;
 	for (var i in list) {
@@ -423,12 +430,18 @@ var compileMD = function (options) {
 				link = g2;
 			}
 			else{
-				link = jetpack.path('dist', 'tmp', dir, g2);
-
-				// link = link.replace(jetpack.cwd(),'http://localhost:3000 ');
+				if (options.source) {
+					link = jetpack.path( src_path, dir, g2);
+				}
+				else{
+					link = jetpack.path( dir, g2);
+				}
 			}
 			return `![${g1}](${link})`;
 		});
+
+		// Remove TOCs
+		files[file] = files[file].replace(/(\[\[TOC\]\]\n)/gm, '');
 	}
 	md = Mustache.render(md, { date: date, version: (options.tag || '--') }, files);
 	jetpack.write(options.output, md);
@@ -440,7 +453,6 @@ function compileHTML(md) {
 	var mdParser = new Remarkable({
 		html: true,
 		breaks: true,
-		linkify: true,
 		highlight: function (str, lang) {
 			if (lang && hljs.getLanguage(lang)) {
 				try {
@@ -462,7 +474,7 @@ function compileHTML(md) {
 
 			return ''; // use external default escaping
 		}
-	});
+	}).use(linkify);
 
 	mdParser.use(katex);
 
@@ -479,20 +491,19 @@ function compileHTML(md) {
 			}
 		}
 
-		if (element.match(/:{3,4}\s+tip/)) {
-			element = '<p class="tip">';
-		}
-
-		if (element.match(/:{3,4}\s+warning/)) {
-			element = '<p class="note">';
-		}
-
-		if (element.match(/:{3,4}\s+danger/)) {
-			element = '<p class="danger">';
+		if(element.match(/:{3,4}\s+(tip|warning|danger)\s?(.*)/)){
+			var m = element.match(/:{3,4}\s+(tip|warning|danger)\s?(.*)/);
+			var header = "";
+			if(m[2] != "" && m[2] != "<br>"){
+				header = `<p class="title-${m[1]}">${m[2].trim()}</p>`;
+				element = `<div class="custom-block ${m[1]}">${header}<p>`;
+			}
+			else
+				element = `<div class="custom-block ${m[1]}"><p>`;
 		}
 
 		if (element.match(/:::<\/p>/)){
-			element = "</p>";
+			element = "</p></div>";
 		}
 
 		if (element.match(/(<Badge\s+text=\")([\d\w\s]+)(\"\s+type=\")(tip|warn|error)(\"\/>)/i)) {
@@ -661,8 +672,7 @@ var createEPUB = function () {
 		content: [],
 		remarkable: {
 			html: true,
-			linkify: true,
-			plugins: [katex]
+			plugins: [katex,linkify]
 		},
 		verbose: true
 	};
@@ -795,6 +805,19 @@ var createEPUB = function () {
 		});
 };
 
+var macros = function(){
+	var filePath = jetpack.path('node_modules', 'photosynq-helpers', 'docs', 'documentation.md');
+	var content = jetpack.read(filePath) || "";
+	// Change header level
+	content = content.replace(/^(#+)/gm,'$1#');
+	var template = jetpack.read('./macros/docs/provided-functions.md');
+	var md = Mustache.render(template, {
+		"macro-functions": content
+	});
+	jetpack.write('./docs/macros/provided-functions.md', md);
+	console.log(chalk.green('File generated.'));
+}
+
 program
 	.version(version);
 
@@ -806,8 +829,14 @@ program
 	.option('-d, --documents', 'Generate new help documents')
 	.option('-m, --merge', 'Merge all files into one JSON file')
 	.option('-s, --source [dir]', 'Compile files from a different source')
+	.option('-w, --watch', 'Watch for changes and re-build documents')
 	.description('Manage firmware commands')
 	.action(commands);
+
+program
+	.command('macros')
+	.description('Generate Macro function documentation (from helpers)')
+	.action(macros);
 
 program
 	.command('test-links')

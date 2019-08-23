@@ -1,7 +1,7 @@
 {
   "name": "save",
   "abstract": "",
-  "description": "This command saves a value to a location in the device memory (EEPROM). Expressions can be used on the saved values ([more](https://github.com/Photosynq/PhotosynQ-Firmware/wiki/How-to-use-Expressions)).",
+  "description": "This command saves a value to a location in the device memory (EEPROM).",
   "alias": [],
   "input": "nested array",
   "values": [],

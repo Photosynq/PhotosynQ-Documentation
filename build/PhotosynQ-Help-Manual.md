@@ -250,6 +250,10 @@
 
 {{> docs/view-and-analyze-data/how-to-cite.md}}
 
+***
+
+{{> docs/view-and-analyze-data/references.md}}
+
 # Protocols {main-chapter}
 
 {{> docs/protocols/protocol-basics.md}}
@@ -264,11 +268,35 @@
 
 ***
 
+{{> docs/protocols/structure.md}}
+
+***
+
+{{> docs/protocols/pulses.md}}
+
+***
+
+{{> docs/protocols/lights.md}}
+
+***
+
+{{> docs/protocols/detectors.md}}
+
+***
+
+{{> docs/protocols/sensors.md}}
+
+***
+
 {{> docs/protocols/repeats.md}}
 
 ***
 
 {{> docs/protocols/variables.md}}
+
+***
+
+{{> docs/protocols/mathematical-expressions.md}}
 
 ***
 
@@ -292,6 +320,10 @@
 
 # Instruments {main-chapter}
 
+{{> docs/instruments/overview.md}}
+
+***
+
 {{> docs/instruments/multispeq-v2.0.md}}
 
 ***
@@ -301,10 +333,6 @@
 ***
 
 {{> docs/instruments/multispeq-v1.0-configuration.md}}
-
-***
-
-{{> docs/instruments/what-does-the-multispeq-measure.md}}
 
 ***
 

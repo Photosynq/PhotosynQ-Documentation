@@ -6,7 +6,7 @@ The Console allows you to open a direct channel to your instrument to send comma
 
 ## Open the Console
 
-You can bring up the Console window, by selecting **View → Console** from the top menu bar or use the shortcut `Ctrl+7 / ⌘7`
+You can bring up the Console window, by selecting **View → Console** from the top menu bar or use the shortcut <kbd>Ctrl/⌘</kbd>+<kbd>7</kbd>.
 
 ## Sending a Command
 
@@ -22,10 +22,14 @@ If you want to manually empty the output field, use the command `clear console`.
 
 ## Input History
 
-When you use several commands repeatedly, you can use the **up** and **down** arrow keys to go through the list of previously used commands. Otherwise, you will find the list of all used commands if you click on the dropdown menu button next to the **Send** button.
+When you use several commands repeatedly, you can use the <kbd>⬆</kbd> and <kbd>⬇</kbd> arrow keys to go through the list of previously used commands. Otherwise, you will find the list of all used commands if you click on the dropdown menu button next to the **Send** button.
 
 When disconnecting an Instrument, the list of commands will be emptied. If you want to empty the list when an Instrument is connected use the command `clear history`.
 
 ## Available Commands
 
-You can find a list of console commands [here](../instruments/console-commands.md) or you can use the command `--help or -h` inside the console. The command will return a list of available commands and a brief description. Use `[command] --help or -h` to get more information about an individual command.
+You can find a list of console commands [here](../instruments/console-commands.md) or you can use the command `--help` or `-h` inside the console. The command will return a list of available commands and a brief description. Use `[command] --help `or `[command]  -h` to get more information about an individual command.
+
+::: warning Note
+All commands are **case sensitive**.
+:::

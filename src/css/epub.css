@@ -173,58 +173,73 @@ input:disabled, textarea:disabled {
 }
 
 
+.custom-block {
+    padding: 0.1rem 1.5rem;
+    border-left-width: 0.5rem;
+    border-left-style: solid;
+    margin: 1rem 0;
+}
+  
 .tip {
-  background-color: rgb(243, 245, 247);
-  border-color: rgb(66, 185, 131);
-  padding:15px;
-  margin-bottom: 20px;
-  border-style: solid;
-  border-width: 0px 0px 0px 5px !important;
-  border-radius: 0px;
+    background-color: rgb(243, 245, 247);
+    border-color: rgb(66, 185, 131);
 }
-
+  
+.title-tip {
+    font-weight: 600;
+}
+  
 .warning {
-  background-color: rgba(255,229,100,0.3);
-  border-color: rgb(231, 192, 0);
-  color: rgb(107, 89, 0);
-  padding:15px;
-  margin-bottom: 20px;
-  border-style: solid;
-  border-width: 0px 0px 0px 5px !important;
-  border-radius: 0px;
+    background-color: rgba(255,229,100,0.3);
+    border-color: rgb(231, 192, 0);
+    color: rgb(107, 89, 0);
 }
-
+  
+.title-warning {
+    font-weight: 600;
+    color: rgb(178, 148, 0);
+}
+  
 .danger {
-  background-color: rgb(255, 230, 230);
-  border-color: rgb(204, 0, 0);
-  color: rgb(77, 0, 0);
-  padding:15px;
-  margin-bottom: 20px;
-  border-style: solid;
-  border-width: 0px 0px 0px 5px !important;
-  border-radius: 0px;
+    background-color: rgb(255, 230, 230);
+    border-color: rgb(204, 0, 0);
+    color: rgb(77, 0, 0);
 }
+  
+.title-danger {
+    font-weight: 600;
+    color: rgb(153, 0, 0);
+}  
 
 .badge {
-  display: inline-block;
-  font-size: 14px;
-  height: 18px;
-  line-height: 18px;
-  border-radius: 3px;
-  padding: 0 6px;
-  color: #fff;
-  background-color :rgb(66, 185, 131);
-  vertical-align: top;
+    display: inline-block;
+    font-size: 14px;
+    height: 18px;
+    line-height: 18px;
+    border-radius: 3px;
+    padding: 0 6px;
+    color: #fff;
+    background-color :rgb(66, 185, 131);
+    vertical-align: top;
 }
 
 .badge.tip {
-  background-color: rgb(66, 185, 131);
+    background-color: rgb(66, 185, 131);
 }
 
 .badge.warn {
-  background-color: rgb(231, 192, 0);
+    background-color: rgb(231, 192, 0);
 }
 
 .badge.error {
-  background-color: rgb(218, 89, 97);
+    background-color: rgb(218, 89, 97);
+}
+
+kbd {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+    background: #eee;
+    border: solid 0.15rem #ddd;
+    border-bottom: solid 0.25rem #ddd;
+    border-radius: 0.15rem;
+    padding: 0 0.15em;
 }

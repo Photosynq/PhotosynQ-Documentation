@@ -2,8 +2,8 @@
 
 The settings menu allows you to make settings regarding your app and the workflow inside the app. Those functions are not covered by the Android System Settings. Activating **Location services**, **Bluetooth** and **WiFi** needs to be done through the **System Settings**.
 
-::: tip
-**Tip:** Connecting an Instrument like a MultispeQ is done through a different menu (See [Connect an Instrument](./connect-an-instrument.md)).
+::: tip Tip
+Connecting an Instrument like a MultispeQ is done through a different menu (See [Connect an Instrument](./connect-an-instrument.md)).
 :::
 
 ![1. Open the menu and select **Settings**. 2. Change your settings.](./images/android-settings.png)

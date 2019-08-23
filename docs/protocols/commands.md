@@ -4,6 +4,8 @@ The listed commands can be used to build measurement protocols. Some commands re
 
 ## Available Commands
 
+[[TOC]]
+
 ### \_protocol\_set\_
 
 Treating protocols as integrated sets.
@@ -210,7 +212,7 @@ Adjusting Energy Save Timeout Time. The value of time is in milliseconds, and mu
 
 `environmental` defines which additional sensor(s) to measure. The environmental calls occur at the very beginning of the measurement, prior to any pulses. Some sensors require additional information, like specifying which pin to measure, brightness, etc. In addition to sensor measurements, there are also calls to flip digital pins on/off or set a pwm which could be used to control external lights or even motors. Below is the full list of parameters available in `environmental`.
 
-The returned sensor values from most `environmental` calls are accessible inside a protocol using Expressions ([details](https://github.com/Photosynq/PhotosynQ-Firmware/wiki/How-to-use-Expressions)). Adjusting protocols in real time based on these values can be very handy for certain types of protocols.
+. Adjusting protocols in real time based on these values can be very handy for certain types of protocols.
 
 **Input:** nested array
 
@@ -800,7 +802,7 @@ The Ambient light is recreated inside the instrument on opening the clamp. Durin
 
 ### recall
 
-This command returns values from the device memory (EEPROM). This includes values saved by the user (see Examples below for details) as well as values saved during factory calibration.  For a full list of saved values which can be recalled, see expr.cpp .  Expressions may be applied to "recall" requests ([more](https://github.com/Photosynq/PhotosynQ-Firmware/wiki/How-to-use-Expressions)).
+This command returns values from the device memory (EEPROM). This includes values saved by the user (see Examples below for details) as well as values saved during factory calibration.
 
 **Input:** [array]
 
@@ -860,7 +862,7 @@ The MultispeQ is designed to be able to nearly simultaneously measure two detect
 
 ### save
 
-This command saves a value to a location in the device memory (EEPROM). Expressions can be used on the saved values ([more](https://github.com/Photosynq/PhotosynQ-Firmware/wiki/How-to-use-Expressions)).
+This command saves a value to a location in the device memory (EEPROM).
 
 **Input:** nested array
 

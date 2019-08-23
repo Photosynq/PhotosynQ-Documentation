@@ -8,8 +8,8 @@ You can filter your data by **Project Questions**, **Users**, **Devices** and **
 2. Expand Project Question or Questions you want to filter by.
 3. Select your answer or answers for each Question.
 
-::: tip
-**Tip:** See the examples on how the series are generated.
+::: tip Tip
+See the examples on how the series are generated.
 :::
 
 ## Add a single Series

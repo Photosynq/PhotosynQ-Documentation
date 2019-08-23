@@ -1,6 +1,6 @@
 # Creating a Project
 
-**Before You Start...**
+## Before You Start...
 
 Before you go on the PhotosynQ website to create your project, first you have a few things to think about…
 
@@ -15,25 +15,19 @@ Imagine you are working on the field in the picture below. Your goal is to figur
 
 ![Field with crops grown under five different treatments](./images/projects-field-with-different-treatments.png)
 
-***
-
-### New Project
+## New Project
 
 Log into PhotosynQ and select Create from the menu bar at the top of the page or from the menu underneath your picture on your user page. Give it a good name that relates to your project. Naming your project just “crop testing”  would be a poor idea, as there are dozens of projects already about crops or with just the name “test” (you know who you are). Something like “Crop Response to Unique Treatments October 2017” will make your project distinct and easily searchable.
 
 ![Start a new Project by choosing a category and a descriptive name](./images/projects-new-project.png)
 
-***
-
-### Protocols
+## Protocols
 
 **Pick the protocol** that best suits your device/needs, for 99% of people the pre-selected protocol will do. If you have an Instrument other than a MultispeQ v1.0, or maybe small leaves, this protocol will be different. In this case select a protocol from the advanced list. Also, be sure to read the protocol description to make sure that it measures the parameters you are interested in and is compatible with your device and firmware version.
 
 ![Select a Protocol. The standard protocol will be sufficient for most users.](./images/projects-select-protocol.png)
 
-***
-
-### Questions
+## Questions
 
 Here is where you need to take your answers to the aforementioned questions and turn them into questions and answers that will help you achieve your learning goals. We decided we would have questions for…
 
@@ -44,50 +38,41 @@ Here is where you need to take your answers to the aforementioned questions and 
 
 ![Add questions to collect additional information](./images/projects-add-questions.png)
 
-#### Tips and Tricks for Choosing the Best Project Questions.
+### Tips and Tricks for Choosing the Best Project Questions
+
 Knowing how answers work is key for fast data collection and successful data analysis later on.
 
-1. **“Multiple Choice”**, is the safest and quickest option, provided you know all the possible answers.
-2. **”Short Answers”**  can used to provide answers to questions, but be careful! You might answer “red corn” once and then “Red corn.” Both may be the correct, but they will be sorted as different answers by the data explorer, since the answers are case sensitive.
-3. **“Multiple Choice with Pictures”**, is useful if you want to provide visual guidance, other than that, it is the same as a Multiple Choice Questions. Pictures cannot be analyzed in PhotosynQ.
-4. **“Take a Picture”** questions can be cumbersome on both the measurer and when analyzing data later on. If a picture is only sometimes needed, use the **notes function** with the [Desktop](../desktop-application/adding-notes-and-pictures.md) or [Mobile](../mobile-application/adding-notes-and-pictures.md) Applications instead.
+1. **Multiple Choice**, is the safest and quickest option, provided you know all the possible answers.
+2. **Short Answers**  can used to provide answers to questions, but be careful! You might answer “red corn” once and then “Red corn.” Both may be the correct, but they will be sorted as different answers by the data explorer, since the answers are case sensitive.
+3. **Multiple Choice with Pictures**, is useful if you want to provide visual guidance, other than that, it is the same as a Multiple Choice Questions. Pictures cannot be analyzed in PhotosynQ.
+4. **Take a Picture** questions can be cumbersome on both the measurer and when analyzing data later on. If a picture is only sometimes needed, use the **notes function** with the [Desktop](../desktop-application/adding-notes-and-pictures.md) or [Mobile](../mobile-application/adding-notes-and-pictures.md) Applications instead.
 
 You might notice there is a question for uploading questions/answers via a CSV, and this can be a powerful tool, especially if you have a large, well thought out experiment.
 
 1. We only have a few varieties of one crop to test, but if we had many varieties, and we knew how our field was laid out, we could preload exactly how we plan to walk through the field.
 2. Interested in CSV upload for a larger field? Check out our Guide [here](https://photosynqprod.s3.amazonaws.com/files/specialfeatures/uploading-project-questions-as-a-csv.pdf).
 
-***
-
-### Location
+## Location
 
 In the next screen, you will be asked to provide a Project Location. This is just so others have an idea of where the project is taking place. A project can have multiple locations, if you, for example, have a group of collaborators around the world.
 
 ![Add locations to your project](./images/projects-add-location.png)
 
-***
-
-### Description
+## Description
 
 The Description Page is next, and here you will fill in information about your project so that others can have a better understanding of your project.
 
 ![Add locations to your project](./images/projects-add-description.png)
 
-1.  You can fill out a full description of what your learning objectives are, how and where the experiment will be conducted, and maybe how others can get involved and help out if it is a more open, collaborative project. Use the preview button to see what the text looks like if you use formatting.
-
+1. You can fill out a full description of what your learning objectives are, how and where the experiment will be conducted, and maybe how others can get involved and help out if it is a more open, collaborative project. Use the preview button to see what the text looks like if you use formatting.
 2. You will also need to categorize your project, so that it can be properly sorted, maybe you are doing your research project, and so you would pick the research category, or maybe you are working with students and the education selection would be more appropriate.
-
 3. Finally add any tags you want, these are like hashtags and allow other users to find your project through these keywords. For example you could look up “trees” or “nematodes” and see all the other projects working on those, and maybe connect and share with those researchers.
 
-***
-
-### Review
+## Review
 
 The review step allows you to see all the information about your project up to this point. If all information is the way you want it, continue to the next step, otherwise navigate directly to the previous steps to make your changes.
 
-***
-
-### Settings
+## Settings
 
 ![Project Settings](./images/projects-settings.png)
 
@@ -97,9 +82,7 @@ If you select “Collaborators only”, you have to invite collaborators who are
 
 Finally, after you have created or edited your project, you need an internet connection on your mobile or desktop device to update your project in the app.
 
-***
-
-### Connecting and Collecting Data on Your Project
+## Connecting and Collecting Data on Your Project
 
 You will need to use the PhotosynQ mobile or desktop app to collect data, only the PhotosynQ apps can connect to the MultispeQ Instrument, go here for connection tips.
 
@@ -113,9 +96,7 @@ Measurements are either cached on the phone, or uploaded automatically to your p
 
 For more help on how to collect high quality data, best measurement practices, uploading cached data or some tricks for data collection day, check out our [Data Collection Tutorial](./data-collection.md)!
 
-***
-
-### Viewing Project Data
+## Viewing Project Data
 
 Data can be viewed using the PhotosynQ data explorer on the PhotosynQ website.
 

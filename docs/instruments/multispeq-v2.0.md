@@ -51,10 +51,10 @@ The Action Indicator has the following
 
 | Indicator | Function |
 | --------- | -------- |
-| ![Instrument idle and fully charged](./images/indicator-idle-full.png) | Instrument is on, and fully charged. The indicator is flashing every 5s |
-| ![Instrument idle and battery not fully charged](./images/indicator-idle-empty.png) | Instrument is on, and battery is emptying. The indicator is flashing every 5s |
-| ![Instrument clamp open](./images/indicator-clamp-open.png) | Instrument clamp open. The indicator is flashing rapidly. |
-| ![Instrument busy](./images/indicator-busy.png) | Instrument is busy (e.g. Measurement). The indicator is constantly on |
+| ![Instrument idle and fully charged](./images/indicator-idle-full.svg) | Instrument is on, and fully charged. The indicator is flashing every 5s |
+| ![Instrument idle and battery not fully charged](./images/indicator-idle-empty.svg) | Instrument is on, and battery is emptying. The indicator is flashing every 5s |
+| ![Instrument clamp open](./images/indicator-clamp-open.svg) | Instrument clamp open. The indicator is flashing rapidly. |
+| ![Instrument busy](./images/indicator-busy.svg) | Instrument is busy (e.g. Measurement). The indicator is constantly on |
 
 ### Power/Reset Button
 
@@ -64,8 +64,8 @@ The button in the back allows the instrument to be turned on as well as been res
 + A short push on the button will reset the instrument, in case a protocol crashes, etc.
 + When the Instrument is running, hold the button for 5 seconds, to restart the instrument. Wait for the Action Indicator to start flashing, to confirm the Instrument is booted up again.
 
-::: tip
-**Tip:** When the rubber port cover is closed, it is easier to push the button.
+::: tip Tip
+When the rubber port cover is closed, it is easier to push the button.
 :::
 
 ### Micro-USB

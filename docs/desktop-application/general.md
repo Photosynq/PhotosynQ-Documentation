@@ -1,10 +1,10 @@
 # General Information
 
-The PhotosynQ Desktop Application allows to build and test measurement Protocols, Macros, contribute to Projects and save small scale experiments to the Notebook. It requires a PhotosynQ account and an internet connection when signing in and synchronizing content with the PhotosynQ cloud.
+The PhotosynQ Desktop Application allows you to build and test measurement Protocols and Macros, contribute to Projects and save small scale experiments to the Notebook. It requires a PhotosynQ account and an internet connection when signing in and synchronizing content with the PhotosynQ cloud.
 
 ## Internet connection
 
-An internet connection is required when starting the app, to sign in and synchronize Projects, Protocols, Macros and Instrument information. Saving Protocols and Macros, as well as measurements requires an internet connection as well. Measurements taken for a Project can be cached and uploaded later, so they can be collected in areas without an internet connection.
+An internet connection is required when starting the app and to sign in and synchronize Projects, Protocols, Macros and Instrument information. Saving Protocols, Macros and measurements requires an internet connection as well. Measurements taken for a Project can be cached and uploaded later, so they can be collected in areas without an internet connection.
 
 ## Keyboard Shortcuts
 
@@ -17,9 +17,10 @@ An internet connection is required when starting the app, to sign in and synchro
 | Ctrl+5          | ⌘5   | Show Protocol Editor                     |
 | Ctrl+6          | ⌘6   | Show Macro Editor                        |
 | Ctrl+7          | ⌘7   | Open Instrument Console                  |
+| Ctrl+Shift+L    | ⌘⇧L  | Open Preferences - Measurement History   |
 | Ctrl+F          | ⌘F   | Search                                   |
 | Ctrl+S          | ⌘S   | Save - Protocol / Macro / Measurement    |
-| Shift+Ctrl+S    | ⇧⌘S  | Save As - Protocol / Macro / Measurement |
+| Ctrl+Shift+S    | ⌘⇧S  | Save As - Protocol / Macro / Measurement |
 | Ctrl+Alt+S      | ⌃⌘S  | Synchronize Application with PhotosynQ   |
 | Ctrl+Comma      | ⌘,   | Open Preferences                         |
 
@@ -35,8 +36,8 @@ An internet connection is required when starting the app, to sign in and synchro
 | Ctrl+-          | ⌘-     | Decrease Font Size                    |
 | Ctrl+0          | ⌘0     | Reset Font Size                       |
 
-::: tip
-**Tip:** More shortcuts for the Editors [here](https://github.com/ajaxorg/ace/wiki/Default-Keyboard-Shortcuts)
+::: tip Tip
+More shortcuts for the Editors [here](https://github.com/ajaxorg/ace/wiki/Default-Keyboard-Shortcuts)
 :::
 
 ## Energy Saving

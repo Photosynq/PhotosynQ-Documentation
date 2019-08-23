@@ -47,16 +47,16 @@ Make sure to use png, jpeg or gifs if animations are necessary.
 ### Special functions
 
 ```
-::: tip
-**Tip:** This is a Tip for you.
+::: tip Title
+This is a Tip for you.
 :::
 ```
 
 Will create a blue info box on the website. Don't use line breaks.
 
 ```
-:::
-**Note:** This is a Note for you.
+::: warning  Title
+This is a Note for you.
 :::
 ```
 
@@ -121,14 +121,6 @@ yarn docs:build
 ### Compile Master documents
 
 To generate one big help document and one tutorials document, use the compile script.
-
-#### Build from latest commit
-
-```shell
-yarn build
-```
-
-#### Build from latest tag (release)
 
 ```shell
 yarn release

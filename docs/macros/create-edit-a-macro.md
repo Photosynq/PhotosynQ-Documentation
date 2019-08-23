@@ -1,6 +1,6 @@
 # Create / Edit a Macro
 
-If you want to analyze a measurement using your own calculation, create a macro to do the calculation for you. When a Protocol has a Macro associated, the Macro will calculate 
+If you want to analyze a measurement using your own calculation, create a macro to do the calculation for you. When a Protocol has a Macro associated, the Macro will calculate all parameters derived from the measurement immediately after the measurement is done. When the measurement is saved for a Project, the raw measurement is send to the cloud where the macro is doing the calculations again.
 
 ![The Macro Editor](./images/macro-editor.png)
 
@@ -20,19 +20,19 @@ You can change one of your Macros or extend an already existing one at any time.
 1. Select **Macros** from the left menu bar.
 2. Double click on the macro in the list or click on **Edit** in the sidebar.
 3. Make your changes to the code.
-4. Select **Save as...** from the File menu or use the shortcut `CTRL/⌘+⇧+s`.
+4. Select **Save as...** from the File menu or use the shortcut <kbd>Ctrl/⌘</kbd>+<kbd>Shift/⇧</kbd>+<kbd>S</kbd>.
 5. Update the description if needed.
 6. Save the changes by **Save As**.
 
-::: tip
-**Tip:** In case you altered a macro someone else had made, change the name too. In this case you only have the option **Save as**.
+::: tip Tip
+In case you altered a macro someone else had made, change the name too. In this case you only have the option **Save as**.
 :::
 
 ## Save a Macro
 
 Once you are done, save your work and share it with the community.
 
-1. When you have the Macro Editor open, select **Save** from the File menu or use the shortcut `CTRL/⌘+s`.
+1. When you have the Macro Editor open, select **Save** from the File menu or use the shortcut <kbd>Ctrl/⌘</kbd>+<kbd>S</kbd>.
 2. In the save dialog, add a macro name and description.
 3. Save the macro by selecting **Save**.
 

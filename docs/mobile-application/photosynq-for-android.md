@@ -1,6 +1,6 @@
 # PhotosynQ for Android
 
-Taking measurements in the field, on the move? You can use the app to find and join Projects, take measurements and contribute them.
+Taking measurements in the field, on the move? You can use the app to find and join Projects, take measurements and contribute to them.
 
 ## Supported Android Versions
 
@@ -39,6 +39,6 @@ Android devices used to collect measurements with the MultispeQ v1.0 as of **Jun
 | Xiaomi | Mi3, Redmi 4 Pro, Redmi 4X |
 | ZTE | Blade V7, Maven (812), Maven 3 (Z835) |
 
-::: danger
-**\*Disclaimer:** The PhotosynQ mobile App currently only available for Android operating systems. Our community has successfully used above makes and models to install the PhotosynQ app and collect data. However, we do not guarantee the PhotosynQ App will work on above makes or models. PhotosynQ LLC is not affiliated or partnered with any of the makes and models, and we do not claim any rights to those. Copyrights and trademarks belong to respective companies.
+::: danger *Disclaimer
+The PhotosynQ mobile App currently only available for Android operating systems. Our community has successfully used above makes and models to install the PhotosynQ app and collect data. However, we do not guarantee the PhotosynQ App will work on above makes or models. PhotosynQ LLC is not affiliated or partnered with any of the makes and models, and we do not claim any rights to those. Copyrights and trademarks belong to respective companies.
 :::

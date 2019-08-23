@@ -1,6 +1,6 @@
 # Import Custom Data
 
-PhotosynQ allows to collect a variety of information with a measurement, including automatic meta information including `time`, `location`, `user`, etc. as well as in form of Project Questions that need to be manually answered before each measurement. Further, photos and notes can be attached to each measurement. Sometimes though, additional data needs to be added, that is not available at the time of the measurement. This could be yield, the absolute amount of chlorophyll measured in the lab, data from other sensors, etc. Or you have some calculations made outside of the platform, that you would like to add into your dataset. Importing Custom Data allows you to do that.
+PhotosynQ allows you to collect a variety of information with a measurement, including automatic meta information including `time`, `location`, `user`, etc. as well as in form of Project Questions that need to be manually answered before each measurement. Further, photos and notes can be attached to each measurement. Sometimes though, additional data needs to be added that is not available at the time of the measurement. This could be yield, the absolute amount of chlorophyll measured in the lab, data from other sensors, etc. Or you have some calculations made outside of the platform that you would like to add into your dataset. Importing Custom Data allows you to do that.
 
 ## Adding Data
 
@@ -16,7 +16,7 @@ Now follow the three steps to ensure that you upload the data correctly.
 
 The first step is to download the spreadsheet template. It will contain several columns, including the unique ID for every measurement, the time the data was collected (UTC) and the project questions.
 
-Open the file, with your preferred spreadsheet application like Excel, Numbers, Calc, etc. The first two columns, `ID` and `time`, are required and cannot be altered. The other columns are the Project questions with the given answers to help identifying the measurements.
+Open the file with your preferred spreadsheet application like Excel, Numbers, Calc, etc. The first two columns, `ID` and `time`, are required and cannot be altered. The other columns are the Project questions with the given answers to help in identifying the measurements.
 
 Add a new column to add a new parameter to your dataset. The first row is the column header which will be the parameter name later on, e.g. `Yield [tons/ha]`. Add your data below.
 
@@ -24,20 +24,20 @@ When you are done you can remove the columns with the Project questions. Save yo
 
 Now the data is available for viewing and working with on the website, as well as the external libraries.
 
-::: tip
-**Tip:** If you are missing a dataset, leave the cell blank.
+::: tip Tip
+If you are missing a dataset, leave the cell blank.
 :::
 
-::: warning
-**Note:** The csv file that has been downloaded, is comma separated. When saving the additional data, make sure the data is still separated by a comma.
+::: warning Note
+The csv file that has been downloaded is comma separated. When saving the additional data, make sure the data is still separated by a comma.
 :::
 
 ## Updating Data
 
-If you take more measurements, you want to add or remove a parameter or correct a mistake, select **Import data** from you Projects' options menu. Download the spreadsheet again. Now it contains all the data, that has been previously uploaded. Make your changes, save the file and re-upload it. The changes are available right away.
+If you take more measurements, want to add or remove a parameter, or correct a mistake, select **Import data** from you Projects' options menu. Download the spreadsheet again. Now it contains all the data that has been previously uploaded. Make your changes, save the file, and re-upload it. The changes are available right away.
 
-::: warning
-**Note:** When uploading data, the old data will be overwritten without a warning.
+::: warning Note
+When uploading data, the old data will be overwritten without a warning.
 :::
 
 ### Add a Parameter
@@ -77,7 +77,6 @@ When viewing the Project data, you can open the spreadsheet and select the **Imp
 ![View Imported Data in the Spreadsheet](./images/import-data-filter.png)
 
 When categorical data is imported, it can be used to filter the data into series. This is a way of adding filters in addition to the Project Questions.
-
 
 ## Use Cases
 

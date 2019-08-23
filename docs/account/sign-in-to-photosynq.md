@@ -25,8 +25,8 @@ You need an account and the email address and password connected with the accoun
 2. Enter your **email address** and **password**.
 3. Click on **Sign in**.
 
-::: warning
-**Note:** Make sure you have an internet connection when you sign in so your work can be synchronized.
+::: warning Note
+Make sure you have an internet connection when you sign in so your work can be synchronized.
 :::
 
 [photosynq.org/sign_in]: https://photosynq.org/users/sign_up

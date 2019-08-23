@@ -2,9 +2,9 @@
 
 ## Introduction
 
-Many of the parameters measured by the MultispeQ (e.g. Phi2, PhiNPQ, and PhiNO) respond rapidly to changes in light intensity. For this reason, the analysis of PhotosynQ data often requires multivariate or more sophisticated analytical methods.
+Many of the parameters measured by the MultispeQ (e.g. Phi2, PhiNPQ and PhiNO) respond rapidly to changes in light intensity. For this reason, the analysis of PhotosynQ data often requires multivariate or more sophisticated analytical methods.
 
-However, there are a number of simple tools available from the dashboard in the data viewer. These simple statistical tools include a summary, students t-test, and ANOVA.
+However, there are a number of simple tools available from the dashboard in the data viewer. These simple statistical tools include a summary, students t-test and ANOVA.
 
 ## Summary
 

@@ -12,8 +12,8 @@ Anyone with a valid email address can create an account and join the PhotosynQ c
    - Click on the confirmation link and your account has been activated and can be used.
 6. Now go back to the website or app and [sign in].
 
-::: tip
-**Tip:** Adding a biography and a photo will help other users who may be interested in collaborating with you!
+::: tip Tip
+Adding a biography and a photo will help other users who may be interested in collaborating with you!
 :::
 
 ### Troubleshooting
@@ -21,8 +21,8 @@ Anyone with a valid email address can create an account and join the PhotosynQ c
 - Make sure that you are connected to the internet!
 - Sometimes the confirmation emails end up in your spam folder. Make sure to check it first.
 
-::: warning
-**Still Issues?** Please contact us (<support@photosynq.org>), so we can help you getting your account confirmed.
+::: warning Still Issues?
+Please contact us (<support@photosynq.org>), so we can help you getting your account confirmed.
 :::
 
 [sign up]: https://photosynq.org/users/sign_up

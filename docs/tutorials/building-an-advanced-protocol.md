@@ -1,9 +1,9 @@
-# Building an Advanced Protocl
+# Building an Advanced Protocol
 
 In the previous tutorial we showed you how to write a Protocol for a simple Phi2 measurement. Make sure you are familiar with this first example, before you tackle this next tutorial. Here we want to explain to you how to build a complex Protocol, which combines simple Protocols like the Phi2 from the previous example into one set of Protocols, a **Protocol Set**.
 
-::: tip
-**Tip:** The advantage of using a Protocol with a _Protocol set_, rather selecting multiple Protocols to be executed one after another is, that your Macro has access to all protocols inside that set.
+::: tip Tip
+The advantage of using a Protocol with a _Protocol set_, rather selecting multiple Protocols to be executed one after another is, that your Macro has access to all protocols inside that set.
 :::
 
 ## Protocol Sets
@@ -45,28 +45,28 @@ The command `previous_light_intensity` allows to measure the light intensity in 
             {
                 "label": "Phi2",
                 "pulses": [
-                    4000, 20, 50, 20
+                    20, 50, 20
                 ],
                 "pulse_distance": [
-                    1000, 10000, 10000, 10000
+                    10000, 10000, 10000
                 ],
                 "pulse_length": [
-                    [ 30 ], [ 30 ], [ 30 ], [ 30 ]
+                    [ 30 ], [ 30 ], [ 30 ]
                 ],
                 "pulsed_lights": [
-                    [ 0 ], [ 3 ], [ 3 ], [ 3 ]
+                    [ 3 ], [ 3 ], [ 3 ]
                 ],
                 "pulsed_lights_brightness": [
-                    [ 0 ], [ 2000 ], [ 2000 ], [ 2000 ]
+                    [ 2000 ], [ 2000 ], [ 2000 ]
                 ],
                 "nonpulsed_lights": [
-                    [ 2 ], [ 2 ], [ 2 ], [ 2 ]
+                    [ 2 ], [ 2 ], [ 2 ]
                 ],
                 "nonpulsed_lights_brightness": [
-                    [ "light_intensity" ], [ "light_intensity" ], [ 4500 ], [ "light_intensity" ]
+                    [ "light_intensity" ], [ 4500 ], [ "light_intensity" ]
                 ],
                 "detectors": [
-                    [ 0 ], [ 1 ], [ 1 ], [ 1 ]
+                    [ 1 ], [ 1 ], [ 1 ]
                 ],
                 "environmental": [
                     [ "light_intensity" ]

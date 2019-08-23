@@ -14,9 +14,7 @@ Before you can start using PhotosynQ, you will need to create a free account.
    - Once you confirm, your account will be been created!
 4. Now go back to the website or app and sign in.
 
-***
-
-### Connect an Instrument
+## Connect an Instrument
 
 You can use Bluetooth or USB to connect your Instrument with your device. Depending on the Instrument and device, some connection options may not be available.
 
@@ -43,9 +41,7 @@ For data collection in the field, most people will use the mobile app. So lets f
 If you are having trouble connecting to the MultispeQ, please look for trouble shooting tips on [Connect an Instrument - Desktop](../desktop-application/connect-an-instrument.md) or [Connect an Instrument - Mobile](../mobile-application/connect-an-instrument.md)
 :::
 
-***
-
-### PhotosynQ Projects
+## PhotosynQ Projects
 
 **Projects are the lifeblood of PhotosynQ, so it is important to understand what you are looking at!**
 
