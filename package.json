@@ -51,5 +51,11 @@
     "through2": "^3.0.1",
     "vuepress": "^1.0.3",
     "vuepress-plugin-sitemap": "^2.1.2"
+  },
+  "resolutions": {
+    "**/**/lodash": "^4.17.13",
+    "**/**/lodash.merge": "^4.6.2",
+    "**/**/lodash.template": "^4.5.0",
+    "**/**/marked": "^0.7.0"
   }
 }
