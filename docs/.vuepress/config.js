@@ -3,6 +3,7 @@ module.exports = {
     description: 'Documentation on how to use the PhotosynQ platform, including the web, mobile and desktop applications as well as the instruments.',
     head: [
         ['link', { rel: 'icon', href: '/icons/favicon-32x32.png' }],
+        ['link', { rel: 'manifest', href: '/manifest.json' }],
         ['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' }],
         ['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css' }],
         ['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/mermaid/7.0.0/mermaid.css' }],
