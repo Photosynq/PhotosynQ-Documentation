@@ -4,7 +4,7 @@ Macros are used to calculate parameters from a measurement. To work with Macros 
 
 ![The Macro List](./images/macro-list.png)
 
-**My Macros** shows a list of Macros you have created. **Explore** will provide a list of all Macros currently available on the Platform. Click on the list headers to sort the list of Macros by name, creator and date.
+**My Macros** shows a list of Macros you have created. **Explore** will provide a list of all Macros currently available on the Platform. Click on the list headers to sort the list of Macros by name, creator, and date.
 
 A **single click** on a Macro from the list will bring up details about the Macro in the right side bar. Here you can also see the discussion around the macro as well as add new comments. A **double click** will directly open the Macro in the Macro Editor.
 
