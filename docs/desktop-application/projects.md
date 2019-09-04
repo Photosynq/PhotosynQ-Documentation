@@ -32,7 +32,7 @@ The **Results** tab will list the number of contributions made to the Project so
 
 ### Discussion
 
-The **Discussion** tab allows to discuss the Project in the same way as you can discuss it on the website. You can start a new thread using the **New Top** button, or you can select an existing thread and reply to a comment. If you want to attach images to your comment, you can click on the **picture** icon next to the comment field and attach up to three images to you comment. You can use markdown to format your comment.
+The **Discussion** tab allows you to discuss the Project in the same way you can discuss it on the website. You can start a new thread using the **New Top** button, or you can select an existing thread and reply to a comment. If you want to attach images to your comment, you can click on the **picture** icon next to the comment field and attach up to three images to your comment. You can use markdown to format your comment.
 
 ### Editing a Project
 
@@ -70,7 +70,7 @@ You have to answer all **Project Questions** in order to contribute a measuremen
 
 ### Scan Codes
 
-Answers can also be given, by scanning Bar or QR codes (requires webcam). Select the scan icon next to the input field to use your webcam to scan a code. A dialog will be open up and you can select the input source if you have multiple cameras, otherwise the standard camera will be selected. Hold the code in front of the camera to scan it. When the code was read successfully, the dialog will be closed and the code content added into the input field. You can close the dialog at any time using the **Esc** key.
+Answers can also be given by scanning Bar or QR codes (requires webcam). Select the scan icon next to the input field to use your webcam to scan a code. A dialog will open up and you can select the input source if you have multiple cameras, otherwise the standard camera will be selected. Hold the code in front of the camera to scan it. When the code was read successfully, the dialog will be closed and the code content added into the input field. You can close the dialog at any time using the **Esc** key.
 
 ### Taking a Measurement
 
