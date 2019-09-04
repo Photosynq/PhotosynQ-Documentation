@@ -22,11 +22,11 @@ If you start creating Macros, you will quickly realize, that some of the program
 
 Protocols contain a variety of key value pairs like `data_raw` (array) containing the trace recoded by a detector or `time` (number - Unix timestamp in ms). You can simply select these from the **Variables** dropdown in the **Menu Bar** where they get inserted at the current cursor position or the autocomplete menu while you are typing. When you are writing a macro for a protocol set, the content of the menu will change depending on the set you have selected from the **Menu Bar**.
 
-On the left hand-side there are not only the row numbers indicated, but also potential issues (warnings) and errors. Hover over the indicator with the mouse cursor to get an issue explanation. In case of errors, the error message will also be shown in the macro output when the automatic calculation is activated.
+On the left-hand side there are not only the row numbers indicated, but also potential issues (warnings) and errors. Hover over the indicator with the mouse cursor to get an issue explanation. In case of errors, the error message will also be shown in the macro output when the automatic calculation is activated.
 
 ![Warning about a potential issue in the code](./images/macro-editor-warning.png)
 
-Sometimes the Macro code can be quite extensive. Use the keyboard shortcut <kbd>Ctrl/⌘</kbd>+<kbd>F</kbd> to search your code. Further the autosuggest function will list available functions, measurement variables and local variables as you type. You can bring up the autosuggest menu at any time using the shortcut <kbd>Ctrl/^</kbd>+<kbd>Space</kbd>.
+Sometimes the Macro code can be quite extensive. Use the keyboard shortcut <kbd>Ctrl/⌘</kbd>+<kbd>F</kbd> to search your code. Further, the autosuggest function will list available functions, measurement variables and local variables as you type. You can bring up the autosuggest menu at any time using the shortcut <kbd>Ctrl/^</kbd>+<kbd>Space</kbd>.
 
 ![While typing available variables and functions are autosuggested.](./images/macro-editor-autosuggest.png)
 
