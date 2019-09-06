@@ -24,7 +24,7 @@ When a Protocol was selected and run and the Measurement is done, the Measuremen
 
 ## Create a new Protocol
 
-You can create a new Macro by opening the Macro editor selecting **File → New Protocol...** from the main menu or use the shortcut <kbd>Ctrl/⌘</kbd>+<kbd>5</kbd>. The macro template will be automatically added to your Code Editor and you are asked to pick a measurement from your Notebook to use as your measurement template. You can select that measurement at any time selecting **Measurement** from the **Menu Bar**, but it is easier to start with a measurement provided.
+You can create a new Macro by opening the Macro editor selecting **File → New Protocol...** from the main menu or use the shortcut <kbd>Ctrl/⌘</kbd>+<kbd>5</kbd>. The macro template will automatically add to your Code Editor and you will be asked to pick a measurement from your Notebook to use as your measurement template. You can select that measurement at any time by selecting **Measurement** from the **Menu Bar**, but it is easier to start with a measurement provided.
 
 ## Editing an existing Protocol
 
