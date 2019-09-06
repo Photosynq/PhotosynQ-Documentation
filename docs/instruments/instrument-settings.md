@@ -1,6 +1,6 @@
 # Instrument Settings
 
-PhotosynQ Instruments have settings, which you can change, to make the Instrument better fit you needs. They vary between Instruments. Currently you need to use the Desktop Application to adjust your Instrument settings.
+PhotosynQ Instruments have ajustable settings to make the Instrument better fit you needs. They vary between Instruments. Currently you need to use the Desktop Application to adjust your Instrument settings.
 
 ::: warning Note
 The Mobile Application does not support Instrument Settings.
@@ -51,5 +51,5 @@ The available settings depend on the type and version of the Instrument connecte
 | ---------------------- | ----------- |
 | Stored Information (EEPROM) | Display all the information stored in the Instrument's internal memory. |
 | Instrument Connection | Check if the Instrument is connected and properly communicating. The  |
-| CaliQ Connection | Check if the CaliQ is connected and properly to the MultispeQ. |
+| CaliQ Connection | Check if the CaliQ is connected properly to the MultispeQ. |
 | Instrument Clock | The Instrument's internal clock gets set to the device's time it is connected to. |
