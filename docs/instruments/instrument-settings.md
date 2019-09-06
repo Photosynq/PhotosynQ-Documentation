@@ -50,6 +50,6 @@ The available settings depend on the type and version of the Instrument connecte
 | Instrument Information | Description |
 | ---------------------- | ----------- |
 | Stored Information (EEPROM) | Display all the information stored in the Instrument's internal memory. |
-| Instrument Connection | Check if the Instrument is connected and properly communicating. The  |
+| Instrument Connection | Check if the Instrument is connected and properly communicating. |
 | CaliQ Connection | Check if the CaliQ is connected properly to the MultispeQ. |
 | Instrument Clock | The Instrument's internal clock gets set to the device's time it is connected to. |
