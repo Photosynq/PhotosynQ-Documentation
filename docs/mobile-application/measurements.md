@@ -16,13 +16,13 @@ Select all Measurements that have not been uploaded yet from the list of all Mea
 
 Once Measurements have been uploaded, they will remain on the list, indicated by a cloud icon. Use **Cleanup Measurements** from the **More Options** menu, to remove those Measurements. Measurements that are not uploaded yet will remain on the list.
 
-After selecting **Measurements** from the Menu, a list will all Measurements taken for Projects is presented. Each Measurement is presented as one list item with the Project title, the given answers to the Project questions and the date and time.
+After selecting **Measurements** from the Menu, a list will all Measurements taken for Projects is presented. Each Measurement is presented as one list item with the Project title, the given answers to the Project questions along with the date and time.
 
 ![Available options for a selected Measurement](./images/android-measurements-menu-selected.png)
 
 ## Editing Measurements
 
-Measurements that have been recorded for a Project can be supplemented with notes and photos or deleted, if they are not intended to be uploaded to a Project on the PhotosynQ cloud (See [Adding Notes and Pictures](./adding-notes-and-pictures.md)).
+Measurements that have been recorded for a Project can be supplemented with notes and photos. You can also delete the measurements if they are not intended to be uploaded to a Project on the PhotosynQ cloud (See [Adding Notes and Pictures](./adding-notes-and-pictures.md)).
 
 ::: warning Note
 You can only supplement the Measurements with information. The answers given for a Measurement cannot be altered!
@@ -35,7 +35,7 @@ Measurements can be uploaded in bulk or individually. To upload them all at once
 Once a Measurement is uploaded successfully, it is labeled with a green cloud icon.
 
 ::: tip Tip
-Make sure you upload cached measurements on a regular basis. Specially if you share the phone with others. Otherwise you might forget that there are measurements still on the device.
+Make sure you upload cached measurements on a regular basis. Specially if you share the phone with others. Otherwise you might forget that there are measurements still on the device. We recommend uploading the measurements as soon as you have WiFi connection
 :::
 
 ## Submitted Measurements
