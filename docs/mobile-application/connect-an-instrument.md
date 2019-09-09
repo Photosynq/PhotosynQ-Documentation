@@ -10,7 +10,7 @@ Before connecting your MultispeQ to the Desktop App you need to turn on the Mult
 
 ## Android - Connect a new Instrument (Bluetooth)
 
-When connecting an Instrument for the first time, you have to pair it with your device. The pairing only needs to be done once, and only repeated, if the Instrument has been paired with a different device in between.
+When connecting an Instrument for the first time, you have to pair it with your device. The pairing only needs to be done once and only repeated if the Instrument has been paired with a different device in between.
 
 ![Connect a new Instrument](./images/android-connect-new-instrument.png)
 
