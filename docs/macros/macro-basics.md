@@ -5,13 +5,13 @@ All the macros you have developed on PhotosynQ are accessible to you at any time
 Macros are small pieces of code with calculations for Protocols that are run after the measurement is done to evaluate the measurement. Macros are written in [JavaScript].
 
 ::: tip Tip
-PhotosynQ is providing a number of pre-build functions to make it easier building a Macros and to avoid writing the same code for standard problems like calculating an average, over and over again.
+PhotosynQ is providing a number of pre-build functions to make it easier to build Macros and to avoid writing the same code for standard problems like calculating an average over and over again.
 :::
 
 ## Browser
 
-1. Go to your user profile by clicking on your user name in the top menu bar. If you are not signed in, do that first.
-2. Select the **Macros** tab to list all of your Macros.
+1. Go to your user profile by clicking on your user name in the top menu bar. Make sure you are signed in first.
+2. Select the **Macros** tab to get a list all of your Macros.
 3. Click on a Macro to get to the Macro page with the Macro description, the Macro Code, the Measurement data and the Comments. On the right hand-side, you will further find the Protocol category, the connected macro and compatible Instruments.
 
 ## Desktop
