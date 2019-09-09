@@ -8,7 +8,7 @@
 + Output only what is really necessary to not overwhelm others who will use your macro based analysis.
 
 ::: warning Note
-Try to make your code efficient, since can be used to evaluate several thousand measurements in a row.
+Try to make your code efficient, since it can be used to evaluate several thousand measurements in a row.
 :::
 
 ## Code Structure
