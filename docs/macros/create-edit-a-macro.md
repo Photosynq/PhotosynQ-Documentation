@@ -1,6 +1,6 @@
 # Create / Edit a Macro
 
-If you want to analyze a measurement using your own calculation, create a macro to do the calculation for you. When a Protocol has a Macro associated, the Macro will calculate all parameters derived from the measurement immediately after the measurement is done. When the measurement is saved for a Project, the raw measurement is send to the cloud where the macro is doing the calculations again.
+If you want to analyze a measurement using your own calculation, create a macro to do the calculation for you. When a Protocol has a Macro associated, the Macro will calculate all parameters derived from the measurement immediately after the measurement is done. When the measurement is saved for a Project, the raw measurement is sent to the cloud where the macro will do the calculations again.
 
 ![The Macro Editor](./images/macro-editor.png)
 
@@ -8,7 +8,7 @@ If you want to analyze a measurement using your own calculation, create a macro 
 
 1. Make sure you have the Desktop Application installed and you are signed in.
 2. Select **New Macro...** from the File menu.
-3. Select a measurement from the dialog, the macro should analyze. The measurements are selected from the notebook. If you don't have a measurement saved to your notebook, take one with the protocol the macro is for save it to your notebook.
+3. Select a measurement from the dialog that the macro should analyze. The measurements are selected from the notebook. If you don't have a measurement saved to your notebook, take one with the protocol the macro is for save it to your notebook.
 4. Start coding...
 
 If you need more help on how to get started, please look at this [Tutorial](../tutorials/building-a-macro.md)
@@ -38,7 +38,7 @@ Once you are done, save your work and share it with the community.
 
 ## Connecting a Macro
 
-Once you have the Macro finished, you can open the Protocol in the Protocol Editor and select the Macro from the dropdown list from the menu. Then save the Protocol again to connect the Macro. Now when run, the Protocol will return the calculations that have been done by the Macro after the measurement is done.
+Once you have the Macro finished, you can open the Protocol in the Protocol Editor and select the Macro from the dropdown list from the menu. Then save the Protocol again to connect the Macro. Now when the Protocol is run, it will return the calculations that have been done by the Macro after the measurement is done.
 
 ## After Macro Updates
 
@@ -48,6 +48,6 @@ When updating a Macro for a Protocol that is used in a Project, the update will 
 
 If you have issues saving the macro, make sure you check these things first:
 
-- When a Macro done, make sure the output box is green, indicating that there was no error.
-- Make sure you have a name, description.
+- When a Macro is done, make sure the output box is green, indicating that there was no error.
+- Make sure you have a name and description.
 - Check that the name is not already existing.
