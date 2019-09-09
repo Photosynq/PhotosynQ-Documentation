@@ -15,19 +15,19 @@
 
 ### Leaf Clamp Button
 
-Push down the leaf clamp button to open the leaf clamp. Push and release with an even motion and prevent it from snapping back. In case the open and closing feels a little rough, a small amount of lithium grease can be used to make the open and closing motion more smoothly.
+Push down the leaf clamp button to open the leaf clamp. Push and release with an even motion and prevent it from snapping back. In case the open and closing feels rough, a small amount of lithium grease can be used to make the open and closing motion more smoothly.
 
 ### PAR Sensor
 
-The PAR sensor located on top of the instrument. When taking measurements, depending on the measurement protocol, the light intensity measured will be replicated inside the instrument. Make sure not to cover or shade the PAR sensor, to prevent altering the actual intensity. Also prevent the sensor from getting dirty.
+The PAR sensor located on top of the instrument. When taking measurements, depending on the measurement protocol, the light intensity measured will be replicated inside the instrument. Make sure the PAR sensor is clean and not to cover or shade, to prevent altering the actual intensity. 
 
 ### Seal
 
-The seal around the light guide on the main body and the clamp is ensuring the area measured is sealed from outside light. The material is  Nitrile.
+The Nitrile seal around the light guide on the main body and the clamp is ensuring the area measured is sealed from outside light. 
 
 ### Light Guide
 
-The light guide are made from acrylic. Make sure, it is clean and prevent clamping hard materials which can cause scratches.
+The light guides are made from acrylic. Make sure, it is clean and prevent clamping hard, rough materials which can cause scratches.
 
 ::: tip
 You may need to clean the light guides occasionally. Gently clean the light guides with a damp, soft cloth.
@@ -39,33 +39,33 @@ Do not submerge in water, do not use solvents or detergents and do not use abras
 
 ### IR Contactless Temperature
 
-The leaf Temperature can be measured with the IR Contactless Temperature. When taking a measurement make sure that the leaf is covering the IR sensor. The sensor is inside a little groove and not flush with the clamp surface. The leaf or material should not touch the the sensor, since it can alter the measured temperature reading.
+The leaf temperature can be measured with the IR Contactless Temperature. When taking a measurement, make sure that the leaf is covering the IR sensor. The sensor is inside a little groove and not flush with the clamp surface. The leaf or material should not touch the the sensor, since it can alter the measured temperature reading.
 
 ### Temperature & rel. Humidity Vent
 
-The two vents allowing air to be exchanged inside the Instrument. There are two sensors inside the clamp, one is close to the vents and the light guide, the other one is located on the other end of the clamp. Tubes can be attached in combination with a pump to provide a constant air flow and/or gas exchange.
+The two vents allow air to be exchanged inside the Instrument. There are two sensors inside the clamp, one is close to the vents and the light guide while the second one is located on the other end of the clamp. Tubes can be attached in combination with a pump to provide a constant air flow and/or gas exchange.
 
 ### Instrument Action Indicator
 
-The Action Indicator has the following
+The Action Indicator has the following:
 
 | Indicator | Function |
 | --------- | -------- |
 | ![Instrument idle and fully charged](./images/indicator-idle-full.svg) | Instrument is on, and fully charged. The indicator is flashing every 5s |
 | ![Instrument idle and battery not fully charged](./images/indicator-idle-empty.svg) | Instrument is on, and battery is emptying. The indicator is flashing every 5s |
 | ![Instrument clamp open](./images/indicator-clamp-open.svg) | Instrument clamp open. The indicator is flashing rapidly. |
-| ![Instrument busy](./images/indicator-busy.svg) | Instrument is busy (e.g. Measurement). The indicator is constantly on |
+| ![Instrument busy](./images/indicator-busy.svg) | Instrument is busy (e.g. Measurement). The indicator is constantly on. |
 
 ### Power/Reset Button
 
-The button in the back allows the instrument to be turned on as well as been reset.
+The button in the back allows the instrument to be turned on as well as reset.
 
-+ Hold the button for at last 5 seconds to turn the Instrument on. Wait for the Action Indicator to start flashing, to confirm the Instrument is on and booted up.
++ Hold the button for at least 5 seconds to turn the Instrument on. Wait for the Action Indicator to start flashing, to confirm the Instrument is on and booted up.
 + A short push on the button will reset the instrument, in case a protocol crashes, etc.
 + When the Instrument is running, hold the button for 5 seconds, to restart the instrument. Wait for the Action Indicator to start flashing, to confirm the Instrument is booted up again.
 
 ::: tip Tip
-When the rubber port cover is closed, it is easier to push the button.
+  Make sure to only press the power button through the silcon covering.
 :::
 
 ### Micro-USB
