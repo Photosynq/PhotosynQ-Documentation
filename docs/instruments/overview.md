@@ -1,16 +1,16 @@
 # Overview
 
-> Instrumentation should be affordable, reliable and easy to use to enable as many people as possible to contribute to research. The instruments developed to work with PhotosynQ try to bridge this chasm between what is currently available and the for mentioned goals.
+> Instrumentation should be affordable, reliable, and easy to use to enable as many people as possible to contribute to research. The instrument is developed to work with PhotosynQ to try to bridge this chasm between what is currently available and the for mentioned goals.
 
 ## MultispeQ v2.0
 
 ![MultispeQ v2.0](./images/multispeq-v2.0.jpg)
 
-The MultispeQ v2.0 is the next iteration of the MultispeQ v1. Improvements have been made to the case, electronics and an LED has been replaced. Like the previous version, it measures fluorescence base parameters like qL, qP, ΦII, LEF, NPQ and absorbance based parameters like vH⁺, gH⁺, ECSt and relative chlorophyll content. It can collect environmental parameters like temperature, relative humidity, barometric pressure, leaf temperature, light intensity, cardinal direction and tilt.
+The MultispeQ v2.0 is the next iteration of the MultispeQ v1.0. Improvements have been made to the case, electronics, and an LED has been replaced. Like the previous version, it measures fluorescence base parameters like qL, qP, ΦII, LEF, NPQ, and absorbance based parameters like vH⁺, gH⁺, ECSt, and relative chlorophyll content. It can collect environmental parameters like temperature, relative humidity, barometric pressure, leaf temperature, light intensity, cardinal direction, and tilt.
 
-Internally one of the sensors has been moved to improve measurements using a connected air pump. Further the 850 nm LED has been replaced with a 810 nm LED.
+Internally, one of the sensors has been moved to improve measurements using a connected air pump. Further the 850 nm LED has been replaced with a 810 nm LED.
 
-Now the instrument has an charging indicator and an RGB progress/action indicator LED.
+Now the instrument has a charging indicator and a RGB progress/action indicator LED.
 
 ::: tip More Information
 + [Getting Started](./multispeq-v2.0.md)
@@ -23,7 +23,7 @@ Now the instrument has an charging indicator and an RGB progress/action indicato
 
 ![MultispeQ v1.0](./images/multispeq-v1.0.png)
 
-The MultispeQ v1.0 is based on the experiences we gained from our development of the beta version. It measures fluorescence base parameters like qL, qP, PhiII, LEF, NPQ and absorbance based parameters like vH⁺, gH⁺, ECSt and relative chlorophyll content. It can collect environmental parameters like temperature, relative humidity, barometric pressure, leaf temperature, light intensity, cardinal direction and tilt.
+The MultispeQ v1.0 is based on the experiences we gained from our development of the beta version. It measures fluorescence base parameters like qL, qP, PhiII, LEF, NPQ, and absorbance based parameters like vH⁺, gH⁺, ECSt, and relative chlorophyll content. It can collect environmental parameters like temperature, relative humidity, barometric pressure, leaf temperature, light intensity, cardinal direction, and tilt.
 
 The signal quality has been increased to allow absorbance based measurements like the electrochromic shift in the field within a reasonable time. The ergonomics and the leaf clamping has been improved based on experiences in the field.
 
@@ -40,7 +40,7 @@ This version of the Instrument is no longer available.
 
 ![MultispeQ beta](./images/multispeq_beta.png)
 
-This instrument was the first developed as a proof of concept to show it is possible to measure photosynthetic parameters with an easy to use, field deployable instrument. This includes parameters like fluorescence base parameters like qL, qP, ΦII, LEF, NPQ and absorbance based parameters like vH⁺, gH⁺, ECSt and relative chlorophyll content. On top, it can collect environmental parameters like temperature, relative humidity, light intensity and CO₂ concentration.
+This instrument was the first developed as a proof of concept to show it is possible to measure photosynthetic parameters with an easy to use, field deployable instrument. This includes parameters like fluorescence base parameters like qL, qP, ΦII, LEF, NPQ, and absorbance based parameters like vH⁺, gH⁺, ECSt, and relative chlorophyll content. On top, it can collect environmental parameters like temperature, relative humidity, light intensity, and CO₂ concentration.
 
 It has been a reliable workhorse for the last two years and is still used in several studies. For more details and our validation of the instrument, please read the publication (open access).
 
@@ -82,6 +82,6 @@ The GrainspeQ is a portable handheld device that can measure PAM fluorescence, s
 
 ![LeafthiQ prototype](./images/leafthiq.png)
 
-Determining the accurate leaf thickness could be useful to identify traits with significant differences, or getting an estimate of the biomass. This prototype allows to determine the leaf thickness with an accuracy of up to 10 microns. Currently it only works through micro-USB and which powers the instrument and transfers the data.
+Determining the accurate leaf thickness could be useful to identify traits with significant differences, or getting an estimate of the biomass. This prototype allows to determine the leaf thickness with an accuracy of up to 10 microns. Currently, it only works through micro-USB which powers the instrument and transfers the data.
 
 [doi:10.1098/rsos.160592]: https://dx.doi.org/10.1098/rsos.160592
