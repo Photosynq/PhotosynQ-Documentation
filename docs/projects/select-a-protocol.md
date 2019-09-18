@@ -14,11 +14,11 @@ Read the protocol description carefully to be sure that it is measuring what you
 
 1. Suggested protocols for your Project (based on the Project category) will appear on the left.
 2. On the right will be a description of the protocol.
-3. Click on the protocol
-4. Click on 'Save and Next'
+3. Click on the protocol.
+4. Click on 'Save and Next.'
 
 ::: warning Note
-You will only be able to select **one** protocol using this method, if you want to select more than 1 protocol, keep reading...
+You will only be able to select **one** protocol using this method, if you want to select more than 1 protocol, keep reading.
 :::
 
 ### Choosing more than 1 suggested protocol
@@ -27,10 +27,10 @@ You will only be able to select **one** protocol using this method, if you want 
 2. A list of all suggested protocols will appear on the left.
 3. To select a protocol, click on it or drag it over to the protocol list on the right.
 4. Select additional protocols the same as in step #3. **Protocols will run in the order that they are listed on the right**
-5. Click on 'Save and Next'
+5. Click on 'Save and Next.'
 
 ::: tip Tip
-You can change the order of protocols by dragging them up or down the list
+You can change the order of protocols by dragging them up or down the list.
 :::
 
 ::: tip Tip
@@ -39,14 +39,14 @@ Hovering over the protocol name will bring up a pop-up window with the protocol 
 
 ### Choosing protocols from the whole protocol list
 
-1. If the suggested protocols are not appropriate for your Project, click on 'Advanced' below the suggested protocols
-2. Click on 'Click to show all protocols' to bring up the full list of protocols available on PhotosynQ
+1. If the suggested protocols are not appropriate for your Project, click on 'Advanced' below the suggested protocols.
+2. Click on 'Click to show all protocols' to bring up the full list of protocols available on PhotosynQ.
 3. To select a protocol, click on it or drag it over to the protocol list on the right.
-4. Select additional protocols the same as in step #3. **Protocols will run in the order that they are listed on the right**
-5. Click on 'Save and Next'
+4. Select additional protocols the same as in step #3. **Protocols will run in the order that they are listed on the right**.
+5. Click on 'Save and Next.'
 
 ::: tip Tip
-You can change the order of protocols by dragging them up or down the list
+You can change the order of protocols by dragging them up or down the list.
 :::
 
 ::: tip Tip
