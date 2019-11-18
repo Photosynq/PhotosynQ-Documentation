@@ -4,7 +4,7 @@ The **Protocol Editor** allows you to build new Protocols or modify existing one
 
 ![The Protocol Editor, with a protocol and using auto-suggest while typing](./images/protocol-editor.png)
 
-The Code Editor in general works like any other text or code editor. It has syntax highlighting as well as error checking so you know at any time if the protocol has a valid format or not. Also, it is helpful when it comes to formatting and working with the code. If next to the line number a red icon <i class="fa fa-times-circle"></i> appears, there is an error in the code either in that line or above. If there is a yellow warning icon <i class="fa fa-exclamation-triangle"></i>, the structure of the protocol is correct but a command used is not correct, or a value provided is not correct. In that case you might be able to run the protocol, but it might not work as expected. When you have an Instrument connect, you will also get the commands for LEDs, Detectors and Miscellaneous Sensors. They are available in the auto-suggest popup, as well as in the sidebar under **more** and then **Instrument**.
+The Code Editor in general works like any other text or code editor. It has syntax highlighting as well as error checking so you know at any time if the protocol has a valid format or not. Also, it is helpful when it comes to formatting and working with the code. If a red icon <i class="fa fa-times-circle"></i> appears next to the line number, there is an error in the code either in that line or above. If there is a yellow warning icon <i class="fa fa-exclamation-triangle"></i>, the structure of the protocol is correct but a command used is incorrect, or a value provided is incorrect. In that case, you might be able to run the protocol, but it might not work as expected. When you have an Instrument connect, you will also get the commands for LEDs, Detectors and Miscellaneous Sensors. They are available in the auto-suggest popup, as well as in the sidebar under **more** and then **Instrument**.
 
 ![Error related to a protocol structure issue; Warning about a potential issue with a command](./images/protocol-editor-warning.png)
 
@@ -14,7 +14,7 @@ In order to get started or to avoid typing the same code over and over again, sn
 
 **Presets:** These presets are snippets of code provided by PhotosynQ to make it easier to create protocols. You cannot modify the presets. To save your own snippets, use **My Snippets**. To add a preset to the code, just position the cursor where you want to insert it in the code. Double click on the preset in the list to insert it.
 
-**My Snippets:** Here you can save your own snippets. Just highlight the code you want to save and select the **Add** button. Give it a name and hit Enter to save it or ESC to cancel. When hovering over a snippet, use **&times;** to delete a snippet. To add your snippet to the code, just position the cursor where you want to insert it in the code. Double click on the snippet in the list to insert it.
+**My Snippets:** Here you can save your own snippets. Just highlight the code you want to save and select the **Add** button. Give it a name and hit Enter to save it or ESC to cancel. When hovering over a snippet, use **&times;** to delete a snippet. To add your snippet to the code, just position the cursor where you want to insert the snippet in the code. Double click on the snippet in the list to insert it.
 
 ::: warning Note
 Snippets saved under **My Snippets** are saved locally only.

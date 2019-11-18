@@ -1,14 +1,14 @@
 # Import Custom Data
 
-PhotosynQ allows you to collect a variety of information with a measurement, including automatic meta information including `time`, `location`, `user`, etc. as well as in form of Project Questions that need to be manually answered before each measurement. Further, photos and notes can be attached to each measurement. Sometimes though, additional data needs to be added that is not available at the time of the measurement. This could be yield, the absolute amount of chlorophyll measured in the lab, data from other sensors, etc. Or you have some calculations made outside of the platform that you would like to add into your dataset. Importing Custom Data allows you to do that.
+PhotosynQ allows you to collect a variety of information with a measurement, including automatic meta information such as `time`, `location`, `user`, etc. In addition, meta data in the form of Project Questions that need to be manually answered before each measurement are organized in photosynQ. Further, photos and notes can be attached to each measurement. Sometimes additional data needs to be added that is not available at the time of the measurement such as parameters measured in the lab or calculated at the end of a season. Importing Custom Data allows you to do that.
 
 ## Adding Data
 
-If you have created a Project (project lead) or you are an administrator, you can add additional data to a Project.
+If you have created a Project making you the project lead or you are an administrator, you can add additional data to a Project.
 
 1. Go to <https://photosynq.org> and sign in to your account.
 2. Navigate to the Project you want to add data to.
-3. Select **Options** from the side bar and select **Import data**
+3. Select **Options** from the side bar and select **Import data**.
 
 Now follow the three steps to ensure that you upload the data correctly.
 

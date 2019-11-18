@@ -1,6 +1,6 @@
 # Console Commands
 
-Using the Console in the Desktop application, you can use these commands to directly communicate with the Instrument. It allows to change settings and display informations, which are mostly only for advanced users or developers. When working with the console and these commands, be careful!
+In the Desktop application, using the Console allows you to use commands to directly communicate with the Instrument. It allows you to change settings and display information. We recommend working with these console commands only for advanced users or developers since they can be tricky. 
 
 ::: warning Note
 Some of the commands will introduce changes without warning, which could cause the Instrument to malfunction.
@@ -959,7 +959,7 @@ set_magnetometer_bias
 
 ### set\_op
 
-Set the **open** position of the leave clamp.
+Set the **open** position of the leaf clamp.
 
 **Example:**
 
@@ -1080,7 +1080,7 @@ set_thickness_quick
 
 ### set\_user\_defined
 
-Save an user defined value to the EEPROM. You can abort the input using `-1+`.
+Save a user defined value to the EEPROM. You can abort the input using `-1+`.
 
 **Example:**
 

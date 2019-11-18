@@ -1,10 +1,10 @@
 # PhotosynQ for Android
 
-Taking measurements in the field, on the move? You can use the app to find and join Projects, take measurements and contribute to them.
+Taking measurements in the field, on the move? You can use the app to find projects, join Projects, take measurements, and contribute to them.
 
 ## Supported Android Versions
 
-Currently Android v4.4 or greater is supported. Below you find a list with compatible devices. However some devices might experience issues. In this case help us and send us an email at <support@photosynq.org>.
+Currently Android v4.4 or greater is supported. Below you find a list with compatible devices. However, some devices might experience issues. In this case help us by sending an email to <support@photosynq.org>.
 
 ## Compatible Android Devices
 

@@ -54,7 +54,7 @@ The detector 3 is covered with a BG-18 bandpass filter with a center wavelength 
 
 ## Sensors
 
-The MultispeQ v1.0 has a set of sensors to measure the environmental parameters
+The MultispeQ v1.0 has a set of sensors to measure the environmental parameters.
 
 | Sensor | Model | Specifications |
 |-----|-----|:---:|

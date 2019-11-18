@@ -5,7 +5,7 @@ The map allows you to superimpose your collected measurements on a map.
 ## View Maps and Heat Maps
 
 1. Just select the **<i class="fa fa-globe"></i> Map View** from the right menu underneath the Project name.
-2. The color of the markers on the map represents the **Series**
+2. The color of the markers on the map represents the **Series**.
 
 ::: tip Tip
 Click on the marker to see the measurement details.
@@ -28,5 +28,5 @@ Heat maps allow you to see spacial trends.
 2. Click on **Heatmap** and select the gradient for coloration.
 
 ::: tip Tip
-You can hover over a marker the value is highlighted on the gradient on the legend in the lower right corner.
+If you hover over a marker the value is highlighted on the gradient on the legend in the lower right corner.
 :::

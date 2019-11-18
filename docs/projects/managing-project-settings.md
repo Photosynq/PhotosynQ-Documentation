@@ -6,7 +6,7 @@ Project settings allow Project Leads to decide who can contribute data to the Pr
 2. If you selected 'Collaborators only' you will need to invite each collaborator.
 3. To invite collaborators, enter their email address in the box 'Invite Collaborator' and click 'Add.'
 4. You can add as many collaborators as you need.
-5. Each collaborator will receive an invitation email, they are not collaborators until they follow the link in the email.
+5. Each collaborator will receive an invitation email but, they are not collaborators until they follow the link in the email.
 6. Once you have finished adding collaborators, select 'Create Project.'
 
 ::: tip Tip

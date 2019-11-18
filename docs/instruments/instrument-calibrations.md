@@ -35,7 +35,7 @@ After each calibration protocol, you have to save the calibration back to the In
 | **Step 1:** Initialize Calibration | Run the protocol to set up the calibration **(Overwrites PAR sensor and LEDs!)**. | [View][1883] |
 | **Step 2:** Calibrate Sensor | Follow the instructions prompted by the protocol. | [View][1884] |
 
-When using the CaliQ for calibrating the Par sensor, make sure it is connected and communicating before starting the calibration procedure. To check if it is properly connected, go to [Instrument Settings](./instrument-settings.md) and test connection (under Miscellaneous).
+When using the CaliQ for calibrating the PAR sensor, make sure it is connected and communicating before starting the calibration procedure. To check if it is properly connected, go to [Instrument Settings](./instrument-settings.md) and test connection (under Miscellaneous).
 
 ::: warning
 These calibration steps require the CaliQ instrument.

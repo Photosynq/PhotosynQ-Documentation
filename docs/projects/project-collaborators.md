@@ -10,8 +10,8 @@ You can invite collaborators to join your Project either when you are creating a
 
 1. In the **Settings** tab, select **Collaborators only** from the "Who can contribute data to your Project" drop down menu.
 2. Enter the email address of the collaborator you are inviting in the **Invite collaborator** box.
-3. After typing in the email address, click the **Add** button. You can invite as many collaborators has you want, and you can choose if you want them to be a collaborator (meaning they can contribute data) or an administrator (meaning they can edit you Project).
-4. Once you have finished inviting collaborators, click **Save and Finish** from the bottom of the page.
+3. After typing in the email address, click the **Add** button. You can invite as many collaborators as you want and you can choose if you want them to be a collaborator (meaning they can contribute data) or an administrator (meaning they can edit your Project).
+4. Once you have finished inviting collaborators, click **Save and Finish** at the bottom of the page.
 
 ![Invite Collaborator](./images/invite-collaborator.jpg)
 

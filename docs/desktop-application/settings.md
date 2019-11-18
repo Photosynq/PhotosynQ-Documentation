@@ -1,6 +1,6 @@
 # Settings
 
-You can find the Applications Settings under the **Settings dialog** clicking on **Application**. You can bring up the Settings dialog doing the following:
+You can find the Applications Settings under the **Settings dialog** by clicking on **Application**. You can bring up the Settings dialog by doing the following:
 
 + Left Menu bar <i class="fa fa-sliders"></i> Settings Icon
 + **Windows & Linux** Menu → Edit → Preferences
@@ -8,7 +8,7 @@ You can find the Applications Settings under the **Settings dialog** clicking on
 
 ## Account
 
-The information about your PhotosynQ account is listed here. Use **View Profile** to view your Profile on the PhotosynQ website, as well as edit information there. **Sign Out** will sign you out of the app which is also available through the menu selecting **File → Sign Out**.
+Information about your PhotosynQ account is listed here. Use **View Profile** to view your Profile on the PhotosynQ website, as well as edit information there. **Sign Out** will sign you out of the app which is also available through the menu by selecting **File → Sign Out**.
 
 ## Application
 
@@ -39,15 +39,15 @@ The Location Services are deactivated by default. We strongly recommend to activ
 
 ### Appearance (macOS)
 
-By default the Application's appearance is the system default, but you can switch between **Dark** and **Light** mode independent of your system settings. When switching, no restart of the Application is required.
+By default, the Application's appearance is the system default, but you can switch between **Dark** and **Light** mode independent of your system settings. When switching, no restart of the Application is required.
 
 ### Version
 
-Simply the release version of the Application.
+Simply the released version of the Application.
 
 ### Language
 
-The language used inside the Application. Currently only English is supported. We are planing on providing multi language support. If you are interested in helping us making the application more accessible, please send us an email at <support@photosynq.org>.
+The language used inside the Application. Currently, only English is supported. We are planing on providing multi language support. If you are interested in helping us making the application more accessible, please send us an email at <support@photosynq.org>.
 
 ### Data
 
@@ -75,7 +75,7 @@ When a camera is available, either a built in webcam or an external camera, you 
 
 Connect an Instrument via USB or Bluetooth here. Select the port the Instrument is connected to and select the **Connect** button. In case the port is not showing, use the refresh <i class="fa fa-refresh"></i> button to update the list. Backups are created, each time before firmware update.
 
-Once an Instrument is connected, an image of the Instrument, its name and the information as listed below are available. When clicking on the information icon behind the Instrument name, a browser window is opened with the Instrument configuration page of this documentation. Some Instruments are modified for special applications. In that case, *modified* is shown behind the Instrument's name as well.
+Once an Instrument is connected, an image of the Instrument, its name, and the information as listed below are available. When clicking on the information icon behind the Instrument name, a browser window is opened with the Instrument configuration page of this documentation. Some Instruments are modified for special applications. In that case, *modified* is shown behind the Instrument's name as well.
 
 | Item | Description |
 | ---- | ----------- |

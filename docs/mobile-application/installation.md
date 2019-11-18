@@ -17,7 +17,7 @@ The PhotosynQ Application is requesting the following permissions to allow its p
 | Take Pictures & Videos             | The camera access is needed to allow the addition of pictures to Measurements and to scan barcodes.                                     |
 | Approximate Location               | The geo-location is needed to add the location information (longitude, latitude) to Measurements.                                       |
 | Modify / delete content of SD card | Required for caching Measurements on the device.                                                                                        |
-| Full network access                | Required for signing in, downloading Projects and Protocols and uploading Measurements.                                                 |
+| Full network access                | Required for signing in, downloading Projects, and Protocols and uploading Measurements.                                                 |
 | Access Bluetooth settings          | Required to connect the Instrument via Bluetooth with the device.                                                                       |
 | Prevent phone from sleeping        | The device is prevented from going to sleep to allow longer measurement protocols and easier working with the application in the field. |
 

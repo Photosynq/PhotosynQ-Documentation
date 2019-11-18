@@ -22,7 +22,7 @@ The order of the answers has to reflect the path the data collector would take t
 
 ![Generating 4 Project Questions from a csv file](./images/project-question-csv.png)
 
-Based on the example field layout above, four Project Questions would be generated from the provided csv file: POT #, Genotype, Irrigation and Replicate.
+Based on the example field layout above, four Project Questions would be generated from the provided csv file: POT #, Genotype, Irrigation, and Replicate.
 
 ::: warning Note
 The example assumes there is only one measurement per pot. If more measurements are supposed to be collected, it needs to be reflected in the csv.
@@ -48,8 +48,8 @@ When multiple people are collecting data in the field, they should start at diff
 
 ### New Measurement
 
-After each measurement, the Mobile Application will automatically input the next answers when **New Measurement** is selected.
+After each measurement, the Mobile Application will automatically input the next answers when a **New Measurement** is selected.
 
 ::: warning Note
-The Desktop Application is not supporting this function.
+The Desktop Application does not support this function.
 :::

@@ -1,8 +1,8 @@
 # Light Guide Mask
 
-Measuring small leaves of plants like *Arabidopsis thaliana* can be tricky, since younger leaves or the leaves of mutants are not covering the light guide entirely. Another example are Monocots like *Oryza sativa* where the leaves are long but so thin that they are not covering the light guide.
+Measuring small leaves of plants like *Arabidopsis thaliana* can be tricky, since younger leaves or the leaves of mutants usually do not cover the light guide entirely. Another example are Monocots like *Oryza sativa* where the leaves are long but so thin that they do not cover the light guide.
 
-Masking the light guide, so that the leaf is fully covering the opening becomes important, when absorbance based measurements for relative chlorophyl or the electrochromic shift (ECS) are used. Chlorophyll fluorescence based measurements like photosynthetic yield (Phi2) not require the leaf to fully cover the light guide, even though the signal might not be as good and values might not be as consistent compared to a fully covered light guide.
+Masking the light guide, so that the leaf is fully covering the opening becomes important, when absorbance based measurements for relative chlorophyl or the electrochromic shift (ECS) are used. Chlorophyll fluorescence based measurements like photosynthetic yield (Phi2) do not require the leaf to fully cover the light guide, even though the signal might not be as good and the values might not be as consistent compared to a fully covered light guide.
 
 Reducing the surface of the light guide by masking parts of it can help overcome those issues.
 
@@ -32,7 +32,7 @@ Fold the mask around the leaf clamp of the instrument. Continue wrapping the mas
 
 ### Step 3
 
-Fold the end of the mask over the air channels. This will secure it onto the instrument. We recommend adding clear tape along the folds of the mask to increase longevity and stability on the MultispeQ.
+Fold the end of the mask over the air channels to secure it onto the instrument. We recommend adding clear tape along the folds of the mask to increase longevity and stability on the MultispeQ.
 
 ![Fold the end over the air channels](./images/assemble-mask-3.png)
 

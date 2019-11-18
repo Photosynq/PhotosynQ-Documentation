@@ -1,6 +1,6 @@
 # Firmware Updates
 
-Normally, the PhotosynQ apps automatically notify you when there is a new firmware version available for your Instrument. In this case you can follow the instructions, and the apps will download the correct version and install it on your Instrument.
+Normally, the PhotosynQ app automatically notify you when there is a new firmware version available for your Instrument. In this case you can follow the instructions, and the app will download the correct version and install it on your Instrument.
 
 ::: warning Note
 We do not recommend that anyone uploads any other versions of the firmware or from unknown sources, unless you know what you are doing!
@@ -8,7 +8,7 @@ We do not recommend that anyone uploads any other versions of the firmware or fr
 
 ## Automatic Firmware Update
 
-When you connect to an Instrument using the mobile app or the desktop app, you will be notified, if there is a firmware update available. Firmware updates usually provide fixes as well as new features. Some new measurement protocols might require the latest firmware, so we strongly recommend to install the updates. Below you find instructions on how to install those updates using the Mobile App (Android) or the Desktop App.
+When you connect to an Instrument using the mobile app or the desktop app, you will be notified if there is a firmware update available. Firmware updates usually provide fixes as well as new features. Some new measurement protocols might require the latest firmware, so we strongly recommend installing the updates. Below you find instructions on how to install those updates using the Mobile App (Android) or the Desktop App.
 
 ***
 
@@ -26,7 +26,7 @@ After connecting your Instrument select **"Check for Firmware Update"** to check
 
 ### Step 3
 
-If an update is available for your Instrument, select **"Install"** to install the firmware update on your Instrument. The version number of the update as well as the changes are displayed.
+If an update is available for your Instrument, select **"Install"** to install the firmware update on your Instrument. The version number of the update as well as the changes will be displayed.
 
 ### Step 4
 
@@ -46,15 +46,15 @@ After the update is finished the Instrument will restart. Check if version numbe
 
 ### Step 1
 
-Open the Settings dialog from the left menu bar and connect your Instrument. If an update is available, click on the button labeled **"Update"**. You can check at any time, clicking on the **"Check"** button to see if an update is available.
+Open the Settings dialog from the left menu bar and connect your Instrument. If an update is available, click on the button labeled **"Update"**. You can check at any time by clicking on the **"Check"** button to see if an update is available.
 
 ### Step 2
 
-If an update is available, the version and changes are listed. Select the **"Update Now"** button to start the update. Confirm, that you want to install the update.
+If an update is available, the version and changes are listed. Select the **"Update Now"** button to start the update. Confirm that you want to install the update.
 
 ### Step 3
 
-During the upload process, don't close the app, turn of your computer or Instrument.
+During the upload process, don't close the app, turn off your computer, or  turn off your Instrument.
 
 ### Step 4
 
@@ -62,7 +62,7 @@ If the installation is finished, wait for the Instrument to restart. When the re
 
 ### Step 5
 
-After the update is finished the Instrument will restart. Check if version number of the firmware has increased.
+After the update is finished the Instrument will restart. Check if the version number of the firmware has increased.
 
 ***
 
@@ -87,11 +87,11 @@ Open the Settings dialog from the left menu bar and connect your Instrument.
 
 ### Step 2
 
-Click on the **"Manual"** button and confirm that you want to update the firmware on your Instrument.Next select the previously downloaded file and select open to start the firmware update.
+Click on the **"Manual"** button and confirm that you want to update the firmware on your Instrument. Next, select the previously downloaded file and select open to start the firmware update.
 
 ### Step 3
 
-During the upload process, don't close the app, turn of your computer or Instrument.
+During the upload process, don't close the app, turn off your computer, or turn off your Instrument.
 
 ### Step 4
 

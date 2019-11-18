@@ -109,7 +109,7 @@ Returns **([Array][1]&lt;[number][2]> | void)** \[ [x1,y1], [x2,y2], ..., [xn,yn
 
 ### danger
 
-Add an Danger Message for the User. These messages will be shown in the data viewer as well.
+Add a Danger Message for the User. These messages will be shown in the data viewer as well.
 Use these messages to indicate a problematic issue that will most likely result in an invalid measurement.
 
 #### Parameters
@@ -130,7 +130,7 @@ Returns **[object][3]** pushes the message into the output object
 
 Find the positions for protocols within a protocol set matching the
 provided label. If only one label exists within a set, a number is returned.
-When multiple protocols in the set have the same label an array with all
+When multiple protocols in the set have the same label, an array with all
 indexes of matching labels is returned.
 
 #### Parameters
@@ -210,13 +210,13 @@ info('Your Info Message', output);
 // output['messages']['info']['Your Info Message']
 ```
 
-Returns **[object][3]** pushes the message into the output object
+Returns **[object][3]** pushes the message into the output object.
 
 ### Math.abs
 
 -   **See: [https://www.w3schools.com/jsref/jsref_abs.asp][6]**
 
-Math.abs(x) returns the absolute value of x
+Math.abs(x) returns the absolute value of x.
 
 #### Parameters
 
@@ -237,7 +237,7 @@ Returns **[number][2]**
 
 -   **See: [https://www.w3schools.com/jsref/jsref_acos.asp][7]**
 
-Math.acos(x) returns the arccosine of x, in radians
+Math.acos(x) returns the arccosine of x, in radians.
 
 #### Parameters
 
@@ -256,7 +256,7 @@ Returns **[number][2]**
 
 -   **See: [https://www.w3schools.com/jsref/jsref_asin.asp][8]**
 
-Math.asin(x) returns the arcsine of x, in radians
+Math.asin(x) returns the arcsine of x, in radians.
 
 #### Parameters
 
@@ -275,7 +275,7 @@ Returns **[number][2]**
 
 -   **See: [https://www.w3schools.com/jsref/jsref_atan.asp][9]**
 
-Math.atan(x) returns the arctangent of x as a numeric value between -PI/2 and PI/2 radians
+Math.atan(x) returns the arctangent of x as a numeric value between -PI/2 and PI/2 radians.
 
 #### Parameters
 
@@ -294,7 +294,7 @@ Returns **[number][2]**
 
 -   **See: [https://www.w3schools.com/jsref/jsref_atan2.asp][10]**
 
-Math.atan2(y, x) returns the arctangent of the quotient of its arguments
+Math.atan2(y, x) returns the arctangent of the quotient of its arguments.
 
 #### Parameters
 
@@ -314,7 +314,7 @@ Returns **[number][2]**
 
 -   **See: [https://www.w3schools.com/jsref/jsref_ceil.asp][11]**
 
-Math.ceil(x) returns the value of x rounded up to its nearest integer
+Math.ceil(x) returns the value of x rounded up to its nearest integer.
 
 #### Parameters
 
@@ -333,7 +333,7 @@ Returns **[number][2]**
 
 -   **See: [https://www.w3schools.com/jsref/jsref_cos.asp][12]**
 
-Math.cos(x) returns the cosine of x (x is in radians)
+Math.cos(x) returns the cosine of x (x is in radians).
 
 #### Parameters
 
@@ -352,7 +352,7 @@ Returns **[number][2]**
 
 -   **See: [https://www.w3schools.com/jsref/jsref_e.asp][13]**
 
-Euler's number (approx. 2.718)
+Euler's number (approx. 2.718).
 
 #### Examples
 
@@ -367,7 +367,7 @@ Returns **[number][2]** 2.718281828459045
 
 -   **See: [https://www.w3schools.com/jsref/jsref_exp.asp][14]**
 
-Math.exp(x) returns the value of Ex
+Math.exp(x) returns the value of Ex.
 
 #### Parameters
 
@@ -386,7 +386,7 @@ Returns **[number][2]**
 
 -   **See: [https://www.w3schools.com/jsref/jsref_floor.asp][15]**
 
-Math.floor(x) returns the value of x rounded down to its nearest integer
+Math.floor(x) returns the value of x rounded down to its nearest integer.
 
 #### Parameters
 
@@ -405,7 +405,7 @@ Returns **[number][2]**
 
 -   **See: [https://www.w3schools.com/jsref/jsref_ln10.asp][16]**
 
-Natural logarithm of 10 (approx. 2.302)
+Natural logarithm of 10 (approx. 2.302).
 
 #### Examples
 
@@ -420,7 +420,7 @@ Returns **[number][2]** 2.302585092994046
 
 -   **See: [https://www.w3schools.com/jsref/jsref_ln2.asp][17]**
 
-Natural logarithm of 2 (approx. 0.693)
+Natural logarithm of 2 (approx. 0.693).
 
 #### Examples
 
@@ -435,7 +435,7 @@ Returns **[number][2]** 0.6931471805599453
 
 -   **See: [https://www.w3schools.com/jsref/jsref_log.asp][18]**
 
-Math.log(x) returns the natural logarithm (base E) of x
+Math.log(x) returns the natural logarithm (base E) of x.
 
 #### Parameters
 
@@ -454,7 +454,7 @@ Returns **[number][2]**
 
 -   **See: [https://www.w3schools.com/jsref/jsref_log10e.asp][19]**
 
-Base-10 logarithm of E (approx. 0.434)
+Base-10 logarithm of E (approx. 0.434).
 
 #### Examples
 
@@ -469,7 +469,7 @@ Returns **[number][2]** 0.4342944819032518
 
 -   **See: [https://www.w3schools.com/jsref/jsref_log2e.asp][20]**
 
-Base-2 logarithm of E (approx. 1.442)
+Base-2 logarithm of E (approx. 1.442).
 
 #### Examples
 
@@ -484,7 +484,7 @@ Returns **[number][2]** 1.4426950408889634
 
 -   **See: [https://www.w3schools.com/jsref/jsref_max.asp][21]**
 
-Math.max(x, y, z, ..., n) returns the number with the highest value
+Math.max(x, y, z, ..., n) returns the number with the highest value.
 
 #### Parameters
 
@@ -503,7 +503,7 @@ Returns **[number][2]**
 
 -   **See: [https://www.w3schools.com/jsref/jsref_min.asp][22]**
 
-Math.min(x, y, z, ..., n) returns the number with the lowest value
+Math.min(x, y, z, ..., n) returns the number with the lowest value.
 
 #### Parameters
 
@@ -537,7 +537,7 @@ Returns **[number][2]** 3.141592653589793
 
 -   **See: [https://www.w3schools.com/jsref/jsref_pow.asp][24]**
 
-Math.pow(x, y) returns the value of x to the power of y
+Math.pow(x, y) returns the value of x to the power of y.
 
 #### Parameters
 
@@ -572,7 +572,7 @@ Returns **[number][2]** between 0 and 1
 
 -   **See: [https://www.w3schools.com/jsref/jsref_round.asp][26]**
 
-Math.round(x) returns the value of x rounded to its nearest integer
+Math.round(x) returns the value of x rounded to its nearest integer.
 
 #### Parameters
 
@@ -593,7 +593,7 @@ Returns **[number][2]**
 
 -   **See: [https://www.w3schools.com/jsref/jsref_sin.asp][27]**
 
-Math.sin(x) returns the sine of x (x is in radians)
+Math.sin(x) returns the sine of x (x is in radians).
 
 #### Parameters
 
@@ -631,7 +631,7 @@ Returns **[number][2]**
 
 -   **See: [https://www.w3schools.com/jsref/jsref_sqrt1_2.asp][29]**
 
-Square root of 1/2 (approx. 0.707)
+Square root of 1/2 (approx. 0.707).
 
 #### Examples
 
@@ -661,7 +661,7 @@ Returns **[number][2]** 1.4142135623730951
 
 -   **See: [https://www.w3schools.com/jsref/jsref_tan.asp][31]**
 
-Math.tan(x) returns the tangent of an angle
+Math.tan(x) returns the tangent of an angle.
 
 #### Parameters
 
@@ -701,7 +701,7 @@ MathEXPINVREG( [ [x1,y1], [x2,y2], ..., [xn,yn] ] );
 }
 ```
 
-Returns **[object][3]** Results from fit including points, values for A and t, error, asymptote, rsquared, lifetime, slope
+Returns **[object][3]** Results from fit including points, values for A and t, error, asymptote, rsquared, lifetime, slope.
 
 ### MathLINREG
 
@@ -763,7 +763,7 @@ Returns **[number][2]**
 
 ### MathMAX
 
-Get the maximum value from an array of numbers. The function fails,
+Get the maximum value from an array of numbers. The function fails
 if the array is empty or has invalid values.
 
 #### Parameters
@@ -781,7 +781,7 @@ Returns **[number][2]**
 
 ### MathMEAN
 
-Calculate the variance from an array of numbers. The function fails,
+Calculate the variance from an array of numbers. The function fails
 if the array is empty or has invalid values.
 
 #### Parameters
@@ -799,7 +799,7 @@ Returns **[number][2]**
 
 ### MathMEDIAN
 
-Calculate the median from an array of numbers. The function fails,
+Calculate the median from an array of numbers. The function fails
 if the array is empty or has invalid values.
 
 #### Parameters
@@ -817,7 +817,7 @@ Returns **[number][2]**
 
 ### MathMIN
 
-Get the minimum value from an array of numbers. The function fails,
+Get the minimum value from an array of numbers. The function fails
 if the array is empty or has invalid values.
 
 #### Parameters
@@ -853,7 +853,7 @@ MathEXPINVREG( [ [ [x1,y1], [x2,y2], ..., [xn,yn] ], [ [x1,y1], [x2,y2], ..., [x
 }
 ```
 
-Returns **[object][3]** Returns rsquared, slopes and points
+Returns **[object][3]** Returns rsquared, slopes and points.
 
 ### MathPOLYREG
 
@@ -881,7 +881,7 @@ Returns **[object][3]** Returns points, slopes and error
 
 ### MathROUND
 
-Calculate the variance from an array of numbers. The function fails, if the array is empty or has invalid values.
+Calculate the variance from an array of numbers. The function fails if the array is empty or has invalid values.
 
 #### Parameters
 
@@ -899,7 +899,7 @@ Returns **[number][2]**
 
 ### MathSTDERR
 
-Calculate the standard error from an array of numbers. The function fails, if the array is empty or has invalid values.
+Calculate the standard error from an array of numbers. The function fails if the array is empty or has invalid values.
 
 #### Parameters
 
@@ -916,7 +916,7 @@ Returns **[number][2]**
 
 ### MathSTDEV
 
-Calculate the variance from an array of numbers. The function fails, if the array is empty or has invalid values.
+Calculate the variance from an array of numbers. The function fails if the array is empty or has invalid values.
 
 #### Parameters
 
@@ -933,7 +933,7 @@ Returns **[number][2]**
 
 ### MathSTDEVS
 
-Calculate the variance from an array of numbers. The function fails, if the array is empty or has invalid values.
+Calculate the variance from an array of numbers. The function fails if the array is empty or has invalid values.
 
 #### Parameters
 
@@ -950,7 +950,7 @@ Returns **[number][2]**
 
 ### MathSUM
 
-Calculate the sum from an array of numbers. The function fails, if the array is empty or has invalid values.
+Calculate the sum from an array of numbers. The function fails if the array is empty or has invalid values.
 
 #### Parameters
 
@@ -967,7 +967,7 @@ Returns **[number][2]**
 
 ### MathVARIANCE
 
-Calculate the variance from an array of numbers. The function fails, if the array is empty or has invalid values.
+Calculate the variance from an array of numbers. The function fails if the array is empty or has invalid values.
 
 #### Parameters
 
@@ -1160,7 +1160,7 @@ warning('Your Warning Message', output);
 // output['messages']['warning']['Your Warning Message']
 ```
 
-Returns **[object][3]** pushes the message into the output object
+Returns **[object][3]** pushes the message into the output object.
 
 [1]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array
 

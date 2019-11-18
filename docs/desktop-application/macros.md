@@ -4,7 +4,7 @@ Macros are used to calculate parameters from a measurement. To work with Macros 
 
 ![The Macro List](./images/macro-list.png)
 
-**My Macros** shows a list of Macros you have created. **Explore** will provide a list of all Macros currently available on the Platform. Click on the list headers to sort the list of Macros by name, creator and date.
+**My Macros** shows a list of Macros you have created. **Explore** will provide a list of all Macros currently available on the Platform. Click on the list headers to sort the list of Macros by name, creator, and date.
 
 A **single click** on a Macro from the list will bring up details about the Macro in the right side bar. Here you can also see the discussion around the macro as well as add new comments. A **double click** will directly open the Macro in the Macro Editor.
 
@@ -12,7 +12,7 @@ Select the search field in the top right corner <kbd>Ctrl/⌘</kbd>+<kbd>F</kbd>
 
 ## Create a new Macro
 
-You can create a new Macro by opening the Macro editor selecting **File → New Macro...** from the main menu. The Macro template will be automatically added to your Code Editor and you are ask to pick a measurement from your Notebook to use as your measurement template. You can select that measurement at any time selecting **Measurement** from the **Menu Bar**, but it is easier to start with a measurement provided.
+You can create a new Macro by opening the Macro editor selecting **File → New Macro...** from the main menu. The Macro template will be automatically added to your Code Editor and you are ask to pick a measurement from your Notebook to use as your measurement template. You can select that measurement at any time by selecting **Measurement** from the **Menu Bar**, but it is easier to start with a measurement provided.
 
 ## Editing an existing Macro
 
