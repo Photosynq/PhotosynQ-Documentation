@@ -243,6 +243,17 @@ module.exports = {
                     'tutorials/building-a-macro',
                     'tutorials/building-an-advanced-macro'
                 ]
+            },
+            {
+                title: 'Enterprise Edition',
+                collapsable: true,
+                sidebarDepth: 1,
+                children: [
+                    'enterprise-edition/general',
+                    'enterprise-edition/users',
+                    'enterprise-edition/applications',
+                    'enterprise-edition/administration'
+                ]
             }
         ],
         lastUpdated: 'Last Updated',
