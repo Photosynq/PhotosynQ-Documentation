@@ -245,6 +245,16 @@ module.exports = {
                 ]
             },
             {
+                title: 'Developers',
+                collapsable: true,
+                sidebarDepth: 1,
+                children: [
+                    'developers/general',
+                    'developers/instrument-api',
+                    'developers/cloud-api'
+                ]
+            },
+            {
                 title: 'Enterprise Edition',
                 collapsable: true,
                 sidebarDepth: 1,
