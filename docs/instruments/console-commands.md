@@ -972,7 +972,7 @@ set_op+
 + MultispeQ 1: `2.0038`
 + MultispeQ 2: `2.0038`
 
-*Last Updated: July 1, 2019*
+*Last Updated: December 13, 2019*
 
 ***
 
@@ -1093,7 +1093,7 @@ set_user_defined+<EEPROM Location>+<value>
 + MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
 
-*Last Updated: July 1, 2019*
+*Last Updated: December 13, 2019*
 
 ***
 

@@ -124,13 +124,13 @@ danger('Your Danger Message', output);
 // output['messages']['info']['Your Danger Message']
 ```
 
-Returns **[object][3]** pushes the message into the output object
+Returns **[object][3]** pushes the message into the output object.
 
 ### GetIndexByLabel
 
 Find the positions for protocols within a protocol set matching the
 provided label. If only one label exists within a set, a number is returned.
-When multiple protocols in the set have the same label, an array with all
+When multiple protocols in the set have the same label an array with all
 indexes of matching labels is returned.
 
 #### Parameters
@@ -612,7 +612,7 @@ Returns **[number][2]**
 
 -   **See: [https://www.w3schools.com/jsref/jsref_sqrt.asp][28]**
 
-Math.sqrt(x)	returns the square root of x
+Math.sqrt(x) returns the square root of x.
 
 #### Parameters
 
@@ -646,7 +646,7 @@ Returns **[number][2]** 0.7071067811865476
 
 -   **See: [https://www.w3schools.com/jsref/jsref_sqrt2.asp][30]**
 
-Square root of 2 (approx. 1.414)
+Square root of 2 (approx. 1.414).
 
 #### Examples
 
