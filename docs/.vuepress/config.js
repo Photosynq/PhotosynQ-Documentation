@@ -193,6 +193,7 @@ module.exports = {
                     'protocols/pulses',
                     'protocols/lights',
                     'protocols/detectors',
+                    'protocols/signal-intensities',
                     'protocols/sensors',
                     'protocols/repeats',
                     'protocols/variables',
