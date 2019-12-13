@@ -1,7 +1,7 @@
 {
   "name": "set_user_defined",
   "abstract": "",
-  "description": "Save an user defined value to the EEPROM. You can abort the input using `-1+`.",
+  "description": "Save a user defined value to the EEPROM. You can abort the input using `-1+`.",
   "alias": [],
   "input": "",
   "values": [],
