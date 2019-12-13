@@ -5810,9 +5810,9 @@ performance-now@^2.1.0:
   resolved "https://registry.yarnpkg.com/performance-now/-/performance-now-2.1.0.tgz#6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
   integrity sha1-Ywn04OX6kT7BxpMHrjZLSzd8nns=
 
-"photosynq-helpers@github:Photosynq/helpers#v1.1.0":
-  version "1.1.0"
-  resolved "https://codeload.github.com/Photosynq/helpers/tar.gz/fcc9256226b9121951230322a03dda284dcc3d5a"
+"photosynq-helpers@github:Photosynq/helpers#v1.1.3":
+  version "1.1.3"
+  resolved "https://codeload.github.com/Photosynq/helpers/tar.gz/0fa7da19713ad70ece1dfeddb1634b549c7b6a7b"
 
 pify@^2.0.0:
   version "2.3.0"
