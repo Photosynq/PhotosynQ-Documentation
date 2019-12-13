@@ -66,7 +66,7 @@ Will create a yellow note box on the website. Don't use line breaks.
 
 ### Installation
 
-Make sure to use yarn and not npm to allow for correct functionality with vuepress.
+Make sure to use `yarn` and not `npm` to allow for correct functionality with `vuepress`.
 
 ```shell
 yarn install
