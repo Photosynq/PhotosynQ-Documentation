@@ -194,6 +194,7 @@ module.exports = {
                     'protocols/pulses',
                     'protocols/lights',
                     'protocols/detectors',
+                    'protocols/signal-intensities',
                     'protocols/sensors',
                     'protocols/repeats',
                     'protocols/variables',
@@ -243,6 +244,27 @@ module.exports = {
                     'tutorials/building-an-advanced-protocol',
                     'tutorials/building-a-macro',
                     'tutorials/building-an-advanced-macro'
+                ]
+            },
+            {
+                title: 'Developers',
+                collapsable: true,
+                sidebarDepth: 1,
+                children: [
+                    'developers/general',
+                    'developers/instrument-api',
+                    'developers/cloud-api'
+                ]
+            },
+            {
+                title: 'Enterprise Edition',
+                collapsable: true,
+                sidebarDepth: 1,
+                children: [
+                    'enterprise-edition/general',
+                    'enterprise-edition/users',
+                    'enterprise-edition/applications',
+                    'enterprise-edition/administration'
                 ]
             }
         ],

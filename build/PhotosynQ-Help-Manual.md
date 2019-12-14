@@ -284,6 +284,10 @@
 
 ***
 
+{{> docs/protocols/signal-intensities.md}}
+
+***
+
 {{> docs/protocols/sensors.md}}
 
 ***

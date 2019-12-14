@@ -1,6 +1,6 @@
 # Console Commands
 
-In the Desktop application, using the Console allows you to use commands to directly communicate with the Instrument. It allows you to change settings and display information. We recommend working with these console commands only for advanced users or developers since they can be tricky. 
+In the Desktop application, using the Console allows you to use commands to directly communicate with the Instrument. It allows you to change settings and display information. We recommend working with these console commands only for advanced users or developers since they can be tricky.
 
 ::: warning Note
 Some of the commands will introduce changes without warning, which could cause the Instrument to malfunction.
@@ -972,7 +972,7 @@ set_op+
 + MultispeQ 1: `2.0038`
 + MultispeQ 2: `2.0038`
 
-*Last Updated: July 1, 2019*
+*Last Updated: December 13, 2019*
 
 ***
 
@@ -1093,7 +1093,7 @@ set_user_defined+<EEPROM Location>+<value>
 + MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
 + MultispeQ 2: `2.0038` `2.0036` `2.0035`
 
-*Last Updated: July 1, 2019*
+*Last Updated: December 13, 2019*
 
 ***
 
