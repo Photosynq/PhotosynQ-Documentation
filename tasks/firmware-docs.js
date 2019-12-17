@@ -5,6 +5,7 @@
 const jetpack = require('fs-jetpack');
 const Mustache = require('mustache');
 const moment = require('moment-timezone');
+const {spawnSync} = require('child_process');
 
 function file_updated(file){
     let updated = false;
