@@ -1,0 +1,23 @@
+{
+  "name": "reference",
+  "abstract": "",
+  "description": "The MultispeQ is designed to be able to nearly simultaneously measure two detectors (within ~4µs), normalize and subtract the two signals from each other. This can be useful if there is a optical, electronic (interference), or LED (heating) artifact that needs to be removed.  `reference` specifies another detector to be measured and subtracted from `detectors`.\n\n **Note:** It is possible to add two additional detector circuits to the device, on the main body and clamp circuit boards. The devices come unpopulated by default. If added, these two additional detectors are available by settings `detectors` or `reference` to 2 (main body) or 4 (clamp). These can then also be used as reference or main detectors.",
+  "alias": [],
+  "input": "nested array",
+  "values": [
+    "1 - 4"
+  ],
+  "example": "\"reference\": [\n  [ <detector> ],\n  ...\n],",
+  "type": "protocol",
+  "deprecated": false,
+  "dependencies": [
+    "pulses",
+    "pulse_length",
+    "pulse_distance"
+  ],
+  "parent": "",
+  "compatibility": [
+    "MultispeQ 1"
+  ],
+  "access": "public"
+}

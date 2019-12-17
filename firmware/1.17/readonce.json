@@ -1,0 +1,17 @@
+{
+  "name": "readonce",
+  "abstract": "",
+  "description": "Access write once flash",
+  "alias": [],
+  "input": "",
+  "values": [],
+  "example": "readonce",
+  "type": "console",
+  "deprecated": false,
+  "dependencies": [],
+  "parent": "",
+  "compatibility": [
+    "MultispeQ 1"
+  ],
+  "access": "public"
+}

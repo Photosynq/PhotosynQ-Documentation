@@ -1,0 +1,17 @@
+{
+  "name": "set_date",
+  "abstract": "",
+  "description": "Set the date of the RTC of the instrument (if available)",
+  "alias": [],
+  "input": "",
+  "values": [],
+  "example": "set_date+\nhours+min+sec+day+month+year",
+  "type": "console",
+  "deprecated": false,
+  "dependencies": [],
+  "parent": "",
+  "compatibility": [
+    "MultispeQ 1"
+  ],
+  "access": "public"
+}

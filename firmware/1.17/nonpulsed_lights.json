@@ -1,0 +1,24 @@
+{
+  "name": "nonpulsed_lights",
+  "abstract": "",
+  "description": "`nonpulsed_lights` defines which lights are not pulsed (always on) during a pulse set, and in what order.",
+  "alias": [],
+  "input": "nested array",
+  "values": [
+    "0 - 10"
+  ],
+  "example": "\"nonpulsed_lights\": [\n  [ <number> ],\n  ...\n],",
+  "type": "protocol",
+  "deprecated": false,
+  "dependencies": [
+    "pulses",
+    "pulse_distance",
+    "pulse_length",
+    "nonpulsed_lights_brightness"
+  ],
+  "parent": "",
+  "compatibility": [
+    "MultispeQ 1"
+  ],
+  "access": "public"
+}

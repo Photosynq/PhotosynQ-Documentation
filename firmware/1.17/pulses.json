@@ -1,0 +1,24 @@
+{
+  "name": "pulses",
+  "abstract": "",
+  "description": "`pulses` defines the number of pulse sets, and quantity of pulses per set.",
+  "alias": [],
+  "input": "array",
+  "values": [
+    "1 - 8000"
+  ],
+  "example": "\"pulses\": [\n  <number>,\n  ...\n],",
+  "type": "protocol",
+  "deprecated": false,
+  "dependencies": [
+    "pulse_distance",
+    "pulse_length",
+    "pulsed_lights",
+    "pulsed_lights_brightness"
+  ],
+  "parent": "",
+  "compatibility": [
+    "MultispeQ 1"
+  ],
+  "access": "public"
+}

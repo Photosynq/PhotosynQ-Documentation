@@ -1,0 +1,25 @@
+{
+  "name": "nonpulsed_lights_brightness",
+  "abstract": "",
+  "description": "`nonpulsed_lights_brightness` sets the brightness in microEinsteins (µE * s⁻¹ * m⁻²) of the nonpulsed lights.",
+  "alias": [],
+  "input": "nested array",
+  "values": [
+    "0 - 15000"
+  ],
+  "example": "\"nonpulsed_lights_brightness\": [\n  [ <number> ],\n  ...\n],",
+  "type": "protocol",
+  "deprecated": false,
+  "dependencies": [
+    "pulses",
+    "pulse_distance",
+    "pulse_length",
+    "nonpulsed_lights"
+  ],
+  "parent": "",
+  "compatibility": [
+    "MultispeQ 1",
+    "MultispeQ 2"
+  ],
+  "access": "public"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "sleep",
+  "abstract": "",
+  "description": "Puts instrument into sleep mode. Hold the button for at least 5s to wake it up.",
+  "alias": [],
+  "input": "",
+  "values": [],
+  "example": "sleep",
+  "type": "console",
+  "deprecated": false,
+  "dependencies": [],
+  "parent": "",
+  "compatibility": [
+    "MultispeQ 1"
+  ],
+  "access": "public"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "1053",
+  "abstract": "",
+  "description": "Continuous feed of roll, pitch, compass, direction, tilt and tilt direction. Cancel the command with `-1+`",
+  "alias": [],
+  "input": "",
+  "values": [],
+  "example": "1053",
+  "type": "console",
+  "deprecated": false,
+  "dependencies": [],
+  "parent": "",
+  "compatibility": [
+    "MultispeQ 1"
+  ],
+  "access": "public"
+}

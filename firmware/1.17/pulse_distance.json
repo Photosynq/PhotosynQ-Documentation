@@ -1,0 +1,24 @@
+{
+  "name": "pulse_distance",
+  "abstract": "",
+  "description": "`pulse_distance` defines the distance, in microseconds (µs) between pulses.",
+  "alias": [],
+  "input": "array",
+  "values": [
+    "750 - 999999999999"
+  ],
+  "example": "\"pulse_distance\": [\n  <number>,\n  ...\n],",
+  "type": "protocol",
+  "deprecated": false,
+  "dependencies": [
+    "pulses",
+    "pulse_length",
+    "pulsed_lights",
+    "pulsed_lights_brightness"
+  ],
+  "parent": "",
+  "compatibility": [
+    "MultispeQ 1"
+  ],
+  "access": "public"
+}

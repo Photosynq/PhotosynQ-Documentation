@@ -1,0 +1,17 @@
+{
+  "name": "adc_check",
+  "abstract": "",
+  "description": "Output all ADC values",
+  "alias": [],
+  "input": "",
+  "values": [],
+  "example": "adc_check",
+  "type": "console",
+  "deprecated": false,
+  "dependencies": [],
+  "parent": "",
+  "compatibility": [
+    "MultispeQ 1"
+  ],
+  "access": "public"
+}

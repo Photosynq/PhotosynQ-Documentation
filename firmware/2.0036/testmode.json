@@ -1,0 +1,18 @@
+{
+  "name": "testmode",
+  "abstract": "",
+  "description": "",
+  "alias": [],
+  "input": "",
+  "values": [],
+  "example": "testmode",
+  "type": "console",
+  "deprecated": false,
+  "dependencies": [],
+  "parent": "",
+  "compatibility": [
+    "MultispeQ 1",
+    "MultispeQ 2"
+  ],
+  "access": "public"
+}

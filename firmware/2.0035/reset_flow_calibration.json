@@ -1,0 +1,18 @@
+{
+  "name": "reset_flow_calibration",
+  "abstract": "",
+  "description": "Set air flow calibration to factory settings",
+  "alias": [],
+  "input": "",
+  "values": [],
+  "example": "reset_flow_calibration",
+  "type": "console",
+  "deprecated": false,
+  "dependencies": [],
+  "parent": "",
+  "compatibility": [
+    "MultispeQ 1",
+    "MultispeQ 2"
+  ],
+  "access": "public"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "set_thickness_quick",
+  "abstract": "",
+  "description": "",
+  "alias": [],
+  "input": "",
+  "values": [],
+  "example": "set_thickness_quick",
+  "type": "console",
+  "deprecated": false,
+  "dependencies": [],
+  "parent": "",
+  "compatibility": [
+    "MultispeQ 1"
+  ],
+  "access": "public"
+}

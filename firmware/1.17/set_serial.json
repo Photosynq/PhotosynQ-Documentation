@@ -1,0 +1,17 @@
+{
+  "name": "set_serial",
+  "abstract": "",
+  "description": "",
+  "alias": [],
+  "input": "",
+  "values": [],
+  "example": "set_serial",
+  "type": "console",
+  "deprecated": false,
+  "dependencies": [],
+  "parent": "",
+  "compatibility": [
+    "MultispeQ 1"
+  ],
+  "access": "public"
+}

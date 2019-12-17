@@ -1,0 +1,17 @@
+{
+  "name": "pulse",
+  "abstract": "",
+  "description": "",
+  "alias": [],
+  "input": "",
+  "values": [],
+  "example": "pulse",
+  "type": "console",
+  "deprecated": false,
+  "dependencies": [],
+  "parent": "",
+  "compatibility": [
+    "MultispeQ 1"
+  ],
+  "access": "public"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "reboot",
+  "abstract": "",
+  "description": "",
+  "alias": [],
+  "input": "",
+  "values": [],
+  "example": "reboot",
+  "type": "console",
+  "deprecated": false,
+  "dependencies": [],
+  "parent": "",
+  "compatibility": [
+    "MultispeQ 1"
+  ],
+  "access": "public"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "memory",
+  "abstract": "",
+  "description": "Returns the memory usage of the instrument.",
+  "alias": [],
+  "input": "",
+  "values": [],
+  "example": "memory",
+  "type": "console",
+  "deprecated": false,
+  "dependencies": [],
+  "parent": "",
+  "compatibility": [
+    "MultispeQ 1",
+    "MultispeQ 2"
+  ],
+  "access": "public"
+}

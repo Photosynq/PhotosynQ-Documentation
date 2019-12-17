@@ -1,0 +1,24 @@
+{
+  "name": "pulse_length",
+  "abstract": "",
+  "description": "`pulse_length` defines the length, in microseconds (µs), of a pulse.",
+  "alias": [],
+  "input": "nested array",
+  "values": [
+    "1 - 150"
+  ],
+  "example": "\"pulse_length\": [\n  [ <number> ],\n  ...\n],",
+  "type": "protocol",
+  "deprecated": false,
+  "dependencies": [
+    "pulses",
+    "pulse_distance",
+    "pulsed_lights",
+    "pulsed_lights_brightness"
+  ],
+  "parent": "",
+  "compatibility": [
+    "MultispeQ 1"
+  ],
+  "access": "public"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "hello",
+  "abstract": "",
+  "description": "Check if your instrument is connected. On success the response is `Instrument Ready`.",
+  "alias": [
+    "1000"
+  ],
+  "input": "",
+  "values": [],
+  "example": "hello",
+  "type": "console",
+  "deprecated": false,
+  "dependencies": [],
+  "parent": "",
+  "compatibility": [
+    "MultispeQ 1",
+    "MultispeQ 2"
+  ],
+  "access": "public"
+}

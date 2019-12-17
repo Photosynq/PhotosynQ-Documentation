@@ -1,0 +1,19 @@
+{
+  "name": "reset",
+  "abstract": "",
+  "description": "Reboot the instrument.",
+  "alias": [
+    "1027"
+  ],
+  "input": "",
+  "values": [],
+  "example": "reset",
+  "type": "console",
+  "deprecated": false,
+  "dependencies": [],
+  "parent": "",
+  "compatibility": [
+    "MultispeQ 1"
+  ],
+  "access": "public"
+}

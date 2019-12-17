@@ -1,0 +1,18 @@
+{
+  "name": "set_shutdown_time",
+  "abstract": "",
+  "description": "Sets the time (in seconds) before the device automatically shuts down to save energy.",
+  "alias": [],
+  "input": "number",
+  "values": [],
+  "example": "set_shutdown_time+<seconds>",
+  "type": "console",
+  "deprecated": false,
+  "dependencies": [],
+  "parent": "",
+  "compatibility": [
+    "MultispeQ 1",
+    "MultispeQ 2"
+  ],
+  "access": "public"
+}

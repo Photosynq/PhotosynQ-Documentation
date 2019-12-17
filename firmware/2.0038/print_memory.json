@@ -1,0 +1,20 @@
+{
+  "name": "print_memory",
+  "abstract": "",
+  "description": "Print all calibration values as they are saved to the instruments storage (EEPROM). Output is formated as a JSON with a checksum.",
+  "alias": [
+    "print_calibrations"
+  ],
+  "input": "",
+  "values": [],
+  "example": "print_memory",
+  "type": "console",
+  "deprecated": false,
+  "dependencies": [],
+  "parent": "",
+  "compatibility": [
+    "MultispeQ 1",
+    "MultispeQ 2"
+  ],
+  "access": "public"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "device_info",
+  "abstract": "",
+  "description": "Receive information from the Instrument, including name, version, id, battery level, firmware and configuration.",
+  "alias": [
+    "1007"
+  ],
+  "input": "",
+  "values": [],
+  "example": "device_info",
+  "type": "console",
+  "deprecated": false,
+  "dependencies": [],
+  "parent": "",
+  "compatibility": [
+    "MultispeQ 1"
+  ],
+  "access": "public"
+}

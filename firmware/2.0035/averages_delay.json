@@ -1,0 +1,22 @@
+{
+  "name": "averages_delay",
+  "abstract": "",
+  "description": "`averages_delay` defines the delay between protocol averages in in milliseconds (ms).",
+  "alias": [],
+  "input": "auto",
+  "values": [
+    "0 - 9999999999"
+  ],
+  "example": "\"averages_delay\": <number>,",
+  "type": "protocol",
+  "deprecated": false,
+  "dependencies": [
+    "averages"
+  ],
+  "parent": "",
+  "compatibility": [
+    "MultispeQ 1",
+    "MultispeQ 2"
+  ],
+  "access": "public"
+}
