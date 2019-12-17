@@ -1,24 +1,12 @@
-# Console Commands
+# Console Commands <Badge text="Archive" type="warn"/>
 
-In the Desktop application, using the Console allows you to use commands to directly communicate with the Instrument. It allows you to change settings and display information. We recommend working with these console commands only for advanced users or developers since they can be tricky.
-
-::: warning Note
-Some of the commands will introduce changes without warning, which could cause the Instrument to malfunction.
+::: warning Archived
+This is for documentation only. The documentation for the latest version is available [here](../console-commands.md).
 :::
 
-## Command Switches
-
-**Silent:** `s+`  Sets command console in silent mode. Commands will not send back queries for user input. `s+` will remain in effect until reset or user enters `v+`.
-
-**Verbose:** `v+` Sets command console in verbose mode. When available, commands will send back queries for user input. `v+` will remain in effect until reset or user enters `s+`.
-
-## Available Commands <Badge text="v2.0038" type="tip" vertical="middle"/>
+## Available Commands <Badge text="v1.17" type="tip" vertical="middle"/>
 
 [[TOC]]
-
-***
-
-**Previous Versions:** [v2.0036](./archive/console-commands-2.0036.md), [v2.0035](./archive/console-commands-2.0035.md), [v1.17](./archive/console-commands-1.17.md)
 
 ### 1053
 
@@ -32,7 +20,109 @@ Continuous feed of roll, pitch, compass, direction, tilt and tilt direction. Can
 
 **Instruments:**
 
-`MultispeQ 1` `MultispeQ 2`
+`MultispeQ 1`
+
+*Last Updated: December 17, 2019*
+
+***
+
+### 1054
+
+**Example:**
+
+```bash
+1054
+```
+
+**Instruments:**
+
+`MultispeQ 1`
+
+*Last Updated: December 17, 2019*
+
+***
+
+### 4048
+
+Read multiple pulses with increasing intensity or pulse width for linearity test. With constant DAC value and pulse width, it is good for a pulse-to-pulse stdev test.
+
+**Example:**
+
+```bash
+4048
+```
+
+**Instruments:**
+
+`MultispeQ 1`
+
+*Last Updated: December 17, 2019*
+
+***
+
+### adc1
+
+**Example:**
+
+```bash
+adc1
+```
+
+**Instruments:**
+
+`MultispeQ 1`
+
+*Last Updated: December 17, 2019*
+
+***
+
+### adc\_check
+
+Output all ADC values
+
+**Example:**
+
+```bash
+adc_check
+```
+
+**Instruments:**
+
+`MultispeQ 1`
+
+*Last Updated: December 17, 2019*
+
+***
+
+### all\_sensors
+
+Continuously all sensor output including par, temp, rH and pressure, until user enter `-1+`
+
+**Example:**
+
+```bash
+all_sensors
+```
+
+**Instruments:**
+
+`MultispeQ 1`
+
+*Last Updated: December 17, 2019*
+
+***
+
+### any\_light
+
+**Example:**
+
+```bash
+any_light
+```
+
+**Instruments:**
+
+`MultispeQ 1`
 
 *Last Updated: December 17, 2019*
 
@@ -50,7 +140,55 @@ battery
 
 **Instruments:**
 
-`MultispeQ 1` `MultispeQ 2`
+`MultispeQ 1`
+
+*Last Updated: December 17, 2019*
+
+***
+
+### calibrate\_compass
+
+**Example:**
+
+```bash
+calibrate_compass
+```
+
+**Instruments:**
+
+`MultispeQ 1`
+
+*Last Updated: December 17, 2019*
+
+***
+
+### calibrate\_leds
+
+**Example:**
+
+```bash
+calibrate_leds
+```
+
+**Instruments:**
+
+`MultispeQ 1`
+
+*Last Updated: December 17, 2019*
+
+***
+
+### calibrate\_leds\_manual
+
+**Example:**
+
+```bash
+calibrate_leds_manual
+```
+
+**Instruments:**
+
+`MultispeQ 1`
 
 *Last Updated: December 17, 2019*
 
@@ -68,7 +206,7 @@ compiled
 
 **Instruments:**
 
-`MultispeQ 1` `MultispeQ 2`
+`MultispeQ 1`
 
 *Last Updated: December 17, 2019*
 
@@ -86,7 +224,75 @@ configure_bluetooth
 
 **Instruments:**
 
-`MultispeQ 1` `MultispeQ 2`
+`MultispeQ 1`
+
+*Last Updated: December 17, 2019*
+
+***
+
+### constant\_light
+
+Starting constant light source. Stop output using the command `-1+`.
+
+**Example:**
+
+```bash
+constant_light
+```
+
+**Instruments:**
+
+`MultispeQ 1`
+
+*Last Updated: December 17, 2019*
+
+***
+
+### cut\_through
+
+**Example:**
+
+```bash
+cut_through
+```
+
+**Instruments:**
+
+`MultispeQ 1`
+
+*Last Updated: December 17, 2019*
+
+***
+
+### cycle5v
+
+**Example:**
+
+```bash
+cycle5v
+```
+
+**Instruments:**
+
+`MultispeQ 1`
+
+*Last Updated: December 17, 2019*
+
+***
+
+### dac50
+
+Set all DAC outputs to 50%
+
+**Example:**
+
+```bash
+dac50
+```
+
+**Instruments:**
+
+`MultispeQ 1`
 
 *Last Updated: December 17, 2019*
 
@@ -106,31 +312,7 @@ device_info
 
 **Instruments:**
 
-`MultispeQ 1` `MultispeQ 2`
-
-*Last Updated: December 17, 2019*
-
-***
-
-### digital\_write
-
-Asks for address location and output value (0 or 1) and sets the digital address to this value. This is a dangerous if you do not know what you are doing.
-
-**Input:** [number]
-
-**Values:**
-
-+ 0 + 1
-
-**Example:**
-
-```bash
-digital_write
-```
-
-**Instruments:**
-
-`MultispeQ 1` `MultispeQ 2`
+`MultispeQ 1`
 
 *Last Updated: December 17, 2019*
 
@@ -146,105 +328,41 @@ expr
 
 **Instruments:**
 
-`MultispeQ 1` `MultispeQ 2`
+`MultispeQ 1`
 
 *Last Updated: December 17, 2019*
 
 ***
 
-### flow\_calibration\_set\_point
-
-**Alias:** `fcsp`
-
-**Instruments:**
-
-`MultispeQ 1` `MultispeQ 2`
-
-*Last Updated: December 17, 2019*
-
-***
-
-### flow\_calibration\_setting
-
-**Alias:** `fcv`
+### feed\_watchdog
 
 **Example:**
 
 ```bash
-flow_calibration_setting
+feed_watchdog
 ```
 
 **Instruments:**
 
-`MultispeQ 1` `MultispeQ 2`
+`MultispeQ 1`
 
 *Last Updated: December 17, 2019*
 
 ***
 
-### flow\_calibration\_value
+### get\_co2
 
-**Alias:** `fcv`
-
-**Example:**
-
-```bash
-flow_calibration_value
-```
-
-**Instruments:**
-
-`MultispeQ 1` `MultispeQ 2`
-
-*Last Updated: December 17, 2019*
-
-***
-
-### flow\_off
-
-Set air flow to zero
+Sensair S8 CO2 requests.  Only works if you have connected the sensair on Serial Port 3
 
 **Example:**
 
 ```bash
-flow_off
+get_co2
 ```
 
 **Instruments:**
 
-`MultispeQ 1` `MultispeQ 2`
-
-*Last Updated: December 17, 2019*
-
-***
-
-### flow\_v
-
-**Example:**
-
-```bash
-flow_v
-```
-
-**Instruments:**
-
-`MultispeQ 1` `MultispeQ 2`
-
-*Last Updated: December 17, 2019*
-
-***
-
-### get\_flow
-
-**Example:**
-
-```bash
-get_flow
-```
-
-**Instruments:**
-
-`MultispeQ 1` `MultispeQ 2`
+`MultispeQ 1`
 
 *Last Updated: December 17, 2019*
 
@@ -262,7 +380,7 @@ hall
 
 **Instruments:**
 
-`MultispeQ 1` `MultispeQ 2`
+`MultispeQ 1`
 
 *Last Updated: December 17, 2019*
 
@@ -282,45 +400,7 @@ hello
 
 **Instruments:**
 
-`MultispeQ 1` `MultispeQ 2`
-
-*Last Updated: December 17, 2019*
-
-***
-
-### indicate
-
-Sets the indicator LED (RGB LED). Values in the range from 0-255 need to be set for the Red, Green and Blue channel.
-
-**Input:** [number]
-
-**Example:**
-
-```bash
-indicate+<Red>+<Green>+<Blue>
-```
-
-**Instruments:**
-
-`MultispeQ 1` `MultispeQ 2`
-
-*Last Updated: December 17, 2019*
-
-***
-
-### indicate\_off
-
-Turn off indicator LED
-
-**Example:**
-
-```bash
-indicate_off
-```
-
-**Instruments:**
-
-`MultispeQ 1` `MultispeQ 2`
+`MultispeQ 1`
 
 *Last Updated: December 17, 2019*
 
@@ -338,7 +418,7 @@ light<light number>
 
 **Instruments:**
 
-`MultispeQ 1` `MultispeQ 2`
+`MultispeQ 1`
 
 *Last Updated: December 17, 2019*
 
@@ -356,7 +436,7 @@ memory
 
 **Instruments:**
 
-`MultispeQ 1` `MultispeQ 2`
+`MultispeQ 1`
 
 *Last Updated: December 17, 2019*
 
@@ -374,7 +454,7 @@ on_5v
 
 **Instruments:**
 
-`MultispeQ 1` `MultispeQ 2`
+`MultispeQ 1`
 
 *Last Updated: December 17, 2019*
 
@@ -392,7 +472,7 @@ p2p
 
 **Instruments:**
 
-`MultispeQ 1` `MultispeQ 2`
+`MultispeQ 1`
 
 *Last Updated: December 17, 2019*
 
@@ -410,7 +490,7 @@ par_led
 
 **Instruments:**
 
-`MultispeQ 1` `MultispeQ 2`
+`MultispeQ 1`
 
 *Last Updated: December 17, 2019*
 
@@ -428,7 +508,7 @@ print_all
 
 **Instruments:**
 
-`MultispeQ 1` `MultispeQ 2`
+`MultispeQ 1`
 
 *Last Updated: December 17, 2019*
 
@@ -447,7 +527,7 @@ print_date
 
 **Instruments:**
 
-`MultispeQ 1` `MultispeQ 2`
+`MultispeQ 1`
 
 *Last Updated: December 17, 2019*
 
@@ -463,7 +543,7 @@ print_magnetometer
 
 **Instruments:**
 
-`MultispeQ 1` `MultispeQ 2`
+`MultispeQ 1`
 
 *Last Updated: December 17, 2019*
 
@@ -479,7 +559,7 @@ print_magnetometer_bias
 
 **Instruments:**
 
-`MultispeQ 1` `MultispeQ 2`
+`MultispeQ 1`
 
 *Last Updated: December 17, 2019*
 
@@ -499,7 +579,7 @@ print_memory
 
 **Instruments:**
 
-`MultispeQ 1` `MultispeQ 2`
+`MultispeQ 1`
 
 *Last Updated: December 17, 2019*
 
@@ -515,7 +595,7 @@ pulse
 
 **Instruments:**
 
-`MultispeQ 1` `MultispeQ 2`
+`MultispeQ 1`
 
 *Last Updated: December 17, 2019*
 
@@ -533,7 +613,7 @@ readonce
 
 **Instruments:**
 
-`MultispeQ 1` `MultispeQ 2`
+`MultispeQ 1`
 
 *Last Updated: December 17, 2019*
 
@@ -549,7 +629,7 @@ reboot
 
 **Instruments:**
 
-`MultispeQ 1` `MultispeQ 2`
+`MultispeQ 1`
 
 *Last Updated: December 17, 2019*
 
@@ -569,41 +649,7 @@ reset
 
 **Instruments:**
 
-`MultispeQ 1` `MultispeQ 2`
-
-*Last Updated: December 17, 2019*
-
-***
-
-### reset\_flow\_calibration
-
-Set air flow calibration to factory settings
-
-**Example:**
-
-```bash
-reset_flow_calibration
-```
-
-**Instruments:**
-
-`MultispeQ 1` `MultispeQ 2`
-
-*Last Updated: December 17, 2019*
-
-***
-
-### reset\_flow\_zero\_point
-
-**Example:**
-
-```bash
-reset_flow_zero_point
-```
-
-**Instruments:**
-
-`MultispeQ 1` `MultispeQ 2`
+`MultispeQ 1`
 
 *Last Updated: December 17, 2019*
 
@@ -621,7 +667,7 @@ scan_i2c
 
 **Instruments:**
 
-`MultispeQ 1` `MultispeQ 2`
+`MultispeQ 1`
 
 *Last Updated: December 17, 2019*
 
@@ -637,7 +683,7 @@ set_accelerometer
 
 **Instruments:**
 
-`MultispeQ 1` `MultispeQ 2`
+`MultispeQ 1`
 
 *Last Updated: December 17, 2019*
 
@@ -653,7 +699,7 @@ set_accelerometer_bias
 
 **Instruments:**
 
-`MultispeQ 1` `MultispeQ 2`
+`MultispeQ 1`
 
 *Last Updated: December 17, 2019*
 
@@ -669,7 +715,7 @@ set_colorcal1
 
 **Instruments:**
 
-`MultispeQ 1` `MultispeQ 2`
+`MultispeQ 1`
 
 *Last Updated: December 17, 2019*
 
@@ -685,7 +731,7 @@ set_colorcal2
 
 **Instruments:**
 
-`MultispeQ 1` `MultispeQ 2`
+`MultispeQ 1`
 
 *Last Updated: December 17, 2019*
 
@@ -701,7 +747,7 @@ set_colorcal3
 
 **Instruments:**
 
-`MultispeQ 1` `MultispeQ 2`
+`MultispeQ 1`
 
 *Last Updated: December 17, 2019*
 
@@ -717,25 +763,7 @@ set_colorcal_blanks
 
 **Instruments:**
 
-`MultispeQ 1` `MultispeQ 2`
-
-*Last Updated: December 17, 2019*
-
-***
-
-### set\_cp
-
-Set the **close** position of the leave clamp.
-
-**Example:**
-
-```bash
-set_cp+
-```
-
-**Instruments:**
-
-`MultispeQ 1` `MultispeQ 2`
+`MultispeQ 1`
 
 *Last Updated: December 17, 2019*
 
@@ -753,7 +781,7 @@ set_dac
 
 **Instruments:**
 
-`MultispeQ 1` `MultispeQ 2`
+`MultispeQ 1`
 
 *Last Updated: December 17, 2019*
 
@@ -772,25 +800,7 @@ hours+min+sec+day+month+year
 
 **Instruments:**
 
-`MultispeQ 1` `MultispeQ 2`
-
-*Last Updated: December 17, 2019*
-
-***
-
-### set\_default\_flow\_rate
-
-**Input:** [number]
-
-**Example:**
-
-```bash
-set_default_flow_rate+<number>
-```
-
-**Instruments:**
-
-`MultispeQ 1` `MultispeQ 2`
+`MultispeQ 1`
 
 *Last Updated: December 17, 2019*
 
@@ -806,7 +816,7 @@ set_detector1_offset
 
 **Instruments:**
 
-`MultispeQ 1` `MultispeQ 2`
+`MultispeQ 1`
 
 *Last Updated: December 17, 2019*
 
@@ -822,7 +832,7 @@ set_detector2_offset
 
 **Instruments:**
 
-`MultispeQ 1` `MultispeQ 2`
+`MultispeQ 1`
 
 *Last Updated: December 17, 2019*
 
@@ -838,7 +848,7 @@ set_detector3_offset
 
 **Instruments:**
 
-`MultispeQ 1` `MultispeQ 2`
+`MultispeQ 1`
 
 *Last Updated: December 17, 2019*
 
@@ -854,7 +864,7 @@ set_detector4_offset
 
 **Instruments:**
 
-`MultispeQ 1` `MultispeQ 2`
+`MultispeQ 1`
 
 *Last Updated: December 17, 2019*
 
@@ -874,43 +884,7 @@ set_device_info
 
 **Instruments:**
 
-`MultispeQ 1` `MultispeQ 2`
-
-*Last Updated: December 17, 2019*
-
-***
-
-### set\_energy\_save\_time
-
-**Input:** [number]
-
-**Example:**
-
-```bash
-set_energy_save_time+<number>
-```
-
-**Instruments:**
-
-`MultispeQ 1` `MultispeQ 2`
-
-*Last Updated: December 17, 2019*
-
-***
-
-### set\_flow
-
-**Input:** [number]
-
-**Example:**
-
-```bash
-set_flow
-```
-
-**Instruments:**
-
-`MultispeQ 1` `MultispeQ 2`
+`MultispeQ 1`
 
 *Last Updated: December 17, 2019*
 
@@ -926,7 +900,7 @@ set_led_par
 
 **Instruments:**
 
-`MultispeQ 1` `MultispeQ 2`
+`MultispeQ 1`
 
 *Last Updated: December 17, 2019*
 
@@ -942,7 +916,7 @@ set_magnetometer
 
 **Instruments:**
 
-`MultispeQ 1` `MultispeQ 2`
+`MultispeQ 1`
 
 *Last Updated: December 17, 2019*
 
@@ -958,37 +932,7 @@ set_magnetometer_bias
 
 **Instruments:**
 
-`MultispeQ 1` `MultispeQ 2`
-
-*Last Updated: December 17, 2019*
-
-***
-
-### set\_op
-
-Set the **open** position of the leaf clamp.
-
-**Example:**
-
-```bash
-set_op+
-```
-
-**Instruments:**
-
-`MultispeQ 1` `MultispeQ 2`
-
-*Last Updated: December 17, 2019*
-
-***
-
-### set\_open\_closed\_positions
-
-**Input:** set_open_closed_positions
-
-**Instruments:**
-
-`MultispeQ 1` `MultispeQ 2`
+`MultispeQ 1`
 
 *Last Updated: December 17, 2019*
 
@@ -1004,7 +948,7 @@ set_par
 
 **Instruments:**
 
-`MultispeQ 1` `MultispeQ 2`
+`MultispeQ 1`
 
 *Last Updated: December 17, 2019*
 
@@ -1020,27 +964,7 @@ set_serial
 
 **Instruments:**
 
-`MultispeQ 1` `MultispeQ 2`
-
-*Last Updated: December 17, 2019*
-
-***
-
-### set\_shutdown\_time
-
-Sets the time (in seconds) before the device automatically shuts down to save energy.
-
-**Input:** [number]
-
-**Example:**
-
-```bash
-set_shutdown_time+<seconds>
-```
-
-**Instruments:**
-
-`MultispeQ 1` `MultispeQ 2`
+`MultispeQ 1`
 
 *Last Updated: December 17, 2019*
 
@@ -1056,7 +980,7 @@ set_thickness
 
 **Instruments:**
 
-`MultispeQ 1` `MultispeQ 2`
+`MultispeQ 1`
 
 *Last Updated: December 17, 2019*
 
@@ -1072,7 +996,7 @@ set_thickness_quick
 
 **Instruments:**
 
-`MultispeQ 1` `MultispeQ 2`
+`MultispeQ 1`
 
 *Last Updated: December 17, 2019*
 
@@ -1090,7 +1014,7 @@ set_user_defined+<EEPROM Location>+<value>
 
 **Instruments:**
 
-`MultispeQ 1` `MultispeQ 2`
+`MultispeQ 1`
 
 *Last Updated: December 17, 2019*
 
@@ -1108,7 +1032,7 @@ single_pulse
 
 **Instruments:**
 
-`MultispeQ 1` `MultispeQ 2`
+`MultispeQ 1`
 
 *Last Updated: December 17, 2019*
 
@@ -1126,7 +1050,7 @@ sleep
 
 **Instruments:**
 
-`MultispeQ 1` `MultispeQ 2`
+`MultispeQ 1`
 
 *Last Updated: December 17, 2019*
 
@@ -1142,7 +1066,7 @@ start_watchdog
 
 **Instruments:**
 
-`MultispeQ 1` `MultispeQ 2`
+`MultispeQ 1`
 
 *Last Updated: December 17, 2019*
 
@@ -1158,7 +1082,7 @@ stop_watchdog
 
 **Instruments:**
 
-`MultispeQ 1` `MultispeQ 2`
+`MultispeQ 1`
 
 *Last Updated: December 17, 2019*
 
@@ -1174,7 +1098,7 @@ tcs_length
 
 **Instruments:**
 
-`MultispeQ 1` `MultispeQ 2`
+`MultispeQ 1`
 
 *Last Updated: December 17, 2019*
 
@@ -1192,7 +1116,7 @@ temp
 
 **Instruments:**
 
-`MultispeQ 1` `MultispeQ 2`
+`MultispeQ 1`
 
 *Last Updated: December 17, 2019*
 
@@ -1208,7 +1132,7 @@ testmode
 
 **Instruments:**
 
-`MultispeQ 1` `MultispeQ 2`
+`MultispeQ 1`
 
 *Last Updated: December 17, 2019*
 
@@ -1228,24 +1152,6 @@ upgrade
 
 **Instruments:**
 
-`MultispeQ 1` `MultispeQ 2`
-
-*Last Updated: December 17, 2019*
-
-***
-
-### usb
-
-Check, if the Instrument is connected via USB
-
-**Example:**
-
-```bash
-usb
-```
-
-**Instruments:**
-
-`MultispeQ 1` `MultispeQ 2`
+`MultispeQ 1`
 
 *Last Updated: December 17, 2019*

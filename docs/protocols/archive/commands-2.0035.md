@@ -1,14 +1,12 @@
-# Protocol Commands
+# Protocol Commands <Badge text="Archive" type="warn"/>
 
-The listed commands can be used to build measurement protocols. Some commands require a specific firmware version or Instrument. Make sure to check, if the commands that being used, are compatible.
+::: warning Archived
+This is for documentation only. The documentation for the latest version is available [here](../protocol-commands.md).
+:::
 
-## Available Commands <Badge text="v2.0038" type="tip" vertical="middle"/>
+## Available Commands <Badge text="v2.0035" type="tip" vertical="middle"/>
 
 [[TOC]]
-
-***
-
-**Previous Versions:** [v2.0036](./archive/commands-2.0036.md), [v2.0035](./archive/commands-2.0035.md), [v1.17](./archive/commands-1.17.md)
 
 ### \_protocol\_set\_
 

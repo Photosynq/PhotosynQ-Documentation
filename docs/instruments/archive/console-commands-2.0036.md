@@ -1,24 +1,12 @@
-# Console Commands
+# Console Commands <Badge text="Archive" type="warn"/>
 
-In the Desktop application, using the Console allows you to use commands to directly communicate with the Instrument. It allows you to change settings and display information. We recommend working with these console commands only for advanced users or developers since they can be tricky.
-
-::: warning Note
-Some of the commands will introduce changes without warning, which could cause the Instrument to malfunction.
+::: warning Archived
+This is for documentation only. The documentation for the latest version is available [here](../console-commands.md).
 :::
 
-## Command Switches
-
-**Silent:** `s+`  Sets command console in silent mode. Commands will not send back queries for user input. `s+` will remain in effect until reset or user enters `v+`.
-
-**Verbose:** `v+` Sets command console in verbose mode. When available, commands will send back queries for user input. `v+` will remain in effect until reset or user enters `s+`.
-
-## Available Commands <Badge text="v2.0038" type="tip" vertical="middle"/>
+## Available Commands <Badge text="v2.0036" type="tip" vertical="middle"/>
 
 [[TOC]]
-
-***
-
-**Previous Versions:** [v2.0036](./archive/console-commands-2.0036.md), [v2.0035](./archive/console-commands-2.0035.md), [v1.17](./archive/console-commands-1.17.md)
 
 ### 1053
 
@@ -723,24 +711,6 @@ set_colorcal_blanks
 
 ***
 
-### set\_cp
-
-Set the **close** position of the leave clamp.
-
-**Example:**
-
-```bash
-set_cp+
-```
-
-**Instruments:**
-
-`MultispeQ 1` `MultispeQ 2`
-
-*Last Updated: December 17, 2019*
-
-***
-
 ### set\_dac
 
 Set DAC addresses to 1,2,3 assuming addresses are unset and all are factory (0,0,0).
@@ -954,24 +924,6 @@ set_magnetometer
 
 ```bash
 set_magnetometer_bias
-```
-
-**Instruments:**
-
-`MultispeQ 1` `MultispeQ 2`
-
-*Last Updated: December 17, 2019*
-
-***
-
-### set\_op
-
-Set the **open** position of the leaf clamp.
-
-**Example:**
-
-```bash
-set_op+
 ```
 
 **Instruments:**
