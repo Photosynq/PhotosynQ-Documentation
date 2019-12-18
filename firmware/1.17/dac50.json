@@ -1,0 +1,17 @@
+{
+  "name": "dac50",
+  "abstract": "",
+  "description": "Set all DAC outputs to 50%",
+  "alias": [],
+  "input": "",
+  "values": [],
+  "example": "dac50",
+  "type": "console",
+  "deprecated": false,
+  "dependencies": [],
+  "parent": "",
+  "compatibility": [
+    "MultispeQ 1"
+  ],
+  "access": "public"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "adc_show",
+  "abstract": "",
+  "description": "When \"adc_show\" is 1, the readings taken by the ADC (analog to digital converter) on the sample and hold circuit are outputted in \"data_raw\" instead of the normal output.  No other output is recorded, and only the last set of adc readings is shown (all other readings are not outputted).  By default there are 19 samples, but this can be changed using \"number_samples\".",
+  "alias": [],
+  "input": "number",
+  "values": [
+    "0, 1"
+  ],
+  "example": "\"adc_show\": <number>,",
+  "type": "protocol",
+  "deprecated": false,
+  "dependencies": [],
+  "parent": "",
+  "compatibility": [
+    "MultispeQ 1",
+    "MultispeQ 2"
+  ],
+  "access": "public"
+}

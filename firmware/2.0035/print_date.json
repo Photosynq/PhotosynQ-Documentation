@@ -1,0 +1,18 @@
+{
+  "name": "print_date",
+  "abstract": "",
+  "description": "Print date based on instruments RTC (if available).\ne.g.`2004-02-12T15:19:21.000Z`",
+  "alias": [],
+  "input": "",
+  "values": [],
+  "example": "print_date",
+  "type": "console",
+  "deprecated": false,
+  "dependencies": [],
+  "parent": "",
+  "compatibility": [
+    "MultispeQ 1",
+    "MultispeQ 2"
+  ],
+  "access": "public"
+}

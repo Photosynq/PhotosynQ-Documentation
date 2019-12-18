@@ -1,0 +1,20 @@
+{
+  "name": "open_close_start",
+  "abstract": "",
+  "description": "When `open_close_start` is set to 1, the protocol waits until the user fully opens the clamp and closes the clamp before proceeding.  Also works if the clamp starts fully open and then closes.  Open and close is detected using the Hall effect sensor on the main body and magnet on the clamp (same sensor used to determine sample thickness).  If the device is not calibrated, or calibration is off, or the clamping mechanism does not fully open or close, this function will not work.  Calibration details can be found by typing print_memory into the console - see thickness_a, thickness_b, thickness_c, thickness_min, and thickness_max for relevant calibration values.",
+  "alias": [],
+  "input": "number",
+  "values": [
+    "0, 1"
+  ],
+  "example": "\"open_close_start\": <number>,",
+  "type": "protocol",
+  "deprecated": false,
+  "dependencies": [],
+  "parent": "",
+  "compatibility": [
+    "MultispeQ 1",
+    "MultispeQ 2"
+  ],
+  "access": "public"
+}

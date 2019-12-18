@@ -1,0 +1,19 @@
+{
+  "name": "protocols",
+  "abstract": "",
+  "description": "`protocols` sets the number of times to repeat the protocol. Unlike `averages`, this outputs data every time the protocol is repeated (instead of averaging the repeats and outputting data only once).",
+  "alias": [],
+  "input": "number",
+  "values": [
+    "0 - 999999999"
+  ],
+  "example": "\"protocols\": <number>,",
+  "type": "protocol",
+  "deprecated": false,
+  "dependencies": [],
+  "parent": "",
+  "compatibility": [
+    "MultispeQ 1"
+  ],
+  "access": "public"
+}

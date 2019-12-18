@@ -2,9 +2,13 @@
 
 The listed commands can be used to build measurement protocols. Some commands require a specific firmware version or Instrument. Make sure to check, if the commands that being used, are compatible.
 
-## Available Commands
+## Available Commands <Badge text="v2.0038" type="tip" vertical="middle"/>
 
 [[TOC]]
+
+***
+
+**Previous Versions:** [v2.0036](./archive/commands-2.0036.md), [v2.0035](./archive/commands-2.0035.md), [v1.17](./archive/commands-1.17.md)
 
 ### \_protocol\_set\_
 
@@ -27,10 +31,33 @@ Protocols are separate units which produce separate data sets. Using `_protocol_
 
 **Instruments:**
 
-+ MultispeQ 1: `2.0038` `2.0036` `2.0035`
-+ MultispeQ 2: `2.0038` `2.0036` `2.0035`
+`MultispeQ 1` `MultispeQ 2`
 
-*Last Updated: July 1, 2019*
+*Last Updated: December 17, 2019*
+
+***
+
+### adc\_show
+
+When "adc_show" is 1, the readings taken by the ADC (analog to digital converter) on the sample and hold circuit are outputted in "data_raw" instead of the normal output.  No other output is recorded, and only the last set of adc readings is shown (all other readings are not outputted).  By default there are 19 samples, but this can be changed using "number_samples".
+
+**Input:** [number]
+
+**Values:**
+
++ 0, 1
+
+**Example:**
+
+```javascript
+"adc_show": <number>,
+```
+
+**Instruments:**
+
+`MultispeQ 1` `MultispeQ 2`
+
+*Last Updated: December 17, 2019*
 
 ***
 
@@ -57,10 +84,9 @@ The `autogain` function is added to the main section of the protocol. Multiple `
 
 **Instruments:**
 
-+ MultispeQ 1: `2.0038` `2.0036` `2.0035`
-+ MultispeQ 2: `2.0038` `2.0036` `2.0035`
+`MultispeQ 1` `MultispeQ 2`
 
-*Last Updated: July 1, 2019*
+*Last Updated: December 17, 2019*
 
 ***
 
@@ -82,10 +108,9 @@ The `autogain` function is added to the main section of the protocol. Multiple `
 
 **Instruments:**
 
-+ MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
-+ MultispeQ 2: `2.0038` `2.0036` `2.0035`
+`MultispeQ 1` `MultispeQ 2`
 
-*Last Updated: July 1, 2019*
+*Last Updated: December 17, 2019*
 
 ***
 
@@ -111,10 +136,9 @@ The `autogain` function is added to the main section of the protocol. Multiple `
 
 **Instruments:**
 
-+ MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
-+ MultispeQ 2: `2.0038` `2.0036` `2.0035`
+`MultispeQ 1` `MultispeQ 2`
 
-*Last Updated: July 1, 2019*
+*Last Updated: December 17, 2019*
 
 ***
 
@@ -138,10 +162,9 @@ When `dac_lights` is set to 1, `pulsed_lights_brightness` and `nonpulsed_lights_
 
 **Instruments:**
 
-+ MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
-+ MultispeQ 2: `2.0038` `2.0036` `2.0035`
+`MultispeQ 1` `MultispeQ 2`
 
-*Last Updated: July 1, 2019*
+*Last Updated: December 17, 2019*
 
 ***
 
@@ -174,10 +197,35 @@ When `dac_lights` is set to 1, `pulsed_lights_brightness` and `nonpulsed_lights_
 
 **Instruments:**
 
-+ MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
-+ MultispeQ 2: `2.0038` `2.0036` `2.0035`
+`MultispeQ 1` `MultispeQ 2`
 
-*Last Updated: July 1, 2019*
+*Last Updated: December 17, 2019*
+
+***
+
+### energy\_min\_wake\_time
+
+The value of time is in milliseconds, and must be between zero and 10^6 milliseconds. This setting changes the delay between shutting off the 5V (following `energy_save_timeout`) and the wake up time. The `energy_min_wake_time` is needed to prevent brown out following the initiation of energy save.
+
+**Important:** Note that the change in `energy_min_wake_time` will remain in effect until the instrument is reset, when it will return to the default value of 10 s.
+
+**Input:** [number]
+
+**Values:**
+
++ 0 - 10^6
+
+**Example:**
+
+```javascript
+"energy_min_wake_time": <number>,
+```
+
+**Instruments:**
+
+`MultispeQ 1` `MultispeQ 2`
+
+*Last Updated: December 17, 2019*
 
 ***
 
@@ -201,10 +249,9 @@ Adjusting Energy Save Timeout Time. The value of time is in milliseconds, and mu
 
 **Instruments:**
 
-+ MultispeQ 1: `2.0038` `2.0036` `2.0035`
-+ MultispeQ 2: `2.0038` `2.0036` `2.0035`
+`MultispeQ 1` `MultispeQ 2`
 
-*Last Updated: July 1, 2019*
+*Last Updated: December 17, 2019*
 
 ***
 
@@ -227,10 +274,9 @@ Adjusting Energy Save Timeout Time. The value of time is in milliseconds, and mu
 
 **Instruments:**
 
-+ MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
-+ MultispeQ 2: `2.0038` `2.0036` `2.0035`
+`MultispeQ 1` `MultispeQ 2`
 
-*Last Updated: August 9, 2019*
+*Last Updated: December 17, 2019*
 
 ***
 
@@ -259,10 +305,9 @@ Adjusting Energy Save Timeout Time. The value of time is in milliseconds, and mu
 
 **Instruments:**
 
-+ MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
-+ MultispeQ 2: `2.0038` `2.0036` `2.0035`
+`MultispeQ 1` `MultispeQ 2`
 
-*Last Updated: July 1, 2019*
+*Last Updated: December 17, 2019*
 
 ***
 
@@ -270,10 +315,9 @@ Adjusting Energy Save Timeout Time. The value of time is in milliseconds, and mu
 
 **Instruments:**
 
-+ MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
-+ MultispeQ 2: `2.0038` `2.0036` `2.0035`
+`MultispeQ 1` `MultispeQ 2`
 
-*Last Updated: July 1, 2019*
+*Last Updated: December 17, 2019*
 
 ***
 
@@ -291,10 +335,9 @@ Each protocol or sub-protocol can now output a `label` that can be used to indic
 
 **Instruments:**
 
-+ MultispeQ 1: `2.0038` `2.0036` `2.0035`
-+ MultispeQ 2: `2.0038` `2.0036` `2.0035`
+`MultispeQ 1` `MultispeQ 2`
 
-*Last Updated: July 1, 2019*
+*Last Updated: December 17, 2019*
 
 ***
 
@@ -312,10 +355,9 @@ This parameter sets the time (in ms) at which the hold commands timeout. The def
 
 **Instruments:**
 
-+ MultispeQ 1: `2.0038` `2.0036` `2.0035`
-+ MultispeQ 2: `2.0038` `2.0036` `2.0035`
+`MultispeQ 1` `MultispeQ 2`
 
-*Last Updated: July 1, 2019*
+*Last Updated: December 17, 2019*
 
 ***
 
@@ -329,7 +371,7 @@ number of times to repeat a measurement, which is a set of protocols
 "measurements": <number>
 ```
 
-*Last Updated: July 1, 2019*
+*Last Updated: December 17, 2019*
 
 ***
 
@@ -343,7 +385,7 @@ delay between measurements in milliseconds
 "measurements_delay": <number>
 ```
 
-*Last Updated: July 1, 2019*
+*Last Updated: December 17, 2019*
 
 ***
 
@@ -374,10 +416,9 @@ delay between measurements in milliseconds
 
 **Instruments:**
 
-+ MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
-+ MultispeQ 2: `2.0038` `2.0036` `2.0035`
+`MultispeQ 1` `MultispeQ 2`
 
-*Last Updated: July 1, 2019*
+*Last Updated: December 17, 2019*
 
 ***
 
@@ -409,10 +450,9 @@ delay between measurements in milliseconds
 
 **Instruments:**
 
-+ MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
-+ MultispeQ 2: `2.0038` `2.0036` `2.0035`
+`MultispeQ 1` `MultispeQ 2`
 
-*Last Updated: July 1, 2019*
+*Last Updated: December 17, 2019*
 
 ***
 
@@ -444,10 +484,9 @@ delay between measurements in milliseconds
 
 **Instruments:**
 
-+ MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
-+ MultispeQ 2: `2.0038` `2.0036` `2.0035`
+`MultispeQ 1` `MultispeQ 2`
 
-*Last Updated: July 1, 2019*
+*Last Updated: December 17, 2019*
 
 ***
 
@@ -476,10 +515,9 @@ delay between measurements in milliseconds
 
 **Instruments:**
 
-+ MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
-+ MultispeQ 2: `2.0038` `2.0036` `2.0035`
+`MultispeQ 1` `MultispeQ 2`
 
-*Last Updated: July 1, 2019*
+*Last Updated: December 17, 2019*
 
 ***
 
@@ -501,10 +539,9 @@ When `open_close_start` is set to 1, the protocol waits until the user fully ope
 
 **Instruments:**
 
-+ MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
-+ MultispeQ 2: `2.0038` `2.0036` `2.0035`
+`MultispeQ 1` `MultispeQ 2`
 
-*Last Updated: July 1, 2019*
+*Last Updated: December 17, 2019*
 
 ***
 
@@ -522,10 +559,9 @@ The Ambient light is recreated inside the instrument on closing the clamp. Durin
 
 **Instruments:**
 
-+ MultispeQ 1: `2.0038` `2.0036` `2.0035`
-+ MultispeQ 2: `2.0038` `2.0036` `2.0035`
+`MultispeQ 1` `MultispeQ 2`
 
-*Last Updated: July 1, 2019*
+*Last Updated: December 17, 2019*
 
 ***
 
@@ -543,10 +579,9 @@ The Ambient light is recreated inside the instrument on opening the clamp. Durin
 
 **Instruments:**
 
-+ MultispeQ 1: `2.0038` `2.0036` `2.0035`
-+ MultispeQ 2: `2.0038` `2.0036` `2.0035`
+`MultispeQ 1` `MultispeQ 2`
 
-*Last Updated: July 1, 2019*
+*Last Updated: December 17, 2019*
 
 ***
 
@@ -564,10 +599,9 @@ The Ambient light is recreated inside the instrument on opening the clamp. Durin
 
 **Instruments:**
 
-+ MultispeQ 1: `2.0038` `2.0036` `2.0035`
-+ MultispeQ 2: `2.0038` `2.0036` `2.0035`
+`MultispeQ 1` `MultispeQ 2`
 
-*Last Updated: July 1, 2019*
+*Last Updated: December 17, 2019*
 
 ***
 
@@ -589,10 +623,9 @@ The Ambient light is recreated inside the instrument on opening the clamp. Durin
 
 **Instruments:**
 
-+ MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
-+ MultispeQ 2: `2.0038` `2.0036` `2.0035`
+`MultispeQ 1` `MultispeQ 2`
 
-*Last Updated: July 1, 2019*
+*Last Updated: December 17, 2019*
 
 ***
 
@@ -618,10 +651,9 @@ The Ambient light is recreated inside the instrument on opening the clamp. Durin
 
 **Instruments:**
 
-+ MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
-+ MultispeQ 2: `2.0038` `2.0036` `2.0035`
+`MultispeQ 1` `MultispeQ 2`
 
-*Last Updated: July 1, 2019*
+*Last Updated: December 17, 2019*
 
 ***
 
@@ -653,10 +685,9 @@ The Ambient light is recreated inside the instrument on opening the clamp. Durin
 
 **Instruments:**
 
-+ MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
-+ MultispeQ 2: `2.0038` `2.0036` `2.0035`
+`MultispeQ 1` `MultispeQ 2`
 
-*Last Updated: July 1, 2019*
+*Last Updated: December 17, 2019*
 
 ***
 
@@ -688,10 +719,9 @@ The Ambient light is recreated inside the instrument on opening the clamp. Durin
 
 **Instruments:**
 
-+ MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
-+ MultispeQ 2: `2.0038` `2.0036` `2.0035`
+`MultispeQ 1` `MultispeQ 2`
 
-*Last Updated: July 1, 2019*
+*Last Updated: December 17, 2019*
 
 ***
 
@@ -723,10 +753,9 @@ The Ambient light is recreated inside the instrument on opening the clamp. Durin
 
 **Instruments:**
 
-+ MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
-+ MultispeQ 2: `2.0038` `2.0036` `2.0035`
+`MultispeQ 1` `MultispeQ 2`
 
-*Last Updated: July 1, 2019*
+*Last Updated: December 17, 2019*
 
 ***
 
@@ -758,10 +787,9 @@ The Ambient light is recreated inside the instrument on opening the clamp. Durin
 
 **Instruments:**
 
-+ MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
-+ MultispeQ 2: `2.0038` `2.0036` `2.0035`
+`MultispeQ 1` `MultispeQ 2`
 
-*Last Updated: July 1, 2019*
+*Last Updated: December 17, 2019*
 
 ***
 
@@ -793,10 +821,9 @@ The Ambient light is recreated inside the instrument on opening the clamp. Durin
 
 **Instruments:**
 
-+ MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
-+ MultispeQ 2: `2.0038` `2.0036` `2.0035`
+`MultispeQ 1` `MultispeQ 2`
 
-*Last Updated: July 1, 2019*
+*Last Updated: December 17, 2019*
 
 ***
 
@@ -817,10 +844,9 @@ This command returns values from the device memory (EEPROM). This includes value
 
 **Instruments:**
 
-+ MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
-+ MultispeQ 2: `2.0038` `2.0036` `2.0035`
+`MultispeQ 1` `MultispeQ 2`
 
-*Last Updated: August 9, 2019*
+*Last Updated: December 17, 2019*
 
 ***
 
@@ -853,10 +879,9 @@ The MultispeQ is designed to be able to nearly simultaneously measure two detect
 
 **Instruments:**
 
-+ MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
-+ MultispeQ 2: `2.0038` `2.0036` `2.0035`
+`MultispeQ 1` `MultispeQ 2`
 
-*Last Updated: July 1, 2019*
+*Last Updated: December 17, 2019*
 
 ***
 
@@ -877,10 +902,9 @@ This command saves a value to a location in the device memory (EEPROM).
 
 **Instruments:**
 
-+ MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
-+ MultispeQ 2: `2.0038` `2.0036` `2.0035`
+`MultispeQ 1` `MultispeQ 2`
 
-*Last Updated: August 9, 2019*
+*Last Updated: December 17, 2019*
 
 ***
 
@@ -902,10 +926,9 @@ Saving Time Scale Values. Setting the value to 0 will inactivate the function (p
 
 **Instruments:**
 
-+ MultispeQ 1: `2.0038` `2.0036` `2.0035`
-+ MultispeQ 2: `2.0038` `2.0036` `2.0035`
+`MultispeQ 1` `MultispeQ 2`
 
-*Last Updated: July 1, 2019*
+*Last Updated: December 17, 2019*
 
 ***
 
@@ -936,10 +959,9 @@ Pre-illuminating a sample. It is often useful to pre-illuminate a sample at a gi
 
 **Instruments:**
 
-+ MultispeQ 1: `2.0038` `2.0036` `2.0035`
-+ MultispeQ 2: `2.0038` `2.0036` `2.0035`
+`MultispeQ 1` `MultispeQ 2`
 
-*Last Updated: July 1, 2019*
+*Last Updated: December 17, 2019*
 
 ***
 
@@ -959,10 +981,9 @@ Instead of measuring the ambient light intensity, use `set_light_intensity` to s
 
 **Instruments:**
 
-+ MultispeQ 1: `2.0038` `2.0036` `2.0035`
-+ MultispeQ 2: `2.0038` `2.0036` `2.0035`
+`MultispeQ 1` `MultispeQ 2`
 
-*Last Updated: July 1, 2019*
+*Last Updated: December 17, 2019*
 
 ***
 
@@ -984,10 +1005,9 @@ If set to 0, the command will be ignored. If set to 1, will wait until the clamp
 
 **Instruments:**
 
-+ MultispeQ 1: `2.0038` `2.0036` `2.0035`
-+ MultispeQ 2: `2.0038` `2.0036` `2.0035`
+`MultispeQ 1` `MultispeQ 2`
 
-*Last Updated: July 1, 2019*
+*Last Updated: December 17, 2019*
 
 ***
 
@@ -1009,10 +1029,9 @@ If set to 0, the command will be ignored. If set to 1 or higher, it will wait un
 
 **Instruments:**
 
-+ MultispeQ 1: `2.0038` `2.0036` `2.0035`
-+ MultispeQ 2: `2.0038` `2.0036` `2.0035`
+`MultispeQ 1` `MultispeQ 2`
 
-*Last Updated: July 1, 2019*
+*Last Updated: December 17, 2019*
 
 ***
 
@@ -1030,62 +1049,9 @@ If set to 0, the command will be ignored. If set to 1, will wait until the clamp
 
 **Instruments:**
 
-+ MultispeQ 1: `2.0038` `2.0036` `2.0035`
-+ MultispeQ 2: `2.0038` `2.0036` `2.0035`
+`MultispeQ 1` `MultispeQ 2`
 
-*Last Updated: July 1, 2019*
-
-***
-
-### adc\_show <Badge text="deprecated" type="error"/>
-
-When "adc_show" is 1, the readings taken by the ADC (analog to digital converter) on the sample and hold circuit are outputted in "data_raw" instead of the normal output.  No other output is recorded, and only the last set of adc readings is shown (all other readings are not outputted).  By default there are 19 samples, but this can be changed using "number_samples".
-
-**Input:** [number]
-
-**Values:**
-
-+ 0, 1
-
-**Example:**
-
-```javascript
-"adc_show": <number>,
-```
-
-**Instruments:**
-
-+ MultispeQ 1: `2.0038` `2.0036` `2.0035` `1.17` `1.16` `1.14` `1.11` `1.10` `1.08` `1.07` `1.06`
-+ MultispeQ 2: `2.0038` `2.0036` `2.0035`
-
-*Last Updated: July 1, 2019*
-
-***
-
-### energy\_min\_wake\_time <Badge text="deprecated" type="error"/>
-
-The value of time is in milliseconds, and must be between zero and 10^6 milliseconds. This setting changes the delay between shutting off the 5V (following `energy_save_timeout`) and the wake up time. The `energy_min_wake_time` is needed to prevent brown out following the initiation of energy save.
-
-**Important:** Note that the change in `energy_min_wake_time` will remain in effect until the instrument is reset, when it will return to the default value of 10 s.
-
-**Input:** [number]
-
-**Values:**
-
-+ 0 - 10^6
-
-**Example:**
-
-```javascript
-"energy_min_wake_time": <number>,
-```
-
-**Instruments:**
-
-+ MultispeQ 1: `2.0038` `2.0036` `2.0035`
-+ MultispeQ 2: `2.0038` `2.0036` `2.0035`
-
-*Last Updated: July 1, 2019*
+*Last Updated: December 17, 2019*
 
 [array]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array
 [number]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number

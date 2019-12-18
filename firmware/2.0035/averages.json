@@ -1,0 +1,20 @@
+{
+  "name": "averages",
+  "abstract": "",
+  "description": "`averages` sets the number of times to average the protocol. The protocol will be repeated equal to the number of averages, and the resulting data will be averaged and outputted as a single data point. Averaging is often used to reduce noise and improve the quality of measurements.",
+  "alias": [],
+  "input": "number",
+  "values": [
+    "0 - 10000"
+  ],
+  "example": "\"averages\": <number>,",
+  "type": "protocol",
+  "deprecated": false,
+  "dependencies": [],
+  "parent": "",
+  "compatibility": [
+    "MultispeQ 1",
+    "MultispeQ 2"
+  ],
+  "access": "public"
+}

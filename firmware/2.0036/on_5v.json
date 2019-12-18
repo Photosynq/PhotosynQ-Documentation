@@ -1,0 +1,18 @@
+{
+  "name": "on_5v",
+  "abstract": "",
+  "description": "Turn on 5V for 30 seconds",
+  "alias": [],
+  "input": "",
+  "values": [],
+  "example": "on_5v",
+  "type": "console",
+  "deprecated": false,
+  "dependencies": [],
+  "parent": "",
+  "compatibility": [
+    "MultispeQ 1",
+    "MultispeQ 2"
+  ],
+  "access": "public"
+}

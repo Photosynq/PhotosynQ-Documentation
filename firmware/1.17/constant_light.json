@@ -1,0 +1,17 @@
+{
+  "name": "constant_light",
+  "abstract": "",
+  "description": "Starting constant light source. Stop output using the command `-1+`.",
+  "alias": [],
+  "input": "",
+  "values": [],
+  "example": "constant_light",
+  "type": "console",
+  "deprecated": false,
+  "dependencies": [],
+  "parent": "",
+  "compatibility": [
+    "MultispeQ 1"
+  ],
+  "access": "public"
+}

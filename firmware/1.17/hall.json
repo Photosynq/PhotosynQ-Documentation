@@ -1,0 +1,17 @@
+{
+  "name": "hall",
+  "abstract": "",
+  "description": "Continues output of the hall sensor readings. Stop output using the command `-1+`",
+  "alias": [],
+  "input": "",
+  "values": [],
+  "example": "hall",
+  "type": "console",
+  "deprecated": false,
+  "dependencies": [],
+  "parent": "",
+  "compatibility": [
+    "MultispeQ 1"
+  ],
+  "access": "public"
+}

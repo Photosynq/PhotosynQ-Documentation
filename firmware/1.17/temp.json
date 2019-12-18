@@ -1,0 +1,17 @@
+{
+  "name": "temp",
+  "abstract": "",
+  "description": "Return the readings for both BME280 sensors including temperature and relative humidity.",
+  "alias": [],
+  "input": "",
+  "values": [],
+  "example": "temp",
+  "type": "console",
+  "deprecated": false,
+  "dependencies": [],
+  "parent": "",
+  "compatibility": [
+    "MultispeQ 1"
+  ],
+  "access": "public"
+}

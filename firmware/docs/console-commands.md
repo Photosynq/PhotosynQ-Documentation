@@ -12,8 +12,10 @@ Some of the commands will introduce changes without warning, which could cause t
 
 **Verbose:** `v+` Sets command console in verbose mode. When available, commands will send back queries for user input. `v+` will remain in effect until reset or user enters `s+`.
 
-## Available Commands
+## Available Commands <Badge text="v{{ version }}" type="tip" vertical="middle"/>
 
 [[TOC]]
+
+{{{ archive }}}
 
 {{{ console-commands }}}

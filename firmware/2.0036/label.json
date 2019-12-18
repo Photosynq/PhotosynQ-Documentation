@@ -1,0 +1,18 @@
+{
+  "name": "label",
+  "abstract": "",
+  "description": "Each protocol or sub-protocol can now output a `label` that can be used to indicate something about the protocol, conditions etc.",
+  "alias": [],
+  "input": "string",
+  "values": [],
+  "example": "\"label\": <string>,",
+  "type": "protocol",
+  "deprecated": false,
+  "dependencies": [],
+  "parent": "",
+  "compatibility": [
+    "MultispeQ 1",
+    "MultispeQ 2"
+  ],
+  "access": "public"
+}

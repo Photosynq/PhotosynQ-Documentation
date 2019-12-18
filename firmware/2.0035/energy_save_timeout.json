@@ -1,0 +1,20 @@
+{
+  "name": "energy_save_timeout",
+  "abstract": "",
+  "description": "Adjusting Energy Save Timeout Time. The value of time is in milliseconds, and must be between zero and 10^6 milliseconds. This setting changes the energy_save_timeout time to prevent interference from the requirement for a 7 second wake up time from power save mode.\n\n**Important:** Note that the change in `energy_save_timeout` will remain in effect until the instrument is reset, when it will return to the default value of 120 s.",
+  "alias": [],
+  "input": "number",
+  "values": [
+    "0 - 10^6"
+  ],
+  "example": "\"energy_save_timeout\": <number>,",
+  "type": "protocol",
+  "deprecated": false,
+  "dependencies": [],
+  "parent": "",
+  "compatibility": [
+    "MultispeQ 1",
+    "MultispeQ 2"
+  ],
+  "access": "public"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "protocols_delay",
+  "abstract": "",
+  "description": "`protocols_delay` defines the delay between protocol repeats in in milliseconds (ms).",
+  "alias": [],
+  "input": "auto",
+  "values": [
+    "0 - 9999999999"
+  ],
+  "example": "\"protocols_delay\": <number>,",
+  "type": "protocol",
+  "deprecated": false,
+  "dependencies": [
+    "protocols"
+  ],
+  "parent": "",
+  "compatibility": [
+    "MultispeQ 1"
+  ],
+  "access": "public"
+}

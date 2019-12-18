@@ -1,0 +1,18 @@
+{
+  "name": "indicate_off",
+  "abstract": "",
+  "description": "Turn off indicator LED",
+  "alias": [],
+  "input": "",
+  "values": [],
+  "example": "indicate_off",
+  "type": "console",
+  "deprecated": false,
+  "dependencies": [],
+  "parent": "",
+  "compatibility": [
+    "MultispeQ 1",
+    "MultispeQ 2"
+  ],
+  "access": "public"
+}
