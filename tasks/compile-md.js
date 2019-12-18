@@ -6,8 +6,11 @@ const {src,dest} = require('gulp');
 const through2 = require('through2');
 const jetpack = require('fs-jetpack');
 const Mustache = require('mustache');
+const moment = require('moment-timezone');
 
-const compile = function(cb){
+const {getGitTag} = require('./tag');
+
+const compileMD = function(cb){
     return src('build/*.md')
         .pipe(through2.obj(function(file, _, cb) {
             var input = file.contents.toString();
@@ -45,10 +48,13 @@ const compile = function(cb){
                 content[path_rel] = content[path_rel].replace(/(\[\[TOC\]\]\n)/gm, '');
             }
 
+            // Get Tag info
+            var tag = getGitTag();
+
             // compile markdown
             var md = Mustache.render(input, {
-                date: "today",
-                version: ("1.2" || '--') 
+                date: moment((tag.date ||  new Date() )).format('LL'),
+                version: (tag.name || '--') 
             }, content);
 
             // Change string to buffer
@@ -60,4 +66,4 @@ const compile = function(cb){
         .pipe(dest('dist'));
 };
 
-module.exports = compile;
+module.exports = compileMD;
