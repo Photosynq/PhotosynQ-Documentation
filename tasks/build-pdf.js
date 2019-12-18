@@ -27,7 +27,7 @@ const buildPDF = function(cb){
                 await page.setContent(html);
 
                 await page.addStyleTag({
-                    content: jetpack.read(jetpack.path(__dirname, "..", "src", "css", "print.css")).replace(/(url\(\s?\')(\.{1,2})/g, `$1file://${__dirname}`)
+                    content: jetpack.read(jetpack.path(__dirname, "..", "src", "css", "print.css")).replace(/(url\(\s?\')(\.{1,2})/g, `$1file://${__dirname}/..`)
                 });
 
                 await page.addStyleTag({
