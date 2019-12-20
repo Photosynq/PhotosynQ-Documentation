@@ -106,19 +106,19 @@ const docsFromFolder = function(files,version){
         for(var i in versions){
             if(i == versions.length-1)
                 continue;
-            itmCMD.push(`[v${versions[i].version}](./archive/console-commands-${versions[i].version}.md)`);
-            itmP.push(`[v${versions[i].version}](./archive/commands-${versions[i].version}.md)`);
+            itmCMD.push(`[<Badge text="v${versions[i].version}" type="tip" vertical="middle"/>](./archive/console-commands-${versions[i].version}.md)`);
+            itmP.push(`[<Badge text="v${versions[i].version}" type="tip" vertical="middle"/>](./archive/commands-${versions[i].version}.md)`);
         }
 
         consolecmds = Mustache.render( jetpack.read('./firmware/docs/console-commands.md'), {
             "console-commands": consolecmds,
             "version": versions[i].version,
-            "archive": `***\n\n**Previous Versions:** ${itmCMD.reverse().join(', ')}`
+            "archive": `***\n\n### Archive\n\n${itmCMD.reverse().join(' ')}\n\n***\n\n`
         });
         protocols = Mustache.render( jetpack.read('./firmware/docs/protocol-commands.md'), {
             "protocol-commands": protocols,
             "version": versions[i].version,
-            "archive": `***\n\n**Previous Versions:** ${itmP.reverse().join(', ')}`
+            "archive": `***\n\n### Archive\n\n${itmP.reverse().join(' ')}\n\n***\n\n`
         });
 
         jetpack.write('./docs/instruments/console-commands.md', consolecmds);

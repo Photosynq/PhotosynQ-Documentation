@@ -18,7 +18,13 @@ Some of the commands will introduce changes without warning, which could cause t
 
 ***
 
-**Previous Versions:** [v2.0036](./archive/console-commands-2.0036.md), [v2.0035](./archive/console-commands-2.0035.md), [v1.17](./archive/console-commands-1.17.md)
+### Archive
+
+[<Badge text="v2.0036" type="tip" vertical="middle"/>](./archive/console-commands-2.0036.md) [<Badge text="v2.0035" type="tip" vertical="middle"/>](./archive/console-commands-2.0035.md) [<Badge text="v1.17" type="tip" vertical="middle"/>](./archive/console-commands-1.17.md)
+
+***
+
+
 
 ### 1053
 
