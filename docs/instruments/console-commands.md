@@ -16,9 +16,8 @@ Some of the commands will introduce changes without warning, which could cause t
 
 [[TOC]]
 
-***
 
-### Archive
+#### Other Versions (Archive)
 
 [<Badge text="v2.0036" type="tip" vertical="middle"/>](./archive/console-commands-2.0036.md) [<Badge text="v2.0035" type="tip" vertical="middle"/>](./archive/console-commands-2.0035.md) [<Badge text="v1.17" type="tip" vertical="middle"/>](./archive/console-commands-1.17.md)
 

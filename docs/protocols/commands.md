@@ -6,9 +6,8 @@ The listed commands can be used to build measurement protocols. Some commands re
 
 [[TOC]]
 
-***
 
-### Archive
+#### Other Versions (Archive)
 
 [<Badge text="v2.0036" type="tip" vertical="middle"/>](./archive/commands-2.0036.md) [<Badge text="v2.0035" type="tip" vertical="middle"/>](./archive/commands-2.0035.md) [<Badge text="v1.17" type="tip" vertical="middle"/>](./archive/commands-1.17.md)
 

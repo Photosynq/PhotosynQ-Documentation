@@ -10,7 +10,7 @@ const {spawnSync} = require('child_process');
 function file_updated(file){
     let updated = false;
     try {
-        updated = parseInt(spawnSync('git', ['log', '-1', '--format=%ct', file]).stdout.toString('utf-8')) * 1000
+        updated = parseInt(spawnSync('git', ['log', '-1', '--format=%ct', file]).stdout.toString('utf-8')) * 1000;
     } catch (e) { }
     return updated;
 }
@@ -113,12 +113,12 @@ const docsFromFolder = function(files,version){
         consolecmds = Mustache.render( jetpack.read('./firmware/docs/console-commands.md'), {
             "console-commands": consolecmds,
             "version": versions[i].version,
-            "archive": `***\n\n### Archive\n\n${itmCMD.reverse().join(' ')}\n\n***\n\n`
+            "archive": `\n#### Other Versions (Archive)\n\n${itmCMD.reverse().join(' ')}\n\n***\n\n`
         });
         protocols = Mustache.render( jetpack.read('./firmware/docs/protocol-commands.md'), {
             "protocol-commands": protocols,
             "version": versions[i].version,
-            "archive": `***\n\n### Archive\n\n${itmP.reverse().join(' ')}\n\n***\n\n`
+            "archive": `\n#### Other Versions (Archive)\n\n${itmP.reverse().join(' ')}\n\n***\n\n`
         });
 
         jetpack.write('./docs/instruments/console-commands.md', consolecmds);
