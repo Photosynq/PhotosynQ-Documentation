@@ -1,0 +1,19 @@
+{
+  "name": "dac_lights",
+  "abstract": "",
+  "description": "When `dac_lights` is set to 1, `pulsed_lights_brightness` and `nonpulsed_lights_brightness` settings will be interpreted by the device as 12-bit values (0 - 4095) directly controlling the LED voltage (via the DAC), instead of microEinsteins (µE * s⁻¹ * m⁻²).  This is used during factory calibration.\n\n**Note:** Setting brightness to high using raw DAC values could permanently disable LEDs, so be careful!",
+  "alias": [],
+  "input": "number",
+  "values": [
+    "0, 1"
+  ],
+  "example": "\"dac_lights\": <number>,",
+  "type": "protocol",
+  "deprecated": false,
+  "dependencies": [],
+  "parent": "",
+  "compatibility": [
+    "MultispeQ 1"
+  ],
+  "access": "public"
+}

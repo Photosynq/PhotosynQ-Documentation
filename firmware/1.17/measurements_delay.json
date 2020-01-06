@@ -1,0 +1,17 @@
+{
+  "name": "measurements_delay",
+  "abstract": "",
+  "description": "delay between measurements in milliseconds",
+  "alias": [],
+  "input": "",
+  "values": [],
+  "example": "\"measurements_delay\": <number>",
+  "type": "protocol",
+  "compatibility": [
+    "MultispeQ 1"
+  ],
+  "deprecated": false,
+  "dependencies": [],
+  "parent": "",
+  "access": "public"
+}

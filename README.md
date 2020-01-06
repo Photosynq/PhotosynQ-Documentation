@@ -12,28 +12,36 @@ Files are named using the help or tutorial title, e.g. `this-is-the-chapter-1.md
 
 ```shell
 ├── docs
-│   ├── Readme.md               // Landing Page
-│   ├── .vuepress               // Vuepress folder
-│   │   └── config.js           // Change Page content and layout here
-│   ├── account                 // Account Chapters folder
+│   ├── Readme.md                           // Landing Page
+│   ├── .vuepress
+│   │   └── config.js                       // Change Page content and layout here
+│   ├── account                             // Account Chapters folder
 │   │   └── images
-│   ├── desktop-application     // Desktop Application Chapters folder
+│   ├── desktop-application                 // Desktop Application Chapters folder
 │   │   └── images
-│   ├── instruments             // Instrument Chapters folder
+│   ├── instruments                         // Instrument Chapters folder
 │   │   └── images
-│   ├── macros                  // Macro Chapters folder
+│   ├── macros                              // Macro Chapters folder
 │   │   └── images
-│   ├── mobile-application      // Mobile Application Chapters folder
+│   ├── mobile-application                  // Mobile Application Chapters folder
 │   │   └── images
-│   ├── projects                // Project Chapters folder
+│   ├── projects                            // Project Chapters folder
 │   │   └── images
-│   ├── protocols               // Protocol Chapters folder
+│   ├── protocols                           // Protocol Chapters folder
 │   │   └── images
-│   ├── tutorials               // Tutorials folder
+│   ├── tutorials                           // Tutorials folder
 │   │   └── images
-│   └── view-and-analyze-data   // Data viewing and analysis Chapters folder
+│   └── view-and-analyze-data               // Data viewing and analysis Chapters folder
 │       └── images
-└── firmware                    // Firmware Commands folder
+└── firmware
+    ├── <version>                           // Firmware version commands folder
+    ├── ...
+    ├── docs                                // Document Page Headers
+    │   ├── console-commands.md             // Console commands page header
+    │   ├── console-commands-archive.md     // Console commands archive page header
+    │   ├── protocol-commands.md            // Protocol commands page header
+    │   └── protocol-commands-archive.md    // Protocol commands archive page header
+    └── versions.json                       // File describing the firware versions
 ```
 
 ### Images
@@ -74,10 +82,14 @@ yarn install
 
 ### Firmware
 
-The firmware folder contains individual files for each command, using the command as a filename `command.json`. Use the following command generate a template file for a new command.
+The firmware folder contains individual files for each command, using the command as a filename `command.json`.
+
+#### New Firmware command
+
+Use the following command generate a template file for a new command.
 
 ```shell
-node index.js cmd --new <command>
+gulp firmwareNewCommand --cmd=YourCommand --version=FirmwareVersion
 ```
 
 The standard structure for documenting a command is the following:
@@ -92,16 +104,20 @@ The standard structure for documenting a command is the following:
     "values": [],
     "example": "<string>",          // Add an example on how to use the command
     "type": "console|protocol",     // Where the Command can be used
-    "compatibility": {},            // "Instrument Name": ["firmware version",...]
-    "time":{
-        "modified": "<time>",       // Timestamp YYYY-MM-DDTHH:mm:ssZ
-        "created": "<time>",        // Timestamp YYYY-MM-DDTHH:mm:ssZ
-    },
+    "compatibility": [],            // "Instrument Name": ["firmware version",...]
     "deprecated": false,            // If a Command is deprecated set to true
     "dependencies":[],              // Add Commands that are required with this command in protocols
     "parent": "<string>",           // When the command nested within a command
     "access": "public|private"      // If the command is in the outside documentation
 }
+```
+
+#### New Firmware Version
+
+For each new firmware version a new folder is generated. When creating the new version, all commands from the previous version are copied into the new folder.
+
+```shell
+gulp firmwareNewVersion --version=FirmwareVersion
 ```
 
 ### Test Help Documentation
@@ -120,7 +136,16 @@ yarn docs:build
 
 ### Compile Master documents
 
-To generate one big help document and one tutorials document, use the compile script.
+To generate one big help document and one tutorials document, use the following command.
+
+```shell
+gulp build
+```
+
+### Create a release
+
+This will build the static documentation page from the latest version, as well as all other documentation files.
+Before running this script, make sure to create a new tag/release on git.
 
 ```shell
 yarn release

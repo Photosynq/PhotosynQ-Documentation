@@ -1,0 +1,20 @@
+{
+  "name": "flow_calibration_setting",
+  "abstract": "",
+  "description": "",
+  "alias": [
+    "fcv"
+  ],
+  "input": "",
+  "values": [],
+  "example": "flow_calibration_setting",
+  "type": "console",
+  "deprecated": false,
+  "dependencies": [],
+  "parent": "",
+  "compatibility": [
+    "MultispeQ 1",
+    "MultispeQ 2"
+  ],
+  "access": "public"
+}

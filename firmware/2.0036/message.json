@@ -1,0 +1,26 @@
+{
+  "name": "message",
+  "abstract": "",
+  "description": "`message` sends text to the user between pulse sets, and waits for a response before proceeding. Set <message type> to \"0\" to not send a message. `message` should have the same length as `pulses`.",
+  "alias": [],
+  "input": "nested array",
+  "values": [
+    "`alert` - message with an OK button",
+    "`prompt` - message with an OK and Cancel button",
+    "`confirm` - message with an OK and Cancel button and text input box"
+  ],
+  "example": "\"message\": [\n  [ <message type>, <message> ],\n  ...\n],",
+  "type": "protocol",
+  "deprecated": false,
+  "dependencies": [
+    "pulses",
+    "pulse_length",
+    "pulse_distance"
+  ],
+  "parent": "",
+  "compatibility": [
+    "MultispeQ 1",
+    "MultispeQ 2"
+  ],
+  "access": "public"
+}

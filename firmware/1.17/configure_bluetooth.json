@@ -1,0 +1,17 @@
+{
+  "name": "configure_bluetooth",
+  "abstract": "",
+  "description": "Set the bluetooth name and baud rate",
+  "alias": [],
+  "input": "",
+  "values": [],
+  "example": "configure_bluetooth",
+  "type": "console",
+  "deprecated": false,
+  "dependencies": [],
+  "parent": "",
+  "compatibility": [
+    "MultispeQ 1"
+  ],
+  "access": "public"
+}

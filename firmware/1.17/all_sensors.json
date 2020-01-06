@@ -1,0 +1,17 @@
+{
+  "name": "all_sensors",
+  "abstract": "",
+  "description": "Continuously all sensor output including par, temp, rH and pressure, until user enter `-1+`",
+  "alias": [],
+  "input": "",
+  "values": [],
+  "example": "all_sensors",
+  "type": "console",
+  "deprecated": false,
+  "dependencies": [],
+  "parent": "",
+  "compatibility": [
+    "MultispeQ 1"
+  ],
+  "access": "public"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "battery",
+  "abstract": "",
+  "description": "Test the instruments battery with load returning the charge state in percent (%)",
+  "alias": [],
+  "input": "",
+  "values": [],
+  "example": "battery",
+  "type": "console",
+  "deprecated": false,
+  "dependencies": [],
+  "parent": "",
+  "compatibility": [
+    "MultispeQ 1"
+  ],
+  "access": "public"
+}

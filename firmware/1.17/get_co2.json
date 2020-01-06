@@ -1,0 +1,17 @@
+{
+  "name": "get_co2",
+  "abstract": "",
+  "description": "Sensair S8 CO2 requests.  Only works if you have connected the sensair on Serial Port 3",
+  "alias": [],
+  "input": "",
+  "values": [],
+  "example": "get_co2",
+  "type": "console",
+  "deprecated": false,
+  "dependencies": [],
+  "parent": "",
+  "compatibility": [
+    "MultispeQ 1"
+  ],
+  "access": "public"
+}

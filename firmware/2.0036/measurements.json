@@ -1,0 +1,15 @@
+{
+  "name": "measurements",
+  "abstract": "",
+  "description": "number of times to repeat a measurement, which is a set of protocols",
+  "alias": [],
+  "input": "",
+  "values": [],
+  "example": "\"measurements\": <number>",
+  "type": "protocol",
+  "compatibility": [],
+  "deprecated": false,
+  "dependencies": [],
+  "parent": "",
+  "access": "public"
+}

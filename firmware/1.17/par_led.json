@@ -1,0 +1,17 @@
+{
+  "name": "par_led",
+  "abstract": "",
+  "description": "",
+  "alias": [],
+  "input": "par_led",
+  "values": [],
+  "example": "par_led",
+  "type": "console",
+  "deprecated": false,
+  "dependencies": [],
+  "parent": "",
+  "compatibility": [
+    "MultispeQ 1"
+  ],
+  "access": "public"
+}

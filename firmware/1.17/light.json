@@ -1,0 +1,17 @@
+{
+  "name": "light",
+  "abstract": "",
+  "description": "Turn on 5V to turn on a light. Replace the <light number> with the number of a light, e.g. `light1`",
+  "alias": [],
+  "input": "",
+  "values": [],
+  "example": "light<light number>",
+  "type": "console",
+  "deprecated": false,
+  "dependencies": [],
+  "parent": "",
+  "compatibility": [
+    "MultispeQ 1"
+  ],
+  "access": "public"
+}

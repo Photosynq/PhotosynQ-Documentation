@@ -1,0 +1,33 @@
+[
+  {
+    "version": 1.17,
+    "instruments": [
+      "MultispeQ 1"
+    ],
+    "releaseDate": "2017-03-10T17:42:58.331Z7"
+  },
+  {
+    "version": 2.0035,
+    "instruments": [
+        "MultispeQ 1",
+        "MultispeQ 2"
+    ],
+    "releaseDate": "2018-09-05T20:13:30Z"
+  },
+  {
+    "version": 2.0036,
+    "instruments": [
+        "MultispeQ 1",
+        "MultispeQ 2"
+    ],
+    "releaseDate": "2018-09-06T21:16:15Z"
+  },
+  {
+    "version": 2.0038,
+    "instruments": [
+        "MultispeQ 1",
+        "MultispeQ 2"
+    ],
+    "releaseDate": "2018-09-21T14:45:01Z"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "name": "print_all",
+  "abstract": "",
+  "description": "print everything in the eeprom (all values defined in eeprom.h)",
+  "alias": [],
+  "input": "",
+  "values": [],
+  "example": "print_all",
+  "type": "console",
+  "deprecated": false,
+  "dependencies": [],
+  "parent": "",
+  "compatibility": [
+    "MultispeQ 1"
+  ],
+  "access": "public"
+}

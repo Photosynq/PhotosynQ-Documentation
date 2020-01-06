@@ -1,0 +1,18 @@
+{
+  "name": "set_user_defined",
+  "abstract": "",
+  "description": "Save a user defined value to the EEPROM. You can abort the input using `-1+`.",
+  "alias": [],
+  "input": "",
+  "values": [],
+  "example": "set_user_defined+<EEPROM Location>+<value>",
+  "type": "console",
+  "deprecated": false,
+  "dependencies": [],
+  "parent": "",
+  "compatibility": [
+    "MultispeQ 1",
+    "MultispeQ 2"
+  ],
+  "access": "public"
+}

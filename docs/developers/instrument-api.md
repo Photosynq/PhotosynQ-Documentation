@@ -31,7 +31,7 @@ In order to connect an Instrument with the PhotosynQ Software, after the serial 
 | settings        | `object`           | Not available                                                    |
 
 :::tip
-Since settings are currently not supported custom Instruments, passing this parameter on has no effect.
+Since settings are currently not supported for custom Instruments, passing this parameter on has no effect.
 :::
 
 ### Connection Test
@@ -124,7 +124,7 @@ Commands can return data unformatted or as a [JSON]. Data from commands is not e
 
 ## Instrument Settings and Calibrations
 
-As of this point settings and calibration options cannot be set through the Desktop Application. We are planning on making those available in the future.
+As of this point settings and calibration options cannot be set through the Desktop Application. We are planning on making those available in the future. Let us know if you are interested (<support@photosynq.org>).
 
 [JSON]: https://en.wikipedia.org/wiki/JSON
 [CRC32]: https://en.wikipedia.org/wiki/Cyclic_redundancy_check#CRC-32_algorithm
