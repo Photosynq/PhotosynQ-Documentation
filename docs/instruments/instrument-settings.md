@@ -1,6 +1,6 @@
 # Instrument Settings
 
-PhotosynQ Instruments have ajustable settings to make the Instrument better fit you needs. They vary between Instruments. Currently you need to use the Desktop Application to adjust your Instrument settings.
+PhotosynQ Instruments have adjustable settings to make the Instrument better fit you needs. They vary between Instruments. Currently you need to use the Desktop Application to adjust your Instrument settings.
 
 ::: warning Note
 The Mobile Application does not support Instrument Settings.

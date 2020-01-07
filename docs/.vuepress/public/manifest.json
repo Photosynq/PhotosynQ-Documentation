@@ -1,10 +1,11 @@
 {
     "name": "PhotosynQ Documentation",
-    "short_name": "PhotosynQ Documentation",
-    "start_url": ".",
-    "display": "browser",
-    "background_color": "#fff",
+    "short_name": "Documentation",
     "description": "PhotosynQ Documentation",
+    "display": "standalone",
+    "background_color": "#fff",
+    "theme_color": "#44bd78",
+    "start_url": "/index.html",
     "icons": [
       {
         "src": "icons/android-icon-36x36.png",
@@ -126,9 +127,5 @@
         "sizes": "310x310",
         "type": "image/png"
       }
-    ],
-    "related_applications": [{
-      "platform": "browser",
-      "url": "https://photosynq.org"
-    }]
+    ]
 }
