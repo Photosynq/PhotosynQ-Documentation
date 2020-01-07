@@ -7,7 +7,7 @@ const rename = require('gulp-rename');
 const through2 = require('through2');
 const jetpack = require('fs-jetpack');
 
-const puppeteer = require('puppeteer-1.10.0');
+const puppeteer = require('puppeteer');
 
 const buildPDF = function(cb){
     return src('dist/*.html')
