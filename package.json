@@ -4,11 +4,11 @@
   "description": "Create a static page for the documentation as well as pdfs and an ebook from markdown files.",
   "main": "index.js",
   "scripts": {
-    "prerelease": "gulp macros firmwareDocs",
+    "prerelease": "gulp macros firmwareDocs instruments",
     "release": "gulp build",
     "postrelease": "yarn docs:build",
     "test": "gulp testLinks",
-    "predocs:dev": "gulp macros firmwareDocs",
+    "predocs:dev": "gulp macros firmwareDocs instruments",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },

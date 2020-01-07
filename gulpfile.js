@@ -22,6 +22,8 @@ const firmwareDocs = require('./tasks/firmware-docs');
 const firmwareNewVersion = require('./tasks/firmware-new-version');
 const firmwareCompile = require('./tasks/firmware-compile');
 
+const instruments = require('./tasks/instruments');
+
 exports.cleanAll = series (cleanAll);
 exports.compileMD = series (compileMD);
 exports.buildHTML = series (buildHTML);
@@ -35,6 +37,8 @@ exports.firmwareNewCommand = series (firmwareNewCommand);
 exports.firmwareDocs = series (firmwareDocs);
 exports.firmwareNewVersion = series (firmwareNewVersion);
 exports.firmwareCompile = series (firmwareCompile);
+
+exports.instruments = series (instruments);
 
 exports.build  = series( cleanAll, showTag, compileMD, buildHTML, parallel(buildPDF, buildEPUB, firmwareCompile), clean );
 
