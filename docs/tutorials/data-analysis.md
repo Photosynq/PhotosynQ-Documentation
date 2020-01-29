@@ -22,8 +22,6 @@ Analysis of variance (ANOVA) compares a single parameter (e.g. ΦII) between mor
 
 A chi-square test for independence compares two parameters in a Project to see if they are related. In a more general sense, it tests to see whether distributions of categorical variables differ from each another.
 
-***
-
 ## Advanced Analysis
 
 These are basic tutorials on how to do advanced data analysis outside the data viewer and use the available packages.
