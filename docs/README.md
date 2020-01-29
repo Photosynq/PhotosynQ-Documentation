@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: logo.svg
+heroImage: hero.png
 heroText: Documentation
 tagline: PHENOTYPE WITH PHOTOSYNQ
 actionText: Get Started →
