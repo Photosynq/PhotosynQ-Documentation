@@ -17,8 +17,8 @@ body {
 
 h1:first-of-type, h1.chapter {
   margin-top: 50%;
-  border-bottom: 1pt solid #cccccc;
-  padding-bottom: 0.25em;
+  /* border-bottom: 1pt solid #cccccc; */
+  /* padding-bottom: 0.15em; */
 }
 
 h1:first-of-type:after, h1.chapter:after {
