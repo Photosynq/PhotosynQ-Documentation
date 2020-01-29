@@ -332,11 +332,11 @@
 
 ***
 
-{{> docs/instruments/multispeq-v2.0-configuration.md}}
+{{> docs/instruments/multispeq-v1.0.md}}
 
 ***
 
-{{> docs/instruments/multispeq-v1.0-configuration.md}}
+{{> docs/instruments/caliq.md}}
 
 ***
 

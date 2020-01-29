@@ -220,8 +220,7 @@ module.exports = {
                 children: [
                     'instruments/overview',
                     'instruments/multispeq-v2.0',
-                    'instruments/multispeq-v2.0-configuration',
-                    'instruments/multispeq-v1.0-configuration',
+                    'instruments/multispeq-v1.0',
                     'instruments/instrument-settings',
                     'instruments/instrument-calibrations',
                     'instruments/firmware-updates',
