@@ -31,7 +31,7 @@ module.exports = {
     },
     extend: '@vuepress/theme-default',
     themeConfig: {
-        logo: '/logo_menu.svg',
+        logo: '/logo.svg',
         nav: [
             {
                 text: 'Documents',
