@@ -4,7 +4,7 @@
 
 ## MultispeQ v2.0
 
-![MultispeQ v2.0](./images/multispeq-v2.0.jpg)
+![MultispeQ v2.0](./images/multispeq-v2.0.png)
 
 The MultispeQ v2.0 is the next iteration of the MultispeQ v1.0. Improvements have been made to the case, electronics, and an LED has been replaced. Like the previous version, it measures fluorescence base parameters like qL, qP, ΦII, LEF, NPQ, and absorbance based parameters like vH⁺, gH⁺, ECSt, and relative chlorophyll content. It can collect environmental parameters like temperature, relative humidity, barometric pressure, leaf temperature, light intensity, cardinal direction, and tilt.
 
