@@ -4,15 +4,15 @@
 
 /** Set Font */
 body > * {
-  font-family: "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Orkney", "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 body {
-  background-image: url('./src/css/logo.png');
+  background-image: url('./src/css/logo.svg');
   background-repeat: no-repeat;
   background-position: center 100px;
   background-size: 50%;
-  color: rgb(77, 77, 77)
+  color: rgb(77, 77, 77);
 }
 
 h1:first-of-type, h1.chapter {
@@ -40,6 +40,10 @@ h1.chapter:before {
   content: counter(section) ". ";
 }
 
+h1 {
+  color: #3498AB !important;
+}
+
 h2 {
   border-bottom: 1pt solid rgb(204, 204, 204);
 }
@@ -55,7 +59,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /** Links */
 a {
-  color: #428bca;
+  color: #3498AB;
 }
 
 a:link:not([href^="#"]):after {
@@ -190,7 +194,7 @@ input:disabled, textarea:disabled {
 
 /** Extra elements */
 .text-muted {
-  color: #737373;
+  color: #94979B;
 }
 
 .custom-block {
