@@ -36,7 +36,7 @@ features:
   linkText: Firmware
   link: instruments/firmware-updates.html
 
-footer: © PhotosynQ, LLC
+footer: © PhotosynQ, Inc.
 footerShields:
   - https://img.shields.io/github/release/Photosynq/PhotosynQ-Documentation.svg?style=flat-square
   - https://img.shields.io/github/release-date/PhotosynQ/PhotosynQ-Documentation.svg?style=flat-square
