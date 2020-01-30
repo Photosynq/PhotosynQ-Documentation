@@ -19,11 +19,11 @@ Push down the leaf clamp button to open the leaf clamp. Push and release with an
 
 ### PAR Sensor
 
-The PAR sensor located on top of the instrument. When taking measurements, depending on the measurement protocol, the light intensity measured will be replicated inside the instrument. Make sure the PAR sensor is clean and not to cover or shade, to prevent altering the actual intensity. 
+The PAR sensor located on top of the instrument. When taking measurements, depending on the measurement protocol, the light intensity measured will be replicated inside the instrument. Make sure the PAR sensor is clean and not to cover or shade, to prevent altering the actual intensity.
 
 ### Seal
 
-The Nitrile seal around the light guide on the main body and the clamp is ensuring the area measured is sealed from outside light. 
+The Nitrile seal around the light guide on the main body and the clamp is ensuring the area measured is sealed from outside light.
 
 ### Light Guide
 
@@ -65,7 +65,7 @@ The button in the back allows the instrument to be turned on as well as reset.
 + When the Instrument is running, hold the button for 5 seconds, to restart the instrument. Wait for the Action Indicator to start flashing, to confirm the Instrument is booted up again.
 
 ::: tip Tip
-  Make sure to only press the power button through the silcon covering.
+  Make sure to only press the power button through the silicon covering.
 :::
 
 ### Micro-USB
