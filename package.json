@@ -48,7 +48,7 @@
     "minimist": "^1.2.0",
     "moment-timezone": "^0.5.27",
     "mustache": "^4.0.0",
-    "photosynq-helpers": "github:Photosynq/helpers#v1.1.3",
+    "photosynq-helpers": "github:Photosynq/helpers#v1.1.4",
     "puppeteer": "1.10.0",
     "through2": "^3.0.1",
     "vuepress": "^1.2.0",
