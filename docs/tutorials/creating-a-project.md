@@ -1,6 +1,6 @@
 # Creating a Project
 
-## Before You Start...
+## Before You Start…
 
 Before you go on the PhotosynQ website to create your project, first you have a few things to think about…
 
@@ -90,7 +90,8 @@ Once your project is updated and you have connected to your Instrument like the 
 
 When you collect data in your project, the way it is collected, and later interpreted/displayed is dependent on the protocol and the associated macro selected in project creation. If you chose Leaf Photosynthesis V1.0 like most, the measurement should take about ~15 seconds and return data on your phone that looks something like this:
 
-![Finished Measurement](./images/projects-finished-measurement.png)
+![Finished Measurement](./images/data-collection-results.jpg)
+
 
 Measurements are either cached on the phone, or uploaded automatically to your project. Your results can be viewed and analyzed online by logging into PhotosynQ and finding your project in your profile. While you can see individual measurements on your phone, logging on to PhotosynQ will allow you to look at your whole dataset.
 
