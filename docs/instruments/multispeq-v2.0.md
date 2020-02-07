@@ -74,7 +74,7 @@ The Micro-USB port allows the Instrument to be charged and when connected to a c
 
 ### Accessory Port
 
-The USB-c port allows to attach accessory equipment. When unplugging the cable, make sure not to bend the cable up and down, to not break of the Instrument connector.
+The [USB-C](https://en.wikipedia.org/wiki/USB-C) port allows to attach accessory equipment. When unplugging the cable, make sure not to bend the cable up and down, to not break of the Instrument connector.
 
 ### Charge Indicator
 
