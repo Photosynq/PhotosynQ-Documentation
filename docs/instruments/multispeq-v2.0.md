@@ -88,7 +88,7 @@ The little LED in the back indicates, when the Instrument is charging. When the 
 |:----|:----|
 | Size | 224.2 mm x 53.6 mm x 56.6 mm (l, w, h) |
 | Total Weight | 340 g (incl. battery)|
-| Light Guide Surface | 8 mm x 8 mm ( 64mm²) |
+| Light Guide Surface | 8 mm x 8 mm (64mm²) |
 | Leaf Clamp Opening | 13 mm |
 | Safety | Ring for leash |
 | Updates | Firmware updates through Applications |
