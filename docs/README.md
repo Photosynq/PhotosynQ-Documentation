@@ -2,7 +2,7 @@
 home: true
 heroImage: hero.png
 heroText: Documentation
-tagline: PHENOTYPE WITH PHOTOSYNQ
+tagline: Accelerate Crop Improvements with PhotosynQ
 actionText: Get Started →
 actionLink: /tutorials/getting-started
 features:
