@@ -68,7 +68,7 @@ When counting the index (position) of an array or a value within an array, alway
 
 Sometimes selecting a single value is not useful when it comes to using variables. This could be the case if a protocol is built where with each repeat the light intensity is changed, the pulse duration increases, a different LED is selected, etc. In this case the `v_arrays` can be used in combination with protocol or protocol-set repeats to provide a different value with each iteration of the protocol.
 
-When repeating a protocol or a protocol within a protocol-set, the variable is selected using `@p` followed by the index of the array within the variable arrays `@p<array`. The following example increases the light intensity with each protocol repeat.
+When repeating a protocol or a protocol within a protocol-set, the variable is selected using `@p` followed by the index of the array within the variable arrays `@p<array>`. The following example increases the light intensity with each protocol repeat.
 
 ```javascript
 [
@@ -105,3 +105,11 @@ If the protocols get more complex, a protocol-set can be used, to run multiple s
 ```
 
 Of cause, the repeats for protocols and protocol-sets can be combined generating nested repeats. This can make the protocol very compact and easy to manipulate, but more difficult to read.
+
+### Summary
+
+| Variable | Function | Example |
+| :------- | :------- | :------ |
+| `@s<array>` | **Set Repeat:** With every protocol set repeat the next position in the array is selected and the value used in the protocol | [ "@s0", ... ] |
+| `@p<array>` | **Protocol Repeat:** With every protocol repeat the next position in the array is selected and the value used in the protocol  | [ "@p0", ... ] |
+| `@n<array>:<value>` | **Single Value:** A specific value is used in the protocol | [ "@n0:0", "@n0:1", ... ] |
