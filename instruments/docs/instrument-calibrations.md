@@ -24,10 +24,10 @@ When using the Desktop App in order to repeat the Instrument Calibrations, follo
 
 ## Saving Calibrations
 
-After each calibration protocol, you have to save the calibration back to the Instrument. Use the **Save to Instrument** button from the top menu to bring up the confirmation dialog. Click on **OK** to confirm the data that is sent to the Instrument.
+After each calibration protocol, you have to save the calibration back to the Instrument. Use the **Save to Instrument** button from the top menu to bring up the confirmation dialog. Click on **OK** to confirm the data that is sent and saved to the Instrument.
 
-## Instruments
+## Available Calibrations
 
-[[TOC]]
+For detailed instructions on how to use the calibrations, please refer to the [Calibrations](../calibrations/overview.md) chapter.
 
 {{{ instrument-calibrations }}}

@@ -8,22 +8,36 @@ const Mustache = require('mustache');
 
 var instruments = function(cb){
     var filePath = jetpack.path('..', 'instrument-definitions', 'docs');
+    var options = {"instrument-settings": "", "instrument-calibrations": ""};
     if(filePath){
         var files = jetpack.find(filePath, {matching: ["*.md"] });
         for(var f in files){
             var info = jetpack.inspect(files[f]);
-            var docPath = jetpack.path('instruments', 'docs', `instrument-${info.name}`);
             var content = jetpack.read(files[f]);
-            if(docPath){
-                var template = jetpack.read(docPath);
-                // Change header level here
-                content = content.replace(/^(# Settings -)|(# Calibrations - )/gm,'# ');
+
+            // Check if settings
+            if(info.name && info.name.match(/^settings/)){
+                var tab = `\n::: tab "${content.match(/^(# Settings -\s?)(.*)/m)[2]}"\n`;
+                content = content.replace(/^(# Settings -)/gm,'#');
                 content = content.replace(/^(#+)/gm,'$1##');
-                var options = { };
-                options[`instrument-${info.name.replace(/\.md$/, "")}`] = content;
-                var md = Mustache.render(template, options);
-	            jetpack.write(`./docs/instruments/instrument-${info.name}`, md);
+                options["instrument-settings"] += `${tab}\n${content}\n:::\n\n`;
             }
+            if(info.name && info.name.match(/^calibrations/)){
+                var tab = `\n::: tab "${content.match(/^(# Calibrations -\s?)(.*)/m)[2]}"\n`;
+                content = content.replace(/^(# Calibrations -)/gm,'#');
+                content = content.replace(/^(#+)/gm,'$1##');
+                options["instrument-calibrations"] += `${tab}\n${content}\n:::\n\n`;
+            }
+        }
+        for(var out in options){
+            if(options[out] == "")
+                continue;
+            options[out] = `:::: tabs\n${options[out]}\n::::\n`;
+            var tempPath = jetpack.path('instruments', 'docs', `${out}.md`);
+            var template = jetpack.read(tempPath);
+            var md = Mustache.render(template, options);
+            var docPath = jetpack.path('docs', 'instruments', `${out}.md`);
+            jetpack.write(docPath, md);                
         }
     }
     else{

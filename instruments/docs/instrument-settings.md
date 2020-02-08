@@ -20,8 +20,6 @@ When using the Desktop App to change the Instrument settings, follow these steps
 The available settings depend on the type and version of the Instrument connected, as well as on the version of the firmware installed on the Instrument.
 :::
 
-## Instruments
-
-[[TOC]]
+## Available Settings
 
 {{{ instrument-settings }}}
