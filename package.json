@@ -23,7 +23,10 @@
     "url": "git+https://github.com/PhotosynQ/PhotosynQ-Documentation"
   },
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "vue-tabs-component": "^1.5.0",
+    "vuepress-plugin-tabs": "^0.3.0"
+  },
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.2.0",
     "@vuepress/plugin-google-analytics": "^1.2.0",

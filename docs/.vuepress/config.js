@@ -281,6 +281,7 @@ module.exports = {
         }
     },
     plugins: [
+        [ 'tabs' ],
         ['@vuepress/back-to-top', true ],
         ['@vuepress/google-analytics', {
             'ga': (require('./.env.json')['ga-key'] || '')
