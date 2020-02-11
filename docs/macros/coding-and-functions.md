@@ -82,19 +82,19 @@ output["Additional Trace"] = [1,3,4,90,87,50,3,2,1,2,7,…];
 
 Sometimes representing a value as a color is more useful than a plain number. These three options are available:
 
-+ Hexadecimal: `#44bd78`
-+ RGB (Red, Green, Blue): `rgb(68,189,120)` (values from 0 to 255)
-+ RGBA (Red, Green, Blue, alpha): `rgba(68,189,120,0.5)` (values from 0 to 255), (alpha 0 to 1)
++ Hexadecimal: `#3498AB`
++ RGB (Red, Green, Blue): `rgb(52, 152, 171)` (values from 0 to 255)
++ RGBA (Red, Green, Blue, alpha): `rgba(52, 152, 171, 0.5)` (values from 0 to 255), (alpha 0 to 1)
 
 ```javascript
 // Color in Hexadecimal
-output['Your Parameter'] = '#44bd78';
+output['Your Parameter'] = '#3498AB';
 
 // Color in RGB
-output['Your Parameter'] = 'rgb(68,189,120)';
+output['Your Parameter'] = 'rgb(52, 152, 171)';
 
 // Color in RGBA
-output['Your Parameter'] = 'rgba(68,189,120,0.5)';
+output['Your Parameter'] = 'rgba(52, 152, 171, 0.5)';
 ```
 
 ***

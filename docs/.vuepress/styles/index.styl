@@ -2,33 +2,40 @@ body
   font: 14px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
 
 .navbar
-  background: linear-gradient(to right, #44bd78, #b1c75b)
+  background: #FFFFFF
+  border-bottom: 1px solid #eaecef
 
   .site-name
-    color: #FFFFFF !important
+    color: #94979B !important
     font-weight: 400 !important
+
+  .search-box input
+    border-radius: 0.25rem
 
   .links
     background-color: transparent !important
 
     .nav-links > .nav-item > .nav-link
-      color: #FFFFFF
+      color: #94979B
       svg
-        color: #FFFFFF
+        color: #94979B
     .nav-links > .nav-item > .dropdown-wrapper .title
-      color: #FFFFFF
+      color: #94979B
 
     .nav-links > .nav-item > .dropdown-wrapper .arrow
-      border-top-color: #FFFFFF
+      border-top-color: #94979B
 
     .repo-link
-      color: #FFFFFF
+      color: #94979B
       svg
-        color: #FFFFFF
+        color: #94979B
+
+.sidebar
+  border-right: 1px solid #eaecef
 
 .page
   a
-    color: #428bca
+    color: #3498AB
 
 .table-of-contents
   li
@@ -52,3 +59,30 @@ body
 div[class~=language-r]:before {
   content: 'r';
 }
+
+kbd
+  font-size: 90%
+  background: none
+  border: solid 0.05rem #ddd
+  border-radius: 0.15rem
+  padding: 0.15em 0.25em
+
+@require '~vuepress-plugin-tabs/dist/themes/default.styl'
+
+.tabs-component-panels
+  border: none
+  border-top: solid 1px #ddd
+  border-radius: none
+  box-shadow: none
+
+.home .features
+  align-items: normal !important
+
+  & .feature  
+    display: flex
+    justify-content: space-between
+    flex-direction: column
+
+    & p:nth-child(2)
+      margin-bottom: auto !important
+

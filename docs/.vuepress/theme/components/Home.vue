@@ -151,12 +151,14 @@ export default {
         display: inline-block
         font-size: 0.8rem
         color: #fff
-        background-color: #44bd78
+        background-color: #3498AB
         padding: 0.2rem 0.4rem
         border-radius: 4px
         transition: background-color 0.1s ease
         box-sizing: border-box
-        border-bottom: 1px solid #3cab6c
+        border-bottom: 1px solid #2F899A
+    .feature-btn:hover
+      background-color: #3BACC1
   .footer
     padding 2.5rem
     border-top 1px solid $borderColor

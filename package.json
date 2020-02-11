@@ -4,11 +4,11 @@
   "description": "Create a static page for the documentation as well as pdfs and an ebook from markdown files.",
   "main": "index.js",
   "scripts": {
-    "prerelease": "gulp macros firmwareDocs",
+    "prerelease": "gulp macros firmwareDocs instruments",
     "release": "gulp build",
     "postrelease": "yarn docs:build",
     "test": "gulp testLinks",
-    "predocs:dev": "gulp macros firmwareDocs",
+    "predocs:dev": "gulp macros firmwareDocs instruments",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
@@ -23,13 +23,16 @@
     "url": "git+https://github.com/PhotosynQ/PhotosynQ-Documentation"
   },
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "vue-tabs-component": "^1.5.0",
+    "vuepress-plugin-tabs": "^0.3.0"
+  },
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.2.0",
     "@vuepress/plugin-google-analytics": "^1.2.0",
     "@vuepress/plugin-medium-zoom": "^1.2.0",
     "@vuepress/plugin-pwa": "^1.2.0",
-    "chalk": "^2.4.2",
+    "chalk": "^3.0.0",
     "code-highlight-linenums": "^0.2.1",
     "epub-gen": "^0.1.0",
     "font-awesome": "4.7.0",
@@ -47,9 +50,9 @@
     "markdown-link-check": "^3.8.0",
     "minimist": "^1.2.0",
     "moment-timezone": "^0.5.27",
-    "mustache": "^3.2.1",
-    "photosynq-helpers": "github:Photosynq/helpers#v1.1.3",
-    "puppeteer-1.10.0": "npm:puppeteer@1.10.0",
+    "mustache": "^4.0.0",
+    "photosynq-helpers": "github:Photosynq/helpers#v1.1.4",
+    "puppeteer": "1.10.0",
     "through2": "^3.0.1",
     "vuepress": "^1.2.0",
     "vuepress-plugin-sitemap": "^2.3.1"

@@ -4,7 +4,7 @@
 
 ## MultispeQ v2.0
 
-![MultispeQ v2.0](./images/multispeq-v2.0.jpg)
+![MultispeQ v2.0](./images/multispeq-v2.0.png)
 
 The MultispeQ v2.0 is the next iteration of the MultispeQ v1.0. Improvements have been made to the case, electronics, and an LED has been replaced. Like the previous version, it measures fluorescence base parameters like qL, qP, ΦII, LEF, NPQ, and absorbance based parameters like vH⁺, gH⁺, ECSt, and relative chlorophyll content. It can collect environmental parameters like temperature, relative humidity, barometric pressure, leaf temperature, light intensity, cardinal direction, and tilt.
 
@@ -14,12 +14,13 @@ Now the instrument has a charging indicator and a RGB progress/action indicator 
 
 ::: tip More Information
 + [Getting Started](./multispeq-v2.0.md)
-+ [Configuration](./multispeq-v2.0-configuration.md)
-+ [Get an Instrument](https://photosynq.org/buy-multispeq)
++ [Configuration](./multispeq-v2.0.md#configuration)
++ [Get an Instrument](https://photosynq.com/buy-now)
 + [References & Parameters](../view-and-analyze-data/references.md)
 :::
 
-## MultispeQ v1.0
+
+### MultispeQ v1.0
 
 ![MultispeQ v1.0](./images/multispeq-v1.0.png)
 
@@ -28,7 +29,7 @@ The MultispeQ v1.0 is based on the experiences we gained from our development of
 The signal quality has been increased to allow absorbance based measurements like the electrochromic shift in the field within a reasonable time. The ergonomics and the leaf clamping has been improved based on experiences in the field.
 
 ::: tip More Information
-+ [Configuration](./multispeq-v1.0-configuration.md)
++ [Configuration](./multispeq-v1.0.md#configuration)
 + [References & Parameters](../view-and-analyze-data/references.md)
 :::
 
@@ -36,7 +37,7 @@ The signal quality has been increased to allow absorbance based measurements lik
 This version of the Instrument is no longer available.
 :::
 
-## MultispeQ beta
+### MultispeQ beta
 
 ![MultispeQ beta](./images/multispeq_beta.png)
 

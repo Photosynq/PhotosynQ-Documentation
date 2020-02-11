@@ -31,7 +31,7 @@ module.exports = {
     },
     extend: '@vuepress/theme-default',
     themeConfig: {
-        logo: '/logo_menu.svg',
+        logo: '/logo.svg',
         nav: [
             {
                 text: 'Documents',
@@ -220,8 +220,7 @@ module.exports = {
                 children: [
                     'instruments/overview',
                     'instruments/multispeq-v2.0',
-                    'instruments/multispeq-v2.0-configuration',
-                    'instruments/multispeq-v1.0-configuration',
+                    'instruments/multispeq-v1.0',
                     'instruments/instrument-settings',
                     'instruments/instrument-calibrations',
                     'instruments/firmware-updates',
@@ -282,6 +281,7 @@ module.exports = {
         }
     },
     plugins: [
+        [ 'tabs' ],
         ['@vuepress/back-to-top', true ],
         ['@vuepress/google-analytics', {
             'ga': (require('./.env.json')['ga-key'] || '')
