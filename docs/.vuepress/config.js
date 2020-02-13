@@ -299,6 +299,12 @@ module.exports = {
             options: {
                 margin: 16
             }
+        }],
+        ['autometa',  {
+            site: {
+              name   : 'PhotosynQ Documentation',
+              twitter: 'photosynq',
+            }
         }]
     ]
 };
