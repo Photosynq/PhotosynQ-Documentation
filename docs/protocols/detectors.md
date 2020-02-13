@@ -54,3 +54,5 @@ Depending on the combination of detectors used in a measurement in combination w
 | `[ 2 ]`         | `[ [1, 3] ]`          | `[ 1, 3, 1, 3 ]`       |
 | `[ 2, 1 ]`      | `[ [1, 3], 1 ]`       | `[ 1, 3, 1, 3, 1 ]`    |
 | `[ 2 ]`         | `[ [1, 3, 1] ]`       | `[ 1, 3, 1, 1, 3, 1 ]` |
+
+See the [Building an Advanced Macro](../tutorials/building-an-advanced-macro.md#multiple-detectors) tutorial on how to extract and work with the data stream returned in `data_raw`.
