@@ -17,13 +17,13 @@ var instruments = function(cb){
 
             // Check if settings
             if(info.name && info.name.match(/^settings/)){
-                var tab = `\n::: tab "${content.match(/^(# Settings -\s?)(.*)/m)[2]}"\n`;
+                var tab = `\n::: tab ${content.match(/^(# Settings -\s?)(.*)/m)[2]}\n`;
                 content = content.replace(/^(# Settings -)/gm,'#');
                 content = content.replace(/^(#+)/gm,'$1##');
                 options["instrument-settings"] += `${tab}\n${content}\n:::\n\n`;
             }
             if(info.name && info.name.match(/^calibrations/)){
-                var tab = `\n::: tab "${content.match(/^(# Calibrations -\s?)(.*)/m)[2]}"\n`;
+                var tab = `\n::: tab ${content.match(/^(# Calibrations -\s?)(.*)/m)[2]}\n`;
                 content = content.replace(/^(# Calibrations -)/gm,'#');
                 content = content.replace(/^(#+)/gm,'$1##');
                 options["instrument-calibrations"] += `${tab}\n${content}\n:::\n\n`;
@@ -32,7 +32,7 @@ var instruments = function(cb){
         for(var out in options){
             if(options[out] == "")
                 continue;
-            options[out] = `:::: tabs\n${options[out]}\n::::\n`;
+            options[out] = `:::: tabs type:card\n${options[out]}\n::::\n`;
             var tempPath = jetpack.path('instruments', 'docs', `${out}.md`);
             var template = jetpack.read(tempPath);
             var md = Mustache.render(template, options);

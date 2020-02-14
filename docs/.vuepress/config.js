@@ -42,8 +42,7 @@ module.exports = {
                             { text: 'Help Manual', link: 'https://help.photosynq.org/downloads/PhotosynQ-Help-Manual.pdf' },
                             { text: 'Tutorials', link: 'https://help.photosynq.org/downloads/PhotosynQ-Getting-Started.pdf' },
                             { text: 'MultispeQ v1.0', link: 'https://help.photosynq.org/downloads/PhotosynQ-MultispeQ-v1.0.pdf' },
-                            { text: 'MultispeQ v2.0', link: 'https://help.photosynq.org/downloads/PhotosynQ-MultispeQ-v2.0.pdf' },
-                            { text: 'Firmware', link: 'https://help.photosynq.org/downloads/PhotosynQ-Firmware.pdf' }
+                            { text: 'MultispeQ v2.0', link: 'https://help.photosynq.org/downloads/PhotosynQ-MultispeQ-v2.0.pdf' }
                         ]
                     },
                     {
@@ -60,8 +59,7 @@ module.exports = {
                     {
                         text: 'Resources',
                         items: [
-                            { text: 'Forums', link: 'https://photosynq.org/forums' },
-                            { text: 'Blog', link: 'https://help.photosynq.org' }
+                            { text: 'Forums', link: 'https://photosynq.org/forums' }
                         ]
                     },
                     {
@@ -225,7 +223,8 @@ module.exports = {
                     'instruments/instrument-calibrations',
                     'instruments/firmware-updates',
                     'instruments/console-commands',
-                    'instruments/light-guide-mask'
+                    'instruments/light-guide-mask',
+                    'instruments/leaf-mask-calibration'
                 ]
             },
             {
@@ -281,7 +280,7 @@ module.exports = {
         }
     },
     plugins: [
-        [ 'tabs' ],
+        ['vuepress-plugin-element-tabs'],
         ['@vuepress/back-to-top', true ],
         ['@vuepress/google-analytics', {
             'ga': (require('./.env.json')['ga-key'] || '')
@@ -298,6 +297,12 @@ module.exports = {
             selector: '.theme-default-content img',
             options: {
                 margin: 16
+            }
+        }],
+        ['autometa',  {
+            site: {
+              name   : 'PhotosynQ Documentation',
+              twitter: 'photosynq',
             }
         }]
     ]

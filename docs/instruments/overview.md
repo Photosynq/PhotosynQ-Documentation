@@ -63,10 +63,6 @@ Please contact us if you are interested and want to know more about the prototyp
 
 The CoralspeQ a portable hand held device used to monitor bleaching events in coral communities. The device is built on the beta MultispeQ circuitry and uses a Hamamatsu miniature spectrometer to take spectrally resolved fluorescence and color reflectance measurements.
 
-::: tip
-Updates on the development of the CoralspeQ can be found on the [PhotosynQ Blog](https://blog.photosynq.org/category/coralspeq/)
-:::
-
 ### Soil CarbonspeQ
 
 ![Soil CarbonspeQ prototype](./images/soil-carbonspeq.jpg)

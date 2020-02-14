@@ -42,4 +42,4 @@ Make sure when using tape not to cover the air channels or light guide.
 
 ### Step 4
 
-Depending on the measurement protocols, the instrument might need to be recalibrated.
+Continue with the next chapter on how to recalibrate your instrument for the use with a leaf mask ([Small Leaf Mask - Calibration](./leaf-mask-calibration.md)).

@@ -117,7 +117,3 @@ Go to [Firmware Updates](../instruments/firmware-updates.md#desktop-app) for mor
 Measurements without an internet connection for a Project will be cached and listed in the measurement history. These Measurements can be viewed (**View**) and deleted (**×**), but not edited. The next time an internet connection is available, the measurements are uploaded to the PhotosynQ cloud.
 
 When taking Measurements directly from the list of [Protocols](./protocols.md) or the [Protocol Editor](./protocol-editor.md), the latest measurement will be available here. You can view (**View**) and delete (**×**) this Measurement. When viewing it, you can save the Measurement to the [Notebook](./notebook.md).
-
-## What's New
-
-Here you find the latest four posts from the [PhotosynQ Blog](https://blog.photosynq.org) so you will not miss news around PhotosynQ. It is also indicated, if there are new posts available.

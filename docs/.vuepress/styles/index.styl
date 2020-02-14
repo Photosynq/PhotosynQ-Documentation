@@ -56,9 +56,13 @@ body
           padding: 0 3px;
           vertical-align: middle !important
 
-div[class~=language-r]:before {
+div[class~=language-r]:before
   content: 'r';
-}
+
+
+.theme-default-content code
+    padding: 0.15rem 0.5rem
+    border: 1px solid rgba(27,31,35,0.05)
 
 kbd
   font-size: 90%
@@ -66,14 +70,7 @@ kbd
   border: solid 0.05rem #ddd
   border-radius: 0.15rem
   padding: 0.15em 0.25em
-
-@require '~vuepress-plugin-tabs/dist/themes/default.styl'
-
-.tabs-component-panels
-  border: none
-  border-top: solid 1px #ddd
-  border-radius: none
-  box-shadow: none
+  white-space: nowrap
 
 .home .features
   align-items: normal !important
