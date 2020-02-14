@@ -59,8 +59,7 @@ module.exports = {
                     {
                         text: 'Resources',
                         items: [
-                            { text: 'Forums', link: 'https://photosynq.org/forums' },
-                            { text: 'Blog', link: 'https://help.photosynq.org' }
+                            { text: 'Forums', link: 'https://photosynq.org/forums' }
                         ]
                     },
                     {
