@@ -354,6 +354,10 @@
 
 {{> docs/instruments/light-guide-mask.md}}
 
+***
+
+{{> docs/instruments/leaf-mask-calibration.md}}
+
 # Console Commands {main-chapter}
 
 {{> docs/instruments/console-commands.md}}
