@@ -42,8 +42,7 @@ module.exports = {
                             { text: 'Help Manual', link: 'https://help.photosynq.org/downloads/PhotosynQ-Help-Manual.pdf' },
                             { text: 'Tutorials', link: 'https://help.photosynq.org/downloads/PhotosynQ-Getting-Started.pdf' },
                             { text: 'MultispeQ v1.0', link: 'https://help.photosynq.org/downloads/PhotosynQ-MultispeQ-v1.0.pdf' },
-                            { text: 'MultispeQ v2.0', link: 'https://help.photosynq.org/downloads/PhotosynQ-MultispeQ-v2.0.pdf' },
-                            { text: 'Firmware', link: 'https://help.photosynq.org/downloads/PhotosynQ-Firmware.pdf' }
+                            { text: 'MultispeQ v2.0', link: 'https://help.photosynq.org/downloads/PhotosynQ-MultispeQ-v2.0.pdf' }
                         ]
                     },
                     {
