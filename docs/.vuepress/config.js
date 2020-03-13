@@ -5,10 +5,7 @@ module.exports = {
         ['link', { rel: 'icon', href: '/icons/favicon-32x32.png' }],
         ['link', { rel: 'manifest', href: '/manifest.json' }],
         ['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' }],
-        ['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css' }],
-        ['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/mermaid/7.0.0/mermaid.css' }],
-        ['script', {src: 'https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0/mermaid.min.js' }]
-
+        ['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css' }]
     ],
     base: '/',
     home: true,
@@ -281,6 +278,7 @@ module.exports = {
     },
     plugins: [
         ['vuepress-plugin-element-tabs'],
+        ['vuepress-plugin-mermaidjs'],
         ['@vuepress/back-to-top', true ],
         ['@vuepress/google-analytics', {
             'ga': (require('./.env.json')['ga-key'] || '')
