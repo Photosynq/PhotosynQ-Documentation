@@ -44,7 +44,7 @@
     "markdown-it-katex": "^2.0.3",
     "markdown-it-mermaid": "^0.2.5",
     "markdown-link-check": "^3.8.0",
-    "minimist": "^1.2.0",
+    "minimist": "^1.2.2",
     "moment-timezone": "^0.5.27",
     "mustache": "^4.0.0",
     "photosynq-helpers": "github:Photosynq/helpers#v1.1.4",
