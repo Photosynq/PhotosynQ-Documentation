@@ -303,7 +303,8 @@ module.exports = {
             site: {
               name   : 'PhotosynQ Documentation',
               twitter: 'photosynq',
-            }
+            },
+            canonical_base: 'https://help.photosynq.org'
         }]
     ]
 };
