@@ -35,7 +35,7 @@
         :key="index"
       >
         <h2>{{ feature.title }}</h2>
-        <p>{{ feature.details }}</p>
+        <p v-if="feature.details">{{ feature.details }}</p>
         <p
             class="action"
             v-if="feature.link && feature.linkText"
@@ -47,6 +47,24 @@
                 {{ feature.linkText }} →
             </a>
         </p>
+
+        <ul
+            class="feature-list"
+            v-if="feature.linkList"
+        >
+          <li
+            class="feature-list-item"
+            v-for="(test, link) in feature.linkList"
+            :key="link"
+          >        
+
+            <a
+                :href="link"
+            >
+                {{ test }}
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
 
@@ -145,6 +163,7 @@ export default {
       border-bottom none
       padding-bottom 0
       color lighten($textColor, 10%)
+      margin-bottom: 0
     p
       color lighten($textColor, 25%)
     .feature-btn
@@ -157,6 +176,13 @@ export default {
         transition: background-color 0.1s ease
         box-sizing: border-box
         border-bottom: 1px solid #2F899A
+    .feature-list
+      color: lighten($textColor, 40%)
+      list-style-type: circle
+      line-height: 1.3
+      margin-bottom: auto !important
+    .feature-list-item
+      margin-bottom: 0.45em
     .feature-btn:hover
       background-color: #3BACC1
   .footer
