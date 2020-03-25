@@ -227,6 +227,17 @@ module.exports = {
                 ]
             },
             {
+                title: 'Calibration',
+                collapsable: true,
+                sidebarDepth: 1,
+                children: [
+                    'calibrations/overview',
+                    'calibrations/multispeq-v2.0',
+                    'calibrations/multispeq-v1.0',
+                    'calibrations/caliq'
+                ]
+            },
+            {
                 title: 'Tutorials',
                 collapsable: true,
                 sidebarDepth: 1,

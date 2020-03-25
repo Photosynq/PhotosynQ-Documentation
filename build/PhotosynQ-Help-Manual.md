@@ -358,6 +358,22 @@
 
 {{> docs/instruments/leaf-mask-calibration.md}}
 
+# Calibration {main-chapter}
+
+{{> docs/calibrations/overview.md}}
+
+***
+
+{{> docs/calibrations/multispeq-v2.0.md}}
+
+***
+
+{{> docs/calibrations/multispeq-v1.0.md}}
+
+***
+
+{{> docs/calibrations/caliq.md}}
+
 # Console Commands {main-chapter}
 
 {{> docs/instruments/console-commands.md}}
