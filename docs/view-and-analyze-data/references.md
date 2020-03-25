@@ -97,6 +97,8 @@ Kanazawa, A., Ostendorf, E., Kohzuma, K., Hoh, D., Strand, D. D., Sato-Cruz, M.,
 
 Maas, S.J. & Dunlap, J.R. (1989). **Reflectance, Transmittance, and Absorptance of Light by Normal, Etiolated, and Albino Corn Leaves.** *Agronomy Journal*, 81(1), p.105. [doi:10.2134/agronj1989.00021962008100010019x]
 
+Raymond Hunt, E., and Daughtry, C. S. T. (2014) **Chlorophyll Meter Calibrations for Chlorophyll Content Using Measured and Simulated Leaf Transmittances.** *Agronomy Journal* 106, 931–939. [doi:10.2134/agronj13.0322]
+
 ## Links
 
 If you want to add a link to the platform, please use: <https://photosynq.org>
@@ -144,3 +146,5 @@ The availability of parameters depends on the version and type of the Instrument
 [doi:10.1104/pp.110.166652]: https://doi.org/10.1104/pp.110.166652
 
 [doi:10.1016/j.cels.2016.06.001]: https://doi.org/10.1016/j.cels.2016.06.001
+
+[doi:10.2134/agronj13.0322]: https://doi.org/10.2134/agronj13.0322
