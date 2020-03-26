@@ -6,7 +6,8 @@ Before getting started with the calibration, make sure you followed all the step
 
 | Calibration Routine | Details | Steps |
 | ------------------- | ------- | ----- |
-| **Full Recalibration** | Reset the Instrument and recalibrate PAR Sensor,<br>LEDs, Leaf Thickness, Relative Chlorophyll and Open/Close position | 1. [Reset Calibrations]<br>2. [PAR Sensor]<br>3. [LEDs]<br>4. [Electronic Offsets]<br>5. [Leaf Thickness]<br>6. [Relative Chlorophyll (new)] |
+| **Full Recalibration** | Reset the Instrument and recalibrate PAR Sensor,<br>LEDs, Leaf Thickness, Relative Chlorophyll and Open/Close position | 1. [Reset Calibrations]<br>2. [PAR Sensor]<br>3. [LEDs]<br>4. [Electronic Offsets]<br>5. [Leaf Thickness]<br>6. [Relative Chlorophyll (new)]<br>7. [Open/Close Position] |
+| **Open/Close Positions** | Set the open and close position for the leaf clamp | 1. [Open/Close Position] |
 | **Small Leaf Masks** | Recalibrate the Instrument to work with small leaf masks | 1. [Relative Chlorophyll (new)]<br>2. [Leaf Thickness] |
 | **PAR-Sensor** | Recalibrate the Instruments PAR sensor | 1. [PAR Sensor] |
 | **LEDs** | Recalibrate the Instruments LEDs | 1. [LEDs]<br>2. [Electronic Offsets] |
@@ -25,6 +26,7 @@ Make sure to follow the steps in the correct order when a calibration contains m
 [Leaf Thickness]: ./multispeq-v2.0.md#leaf-thickness
 [Relative Chlorophyll (new)]: ./multispeq-v2.0.md#relative-chlorophyll-new
 [Relative Chlorophyll (old)]: ./multispeq-v2.0.md#relative-chlorophyll-old
+[Open/Close Position]: ./multispeq-v2.0.md#open-close-position
 
 ## Reset Calibrations
 
@@ -128,6 +130,13 @@ Relative Chlorophyll, also called SPAD, is measured by comparing absorbance in t
 While the MultispeQ produces its own SPAD values (ranging from 0 - ~120), we also calibrate the device to the commercial standard Minolta SPAD 502+ in order to provide users with more directly comparable values for Relative Chlorophyll (ranging from 0 - ~70).  This protocol calibrates the MultispeQ SPAD values against an actual Minolta SPAD device and saves those values to the device.  
 
 Protocol: `CAL#11 Relative chlorophyll (SPAD) using the OLD method`
+
+## Open/Close Position
+
+The open and close position for the MultispeQ needs to be recalibrated in regular intervals. Otherwise it might happen, that the closing of the clamp is not properly detected and a protocol is not starting causing a measurement to take a lot longer than expected.
+
+1. Set the **opened** position by holding the clamp open at **~4mm** and clicking on the **Set** button.
+2. Set the **closed** position by holding the clamp open at **~2mm** and clicking on the **Set** button.
 
 <!-- When using the Desktop App in order to repeat the Instrument Calibrations, follow these steps to get started.
 Connect your Instrument [link], using USB or Bluetooth. 
