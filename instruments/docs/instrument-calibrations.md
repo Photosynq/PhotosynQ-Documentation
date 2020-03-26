@@ -28,6 +28,6 @@ After each calibration protocol, you have to save the calibration back to the In
 
 ## Available Calibrations
 
-For detailed instructions on how to use the calibrations, please refer to the [Calibrations](../calibrations/overview.md) chapter.
+For detailed instructions on how to use the calibrations, please refer to the [Calibrations](../calibrations/overview.md) chapter. The calibrations listed below are always for the the latest firmware version.
 
 {{{ instrument-calibrations }}}
