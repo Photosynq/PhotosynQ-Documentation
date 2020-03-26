@@ -231,7 +231,8 @@ module.exports = {
                     'instruments/firmware-updates',
                     'instruments/console-commands',
                     'instruments/light-guide-mask',
-                    'instruments/leaf-mask-calibration'
+                    'instruments/leaf-mask-calibration',
+                    'instruments/troubleshooting'
                 ]
             },
             {
