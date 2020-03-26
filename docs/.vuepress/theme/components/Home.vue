@@ -47,24 +47,6 @@
                 {{ feature.linkText }} →
             </a>
         </p>
-
-        <ul
-            class="feature-list"
-            v-if="feature.linkList"
-        >
-          <li
-            class="feature-list-item"
-            v-for="(test, link) in feature.linkList"
-            :key="link"
-          >        
-
-            <a
-                :href="link"
-            >
-                {{ test }}
-            </a>
-          </li>
-        </ul>
       </div>
     </div>
 
@@ -176,15 +158,16 @@ export default {
         transition: background-color 0.1s ease
         box-sizing: border-box
         border-bottom: 1px solid #2F899A
-    .feature-list
-      color: lighten($textColor, 40%)
-      list-style-type: circle
-      line-height: 1.3
-      margin-bottom: auto !important
-    .feature-list-item
+  .feature-btn:hover
+    background-color: #3BACC1
+  .feature-list ul
+    color: lighten($textColor, 40%)
+    list-style-type: circle
+    line-height: 1.3
+    margin-bottom: auto !important
+    & li
       margin-bottom: 0.45em
-    .feature-btn:hover
-      background-color: #3BACC1
+
   .footer
     padding 2.5rem
     border-top 1px solid $borderColor
