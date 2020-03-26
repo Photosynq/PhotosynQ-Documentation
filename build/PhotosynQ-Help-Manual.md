@@ -362,6 +362,10 @@
 
 {{> docs/instruments/leaf-mask-calibration.md}}
 
+***
+
+{{> docs/instruments/troubleshooting.md}}
+
 # Calibration {main-chapter}
 
 {{> docs/calibrations/overview.md}}
