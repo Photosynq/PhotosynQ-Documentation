@@ -81,6 +81,15 @@ module.exports = {
         sidebar: [
             '/',
             {
+                title: 'Getting Started',
+                collapsable: true,
+                sidebarDepth: 1,
+                children: [
+                    'getting-started/what-is-photosynq',
+                    'getting-started/photosynq-glossary'
+                ]
+            },
+            {
                 title: 'Account',
                 collapsable: true,
                 sidebarDepth: 1,
@@ -93,8 +102,7 @@ module.exports = {
                     'account/your-subscriptions',
                     'account/project-invitations',
                     'account/sign-out-of-photosynq',
-                    'account/deactivate-an-account',
-                    'account/photosynq-glossary'
+                    'account/deactivate-an-account'
                 ]
             },
             {

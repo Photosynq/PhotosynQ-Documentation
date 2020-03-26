@@ -2,6 +2,14 @@
 *<span class="text-muted">Modified:</span> {{ date }}
 <span class="text-muted">Version:</span> {{ version }}*
 
+# Getting Started {main-chapter}
+
+{{> docs/getting-started/what-is-photosynq.md}}
+
+***
+
+{{> docs/getting-started/photosynq-glossary.md}}
+
 # Account Basics {main-chapter}
 
 {{> docs/account/create-an-account.md}}
@@ -37,10 +45,6 @@
 ***
 
 {{> docs/account/deactivate-an-account.md}}
-
-***
-
-{{> docs/account/photosynq-glossary.md}}
 
 # Mobile Application {main-chapter}
 
