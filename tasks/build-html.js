@@ -37,7 +37,6 @@ const mdToHTML = function(content){
             try {
                 return hljsLinenums(str.trim(), {
                     hljs: hljs,
-                    lang: 'auto',
                     start: 1
                 });
             } catch (err) { }
