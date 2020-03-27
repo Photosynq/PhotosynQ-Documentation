@@ -48,7 +48,7 @@ const compileMD = function(cb){
                 content[path_rel] = content[path_rel].replace(/(\[\[TOC\]\]\n)/gm, '');
 
                 // Remove Tabs
-                content[path_rel] = content[path_rel].replace(/(:{4}\s{1,}tabs\n{1,})|(:{3}\n{0,}:{3}\s{1,}tab.*\n{1,})|(:{3}\n{0,}:{4})|(:{3}\s{1,}tab.*\n{1,})|(:{4}\n{1,})/gm, '');
+                content[path_rel] = content[path_rel].replace(/(:{4}\s{1,}tabs.*\n{1,})|(:{3}\n{0,}:{3}\s{1,}tab.*\n{1,})|(:{3}\n{0,}:{4})|(:{3}\s{1,}tab.*\n{1,})|(:{4}\n{1,})/gm, '');
             }
 
             // Get Tag info
