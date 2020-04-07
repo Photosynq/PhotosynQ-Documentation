@@ -23,6 +23,9 @@ module.exports = {
         extendMarkdown: md => {
             md.set({ breaks: true });
             md.use(require('markdown-it-katex'));
+            md.use(require('markdown-it-implicit-figures'),{
+                figcaption: true
+            });
             md.use(require('markdown-it-mermaid').default);
         }
     },
