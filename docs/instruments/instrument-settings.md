@@ -20,36 +20,85 @@ When using the Desktop App to change the Instrument settings, follow these steps
 The available settings depend on the type and version of the Instrument connected, as well as on the version of the firmware installed on the Instrument.
 :::
 
-## Settings - MultispeQ
+## Available Settings
 
-### Calibrations
+:::: tabs type:card
 
-| Leaf Clamp Positions | Description |
-| -------------------- |-------------|
-| Opened Position | Set the **opened** position by holding the clamp open at **~ 4mm** and clicking on the **Set** button. |
-| Closed Position | Set the **closed** position by holding the clamp open at **~ 2mm** and clicking on the **Set** button. |
+::: tab MultispeQ (v1.0)
 
-| Recalibrate Compass | Description |
-| ------------------- | ----------- |
-| Compass | Calibrate the Instruments internal compass. After starting the calibration, start moving the Instrument in a steady motion, describing a sphere. |
+### MultispeQ (v1.0)
 
-### Settings
+#### Leaf Clamp Positions
 
-| Power Management | Description |
-| ---------------- | ----------- |
-| Automatic Shutdown | The initial time for Instruments to turn off is **30 minutes**. To start it up again you have to hold the button for ~10s to restart the Instrument. Adjust the time by selecting a shutdown interval. |
-| Stay On (USB) | When set to **Yes** the Instrument will not power down when connected through USB. Once disconnected, it will turn off according the the automatic shutdown time. |
-| Power | Turn off the Instrument completely. |
+| Leaf Clamp Positions | Description | Firmware |
+| :------------------- | :---------- | :------: |
+| Open and Close Position | Calibrate the *open* and *close* position of the clamp. During the calibration follow the instructions of the protocol. | `1.17` `1.23` |
 
-| Instrument Indicators | Description |
-| --------------------- | ----------- |
-| Indicator (blink) | The Indicator light will flash every 10s, reporting the battery status (by color) and that the Instrument is on. |
+#### Power Management
 
-### Miscellaneous
+| Power Management | Description | Firmware |
+| :--------------- | :---------- | :------: |
+| Power | Turn off the Instrument completely. | `all` |
 
-| Instrument Information | Description |
-| ---------------------- | ----------- |
-| Stored Information (EEPROM) | Display all the information stored in the Instrument's internal memory. |
-| Instrument Connection | Check if the Instrument is connected and properly communicating. |
-| CaliQ Connection | Check if the CaliQ is connected properly to the MultispeQ. |
-| Instrument Clock | The Instrument's internal clock gets set to the device's time it is connected to. |
+#### Instrument Information
+
+| Instrument Information | Description | Firmware |
+| :--------------------- | :---------- | :------: |
+| Stored Information (EEPROM) | Display all the information stored in the Instrument's internal memory. | `all` |
+
+#### Instrument Tests
+
+| Instrument Tests | Description | Firmware |
+| :--------------- | :---------- | :------: |
+| Instrument Connection | Check if the Instrument is connected and properly communicating. | `all` |
+
+:::
+
+::: tab MultispeQ (v2.0)
+
+### MultispeQ (v2.0)
+
+#### Leaf Clamp Positions
+
+| Leaf Clamp Positions | Description | Firmware |
+| :------------------- | :---------- | :------: |
+| Opened Position | Set the **opened** position by holding the clamp open at **~4mm** and clicking on the **Set** button. | `all` |
+| Closed Position | Set the **closed** position by holding the clamp open at **~2mm** and clicking on the **Set** button. | `all` |
+
+#### Recalibrate Compass
+
+| Recalibrate Compass | Description | Firmware |
+| :------------------ | :---------- | :------: |
+| Compass | Calibrate the Instruments internal compass. After starting the calibration, start moving the Instrument in a steady motion, describing a sphere. | `all` |
+
+#### Power Management
+
+| Power Management | Description | Firmware |
+| :--------------- | :---------- | :------: |
+| Automatic Shutdown | The initial time for Instruments to turn off is **30 minutes**. To start it up again you have to hold the button for ~10s to restart the Instrument. Adjust the time by selecting a shutdown interval. | `all` |
+| Stay On (USB) | When set to **Yes** the Instrument will not power down when connected through USB. Once disconnected, it will turn off according the the automatic shutdown time. | `all` |
+| Power | Turn off the Instrument completely. | `all` |
+
+#### Instrument Indicators
+
+| Instrument Indicators | Description | Firmware |
+| :-------------------- | :---------- | :------: |
+| Indicator Light | The Indicator light will flash every 10s, reporting the battery status (by color) and that the Instrument is on. | `all` |
+
+#### Instrument Information
+
+| Instrument Information | Description | Firmware |
+| :--------------------- | :---------- | :------: |
+| Stored Information (EEPROM) | Display all the information stored in the Instrument's internal memory. | `all` |
+| Instrument Clock | Set the Instrument's clock to the computers time. | `>=2.1` |
+
+#### Instrument Tests
+
+| Instrument Tests | Description | Firmware |
+| :--------------- | :---------- | :------: |
+| Instrument Connection | Check if the Instrument is connected and properly communicating. | `all` |
+| CaliQ Connection | Check if the CaliQ and Instrument are properly communicating. | `>=2.1` |
+
+:::
+
+::::
