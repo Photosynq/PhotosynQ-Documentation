@@ -113,7 +113,7 @@ Here you find commonly used equations to derive photosynthetic parameters from f
 
 (12) $\text{q}_{I} = \frac{F_{m}-F_{m}''}{F_{m}''} = \frac{F_{m}}{F_{m}''}-1$
 
-+ Baker, N.R., Harbinson, J., and Kramer, D.M. (2007) **Determining the limitations and regulation of photosynthetic energy transduction in leaves.** *Plant Cell Environ.* 30: 1107-1125 [doi:10.1111/j.1365-3040.2007.01680.x]
++ Quick, W. P., and Stitt, M. (1989). **An examination of factors contributing to non-photochemical quenching of chlorophyll fluorescence in barley leaves.** *Biochimica et Biophysica Acta (BBA) - Bioenergetics* 977, 287–296. [doi:10.1016/S0005-2728(89)80082-9]
 
 ### Photosystem II Redox State
 
@@ -227,4 +227,6 @@ The availability of parameters and how they are derived depends on the version a
 
 [doi:10.2134/agronj13.0322]: https://doi.org/10.2134/agronj13.0322
 
-[doi:10.1023/A:1006356421477]: https://doi-org.proxy1.cl.msu.edu/10.1023/A:1006356421477
+[doi:10.1023/A:1006356421477]: https://doi.org/10.1023/A:1006356421477
+
+[doi:10.1016/S0005-2728(89)80082-9]: https://doi.org/10.1016/S0005-2728(89)80082-9
