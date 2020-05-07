@@ -89,7 +89,12 @@ module.exports = {
                 sidebarDepth: 1,
                 children: [
                     'getting-started/what-is-photosynq',
-                    'getting-started/photosynq-glossary'
+                    'getting-started/photosynq-glossary',
+                    'getting-started/starting-a-project',
+                    'getting-started/collecting-data',
+                    'getting-started/viewing-data',
+                    'getting-started/data-quality',
+                    'getting-started/data-analysis'
                 ]
             },
             {
@@ -186,7 +191,7 @@ module.exports = {
                     'view-and-analyze-data/download-data',
                     'view-and-analyze-data/external-libraries',
                     'view-and-analyze-data/how-to-cite',
-                    'view-and-analyze-data/references'
+                    'view-and-analyze-data/references-and-parameters'
                 ]
             },
             {
@@ -247,23 +252,6 @@ module.exports = {
                     'calibrations/multispeq-v2.0',
                     'calibrations/multispeq-v1.0',
                     'calibrations/caliq'
-                ]
-            },
-            {
-                title: 'Tutorials',
-                collapsable: true,
-                sidebarDepth: 1,
-                children: [
-                    'tutorials/getting-started',
-                    'tutorials/creating-a-project',
-                    'tutorials/data-collection',
-                    'tutorials/data-viewing',
-                    'tutorials/data-quality',
-                    'tutorials/data-analysis',
-                    'tutorials/building-a-protocol',
-                    'tutorials/building-an-advanced-protocol',
-                    'tutorials/building-a-macro',
-                    'tutorials/building-an-advanced-macro'
                 ]
             },
             {
