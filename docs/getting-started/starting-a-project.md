@@ -1,4 +1,17 @@
-# Creating a Project
+# Starting a Project
+
+**Projects are the lifeblood of PhotosynQ, so it is important to understand what you are looking at!**
+
+- Inside the app, you can find all the projects you have either created or joined. You can do this by selecting the menu in the upper left corner of the app and then selecting **My Projects**.
+- Everyone is automatically joined to the tutorial project, [Getting Started with Multispeq](https://photosynq.org/projects/first-steps-with-multispeq)
+- Check out the overview and directions for the project.
+  1. These are sometimes the only source of communication between the project creator and you.
+  2. Reading the directions is vital to taking proper measurements.
+- Any additional questions about projects can be asked on the project discussion online.
+
+![My Projects: List of joined or created projects available for data contribution.](./images/first-steps-my-projects.jpg)
+
+Take a few measurements using the **Getting Started with MultispeQ** project or [create your own project](https://photosynq.org/projects/categories).
 
 ## Before You Start…
 
@@ -90,15 +103,14 @@ Once your project is updated and you have connected to your Instrument like the 
 
 When you collect data in your project, the way it is collected, and later interpreted/displayed is dependent on the protocol and the associated macro selected in project creation. If you chose Leaf Photosynthesis V1.0 like most, the measurement should take about ~15 seconds and return data on your phone that looks something like this:
 
-![Finished Measurement](./images/data-collection-results.jpg)
-
+![Finished Measurement](./images/collecting-data-results.jpg)
 
 Measurements are either cached on the phone, or uploaded automatically to your project. Your results can be viewed and analyzed online by logging into PhotosynQ and finding your project in your profile. While you can see individual measurements on your phone, logging on to PhotosynQ will allow you to look at your whole dataset.
 
-For more help on how to collect high quality data, best measurement practices, uploading cached data or some tricks for data collection day, check out our [Data Collection Tutorial](./data-collection.md)!
+For more help on how to collect high quality data, best measurement practices, uploading cached data or some tricks for data collection day, check out our [Data Collection Chapter](./collecting-data.md)!
 
 ## Viewing Project Data
 
 Data can be viewed using the PhotosynQ data explorer on the PhotosynQ website.
 
-After your day of data collection, viewing PhotosynQ data is quick and easy! Log in to your PhotosynQ online account and go to your profile page by clicking your name on the home-screen. After this, find your project on the dashboard, click and allow your landing page with your data to load up. For a more in depth look into data viewing, series creation, making graphs or downloading your data, check out our tutorial [here](./data-viewing.md). If you need some more help understanding the online data analysis tools, we have a guide for that too, check it out [here](./data-analysis.md).
+After your day of data collection, viewing PhotosynQ data is quick and easy! Log in to your PhotosynQ online account and go to your profile page by clicking your name on the home-screen. After this, find your project on the dashboard, click and allow your landing page with your data to load up. For a more in depth look into data viewing, series creation, making graphs or downloading your data, check out our tutorial [here](./viewing-data.md). If you need some more help understanding the online data analysis tools, we have a guide for that too, check it out [here](./data-analysis.md).

@@ -24,5 +24,5 @@ projectId = 1566
 df = ps.get_project_dataframe(projectId, include_raw_data=False)
 
 # logout
-ps.logout();
+ps.logout()
 ```

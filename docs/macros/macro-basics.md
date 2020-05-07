@@ -2,7 +2,7 @@
 
 All the macros you have developed on PhotosynQ are accessible to you at any time.
 
-Macros are small pieces of code with calculations for Protocols that are run after the measurement is done to evaluate the measurement. Macros are written in [JavaScript].
+Macros are small snippets of code, which run calculations based on your measurements. They are written in the popular script language [JavaScript]. After a measurement has been taken, the data is send from the Instrument to your device and the Macro is processing the data before showing all the calculated parameters. Not every measurement requires post processing (e.g. a simple temperature measurement), but if you want to calculate a parameter from the measurement **Trace** or want to compare parameters (e.g. ambient temperature vs. leaf temperature), a Macro will calculate the parameters of interest and display the results instantly on your mobile device (e.g. a phone).
 
 ::: tip Tip
 PhotosynQ is providing a number of pre-build functions to make it easier to build Macros and to avoid writing the same code for standard problems like calculating an average over and over again.

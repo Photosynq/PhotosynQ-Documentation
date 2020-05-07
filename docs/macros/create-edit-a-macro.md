@@ -51,3 +51,202 @@ If you have issues saving the macro, make sure you check these things first:
 - When a Macro is done, make sure the output box is green, indicating that there was no error.
 - Make sure you have a name and description.
 - Check that the name is not already existing.
+
+## Example - Calculating Photosystem II efficiency
+
+In the [previous tutorial](./building-a-protocol.md) we built a protocol to measure photosystem II efficiency. Now we can build a simple macro to automatically calculate it every time you take a measurement.
+
+### Initial Code
+
+```javascript
+/**
+ * Macro for data evaluation on PhotosynQ.org
+ * by: John Doe
+ * created: June 4, 2018 4:00 PM
+ */
+
+ // Define the output object here
+var output = {};
+
+// Check if the key time exists in json
+if (json.time !== undefined){
+    // Add key time and value to output
+    output.time = json.time;
+}
+
+// Return data
+return output;
+```
+
+### Accessing the recorded Trace
+
+In order to calculate the parameters **Fs** (steady state fluorescence) and **Fmp** (maximum fluorescence), you have to access the recorded fluorescence trace. The Macro editor allows you to select the regions, by using the graph of the trace. In the example below, check range and select the region of interest. Then click on the <i class="fa fa-arrows-h"></i> icon to add the selected range into your code, `json.data_raw.slice(63,68)` in this case. We use the already pre-defined method `MathMEAN( array )` from the Function Menu to calculate the mean of the values in the selected range.
+
+![Selecting a range of values using the Macro editor](./images/macros-building-a-macro.png)
+
+```javascript
+var fs = MathMEAN(json.data_raw.slice(1,5));
+var fmp = MathMEAN(json.data_raw.slice(63,68));
+```
+
+### Deriving values and adding them to the output
+
+Now we can calculate Phi2 and LEF. For LEF we also need the light intensity. We can insert the light intensity by selecting `light_intensity` from the variables in the top menu.
+
+#### Equations
+
+(1) $\phi_{II} = \frac{ Fm' - Fs}{Fm'}$
+
+(2) $LEF = \phi_{II} \times PAR \times 0.4$
+
+#### Equations as Code
+
+```javascript
+var phi2 = (fmp-fs)/fmp;
+var lef = phi2 * json.light_intensity * 0.4;
+```
+
+### Defining the Macro Output
+
+Finally we can return the results by adding the calculated values to the `output` object.
+
+```javascript
+output['Fs'] = fs;
+output['Fmp'] = fmp;
+output['Phi2'] = phi2;
+output['LEF'] = lef;
+output['PAR'] = json.light_intensity;
+```
+
+### The Final Macro
+
+```javascript
+/**
+ * Macro for data evaluation on PhotosynQ.org
+ * by: John Doe
+ * created: June 4, 2018 4:00 PM
+ */
+
+//Define the output object here
+var output = {};
+
+var fs = MathMEAN(json.data_raw.slice(1,5));
+var fmp = MathMEAN(json.data_raw.slice(63,68));
+
+var phi2 = (fmp-fs)/fmp;
+var lef = phi2 * json.light_intensity * 0.4;
+
+output['Fs'] = fs;
+output['Fmp'] = fmp;
+output['Phi2'] = phi2;
+output['LEF'] = lef;
+output['PAR'] = json.light_intensity;
+
+//Return data
+return output;
+```
+
+### Output
+
+    Fs = 5817.25
+    Fmp = 13056.6
+    Phi2 = 0.554
+    LEF = 3.770
+    PAR = 17
+
+[JavaScript_URL]: https://www.w3schools.com/js/
+[Desktop App]: https://photosynq.org/software#desktop
+
+
+## Example - Advanced Macro
+
+When building a Macro for a Protocol using the `_protocol_set_` command, you start of the same way as building a macro described in the previous example ([Building a Macro](./building-a-macro.md)). But since a protocol set was used, accessing the retuned Parameters has changed a little.
+
+### The `json.set` Object
+
+The object `json` is no longer holding all the measured Parameters as shown in the previous tutorial. Instead it has a key called `set` with all Protocols from the Protocol Set. Since `json.set` is an array of Protocols, you have to provide the index as well. If you want to access the third Protocol for example, you simply use `json.set[2]`. This can get a bit confusing, when you are using multiple Protocols inside your Set. To make it more accessible, the Macro Editor provides a dropdown menu in the top menu bar with all available Protocols inside a Set numbered starting from 0. If you use the `label` command inside each protocol, you will see the label in the dropdown menu making the access easier. After selecting the Protocol from the Set, use **Variables** from the top menu, to see and access all Parameters in the selected Protocol.
+
+![Use the dropdown menu to select a specific Protocol Set. You can use the Variables from the menu, as well as the selector for the Raw Traces.](./images/macros-select-protocol-from-set.png)
+
+### Simple Protocol Set Example
+
+```javascript
+/**
+ * Macro for data evaluation on PhotosynQ.org
+ * by: John Doe
+ * created: June 4, 2018 4:00 PM
+ */
+
+ // Define the output object here
+var output = {};
+
+// Check if the key time exists in the third protocol of the set
+if (json.set[2].time !== undefined){
+    // Add key time and value to output
+    output.time = json.set[2].time;
+}
+
+// Return data
+return output;
+```
+
+### Multiple Detectors
+
+In the previous example for a simple for ([Building a Macro](./building-a-macro.md)) only one detector was used. But it can happen, that a measurement requires multiple detectors. This can be accomplished in two different ways as described. The number of data-points within the `data_raw` element in both examples the same, but the way the data is collected is fundamentally different (see [Detectors - Output Examples](../protocols/detectors.md#examples)).
+
+### One Detector per Pulse-Set
+
+The detector readings in this example are sequential, so the first **20** pulses are recorded with **detector 1**, the next **20** pulses are recorded with **detector 3**. In the `data_raw` array, the first **20** values are the readings from **detector 1**, the next **20** from **detector 3**. Using the [JavaScript Array slice() Method](https://www.w3schools.com/jsref/jsref_slice_array.asp) the two readings can be easily separated in the analysis. Keep in mind, that the first value has the index `0`.
+
+:::: tabs type:card
+
+::: tab Protocol
+
+```javascript
+...
+    pulses: [ 20, 20 ],
+    detectors: [ [1], [3] ],
+...
+```
+
+:::
+
+::: tab Macro Code
+
+```javascript
+var detector1 = json.data_raw.slice(0,19);
+var detector2 = json.data_raw.slice(20,39);
+```
+
+:::
+
+::::
+
+### Two or more Detectors per Pulse-Set
+
+In this scenario, the detector readings alternate between **detector 1** and **detector 3**. The total number of pulses will be **20**, but since the detectors now alternate, the returned values in `data_raw` alternate as well. To separate the output of the two detectors you can use the provided function [ArrayNth](../macros/provided-functions.md#arraynth). The alternative is to loop through the `data_raw` array and extract the values yourself.
+
+:::: tabs type:card
+
+::: tab Protocol
+
+```javascript
+...
+    pulses: [ 20 ]
+    detectors: [ [ 1, 3 ] ],
+...
+```
+
+:::
+
+::: tab Macro Code
+
+```javascript
+// ArrayNth( <array>, <step size>, <start> )
+var detector1 = ArrayNth(json.data_raw, 2, 0 );
+var detector2 = ArrayNth(json.data_raw, 2, 1 );
+```
+
+:::
+
+::::

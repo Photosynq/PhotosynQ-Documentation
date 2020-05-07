@@ -49,7 +49,7 @@ footerShields:
 ## Measurements
 
 + [Measurement is taking minutes instead of less than 30 seconds?](./calibrations/multispeq-v2.0.html#open-close-position)
-+ [How to take a measurement correctly?](./tutorials/data-collection.html)
++ [How to take a measurement correctly?](./getting-started/collecting-data.html#best-measurement-practices)
 + [How to measure small leaves?](./instruments/light-guide-mask.html)
 + [How can I check if data has been uploaded from the Android App?](./mobile-application/measurements.html#uploading-measurements)
 + [How to sync the phone and the website?](./mobile-application/general.html#internet-connection)
@@ -81,7 +81,7 @@ footerShields:
 
 ## Projects
 
-+ [How do I start designing my design Project?](./tutorials/creating-a-project.html)
++ [How do I start designing my design Project?](./getting-started/starting-a-project.html)
 + [How to change the Project layout after starting the Project for some time?](./projects/editing-a-project.html)
 + [How can a new person be added to an existing Project?](./projects/project-collaborators.html#invite-a-collaborator)
 + [Is there a way to edit the answers to questions for a data point after taking a measurement](./mobile-application/measurements.html#editing-measurements)

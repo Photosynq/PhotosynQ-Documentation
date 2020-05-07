@@ -1,4 +1,4 @@
-# Analyzing your Data
+# Data Analysis
 
 ## Introduction
 
@@ -26,21 +26,17 @@ A chi-square test for independence compares two parameters in a Project to see i
 
 These are basic tutorials on how to do advanced data analysis outside the data viewer and use the available packages.
 
-| Tutorial                        |        Python        |                      R-Studio                    |
-| :------------------------------ | :------------------: | :----------------------------------------------: |
-| Import PhotosynQ Data           | [View][Python-View1] | [View][R-View1] ǀ [PDF][R-PDF1] ǀ [.Rmd][R-Rmd1] |
-| Anova and Multivariate Analysis |          ×           | [View][R-View2] ǀ [PDF][R-PDF2] ǀ [.Rmd][R-Rmd2] |
-| Correlation and Mixed Effects   |          ×           | [View][R-View3] ǀ [PDF][R-PDF3] ǀ [.Rmd][R-Rmd3] |
+| Tutorial                        |        Python        |             R-Studio             |
+| :------------------------------ | :------------------: | :------------------------------: |
+| Import PhotosynQ Data           | [View][Python-View1] | [View][R-View1] ǀ [.Rmd][R-Rmd1] |
+| Anova and Multivariate Analysis |          ×           | [View][R-View2] ǀ [.Rmd][R-Rmd2] |
+| Correlation and Mixed Effects   |          ×           | [View][R-View3] ǀ [.Rmd][R-Rmd3] |
 
-[Python-View1]: /tutorials/python-connect-python-to-photosynq
+[Python-View1]: ../view-and-analyze-data/python/python-connect-python-to-photosynq.md
 
-[R-View1]: /tutorials/r-import-photosynq-data.md
-[R-View2]: /tutorials/r-anova-and-multivariate-analysis.md
-[R-View3]: /tutorials/r-correlation-and-mixed-effects.md
-
-[R-PDF1]: https://photosynqprod.s3.amazonaws.com/files/tutorials/data_analysis/r_import_photosynq_data.pdf
-[R-PDF2]: https://photosynqprod.s3.amazonaws.com/files/tutorials/data_analysis/r_anova_and_multivariate_analysis.pdf
-[R-PDF3]: https://photosynqprod.s3.amazonaws.com/files/tutorials/data_analysis/r_correlation_and_mixed_effects.pdf
+[R-View1]: ../view-and-analyze-data/r/r-import-photosynq-data.md
+[R-View2]: ../view-and-analyze-data/r/r-anova-and-multivariate-analysis.md
+[R-View3]: ../view-and-analyze-data/r/r-correlation-and-mixed-effects.md
 
 [R-Rmd1]: https://photosynqprod.s3.amazonaws.com/files/tutorials/data_analysis/r_import_photosynq_data.Rmd
 [R-Rmd2]: https://photosynqprod.s3.amazonaws.com/files/tutorials/data_analysis/r_anova_and_multivariate_analysis.Rmd
