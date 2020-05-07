@@ -18,6 +18,10 @@ Kramer, D. M., and Evans, J. R. (2011). **The importance of energy balance in im
 
 Cruz, J. A., Savage, L. J., Zegarac, R., Hall, C. C., Satoh-Cruz, M., Davis, G. A., et al. (2016). **Dynamic Environmental Photosynthetic Imaging Reveals Emergent Phenotypes.** *Cell Syst.* 2, 365–377. [doi:10.1016/j.cels.2016.06.001].
 
+Kalaji, H. M., Schansker, G., Ladle, R. J., Goltsev, V., Bosa, K., Allakhverdiev, S. I., et al. (2014) **Frequently asked questions about in vivo chlorophyll fluorescence: practical issues.** *Photosynthesis Research* 122, 121–158.[doi:10.1007/s11120-014-0024-6].
+
+Kalaji, H. M., Schansker, G., Brestic, M., Bussotti, F., Calatayud, A., Ferroni, L., et al. (2016) **Frequently asked questions about chlorophyll fluorescence, the sequel.** *Photosynthesis Research* 132, 13–66. [doi:10.1007/s11120-016-0318-y].
+
 ## Environmental Parameters
 
 ### Light
@@ -191,8 +195,6 @@ The availability of parameters and how they are derived depends on the version a
 
 [doi:10.1111/j.1365-3040.2007.01680.x]: https://doi.org/10.1111/j.1365-3040.2007.01680.x
 
-[doi:j.1365-3040.2007.01680.x]: https://doi.org/10.1111/j.1365-3040.2007.01680.x
-
 [doi:10.1146/annurev.arplant.59.032607.092759]: https:/doi.org/10.1146/annurev.arplant.59.032607.092759
 
 [doi:10.1016/0005-2728(82)90262-6]: https://doi.org/10.1016/0005-2728(82)90262-6
@@ -201,7 +203,7 @@ The availability of parameters and how they are derived depends on the version a
 
 [doi:10.1111/pce.12924]: https://doi.org/10.1111/pce.12924
 
-[doi:0.1111/j.1365-3040.1989.tb01952.x]: https://doi.org/doi:0.1111/j.1365-3040.1989.tb01952.x
+[doi:10.1111/j.1365-3040.1989.tb01952.x]: https://doi.org/10.1111/j.1365-3040.1989.tb01952.x
 
 [doi:10.1098/rsos.160592]: https://doi.org/10.1098/rsos.160592
 
@@ -214,8 +216,6 @@ The availability of parameters and how they are derived depends on the version a
 [doi:10.1111/j.1365-3040.2005.01294.x]: https://doi.org/10.1111/j.1365-3040.2005.01294.x
 
 [doi:10.1073/pnas.182427499]: https://doi.org/10.1073/pnas.182427499
-
-[doi:10.1111/j.1365-3040.1989.tb01952.x]: https://doi.org/10.1111/j.1365-3040.1989.tb01952.x
 
 [doi:10.3389/fpls.2017.00719]: https://doi.org/10.3389/fpls.2017.00719
 
@@ -230,3 +230,7 @@ The availability of parameters and how they are derived depends on the version a
 [doi:10.1023/A:1006356421477]: https://doi.org/10.1023/A:1006356421477
 
 [doi:10.1016/S0005-2728(89)80082-9]: https://doi.org/10.1016/S0005-2728(89)80082-9
+
+[doi:10.1007/s11120-014-0024-6]: https://doi.org/10.1007/s11120-014-0024-6
+
+[doi:10.1007/s11120-016-0318-y]: https://doi.org/10.1007/s11120-016-0318-y
