@@ -16,7 +16,7 @@ const {mdToHTML} = require('./build-html');
 
 const buildEPUB = function(cb){
     var cwd = jetpack.cwd();
-    var input = ['./dist/PhotosynQ-Help-Manual.md', './dist/PhotosynQ-Getting-Started.md', './dist/PhotosynQ-Firmware.md'];
+    var input = ['./dist/PhotosynQ-Help-Manual.md'];
 
     var md = "";
     for(var f in input){
