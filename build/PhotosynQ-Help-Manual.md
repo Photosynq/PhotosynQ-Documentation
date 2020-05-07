@@ -10,6 +10,26 @@
 
 {{> docs/getting-started/photosynq-glossary.md}}
 
+***
+
+{{> docs/getting-started/starting-a-project.md}}
+
+***
+
+{{> docs/getting-started/collecting-data.md}}
+
+***
+
+{{> docs/getting-started/viewing-data.md}}
+
+***
+
+{{> docs/getting-started/data-quality.md}}
+
+***
+
+{{> docs/getting-started/data-analysis.md}}
+
 # Account Basics {main-chapter}
 
 {{> docs/account/create-an-account.md}}
@@ -256,7 +276,7 @@
 
 ***
 
-{{> docs/view-and-analyze-data/references.md}}
+{{> docs/view-and-analyze-data/references-and-parameters.md}}
 
 # Protocols {main-chapter}
 
