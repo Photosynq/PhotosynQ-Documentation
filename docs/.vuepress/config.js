@@ -39,8 +39,7 @@ module.exports = {
                     {
                         text: 'Documents (PDF)',
                         items: [
-                            { text: 'Help Manual', link: 'https://help.photosynq.org/downloads/PhotosynQ-Help-Manual.pdf' },
-                            { text: 'Tutorials', link: 'https://help.photosynq.org/downloads/PhotosynQ-Getting-Started.pdf' },
+                            { text: 'Documentation', link: 'https://help.photosynq.org/downloads/PhotosynQ-Documentation.pdf' },
                             { text: 'MultispeQ v1.0', link: 'https://help.photosynq.org/downloads/PhotosynQ-MultispeQ-v1.0.pdf' },
                             { text: 'MultispeQ v2.0', link: 'https://help.photosynq.org/downloads/PhotosynQ-MultispeQ-v2.0.pdf' },
                             { text: 'CaliQ', link: 'https://help.photosynq.org/downloads/PhotosynQ-CaliQ.pdf' }
@@ -49,7 +48,7 @@ module.exports = {
                     {
                         text: 'E-Books (epub)',
                         items: [
-                            { text: 'Full Documentation', link: 'https://help.photosynq.org/downloads/PhotosynQ-Documentation.epub' }
+                            { text: 'Documentation', link: 'https://help.photosynq.org/downloads/PhotosynQ-Documentation.epub' }
                         ]
                     }
                 ]
