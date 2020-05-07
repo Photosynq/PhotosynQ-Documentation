@@ -15,7 +15,7 @@ Now the instrument has a charging indicator and a RGB progress/action indicator 
 ::: tip More Information
 + [Getting Started](./multispeq-v2.0.md)
 + [Configuration](./multispeq-v2.0.md#configuration)
-+ [Get an Instrument](https://photosynq.com/buy-now)
++ [Get an Instrument](https://photosynq.com/shop)
 + [References & Parameters](../view-and-analyze-data/references.md)
 :::
 
@@ -28,7 +28,7 @@ The CaliQ is a calibrated PAR (Photosynthetically Active Radiation) sensor and a
 ::: tip More Information
 + [Getting Started](./caliq.md)
 + [Configuration](./caliq.md#configuration)
-+ [Get an Instrument](https://photosynq.com/buy-now)
++ [Get an Instrument](https://photosynq.com/shop)
 :::
 
 ::: warning Note

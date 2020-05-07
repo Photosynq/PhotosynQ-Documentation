@@ -120,7 +120,7 @@ Kuhlgert, S., Austic, G., Zegarac, R. Osei-Bonsu, I.,Hoh, D., Chilvers, M. I., e
 
 [BG-18]: https://www.us.schott.com/d/advanced_optics/380b879e-f6d3-4130-b7e9-52d794f9bc4b/1.2/schott-bandpass-bg18-jun-2017-en.pdf
 
-[HMC-5051]: http://www.uqgoptics.com/pdf/Hot%20mirrors%20data%20sheet.pdf
+[HMC-5051]: https://www.uqgoptics.com/materials/hot-mirrors/
 
 [26650P-3.7-5500]: http://www.soshine.com.cn/a633.aspx
 
