@@ -72,7 +72,7 @@ footerShields:
 + [How can I download my data?](./view-and-analyze-data/download-data.html)
 + [I'm missing parameters (Data Viewer)](./view-and-analyze-data/advanced-parameters.html)
 + [Why is the data not showing up in the dashboard (Data Viewer)?](./view-and-analyze-data/the-dashboard.html)
-+ [I need to know the definitions of the parameters?](./view-and-analyze-data/references.html)
++ [I need to know the definitions of the parameters?](./view-and-analyze-data/references-and-parameters.html)
 + [How to clean up the data?](./view-and-analyze-data/flag-measurements.html)
 + [How to filter data in worksheets?](./view-and-analyze-data/filter-data.html)
   
