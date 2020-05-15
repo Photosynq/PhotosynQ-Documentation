@@ -1,4 +1,5 @@
 # Help Manual
+
 *<span class="text-muted">Modified:</span> {{ date }}
 <span class="text-muted">Version:</span> {{ version }}*
 
@@ -30,7 +31,7 @@
 
 {{> docs/getting-started/data-analysis.md}}
 
-# Account Basics {main-chapter}
+# Account {main-chapter}
 
 {{> docs/account/create-an-account.md}}
 
@@ -376,6 +377,10 @@
 
 ***
 
+{{> docs/instruments/console-commands.md}}
+
+***
+
 {{> docs/instruments/light-guide-mask.md}}
 
 ***
@@ -402,6 +407,31 @@
 
 {{> docs/calibrations/caliq.md}}
 
-# Console Commands {main-chapter}
+# Developers {main-chapter}
 
-{{> docs/instruments/console-commands.md}}
+{{> docs/developers/general.md}}
+
+***
+
+{{> docs/developers/instrument-api.md}}
+
+***
+
+{{> docs/developers/cloud-api.md}}
+
+# Enterprise Edition {main-chapter}
+
+{{> docs/enterprise-edition/general.md}}
+
+***
+
+{{> docs/enterprise-edition/users.md}}
+
+***
+
+{{> docs/enterprise-edition/applications.md}}
+
+***
+
+{{> docs/enterprise-edition/administration.md}}
+

@@ -23,6 +23,7 @@ const firmwareNewVersion = require('./tasks/firmware-new-version');
 const firmwareCompile = require('./tasks/firmware-compile');
 
 const instruments = require('./tasks/instruments');
+const compilebuild = require('./tasks/compile-build');
 
 exports.cleanAll = series (cleanAll);
 exports.compileMD = series (compileMD);
@@ -39,8 +40,9 @@ exports.firmwareNewVersion = series (firmwareNewVersion);
 exports.firmwareCompile = series (firmwareCompile);
 
 exports.instruments = series (instruments);
+exports.compilebuild = series ( compilebuild );
 
-exports.build  = series( cleanAll, showTag, compileMD, buildHTML, parallel(buildPDF, buildEPUB, firmwareCompile), clean );
+exports.build  = series( cleanAll, showTag, compilebuild, compileMD, buildHTML, parallel(buildPDF, buildEPUB, firmwareCompile), clean );
 
 exports.default = function() {
   watch('./firmware/**/*.json', series(firmwareDocs));
