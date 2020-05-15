@@ -17,7 +17,7 @@ module.exports = {
         }
     },
     markdown: {
-        lineNumbers: true,
+        lineNumbers: false,
         externalLinks: { target: '_blank', rel: 'noopener noreferrer' },
         toc: { includeLevel: [2, 3] },
         extendMarkdown: md => {
