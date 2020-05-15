@@ -26,17 +26,20 @@ A chi-square test for independence compares two parameters in a Project to see i
 
 These are basic tutorials on how to do advanced data analysis outside the data viewer and use the available packages.
 
-| Tutorial                        |        Python        |             R-Studio             |
-| :------------------------------ | :------------------: | :------------------------------: |
-| Import PhotosynQ Data           | [View][Python-View1] | [View][R-View1] ǀ [.Rmd][R-Rmd1] |
-| Anova and Multivariate Analysis |          ×           | [View][R-View2] ǀ [.Rmd][R-Rmd2] |
-| Correlation and Mixed Effects   |          ×           | [View][R-View3] ǀ [.Rmd][R-Rmd3] |
+| Tutorial                        |      Python      |           R-Studio           |
+| :------------------------------ | :--------------: | :--------------------------: |
+| Install Package                 | [View][Python-1] | [View][R-1]                  |
+| Import PhotosynQ Data           | [View][Python-2] | [View][R-2] ǀ [.Rmd][R-Rmd1] |
+| Anova and Multivariate Analysis |        ×         | [View][R-3] ǀ [.Rmd][R-Rmd2] |
+| Correlation and Mixed Effects   |        ×         | [View][R-4] ǀ [.Rmd][R-Rmd3] |
 
-[Python-View1]: ../view-and-analyze-data/python/python-connect-python-to-photosynq.md
+[Python-1]: ../view-and-analyze-data/python/python-install.md
+[Python-2]: ../view-and-analyze-data/python/python-connect-python-to-photosynq.md
 
-[R-View1]: ../view-and-analyze-data/r/r-import-photosynq-data.md
-[R-View2]: ../view-and-analyze-data/r/r-anova-and-multivariate-analysis.md
-[R-View3]: ../view-and-analyze-data/r/r-correlation-and-mixed-effects.md
+[R-1]: ../view-and-analyze-data/r/r-install.md
+[R-2]: ../view-and-analyze-data/r/r-import-photosynq-data.md
+[R-3]: ../view-and-analyze-data/r/r-anova-and-multivariate-analysis.md
+[R-4]: ../view-and-analyze-data/r/r-correlation-and-mixed-effects.md
 
 [R-Rmd1]: https://photosynqprod.s3.amazonaws.com/files/tutorials/data_analysis/r_import_photosynq_data.Rmd
 [R-Rmd2]: https://photosynqprod.s3.amazonaws.com/files/tutorials/data_analysis/r_anova_and_multivariate_analysis.Rmd
