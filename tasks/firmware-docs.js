@@ -22,16 +22,16 @@ const docsFromFolder = function(files,version){
     var active = [];
     var deprecated = [];
 
-    for (var f in files) {
-        var content = jetpack.read(files[f], 'json') || null;
-        if (content.deprecated)
-            deprecated.push(files[f]);
+    for (var d in files) {
+        var sorting = jetpack.read(files[d], 'json') || null;
+        if (sorting && sorting.deprecated)
+            deprecated.push(files[d]);
         else
-            active.push(files[f]);
+            active.push(files[d]);
     }
 
     files = active.concat(deprecated);
-
+    
     for (var f in files) {
         var content = jetpack.read(files[f], 'json') || null;
         var document = '### ' + content.name.replace(/(\_)/g, '\\$1') + ((content.deprecated) ? ' <Badge text="deprecated" type="error"/>' : '') + '\n\n';
