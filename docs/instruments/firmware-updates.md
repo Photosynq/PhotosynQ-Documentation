@@ -10,36 +10,6 @@ We do not recommend that anyone uploads any other versions of the firmware or fr
 
 When you connect to an Instrument using the mobile app or the desktop app, you will be notified if there is a firmware update available. Firmware updates usually provide fixes as well as new features. Some new measurement protocols might require the latest firmware, so we strongly recommend installing the updates. Below you find instructions on how to install those updates using the Mobile App (Android) or the Desktop App.
 
-***
-
-## Mobile App (Android)
-
-![(1) Connect your Instrument. (2) Check for updates. (3) Select the update to install. (4) Confirm the update. (5) Wait for the update installation. (6) Reconnect and confirm the update has been installed.](./images/firmware-update-android.png)
-
-### Step 1
-
-Make sure Bluetooth is enabled on your phone/tablet and select your Instrument from the list. In case the Instrument is not showing up, use the **"Scan Devices"** button to update the list.
-
-### Step 2
-
-After connecting your Instrument select **"Check for Firmware Update"** to check for updates. Make sure, you have an active internet connection.
-
-### Step 3
-
-If an update is available for your Instrument, select **"Install"** to install the firmware update on your Instrument. The version number of the update as well as the changes will be displayed.
-
-### Step 4
-
-Confirm that you want to install the firmware update.
-
-### Step 5
-
-Wait for the firmware to be uploaded to the Instrument. **Don't turn off your Instrument or phone/tablet during the update process.
-
-### Step 6
-
-After the update is finished the Instrument will restart. Check if version number of the firmware has increased.
-
 ## Desktop App
 
 ![(1) Connect your Instrument, and click on the Update button (2) Confirm the update installation. (3-4) Update Progress and Instrument Restart. (5) Reconnect the Instrument after successful installation.](./images/firmware-update-desktop.png)
@@ -99,7 +69,13 @@ If the installation is finished, wait for the Instrument to restart. When the re
 
 Connect your Instrument and check if the firmware you wanted to install was installed properly.
 
-### Known Issues
+## Mobile App (Android)
+
+::: warning Not Available
+The Mobile Application no longer provides firmware updates at this point. Please use the Desktop Application.
+:::
+
+## Known Issues
 
 When the firmware is transferred to the Instrument, it might be necessary to restart it and/or the desktop app.
 Sometimes you have to repeat this step because the Instrument may take a bit longer to boot up the first time.
