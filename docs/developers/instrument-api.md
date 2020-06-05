@@ -27,7 +27,6 @@ In order to connect an Instrument with the PhotosynQ Software, after the serial 
 | device_id       | `string`           | Hexadecimal number formatted as `ff:ff:ff:ff`                    |
 | device_battery  | `string`, `number` | Instruments battery status. When there is no battery set to `-1` |
 | device_firmware | `string`, `number` | Version of the custom firmware                                   |
-| device_firmware | `string`, `number` | Version of the custom firmware                                   |
 | settings        | `object`           | Not available                                                    |
 
 :::tip
