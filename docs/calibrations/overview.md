@@ -8,7 +8,7 @@ In order to calibrate any Instrument, make sure you have the latest version of t
 
 ## 1. Charge Instrument Battery
 
-Before you can start calibrating your instrument, make sure the batteries of your Instrument are fully charged (at last 50%). Some of the LEDs are drawing a lot of power and the precision of the calibrations can depend on that.
+Before you can start calibrating your instrument, make sure the batteries of your Instrument are fully charged (at last 20%). Some of the LEDs are drawing a lot of power and the precision of the calibrations can depend on that.
 
 You can find the battery status <i class="fa fa-battery-full"></i> in the Desktop Application at bottom of the left side menu when the instrument is connected. Or you can get the battery status by selecting **View** → **Console** from the top menu and typing the command `battery` followed by the enter key into the input field.
 
@@ -29,7 +29,7 @@ Make sure you have the latest version of the [Desktop Application](../desktop-ap
 Check if there is a new firmware version is available for the Instrument to be calibrated ([Firmware Updates](../instruments/firmware-updates.md)). Depending on the firmware, some calibrations might be different or are not available. Make sure to always run the latest firmware for the most up to date methods and best results.
 
 ::: danger Update to Firmware v2.16
-Please make sure you have a CaliQ at hand, since these firmware updates require a recalibration of the Instrument!
+Please make sure you have a CaliQ at hand, since these firmware updates require a recalibration of the Instrument! In any case, please check what is required for a firmware update, before starting the update process.
 :::
 
 ## 6. Perform Calibrations
