@@ -47,6 +47,7 @@
     "minimist": "^1.2.5",
     "moment-timezone": "^0.5.28",
     "mustache": "^4.0.1",
+    "natsort": "^2.0.2",
     "photosynq-helpers": "github:Photosynq/helpers#v1.1.4",
     "puppeteer": "1.10.0",
     "through2": "^3.0.1",
