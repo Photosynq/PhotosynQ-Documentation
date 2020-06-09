@@ -20,7 +20,7 @@ Due to a hardware change, the MultispeQ v1.0 requires a small adapter for connec
 
 ## Test Connection
 
-Before starting to calibrate the MultispeQ, check if the instruments are communicating properly.
+Before starting to calibrate the MultispeQ, check if the instruments are communicating properly. Open the Instrument Settings and select **CaliQ Connection** under **Instrument Tests**. When using a Calibration Assistant, the connection will be tested as part of the assistant.
 
 ## About
 
