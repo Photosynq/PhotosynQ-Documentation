@@ -235,10 +235,10 @@ module.exports = {
                     'instruments/caliq',
                     'instruments/instrument-settings',
                     'instruments/instrument-calibrations',
-                    'instruments/firmware-updates',
-                    'instruments/console-commands',
                     'instruments/light-guide-mask',
                     'instruments/leaf-mask-calibration',
+                    'instruments/firmware-updates',
+                    'instruments/console-commands',
                     'instruments/troubleshooting'
                 ]
             },
