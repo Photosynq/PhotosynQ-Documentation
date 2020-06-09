@@ -1,6 +1,6 @@
 # Overview
 
-> Instrumentation should be affordable, reliable, and easy to use to enable as many people as possible to contribute to research. The instrument is developed to work with PhotosynQ to try to bridge this chasm between what is currently available and the for mentioned goals.
+> Instrumentation should be affordable, reliable, and easy to use to enable as many people as possible to contribute to research. The instruments developed to work with PhotosynQ try to bridge this chasm between what is currently available and the for mentioned goals.
 
 ## MultispeQ v2.0
 
