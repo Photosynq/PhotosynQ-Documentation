@@ -9,7 +9,7 @@ Once you have selected the Project that you want to contribute measurements to, 
 5. Select **ACCEPT** if you want to submit the measurement to the website or **DISCARD** if you want to discard the measurement and try again.
 
 ::: tip Tip
-If you are using the default protocol **Leaf Photosynthesis v1.0** the measurement will automatically start once you have opened the clamp and closed it over the leaf. Other protocols the measurement may begin as soon as you select **Take Measurement**. - **Make sure you know when the protocol you are using begins!**
+If you are using the default protocol **Photosynthesis RIDES** the measurement will automatically start once you have opened the clamp and closed it over the leaf. Other protocols the measurement may begin as soon as you select **Take Measurement**. - **Make sure you know when the protocol you are using begins!**
 :::
 
 ## Connect an Instrument
@@ -54,7 +54,7 @@ If you are having trouble connecting to the MultispeQ, please look for trouble s
 Once you have completed a measurement you will have the opportunity to examine it before submitting it to the website. Lets take a quick tour of your measurement!
 
 ::: warning Note
-This section of the tutorial covers the default MultispeQ plant health protocol: **Leaf Photosynthesis v1.0**, and may not represent the results from other protocols.
+This section of the tutorial covers the default MultispeQ plant health protocol: **Photosynthesis RIDES**, and may not represent the results from other protocols.
 :::
 
 The graphical representation of the measurement is called a **trace**. The parameters output by the PhotosynQ platform are generated from values within this trace.
