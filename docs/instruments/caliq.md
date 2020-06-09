@@ -12,7 +12,7 @@
 
 ## Setup
 
-![CaliQ attached to the MultispeQ v2.0](./images/multispeq-caliq-setup.png)
+![CaliQ attached to the MultispeQ v2.0](./images/multispeq-caliq-setup.jpg)
 
 ::: warning MultispeQ v1.0 Users
 Due to a hardware change, the MultispeQ v1.0 requires a small adapter for connecting the CaliQ. Please contact <support@photosynq.org> before purchasing a device.
