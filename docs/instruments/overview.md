@@ -21,7 +21,7 @@ Now the instrument has a charging indicator and a RGB progress/action indicator 
 
 ## CaliQ
 
-![CaliQ](./images/caliq.png)
+![CaliQ](./images/caliq.jpg)
 
 The CaliQ is a calibrated PAR (Photosynthetically Active Radiation) sensor and a calibrated white light source to calibrate a MultispeQ (v1.0 and v2.0).
 
