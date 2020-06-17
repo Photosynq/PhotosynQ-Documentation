@@ -373,19 +373,19 @@
 
 ***
 
-{{> docs/instruments/firmware-updates.md}}
-
-***
-
-{{> docs/instruments/console-commands.md}}
-
-***
-
 {{> docs/instruments/light-guide-mask.md}}
 
 ***
 
 {{> docs/instruments/leaf-mask-calibration.md}}
+
+***
+
+{{> docs/instruments/firmware-updates.md}}
+
+***
+
+{{> docs/instruments/console-commands.md}}
 
 ***
 
