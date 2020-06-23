@@ -8,7 +8,7 @@ In order to calibrate any Instrument, make sure you have the latest version of t
 
 ## 1. Charge Instrument Battery
 
-Before you can start calibrating your instrument, make sure the batteries of your Instrument are fully charged (at last 20%). Some of the LEDs are drawing a lot of power and the precision of the calibrations can depend on that.
+Before you can start calibrating your instrument, make sure the batteries of your Instrument are fully charged (at least 50%). Some of the LEDs are drawing a lot of power and the precision of the calibrations can depend on that.
 
 You can find the battery status <i class="fa fa-battery-full"></i> in the Desktop Application at bottom of the left side menu when the instrument is connected. Or you can get the battery status by selecting **View** → **Console** from the top menu and typing the command `battery` followed by the enter key into the input field.
 

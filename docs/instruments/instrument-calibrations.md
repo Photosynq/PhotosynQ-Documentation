@@ -32,7 +32,7 @@ If you are an advanced user and you prefer to run the calibrations protocols ind
 ::: danger Trouble Shooting
 + When performing a calibration that has multiple steps, **always** start with **Step 1**.
 + Make sure the leaf clamp is completely closed when clamping cards before confirming the next step.
-+ When calibrating any of the lights or the PAR sensor, make sure the battery level is **at least 20%**.
++ When calibrating any of the lights or the PAR sensor, make sure the battery level is **at least 50%**.
 :::
 
 ### Saving Calibrations
