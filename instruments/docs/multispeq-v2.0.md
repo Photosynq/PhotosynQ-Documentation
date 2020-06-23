@@ -131,7 +131,7 @@ The open and close position for the MultispeQ needs to be recalibrated in regula
 Connect your Instrument [link], using USB or Bluetooth. 
 Go to the [icon] Settings tab, then the [icon] Connection tab in the Desktop Application. Plug the MultispeQ into the computer using the micro-USB provided with the Instrument, then find the correct port from the dropdown menu.
 *[Note in Yellow, “Title”]  If the device is not connecting, or you are having trouble finding the port in the dropdown menu, you may need to hit the refresh button several times.*
-Ensure the MultispeQ Instrument is above 20% battery charge.
+Ensure the MultispeQ Instrument is above 50% battery charge.
 Go to the [icon] Protocols tab then select the [icon] Explore button from the top of the window. Using the pull down menu on the search bar, search for the category “Calibrations”.
 Calibration:
 Step 2: Find the protocol “CAL#1: init_settings”. Click “Run”. This protocol:
