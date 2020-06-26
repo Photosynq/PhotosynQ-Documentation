@@ -4,24 +4,24 @@
 
 ## Design Experiment
 
-The PhotosynQ platform allows you to [design experiments](../projects/create-a-new-project.md) called Projects and collecting custom sets of meta data with each measurement. This additional data, entered by answering Project questions can be used to filter a data set or be part of the data collected, like plant size, treatment, et cetera. [Additionally generated data](../projects/import-custom-data.md), like dry weight, yield or absolute chlorophyll content, can be added to the project post measurement data collection.
+The PhotosynQ platform allows you to [design experiments](../projects/create-a-new-project.md) or join other’s projects through an intuitive and collaborative online application. Use staff-picked protocols and macros or create your own to personalise the data you collect. Further customize your experiments by collecting custom sets of meta-data with each measurement. This additional data, entered by answering Project questions, can be used to filter a data set or be part of the data collected such as plant size, treatment, et cetera. [Additionally generated data](../projects/import-custom-data.md) like dry weight, yield, or absolute chlorophyll content, can be added to the project post measurement data collection for more analytics.
 
 ## Collect Data
 
-The data collection is easy and fast using the MultispeQ together with the [Android Mobile Application](../mobile-application/general.md) in the field or with the [Desktop Application](../desktop-application/general.md) in the lab for bench top experiments. Both applications allow to collect measurements for set up Projects, but also single, quick measurements. The Desktop Application allows to save those quick measurements in a Notebook.
+Data collection is fast and easy using the MultispeQ together with the [Android Mobile Application](../mobile-application/general.md) in the field or with the [Desktop Application](../desktop-application/general.md) in the lab for bench top experiments. Both applications allow you to collect measurements for created Projects in addition to singular quick measurements. The Desktop Application even allows you to save those quick measurements in a Notebook.
 
 ## Analyze Data
 
-The collected data can be analyzed using the online data analysis tools. They allow the data set to be filtered, plot parameters in various ways, including scatter, line and density plots, histograms and box box plots. Also basic statistics are available. The data can also be [downloaded](../view-and-analyze-data/download-data.md) as a spreadsheet or using the provided [python or R](../view-and-analyze-data/external-libraries.md) libraries as data frames.
+The collected data can then be analyzed using the online data analysis tools. They allow the dataset to be filtered and plotted onto scatter, line, and density plots as well as histograms and box plots. In addition to these functions basic statistical tests are available. The data can also be [downloaded](../view-and-analyze-data/download-data.md) as a spreadsheet or use the provided [python or R](../view-and-analyze-data/external-libraries.md) libraries as data frames.
 
 ## Connect and Collaborate
 
-Projects on PhotosynQ enables [collaboration](../projects/project-collaborators.md) allowing researchers from anywhere [contribute](../projects/join-a-project.md) to a research Project. Groups around the world can collect data simultaneously and compare results. The [forums](https://photosynq.org/forums) can be used to organize collaboration, or already existing PhotosynQ users can be [invited to the join](../account/project-invitations.md) Projects.
+Projects on PhotosynQ are built with [collaboration](../projects/project-collaborators.md) in mind, allowing researchers from around the world to [contribute](../projects/join-a-project.md) to a Project. Collaborators can collect data simultaneously anywhere in the world and compare measurements, plots, and statistics on the online application. The [forums](https://photosynq.org/forums) are a great tool to organize collaboration, or PhotosynQ users can be [invited](../account/project-invitations.md) to or join projects on their own.
 
 ## Identify Improvements
 
-Since the data is immediately analyzed, changes or adjustments to the Project can be made instantly. New data can be collected. Previously collected data can be [recalculated](../projects/create-edit-a-project.md) if necessary to improve the data analysis. The parameter SPAD (relative Chloropyll) can be used to decide when to apply fertilizer.
+With the data you and your colleagues have collected and analysed you can now make decisions on what this data means for your research, experiment, or growing operation. The relative chlorophyll parameter can be used to help identify when your plants may need more fertilizer, or the PhiNPQ parameter can be used to see which of your plants is best suited to grow in stressful environments. Your data can even stand as a beginning point to find and answer more scientific questions.
 
 ## Advancements and Solutions
 
-You are able to connect and discuss results and research progress using the [Forums](https://photosynq.org/forums) or the Project Discussion. Results can be written up and attached to the Project on PhotosynQ. The Project data can be provided in publications as well.
+Use your results to heighten your yields or choose the next plants for your breeding program. New data can even be collected to add to your data set and give you further insights to improve your plants. With the community and customisable data collection of PhotosynQ platforms, solutions can be found for any of your plant issues or questions from research experiments to community garden management.
