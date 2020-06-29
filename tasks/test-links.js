@@ -61,34 +61,27 @@ var testLinks = function (cb) {
 		});
 		var errors = false;
 		for (var file in files) {
-			console.log(`\n${chalk.cyan(file)}`);
 			var toCheck = false;
 			if (files[file]['links'] !== undefined) {
 				for (var l in files[file]['links']) {
 					toCheck = true;
 					if (deadLinks.indexOf(files[file]['links'][l]) > -1) {
+						console.log(`\n${chalk.cyan(file)}`);
 						console.log(`[${chalk.red('✖')}] ${chalk.yellow('LINK')} ${files[file]['links'][l]}`);
 						errors = true;
 					}
-					else
-						console.log(`[${chalk.green('✓')}] ${chalk.yellow('LINK')} ${files[file]['links'][l]}`);
 				}
 			}
 			if (files[file].local !== undefined) {
 				for (var l in files[file].local) {
 					toCheck = true;
-					if (files[file].local[l].match(/^data:image/))
-						console.log(`[${chalk.green('✓')}] ${chalk.yellow('LOCAL')} base64 image`);
-					else if (jetpack.exists(files[file].local[l])) {
+					if (jetpack.exists(files[file].local[l])) {
+						console.log(`\n${chalk.cyan(file)}`);
 						console.log(`[${chalk.red('✖')}] ${chalk.yellow('LOCAL')} ${files[file].local[l]}`);
 						errors = true;
 					}
-					else
-						console.log(`[${chalk.green('✓')}] ${chalk.yellow('LOCAL')} ${files[file].local[l]}`);
 				}
 			}
-			if (!toCheck)
-				console.log(`- ${chalk.yellow('Nothing to Check')}`);
 		}
 		if (errors)
             console.log(chalk.red(`\nError: ${deadLinks.length} Dead links or missing files found`));
