@@ -101,7 +101,7 @@ You will need to use the PhotosynQ mobile or desktop app to collect data, only t
 
 Once your project is updated and you have connected to your Instrument like the MultispeQ, you can collect a large volume of data and store it locally on the app, even if you do not have internet connection. Once you have finished collecting data, you will need to upload your data to the PhotosynQ server.
 
-When you collect data in your project, the way it is collected, and later interpreted/displayed is dependent on the protocol and the associated macro selected in project creation. If you chose **Photosynthesis RIDES** like most, the measurement should take about ~15 seconds and return data on your phone that looks something like this:
+When you collect data in your project, the way it is collected, and later interpreted/displayed is dependent on the protocol and the associated macro selected in project creation. If you chose **Photosynthesis RIDES** like most, the measurement returns data on your phone that looks something like this (protocol waits for the clamp to be open and closed before it starts):
 
 ![Finished Measurement](./images/collecting-data-results.jpg)
 
