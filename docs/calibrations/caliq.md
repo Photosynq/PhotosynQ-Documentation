@@ -8,7 +8,7 @@ If you don't have an external PAR sensor at hand, you are not able to recalibrat
 
 ## External PAR sensor
 
-In order to calibrate the CaliQ you require an additional external PAR sensor (not included with the CaliQ). Possible sensors would be the LI-COR® LI-190R the Walz GmbH MQS-B or similar cosine corrected light probes. The MultispeQ PAR sensor can not be used as an external PAR sensor.
+In order to calibrate the CaliQ you will require an additional external PAR sensor (not included with the CaliQ). Possible sensors would be the LI-COR® LI-190R, the Walz GmbH MQS-B, or a similar cosine corrected light probe. The MultispeQ PAR sensor can not be used as an external PAR sensor.
 
 ## Calibration Routine
 
@@ -30,7 +30,7 @@ Select <i class="fa fa-area-chart"></i> **Protocols** from the side menu on the 
 
 #### Step 1
 
-The Protocol will prompt you to **“attach CaliQ device to the MultispeQ. Be sure to place connector in correct orientation”**. Attach the CaliQ to the instrument using a USB-C cable. Select **OK** to make to continue.
+The Protocol will prompt you to **“attach CaliQ device to the MultispeQ. Be sure to place connector in correct orientation”**. Attach the CaliQ to the instrument using a USB-C cable. Select **OK** to continue.
 
 ![Connect the CaliQ to the MultispeQ](./images/caliq-connected-to-multispeq.jpg)
 
