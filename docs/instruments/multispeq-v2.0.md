@@ -15,11 +15,11 @@
 
 ### Leaf Clamp Button
 
-Push down the leaf clamp button to open the leaf clamp. Push and release with an even motion and prevent it from snapping back. In case the open and closing feels rough, a small amount of lithium grease can be used to make the open and closing motion more smoothly.
+Push down the leaf clamp button to open the leaf clamp. Push and release with an even motion to prevent it from snapping back. In case the opening and closing feels rough, a small amount of lithium grease can be used to make the motion smoother.
 
 ### PAR Sensor
 
-The PAR sensor located on top of the instrument. When taking measurements, depending on the measurement protocol, the light intensity measured will be replicated inside the instrument. Make sure the PAR sensor is clean and not to cover or shade, to prevent altering the actual intensity.
+The PAR sensor is located on top of the instrument. When taking measurements, depending on the measurement protocol, the light intensity measured will be replicated inside the instrument. Make sure the PAR sensor is clean and not covered or shaded to prevent altering the actual intensity.
 
 ### Seal
 
@@ -27,7 +27,7 @@ The Nitrile seal around the light guide on the main body and the clamp is ensuri
 
 ### Light Guide
 
-The light guides are made from acrylic. Make sure, it is clean and prevent clamping hard, rough materials which can cause scratches.
+The light guides are made from acrylic. Make sure it is clean and prevent it clamping hard rough materials which can cause scratches.
 
 ::: tip
 You may need to clean the light guides occasionally. Gently clean the light guides with a damp, soft cloth.
@@ -74,11 +74,11 @@ The Micro-USB port allows the Instrument to be charged and when connected to a c
 
 ### Accessory Port
 
-The [USB-C](https://en.wikipedia.org/wiki/USB-C) port allows to attach accessory equipment. When unplugging the cable, make sure not to bend the cable up and down, to not break of the Instrument connector.
+The [USB-C](https://en.wikipedia.org/wiki/USB-C) port allows you to attach accessory equipment. When unplugging the cable, make sure not to bend the cable up and down, to not break of the Instrument connector.
 
 ### Charge Indicator
 
-The little LED in the back indicates, when the Instrument is charging. When the battery is fully charged, the LED will turn off.
+The little LED in the back indicates when the Instrument is charging. When the battery is fully charged, the LED will turn off.
 
 ## Configuration
 
