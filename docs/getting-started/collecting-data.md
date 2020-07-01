@@ -18,17 +18,17 @@ You can use Bluetooth or USB to connect your Instrument with your device. Depend
 
 For data collection in the field, most people will use the mobile app. So lets focus on connecting the MultispeQ to your android phone. For tips on how to connect to the PhotosynQ desktop app please check out [Connect an Instrument - Desktop](../desktop-application/connect-an-instrument.md) or [Connect an Instrument - Mobile](../mobile-application/connect-an-instrument.md).
 
-**Before connecting your MultispeQ to the Android or Desktop App you need to turn on the MultispeQ by pressing and holding the power button for 5 seconds.** There is no indicator light to let you know if it is turned on.
+**Before connecting your MultispeQ to the Android or Desktop App you need to turn on the MultispeQ by pressing and holding the power button for 5 seconds.** The indicator light will blink once every ten seconds to let you know if it is turned on.
 
 ![Connect an Instrument: The arrow indicates the power and reset button.](./images/first-steps-turn-multispeq-on.jpg)
 
 1. In the app, select the Instrument icon on the top right corner.
-2. A list of available Bluetooth Instrument will appear.
+2. A list of available Bluetooth Instruments will appear.
 3. Below the Instrument name will be its ID. This should match the MAC address on your Instrument (screen A, below)
    - If your Instrument does not appear, click on **SCAN DEVICES**
    - You may have to click **SCAN DEVICES** multiple times before your Instrument appears.
 4. Select on the appropriate Instrument.
-5. A pop-up will appear asking to pair the device by entering the Instrument PIN. **The PIN is 1234 and is the same for every MultispeQ.**
+5. If this is your first time connecting this MultispeQ, a pop-up will appear asking to pair the device by entering the Instrument PIN. **The PIN is 1234 and is the same for every MultispeQ.**
 6. After pairing the MultispeQ, you will be taken back to the Device list. Select your MultispeQ from the list, if the screen B (below) appears your device is connected.
 
 ![Android - Bluetooth: (A) Scanning for MultispeQ devices. (B) Information about the connected device.](./images/first-steps-connect-multispeq.jpg)
@@ -63,7 +63,7 @@ The graphical representation of the measurement is called a **trace**. The param
 
 ### Most Common Parameters
 
-Using the MultispeQ, is returning a large number of parameters, including abiotic, fluorescence and absorbance based measurements. Which parameters are returned depends on the selected measurement Protocol and its Macro for evaluating the measurement. The following table just lists the most common parameters.
+The MultispeQ returns a large number of parameters, including abiotic, fluorescence and absorbance based measurements. Which parameters are returned depends on the selected measurement Protocol and its Macro for evaluating the measurement. The following table just lists the most common parameters.
 
 | Type         | Parameters                                                                                                                |
 | :----------- | :------------------------------------------------------------------------------------------------------------------------ |
@@ -71,7 +71,7 @@ Using the MultispeQ, is returning a large number of parameters, including abioti
 | Fluorescence | Φ<sub>II</sub>, Φ<sub>NPQ</sub>, Φ<sub>NO</sub>, LEF, NPQ<sub>t</sub> [Φ most of the time written as *Phi*]               |
 | Absorbance   | Relative Chlorophyll Content (SPAD), ECS<sub>t</sub>, vH⁺, gH⁺                                                            |
 
-Additional parameters, information on how they can be derived and references can be found [here](../view-and-analyze-data/references-and-parameters.md).
+Additional parameters, information on how they can be derived, and references for them can be found [here](../view-and-analyze-data/references-and-parameters.md).
 
 ## Submitting Quality Measurements
 
@@ -97,10 +97,9 @@ To take another measurement, click on **new measurement**.
 
 ### Submit Cached Data
 
-If you would prefer to manually submit your data, or to limit the auto upload feature to when you have wifi connection only (to avoid using mobile data), go to the **Settings** tab in the mobile app menu.
+If you would prefer to manually submit your data, or to limit the auto upload feature to when you have wifi connection only (to avoid using mobile data), go to the **Settings** tab in the mobile app menu.This provides you more freedom to reconfirm all the measurements before submitting them to the website.
 
-- This provides you more freedom to reconfirm all the measurements before submitting them to the website.
-- Before measurements are submitted to the website, you can add notes, pictures, or even delete measurements directly from the **Measurements** tab.
+Before measurements are submitted to the website, you can also add notes, pictures, or even delete measurements directly from the **Measurements** tab.
 
 ![Settings](./images/collecting-data-settings-notes.jpg)
 
