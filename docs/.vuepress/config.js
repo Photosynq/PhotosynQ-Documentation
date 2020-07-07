@@ -236,6 +236,7 @@ module.exports = {
                     'instruments/instrument-settings',
                     'instruments/instrument-calibrations',
                     'instruments/light-guide-mask',
+                    'instruments/backups',
                     'instruments/firmware-updates',
                     'instruments/console-commands',
                     'instruments/troubleshooting'
