@@ -34,6 +34,10 @@ If the installation is finished, wait for the Instrument to restart. When the re
 
 After the update is finished the Instrument will restart. Check if the version number of the firmware has increased.
 
+### Step 6
+
+Most updates require to restore the Latest Backup after the Firmware Update has been successfully finished. Just click on "Continue" and the latest Backup is automatically selected and installed. When the protocol for restoring the Backup is ready, simply select **Save to Instrument** and confirm the popup dialog.
+
 ***
 
 ## Manual Firmware Update

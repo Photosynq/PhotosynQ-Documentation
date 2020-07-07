@@ -6,9 +6,14 @@ Calibration Information, Settings and as well as Instrument related information 
 
 In order to create a Backup, make sure your Instrument is connected. Under the item "Memory Backup" you will find the date and time of the latest Backup and the **Manage** button. Click on **Manage** and select **Create Backup** from the dropdown menu. After a few seconds a Backup is created and the date and time is updated to match the time point of the Backup.
 
-:::tip Note
+:::tip Firmware Updates
+Before a Firmware Update, the Instrument's memory is automatically backed up, to ensure calibrations and settings can be safely transferred or restored after a Backup.
+:::
+
+:::tip Calibration Assistant
 When running an Assistant, the Instrument's data is automatically backed up after the Assistant has been successfully finished.
 :::
+
 
 ## Manage Backups
 
