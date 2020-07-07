@@ -1,4 +1,6 @@
-# Small Leaf Mask - Calibration
+# Light Guide Mask Calibration
+
+> Calibrating the Instrument to work with small leaves.
 
 There have been several people who asked about using MultispeQ with a small leaf mask. Here is what you need to know and do:
 

@@ -42,4 +42,4 @@ Make sure when using tape not to cover the air channels or light guide.
 
 ### Step 4
 
-Continue with the next chapter on how to recalibrate your instrument for the use with a leaf mask ([Small Leaf Mask - Calibration](./leaf-mask-calibration.md)).
+Continue with the next chapter on how to recalibrate your instrument for the use with a leaf mask ([Light Guide Mask Calibration](../calibrations/light-guide-mask-calibration.md)).

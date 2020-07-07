@@ -236,7 +236,6 @@ module.exports = {
                     'instruments/instrument-settings',
                     'instruments/instrument-calibrations',
                     'instruments/light-guide-mask',
-                    'instruments/leaf-mask-calibration',
                     'instruments/firmware-updates',
                     'instruments/console-commands',
                     'instruments/troubleshooting'
@@ -250,7 +249,8 @@ module.exports = {
                     'calibrations/overview',
                     'calibrations/multispeq-v2.0',
                     'calibrations/multispeq-v1.0',
-                    'calibrations/caliq'
+                    'calibrations/caliq',
+                    'calibrations/light-guide-mask-calibration'
                 ]
             },
             {
