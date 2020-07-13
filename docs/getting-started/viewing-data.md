@@ -22,7 +22,7 @@ To start generating **Series**
 4. Choose whether you want to make a single series or multiple series
    - To add a single Series
      1. Make your filter selections.
-     2. Select **+ Add** below the available filter options to create one series
+     2. Select **+ Add** above the available filter options to create one series
 
    ![Single Series](./images/viewing-data-one-series.png)
 
@@ -35,12 +35,12 @@ To start generating **Series**
 ## Graph Data
 
 1. Click on the graph creator icon in the data viewer.
-2. Select the kind of graph that you want to create from the dialog box. You can choose between a variety of scatter, bar and histogram charts.
-3. Use the drop down menu's to choose which parameters you wish to graph.
+2. Click the Plot data button on the left side of the screen. Select the kind of graph that you want to create from the dialog box. You can choose between a variety of scatter, bar, distribution, and matrix charts.
+3. Use the drop down menu(s) to choose which parameters you wish to graph.
 4. After you have chosen the parameters to graph, select **Plot**.
 
 ::: tip Tip
-The most important parameters will be listed as **Primary Parameters** and **Project Questions**. If the parameter you are looking for is not in these two categories, scroll to the bottom of the drop down menu and look under **Advanced**.
+The parameters will be listed in categories such as **Primary Parameters** and **Project Questions**. If the parameter you are looking for is not in these two categories, scroll to the bottom of the drop down menu and look under **Advanced**.qq
 :::
 
 For more help with plotting data, please visit the [Help Center](../view-and-analyze-data/data-plot-data.md).
