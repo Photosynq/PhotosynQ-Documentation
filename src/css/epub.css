@@ -241,3 +241,30 @@ kbd {
     border-radius: 0.15rem;
     padding: 0 0.15em;
 }
+
+/* Table of contents styles */
+#toc>ol {
+    list-style-type: none;
+    padding: 0.2em;
+    color: #94979B;
+    ;
+}
+
+#toc>ol>li>a {
+    display: inline-block;
+    padding: 0.3em;
+}
+
+#toc>ol li>ol>li {
+    padding-top: 0.2em;
+}
+
+#toc>ol li>ol {
+    padding: 1em 0em 2em 2em;
+    border-top: 1px solid rgb(235, 235, 235);
+}
+
+#toc>ol>li a {
+    text-decoration: none;
+    color: black;
+}

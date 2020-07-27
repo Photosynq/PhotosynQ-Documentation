@@ -84,9 +84,9 @@ var testLinks = function (cb) {
 			}
 		}
 		if (errors)
-            console.log(chalk.red(`\nError: ${deadLinks.length} Dead links or missing files found`));
-        cb();
-    });
+			console.log(chalk.red(`\nError: ${deadLinks.length} Dead links or missing files found`));
+		cb();
+	});
 };
 
 module.exports = testLinks;

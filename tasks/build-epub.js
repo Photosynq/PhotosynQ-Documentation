@@ -3,26 +3,20 @@
  * Task: Build PDF from HTML
  */
 
-const through2 = require('through2');
 const jetpack = require('fs-jetpack');
-
+const config = require('../docs/.vuepress/config.js');
 const epub = require('epub-gen');
 const Entities = require('html-entities').XmlEntities;
 const moment = require('moment-timezone');
-const {getGitTag} = require('./tag');
+const { getGitTag } = require('./tag');
+const { mdToHTML } = require('./build-html');
 
+const entities = new Entities();
 
-const {mdToHTML} = require('./build-html');
-
-const buildEPUB = function(cb){
+const buildEPUB = function (cb) {
     var cwd = jetpack.cwd();
-    var input = ['./dist/PhotosynQ-Help-Manual.md'];
 
-    var md = "";
-    for(var f in input){
-        md += jetpack.read(input[f]);
-    }
-
+    /* Adding styles to the styles string */
     var cssString = jetpack.read(jetpack.path(cwd, 'src', 'css', 'epub.css'));
     cssString += jetpack.read(jetpack.path(cwd, "node_modules", "highlight.js", "styles", "github.css"));
     cssString += jetpack.read(jetpack.path(cwd, "src", "css", "linenumbers.css"));
@@ -32,7 +26,7 @@ const buildEPUB = function(cb){
     var option = {
         title: "PhotosynQ Documentation", // *Required, title of the book.
         author: "PhotosynQ, Inc", // *Required, string or array.
-        // publisher: "", // optional
+        publisher: "PhotosynQ, Inc", // optional
         version: 3, // or 2
         css: cssString, // sting with css
         fonts: [
@@ -67,37 +61,12 @@ const buildEPUB = function(cb){
         verbose: true
     };
 
-    const entities = new Entities();
-    var html = mdToHTML(md);
-    html = html.trim().split('\n');
-
-    var chapters = {};
-    var chapterTitle = null;
-
-    for (var i in html) {
-        if (html[i].match(/^<h1/)) {
-            if (html[i].match(/(class="chapter")/) || html[parseInt(i) + 1].match(/<span class="text-muted">Modified/)) {
-                continue;
-            }
-            chapterTitle = html[i].replace(/<\/?[^>]+(>|$)/g, "");
-            chapters[chapterTitle] = "";
-            continue;
-        }
-        if (chapterTitle) {
-            if (html[i].match(/<span class="text-muted">Modified/) || html[i].match(/<span class="text-muted">Version/))
-                continue;
-            chapters[chapterTitle] += html[i] + '\n';
-        }
-    }
-    var date = moment((option.date === undefined) ? new Date() : option.date).format('LL') || moment().format('LL');
-    var version = (option.version === undefined) ? "unknown" : option.version;
-
     // Get Tag info
     var tag = getGitTag();
 
     var header = '<div style="margin-top:45%; text-align:center">';
     header += '<p>PhotosynQ Documentation</p>';
-    header += '<small>' + moment((tag.date ||  new Date() )).format('LL') + '</small><br>';
+    header += '<small>' + moment((tag.date || new Date())).format('LL') + '</small><br>';
     header += '<small>Version: ' + (tag.name || '---') + '</small>';
     header += '</div>';
 
@@ -107,11 +76,65 @@ const buildEPUB = function(cb){
         beforeToc: false
     });
 
-    for (var c in chapters) {
+    var chapters = config.themeConfig.sidebar;
+
+    for (var i in chapters) {
+
+        // Make sure to skip the landing page
+        if (typeof chapters[i] !== 'object')
+            continue;
+
+        // Add parent chapter
         option.content.push({
-            title: entities.decode(c),
-            data: chapters[c]
+            title: entities.decode(chapters[i].title),
+            groupBy: entities.decode(chapters[i].title),
+            data: "",
+            excludeFromToc: false,
+            beforeToc: false
         });
+
+        for (var c in chapters[i].children) {
+
+            var path = `docs/${chapters[i].children[c]}.md`;
+            var chapter = jetpack.read(path);
+
+            // Update paths for images
+            var dir = jetpack.path(path.replace(jetpack.inspect(path).name, ""));
+            chapter = chapter.replace(/!\[([^\]]*)\]\((.*?)\s*("(?:.*[^"])")?\s*\)/g, function (match, g1, g2, g3) {
+                var link = '';
+                if (g2.match(/data:image/)) {
+                    link = g2;
+                }
+                else {
+                    link = jetpack.path(dir, g2);
+                }
+                return `![${g1}](${link})`;
+            });
+
+            // Remove TOCs
+            chapter = chapter.replace(/(\[\[TOC\]\]\n)/gm, '');
+
+            // Remove Tabs
+            chapter = chapter.replace(/(:{4}\s{1,}tabs.*\n{1,})|(:{3}\n{0,}:{3}\s{1,}tab.*\n{1,})|(:{3}\n{0,}:{4})|(:{3}\s{1,}tab.*\n{1,})|(:{4}\n{1,})/gm, '');
+
+            // Get Chapter title
+            var chapterTitle = chapter.match(/^(#\s.*)/)[0].slice(2) || "";
+            chapterTitle = chapterTitle.replace(/\s?<badge.*/i, "");
+
+            // Remove Title since it is added by the 
+            chapter = chapter.replace(/[-\n]{0,4}#\s+(.*)/,"");
+
+            // Convert markdown to html
+            var html = mdToHTML(chapter);
+
+            option.content.push({
+                title: entities.decode(chapterTitle),
+                groupBy: entities.decode(chapters[i].title),
+                data: html,
+                excludeFromToc: false,
+                beforeToc: false
+            });
+        }
     }
 
     new epub(option, "./dist/PhotosynQ-Documentation.epub");

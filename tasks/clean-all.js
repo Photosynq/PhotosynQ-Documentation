@@ -4,8 +4,8 @@
 
 const jetpack = require('fs-jetpack');
 
-const clean = function(cb){
-    jetpack.find('./dist', {matching: ['*']}).forEach(jetpack.remove);
+const clean = function (cb) {
+    jetpack.find('./dist', { matching: ['*'] }).forEach(jetpack.remove);
     cb();
 };
 

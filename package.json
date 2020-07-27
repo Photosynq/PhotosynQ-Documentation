@@ -50,7 +50,6 @@
     "mustache": "^4.0.1",
     "natsort": "^2.0.2",
     "photosynq-helpers": "github:Photosynq/helpers#v1.1.4",
-    "puppeteer": "1.10.0",
     "through2": "^3.0.1",
     "vuepress": "^1.5.2",
     "vuepress-plugin-autometa": "^0.1.13",

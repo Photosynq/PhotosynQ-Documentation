@@ -34,39 +34,25 @@ module.exports = {
         logo: '/logo.svg',
         nav: [
             {
-                text: 'Documents',
+                text: 'Resources',
                 items: [
                     {
-                        text: 'Documents (PDF)',
+                        text: 'Downloads',
                         items: [
-                            { text: 'Documentation', link: 'https://help.photosynq.org/downloads/PhotosynQ-Documentation.pdf' },
-                            { text: 'MultispeQ v1.0', link: 'https://help.photosynq.org/downloads/PhotosynQ-MultispeQ-v1.0.pdf' },
-                            { text: 'MultispeQ v2.0', link: 'https://help.photosynq.org/downloads/PhotosynQ-MultispeQ-v2.0.pdf' },
-                            { text: 'CaliQ', link: 'https://help.photosynq.org/downloads/PhotosynQ-CaliQ.pdf' }
+                            { text: 'E-Book (epub)', link: 'https://help.photosynq.org/downloads/PhotosynQ-Documentation.epub' }
                         ]
                     },
                     {
-                        text: 'E-Books (epub)',
+                        text: 'Community',
                         items: [
-                            { text: 'Documentation', link: 'https://help.photosynq.org/downloads/PhotosynQ-Documentation.epub' }
-                        ]
-                    }
-                ]
-            },
-            {
-                text: 'More',
-                items: [
-                    {
-                        text: 'Resources',
-                        items: [
-                            { text: 'Forums', link: 'https://photosynq.org/forums' }
+                            { text: 'Forums', link: 'https://photosynq.org/forums' },
+                            { text: 'Twitter', link: 'https://twitter.com/photosynq' }
                         ]
                     },
                     {
                         text: 'Firmware',
                         items: [
-                            { text: 'Latest Firmware', link: 'https://github.com/Photosynq/MultispeQ-Firmware/releases/latest' },
-                            { text: 'Changelog', link: 'https://github.com/Photosynq/MultispeQ-Firmware/releases' }
+                            { text: 'Latest Firmware', link: 'https://github.com/Photosynq/MultispeQ-Firmware/releases/latest' }
                         ]
                     },
                     {
