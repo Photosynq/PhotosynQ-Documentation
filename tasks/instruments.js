@@ -8,6 +8,7 @@ const Mustache = require('mustache');
 const natsort = require('natsort').default;
 
 var instruments = function (cb) {
+    /* Get templates from instruments documentation folder */
     var filePath = jetpack.path('..', 'instrument-definitions', 'docs');
     var templates = jetpack.find('instruments/docs', { matching: ["*.md"] });
     var options = {};
@@ -17,9 +18,14 @@ var instruments = function (cb) {
         options[file.name.slice(0, -3)] = "";
     });
 
+    /* Check if instrument-definitions repo exists */
     if (filePath) {
+
+        /* Get all the instrument settings files */
         var files = jetpack.find(filePath, { matching: ["settings-*.md", "!*-detailed.md"] });
         files = files.sort(natsort({ desc: true, insensitive: true }));
+
+        /* Read files and create content for tabs in documentation settings */
         for (var f in files) {
             content = jetpack.read(files[f]);
             var tab = `\n::: tab ${content.match(/^(# Settings -\s?)(.*)/m)[2]}\n`;
@@ -31,6 +37,7 @@ var instruments = function (cb) {
             options["instrument-settings"] += `${tab}\n${content}\n:::\n`;
         }
 
+        /* Read files and add calibrations to calibration settings */
         files = jetpack.find(filePath, { matching: ["calibrations-*.md", "assistants-*.md", "!*-detailed.md"] });
         files = files.sort(natsort({ desc: true, insensitive: true }));
         for (f in files) {
@@ -58,15 +65,16 @@ var instruments = function (cb) {
                 options[out] = `:::: tabs type:card\n${options[out]}\n::::`;
                 docPath = jetpack.path('docs', 'instruments', `${out}.md`);
                 md = Mustache.render(template, options);
+                /* find images in settings and copy them */
                 var imgs = options[out].match(/\!\[([^\]]*)\]\((.*?)\s*("(?:.*[^"])")?\s*\)/gm);
                 if (imgs) {
                     imgs = imgs.map(function (x) {
                         var img = x.match(/\!\[([^\]]*)\]\((.*?)\s*("(?:.*[^"])")?\s*\)/)[2];
-                        var p = jetpack.path(filePath, img);
+                        var p = jetpack.path(filePath, '..',  img);
                         if (jetpack.exists(p))
                             jetpack.copy(p, jetpack.path('docs', 'instruments', img), { overwrite: true });
                         else
-                            console.log(`Error: ${p}`);
+                            console.log(`Error (Instruments): ${p}`);
                     });
                 }
             }
@@ -78,13 +86,13 @@ var instruments = function (cb) {
                     if (imgs) {
                         imgs = imgs.map(function (x) {
                             var img = x.match(/\!\[([^\]]*)\]\((.*?)\s*("(?:.*[^"])")?\s*\)/)[2];
-                            var p = jetpack.path(filePath, img);
+                            /* find images in settings and copy them */
+                            var p = jetpack.path(filePath, '..', img);
                             if (jetpack.exists(p)) {
-                                console.log(jetpack.path('docs', 'calibrations', img));
                                 jetpack.copy(p, jetpack.path('docs', 'calibrations', img), { overwrite: true });
                             }
                             else
-                                console.log(`Error: ${p}`);
+                                console.log(`Error (Calibrations): ${p}`);
                         });
                     }
                 });
