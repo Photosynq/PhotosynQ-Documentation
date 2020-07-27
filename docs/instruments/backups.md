@@ -1,6 +1,6 @@
 # Instrument Backups
 
-Calibration Information, Settings and as well as Instrument related information is stored in the permanent memory (EEPROM) of your Instrument. This memory can be backed up using the Desktop Application, allowing to reset the Instrument if needed.
+Calibration Information, Settings and as well as Instrument related information is stored in the non-volatile memory ([EEPROM](https://en.wikipedia.org/wiki/EEPROM)) of your Instrument. This memory can be backed up using the Desktop Application, allowing to reset the Instrument if needed.
 
 ## Create a Backup
 
@@ -13,7 +13,6 @@ Before a Firmware Update, the Instrument's memory is automatically backed up, to
 :::tip Calibration Assistant
 When running an Assistant, the Instrument's data is automatically backed up after the Assistant has been successfully finished.
 :::
-
 
 ## Manage Backups
 
@@ -47,7 +46,9 @@ When selecting a file, the Application will check if the Instruments ID and the 
 
 ## Current Instrument Memory
 
-You don't have to create a Backup to view your connected Instrument's memory. The memory content can be displayed in the Console Window of the application. There are two ways of accessing the memory, either through the **Instrument Settings** or the **Console** directly
+You don't have to create a Backup to view your connected Instrument's memory. The memory content can be displayed in the Console Window of the application. There are two ways of accessing the memory, either through the **Instrument Settings** or the **Console** directly.
+
+![Instrument's Memory shown in the Console](./images/desktop-console-instrument-memory.png)
 
 ### Instrument Settings
 
