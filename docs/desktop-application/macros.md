@@ -1,21 +1,19 @@
 # Macros
 
-Macros are used to calculate parameters from a measurement. To work with Macros you can select **Macros** from the left side bar, you can select **View → Macros** from the top menu bar or you can use the shortcut <kbd>Ctrl/⌘</kbd>+<kbd>4</kbd>.
+Macros are used to calculate parameters from a measurement. To work with Macros you have to select **Protocols** from the left side bar, or you can select **View → Protocols** from the top menu bar or you can use the shortcut <kbd>Ctrl/⌘</kbd>+<kbd>3</kbd>.
 
 ![The Macro List](./images/macro-list.png)
 
-**My Macros** shows a list of Macros you have created. **Explore** will provide a list of all Macros currently available on the Platform. Click on the list headers to sort the list of Macros by name, creator, and date.
+**My Protocols** shows a list of Protocols with Macros you have created. **Explore** will provide a list of all Protocols with Macros currently available on the Platform. Click on the list headers to sort the list of Protocols by name, creator, and date.
 
-A **single click** on a Macro from the list will bring up details about the Macro in the right side bar. Here you can also see the discussion around the macro as well as add new comments. A **double click** will directly open the Macro in the Macro Editor.
+A **single click** on a Protocol from the list will bring up details about the Protocol in the right side bar. Here you can also see the discussion around the Protocol/Macro as well as add new comments. A **double click** will run the Protocol. To open the Macro, click on the **Edit** button in the side bar and then select **Macro Code** from the top Menu.
 
-Select the search field in the top right corner <kbd>Ctrl/⌘</kbd>+<kbd>F</kbd> to enter a search query followed by the enter key to search the list of Macros. Use the <i class="fa fa-times-circle"></i> button inside the input field or the <kbd>Esc</kbd> key to reset the search.
+Select the search field in the top right corner <kbd>Ctrl/⌘</kbd>+<kbd>F</kbd> to enter a search query followed by the enter key to search the list of Protocols with Macros. Use the <i class="fa fa-times-circle"></i> button inside the input field or the <kbd>Esc</kbd> key to reset the search.
 
 ## Create a new Macro
 
-You can create a new Macro by opening the Macro editor selecting **File → New Macro...** from the main menu. The Macro template will be automatically added to your Code Editor and you are ask to pick a measurement from your Notebook to use as your measurement template. You can select that measurement at any time by selecting **Measurement** from the **Menu Bar**, but it is easier to start with a measurement provided.
+Marcos are part of a measurement Protocol. You can only create a new Macro as part of a Protocol by opening the Protocol editor selecting **File → New Protocol...** from the main menu. The Protocol and Macro template will be automatically added to your Protocol Editor and you are ask to pick a measurement from your Notebook to use as your measurement template. You can select that measurement at any time by selecting **Measurement** from the **Menu Bar**, or you can run the Protocol from the Editor and add the measurement to the Editor when the measurement is done.
 
 ## Editing an existing Macro
 
-You can edit a Macro simply by selecting a macro from the list of macros and open the editor by double clicking it or you can use the edit button in the right side bar to open the Macro Editor.
-
-When you are the creator of the Macro you can either overwrite the existing Macro or you can save it as a new Macro. In case you are not the creator, you can only save the macro as a new one.
+You can edit a Macro simply by selecting the Protocol that the Macro is attached to by selecting the Protocol from the list of Protocols and open the Editor by clicking on the **Edit** button on the side bar.
