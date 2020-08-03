@@ -1,44 +1,30 @@
 # Create / Edit a Macro
 
-If you want to analyze a measurement using your own calculation, create a macro to do the calculation for you. When a Protocol has a Macro associated, the Macro will calculate all parameters derived from the measurement immediately after the measurement is done. When the measurement is saved for a Project, the raw measurement is sent to the cloud where the macro will do the calculations again.
+If you want to analyze a measurement using your own calculation, utilize a Macro to do the calculation for you. A Protocol has a Macro automatically associated which will calculate all parameters derived from the measurement immediately after the measurement is done. When the measurement is saved for a Project, the raw measurement is sent to the cloud where the macro will do the calculations again. If a Protocol/Macro gets changed, all values will be recalculated again.
 
 ![The Macro Editor](./images/macro-editor.png)
 
-## Create New Macro
+## Create a Macro
 
 1. Make sure you have the Desktop Application installed and you are signed in.
-2. Select **New Macro...** from the File menu.
-3. Select a measurement from the dialog that the macro should analyze. The measurements are selected from the notebook. If you don't have a measurement saved to your notebook, take one with the protocol the macro is for save it to your notebook.
+2. Select the **Protocol** you want to create the Macro for.
+3. Attach a measurement to the Macro
+   1. Select a measurement from the Notebook that was saved using the Protocol the Macro will be created for.
+   2. Run the Protocol from the Protocol Editor and use the "Add To Editor" button after the measurement is done.
 4. Start coding...
 
-If you need more help on how to get started, please look at this [Tutorial](../tutorials/building-a-macro.md)
+If you need more help on how to get started, please look at the [example](./create-edit-a-macro.md#example-calculating-photosystem-ii-efficiency) below.
 
 ## Edit a Macro
 
-You can change one of your Macros or extend an already existing one at any time.
+You can change or extend Macros connected to a Protocol at any time.
 
-1. Select **Macros** from the left menu bar.
-2. Double click on the macro in the list or click on **Edit** in the sidebar.
+1. Select the **Protocol** you want to update the Macro for.
+2. Click on **Edit** in the sidebar.
 3. Make your changes to the code.
-4. Select **Save as...** from the File menu or use the shortcut <kbd>Ctrl/⌘</kbd>+<kbd>Shift/⇧</kbd>+<kbd>S</kbd>.
+4. Select **Save...** from the File menu or use the shortcut <kbd>Ctrl/⌘</kbd>+<kbd>S</kbd>.
 5. Update the description if needed.
-6. Save the changes by **Save As**.
-
-::: tip Tip
-In case you altered a macro someone else had made, change the name too. In this case you only have the option **Save as**.
-:::
-
-## Save a Macro
-
-Once you are done, save your work and share it with the community.
-
-1. When you have the Macro Editor open, select **Save** from the File menu or use the shortcut <kbd>Ctrl/⌘</kbd>+<kbd>S</kbd>.
-2. In the save dialog, add a macro name and description.
-3. Save the macro by selecting **Save**.
-
-## Connecting a Macro
-
-Once you have the Macro finished, you can open the Protocol in the Protocol Editor and select the Macro from the dropdown list from the menu. Then save the Protocol again to connect the Macro. Now when the Protocol is run, it will return the calculations that have been done by the Macro after the measurement is done.
+6. Save the changes by **Save**.
 
 ## After Macro Updates
 
@@ -49,12 +35,11 @@ When updating a Macro for a Protocol that is used in a Project, the update will 
 If you have issues saving the macro, make sure you check these things first:
 
 - When a Macro is done, make sure the output box is green, indicating that there was no error.
-- Make sure you have a name and description.
-- Check that the name is not already existing.
+- Check several different measurements to make sure the Macro code works with different traces/numbers.
 
 ## Example - Calculating Photosystem II efficiency
 
-In the [previous tutorial](./building-a-protocol.md) we built a protocol to measure photosystem II efficiency. Now we can build a simple macro to automatically calculate it every time you take a measurement.
+In the [protocol example](../protocols/create-edit-protocol.md#example-photosystem-ii-efficiency) we built a protocol to measure photosystem II efficiency. Now we can build a simple macro to automatically calculate it every time you take a measurement.
 
 ### Initial Code
 
@@ -82,7 +67,9 @@ return output;
 
 In order to calculate the parameters **Fs** (steady state fluorescence) and **Fmp** (maximum fluorescence), you have to access the recorded fluorescence trace. The Macro editor allows you to select the regions, by using the graph of the trace. In the example below, check range and select the region of interest. Then click on the <i class="fa fa-arrows-h"></i> icon to add the selected range into your code, `json.data_raw.slice(63,68)` in this case. We use the already pre-defined method `MathMEAN( array )` from the Function Menu to calculate the mean of the values in the selected range.
 
-![Selecting a range of values using the Macro editor](./images/macros-building-a-macro.png)
+| Select a Single Value | Select a Range of Values |
+| ------------ | -------------- |
+| ![Select a single value using the Macro Editor](./images/trace-variable.png) | ![Selecting a range of values using the Macro Editor](./images/trace-select-range.gif) |
 
 ```javascript
 var fs = MathMEAN(json.data_raw.slice(1,5));
@@ -148,25 +135,26 @@ return output;
 
 ### Output
 
-    Fs = 5817.25
-    Fmp = 13056.6
-    Phi2 = 0.554
-    LEF = 3.770
-    PAR = 17
+```
+Fs = 5817.25
+Fmp = 13056.6
+Phi2 = 0.554
+LEF = 3.770
+PAR = 17
+```
 
 [JavaScript_URL]: https://www.w3schools.com/js/
 [Desktop App]: https://photosynq.org/software#desktop
-
 
 ## Example - Advanced Macro
 
 When building a Macro for a Protocol using the `_protocol_set_` command, you start of the same way as building a macro described in the previous example ([Building a Macro](./building-a-macro.md)). But since a protocol set was used, accessing the retuned Parameters has changed a little.
 
-### The `json.set` Object
+### The `json.set` Object (Variables)
 
-The object `json` is no longer holding all the measured Parameters as shown in the previous tutorial. Instead it has a key called `set` with all Protocols from the Protocol Set. Since `json.set` is an array of Protocols, you have to provide the index as well. If you want to access the third Protocol for example, you simply use `json.set[2]`. This can get a bit confusing, when you are using multiple Protocols inside your Set. To make it more accessible, the Macro Editor provides a dropdown menu in the top menu bar with all available Protocols inside a Set numbered starting from 0. If you use the `label` command inside each protocol, you will see the label in the dropdown menu making the access easier. After selecting the Protocol from the Set, use **Variables** from the top menu, to see and access all Parameters in the selected Protocol.
+The object `json` is no longer holding all the measured Parameters as shown in the previous tutorial. Instead it has a key called `set` with all Protocols from the Protocol Set. Since `json.set` is an array of Protocols, you have to provide the index as well. If you want to access the third Protocol for example, you simply use `json.set[2]`. This can get a bit confusing, when you are using multiple Protocols inside your Set. To make it more accessible, the Macro Editor provides a tree view for variables in each Protocol the side menu bar. To show the sidebar select the <i class="fa fa-cubes"></i> Variables button from the top menu. When selecting a variable, the value as well as the path (e.g. `json.set[2]`) is shown. If you use the `label` command inside each protocol, you will see the label in the tree view making the access easier. A double click will insert the path into your code.
 
-![Use the dropdown menu to select a specific Protocol Set. You can use the Variables from the menu, as well as the selector for the Raw Traces.](./images/macros-select-protocol-from-set.png)
+![Use the tree menu to select a specific variable from a Protocol Set. You can click on a variable to view its value or the trace and double click it to insert it into the code.](./images/macros-variables-menu.png)
 
 ### Simple Protocol Set Example
 
@@ -192,7 +180,7 @@ return output;
 
 ### Multiple Detectors
 
-In the previous example for a simple for ([Building a Macro](./building-a-macro.md)) only one detector was used. But it can happen, that a measurement requires multiple detectors. This can be accomplished in two different ways as described. The number of data-points within the `data_raw` element in both examples the same, but the way the data is collected is fundamentally different (see [Detectors - Output Examples](../protocols/detectors.md#examples)).
+In the previous [example](./create-edit-a-macro.md#example-calculating-photosystem-ii-efficiency) for a simple Macro only one detector was used. But it can happen, that a measurement requires multiple detectors. This can be accomplished in two different ways as described. The number of data-points within the `data_raw` element in both examples the same, but the way the data is collected is fundamentally different (see [Detectors - Output Examples](../protocols/detectors.md#examples)).
 
 ### One Detector per Pulse-Set
 
