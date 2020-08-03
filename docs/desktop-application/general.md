@@ -13,10 +13,8 @@ An internet connection is required when starting the app and to sign in and sync
 | Ctrl+1          | ⌘1   | Show Project List                        |
 | Ctrl+2          | ⌘2   | Show Notebook                            |
 | Ctrl+3          | ⌘3   | Show Protocol List                       |
-| Ctrl+4          | ⌘4   | Show Macro List                          |
-| Ctrl+5          | ⌘5   | Show Protocol Editor                     |
-| Ctrl+6          | ⌘6   | Show Macro Editor                        |
-| Ctrl+7          | ⌘7   | Open Instrument Console                  |
+| Ctrl+4          | ⌘4   | Show Protocol Editor                     |
+| Ctrl+5          | ⌘5   | Open Instrument Console                  |
 | Ctrl+Shift+L    | ⌘⇧L  | Open Preferences - Measurement History   |
 | Ctrl+F          | ⌘F   | Search                                   |
 | Ctrl+S          | ⌘S   | Save - Protocol / Macro / Measurement    |
@@ -28,8 +26,8 @@ An internet connection is required when starting the app and to sign in and sync
 
 | Windows / Linux | Mac    | Description                           |
 | :-------------- | :----- | :------------------------------------ |
-| Ctrl-F          | ⌘-F    | Search                                |
-| Ctrl-H          | ⌘⌥F    | Replace                               |
+| Ctrl+F          | ⌘F     | Search                                |
+| Ctrl+H          | ⌘⌥F    | Replace                               |
 | Ctrl+Space      | ^Space | Show available Commands and Functions |
 | Ctrl+Shift+R    | ⌥⇧R    | Manually run a Macro calculation      |
 | Ctrl++          | ⌘+     | Increase Font Size                    |
