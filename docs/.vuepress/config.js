@@ -26,7 +26,6 @@ module.exports = {
             md.use(require('markdown-it-implicit-figures'),{
                 figcaption: true
             });
-            md.use(require('markdown-it-mermaid').default);
         }
     },
     extend: '@vuepress/theme-default',
