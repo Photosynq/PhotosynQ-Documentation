@@ -129,7 +129,6 @@ module.exports = {
                     'desktop-application/protocols',
                     'desktop-application/macros',
                     'desktop-application/protocol-editor',
-                    'desktop-application/macro-editor',
                     'desktop-application/console'
                 ]
             },
