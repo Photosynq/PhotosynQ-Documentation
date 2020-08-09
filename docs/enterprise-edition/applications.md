@@ -23,3 +23,9 @@ More on how to install APK's on Android devices you can find here: <https://www.
 ## Desktop Application
 
 The installation of the Desktop Application works the same way it does for the community version. Select the application for the operating system you are using and download it. [Installation](../desktop-application/installation.md) as well as all other functions work the same way they do in the community version, including automated updates.
+
+### Signing In
+
+In contrast to the community version, the enterprise version of the app is accessing your own dedicated server. When using the Desktop Application in for the first time, you have to provide the URL for your enterprise, selecting the part of the url before `.photosynq.com` without the `https://`. After that you can just sign in with your email address and password.
+
+![Select your Server by simply adding the first part of your server URL](./images/desktop-select-instance.png)
