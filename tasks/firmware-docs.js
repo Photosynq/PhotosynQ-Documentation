@@ -34,6 +34,8 @@ const docsFromFolder = function (files, version) {
 
     for (var f in files) {
         var content = jetpack.read(files[f], 'json') || null;
+        if(!content || content.access == "private")
+            continue;
         var document = '### ' + content.name.replace(/(\_)/g, '\\$1') + ((content.deprecated) ? ' <Badge text="deprecated" type="error"/>' : '') + '\n\n';
         if (content.description != "")
             document += content.description.replace(/(?<!`)</gm, '&lt;').replace(/>(?!`)/gm, '&gt;') + '\n\n';
