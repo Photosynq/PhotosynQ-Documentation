@@ -104,7 +104,7 @@ The **Functions** tab contains all the preset functions that are supplied by Pho
 
 The **Variables** tab contains the variables accessible from the attached measurement. When using a measurement with a protocol set, the variables depend on the selected set.
 
-Some parameters you want to output are using greek characters like delta (Δ). Use the **Symbols** dropdown to add them into your parameter names (e.g. ΔAbsorbance instead of delta Absorbance).
+Some parameters you want to output are using greek characters like delta (Δ). You can use Unicode **Symbols** (UTF-8) as you would use them in word processors like MS Word to add them into your parameter names (e.g. ΔAbsorbance instead of delta Absorbance). On macOS you can use **Edit Emoji & Symbols** <kbd>⌘^Space</kbd> to bring up the *Character Viewer* for an easier selection. On Windows use <kbd>Windows key</kbd>+<kbd>R</kbd> to launch Run, type `charmap` and hit Enter to open the *Character Map*.
 
 Most Protocols use at last one of the Instrument's detectors to record traces or spectra. To make it easier to work with those traces, you can simply click on a trace and the variable with the array position is added to your code (eg `json["data_raw"][59]`). Yet, most of the time you will be more interested in a subsection of your trace. Use the **Range** checkbox. Now you can highlight a range by clicking and dragging to insert it into your code (e.g. `json["data_raw"].slice(56,66)`). Of course you can also use click and drag to zoom into your trace as long as **Range** is not active.
 
