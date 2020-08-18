@@ -8,6 +8,10 @@ The dashboard can show a number of **Panels** showing what is important to you. 
 Next time you view the Project data, your dashboard will be restored.
 :::
 
+::: warning Issue
+When the dashboard is empty, and is not showing any data, make sure you have data selected to be displayed.
+:::
+
 ## Plots
 
 You can plot parameters against each other using the plot tool.

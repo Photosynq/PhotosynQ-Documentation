@@ -1,6 +1,6 @@
 # Overview
 
-> Instrumentation should be affordable, reliable, and easy to use to enable as many people as possible to contribute to research. The instrument is developed to work with PhotosynQ to try to bridge this chasm between what is currently available and the for mentioned goals.
+> Instrumentation should be affordable, reliable, and easy to use to enable as many people as possible to contribute to research. The instruments developed to work with PhotosynQ try to bridge this chasm between what is currently available and the for mentioned goals.
 
 ## MultispeQ v2.0
 
@@ -15,10 +15,27 @@ Now the instrument has a charging indicator and a RGB progress/action indicator 
 ::: tip More Information
 + [Getting Started](./multispeq-v2.0.md)
 + [Configuration](./multispeq-v2.0.md#configuration)
-+ [Get an Instrument](https://photosynq.com/buy-now)
++ [Get an Instrument](https://photosynq.com/shop)
 + [References & Parameters](../view-and-analyze-data/references.md)
 :::
 
+## CaliQ
+
+![CaliQ](./images/caliq.jpg)
+
+The CaliQ is a calibrated PAR (Photosynthetically Active Radiation) sensor and a calibrated white light source to calibrate a MultispeQ (v1.0 and v2.0).
+
+::: tip More Information
++ [Getting Started](./caliq.md)
++ [Configuration](./caliq.md#configuration)
++ [Get an Instrument](https://photosynq.com/shop)
+:::
+
+::: warning Note
+The CaliQ requires a MultispeQ (v1.0 or v2.0) to be operated
+:::
+
+## Discontinued
 
 ### MultispeQ v1.0
 

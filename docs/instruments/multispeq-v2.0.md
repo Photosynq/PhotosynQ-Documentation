@@ -15,11 +15,11 @@
 
 ### Leaf Clamp Button
 
-Push down the leaf clamp button to open the leaf clamp. Push and release with an even motion and prevent it from snapping back. In case the open and closing feels rough, a small amount of lithium grease can be used to make the open and closing motion more smoothly.
+Push down the leaf clamp button to open the leaf clamp. Push and release with an even motion to prevent it from snapping back. In case the opening and closing feels rough, a small amount of lithium grease can be used to make the motion smoother.
 
 ### PAR Sensor
 
-The PAR sensor located on top of the instrument. When taking measurements, depending on the measurement protocol, the light intensity measured will be replicated inside the instrument. Make sure the PAR sensor is clean and not to cover or shade, to prevent altering the actual intensity.
+The PAR sensor is located on top of the instrument. When taking measurements, depending on the measurement protocol, the light intensity measured will be replicated inside the instrument. Make sure the PAR sensor is clean and not covered or shaded to prevent altering the actual intensity.
 
 ### Seal
 
@@ -27,7 +27,7 @@ The Nitrile seal around the light guide on the main body and the clamp is ensuri
 
 ### Light Guide
 
-The light guides are made from acrylic. Make sure, it is clean and prevent clamping hard, rough materials which can cause scratches.
+The light guides are made from acrylic. Make sure it is clean and prevent it clamping hard rough materials which can cause scratches.
 
 ::: tip
 You may need to clean the light guides occasionally. Gently clean the light guides with a damp, soft cloth.
@@ -49,12 +49,12 @@ The two vents allow air to be exchanged inside the Instrument. There are two sen
 
 The Action Indicator has the following:
 
-| Indicator | Function |
-| --------- | -------- |
-| ![Instrument idle and fully charged](./images/indicator-idle-full.svg) | Instrument is on, and fully charged. The indicator is flashing every 5s |
+| Indicator                                                                           | Function                                                                      |
+| ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| ![Instrument idle and fully charged](./images/indicator-idle-full.svg)              | Instrument is on, and fully charged. The indicator is flashing every 5s       |
 | ![Instrument idle and battery not fully charged](./images/indicator-idle-empty.svg) | Instrument is on, and battery is emptying. The indicator is flashing every 5s |
-| ![Instrument clamp open](./images/indicator-clamp-open.svg) | Instrument clamp open. The indicator is flashing rapidly. |
-| ![Instrument busy](./images/indicator-busy.svg) | Instrument is busy (e.g. Measurement). The indicator is constantly on. |
+| ![Instrument clamp open](./images/indicator-clamp-open.svg)                         | Instrument clamp open. The indicator is flashing rapidly.                     |
+| ![Instrument busy](./images/indicator-busy.svg)                                     | Instrument is busy (e.g. Measurement). The indicator is constantly on.        |
 
 ### Power/Reset Button
 
@@ -74,24 +74,24 @@ The Micro-USB port allows the Instrument to be charged and when connected to a c
 
 ### Accessory Port
 
-The [USB-C](https://en.wikipedia.org/wiki/USB-C) port allows to attach accessory equipment. When unplugging the cable, make sure not to bend the cable up and down, to not break of the Instrument connector.
+The [USB-C](https://en.wikipedia.org/wiki/USB-C) port allows you to attach accessory equipment. When unplugging the cable, make sure not to bend the cable up and down, to not break of the Instrument connector.
 
 ### Charge Indicator
 
-The little LED in the back indicates, when the Instrument is charging. When the battery is fully charged, the LED will turn off.
+The little LED in the back indicates when the Instrument is charging. When the battery is fully charged, the LED will turn off.
 
 ## Configuration
 
 ![MultispeQ v2.0 measurements](./images/multispeq-v2.0-measurements.png)
 
-| Body | Measurements |
-|:----|:----|
-| Size | 224.2 mm x 53.6 mm x 56.6 mm (l, w, h) |
-| Total Weight | 340 g (incl. battery)|
-| Light Guide Surface | 8 mm x 8 mm (64mm²) |
-| Leaf Clamp Opening | 13 mm |
-| Safety | Ring for leash |
-| Updates | Firmware updates through Applications |
+| Body                | Measurements                           |
+| :------------------ | :------------------------------------- |
+| Size                | 224.2 mm x 53.6 mm x 56.6 mm (l, w, h) |
+| Total Weight        | 340 g (incl. battery)                  |
+| Light Guide Surface | 8 mm x 8 mm (64 mm²)                   |
+| Leaf Clamp Opening  | 13 mm                                  |
+| Safety              | Ring for leash                         |
+| Updates             | Firmware updates through Applications  |
 
 ### Lights
 
@@ -99,23 +99,23 @@ There are sets of five LEDs each on the **main body** and the **leaf clamp**.
 
 #### Main Body
 
-| # | Emission Peak | Model | Specifications |
-|:---:|:---:|-----|:---:|
-| 1 | 530nm | LED (green), Lumileds, LXZ1-PM01 | [view][LXZ1] |
-| 2 | 655nm | LED (red), Lumileds, LXZ1-PA01 |[view][LXZ1] |
-| 3 | 590nm | LED (amber), Lumileds, LXZ1-PL01 |[view][LXZ1] |
-| 4 | 448nm | LED (blue), Lumileds, LXZ1-PR01 |[view][LXZ1] |
-| 5 | 950nm | LED (NIR), OSRAM, SFH 4441 | [view][OSRAM SFH 4441] |
+|   #   | Emission Peak | Model                            |     Specifications     |
+| :---: | :-----------: | -------------------------------- | :--------------------: |
+|   1   |     530nm     | LED (green), Lumileds, LXZ1-PM01 |      [view][LXZ1]      |
+|   2   |     655nm     | LED (red), Lumileds, LXZ1-PA01   |      [view][LXZ1]      |
+|   3   |     590nm     | LED (amber), Lumileds, LXZ1-PL01 |      [view][LXZ1]      |
+|   4   |     448nm     | LED (blue), Lumileds, LXZ1-PR01  |      [view][LXZ1]      |
+|   5   |     950nm     | LED (NIR), OSRAM, SFH 4441       | [view][OSRAM SFH 4441] |
 
 #### Leaf Clamp
 
-| # | Emission Peak | Model | Specifications |
-|:---:|:---:|-----|:---:|
-| 6 | 950nm | LED (NIR), OSRAM, SFH 4441 | [view][OSRAM SFH 4441] |
-| 7 | 655nm | LED (red), Lumileds, LXZ1-PA01 |[view][LXZ1] |
-| 8 | 850nm | LED (NIR), OSRAM, SFH 4451 | [view][OSRAM SFH 4451] |
-| 9 | 730nm | LED (far red), Everlight, ELSH-Q61F1-0LPNM-JF3F8 | [view][ELSH-Q61F1-0LPNM-JF3F8] |
-| 10 | 820nm | LED (NIR), OSRAM SFH 4786S | [view][SFH 4786S] |
+|   #   | Emission Peak | Model                                            |         Specifications         |
+| :---: | :-----------: | ------------------------------------------------ | :----------------------------: |
+|   6   |     950nm     | LED (NIR), OSRAM, SFH 4441                       |     [view][OSRAM SFH 4441]     |
+|   7   |     655nm     | LED (red), Lumileds, LXZ1-PA01                   |          [view][LXZ1]          |
+|   8   |     850nm     | LED (NIR), OSRAM, SFH 4451                       |     [view][OSRAM SFH 4451]     |
+|   9   |     730nm     | LED (far red), Everlight, ELSH-Q61F1-0LPNM-JF3F8 | [view][ELSH-Q61F1-0LPNM-JF3F8] |
+|  10   |     820nm     | LED (NIR), OSRAM SFH 4786S                       |       [view][SFH 4786S]        |
 
 #### Emission Spectra for LEDs
 
@@ -125,10 +125,10 @@ There are sets of five LEDs each on the **main body** and the **leaf clamp**.
 
 The MultispeQ v2.0 comes with two detectors. One covering the near infrared on the **main body**, the other covering the visual range on the **leaf clamp**.
 
-| # | Detection Range | Model | Specifications |
-|:---:|:---:|-----|:---:|
-| 1 | 700nm - 1150nm | Hamamatsu, S6775-01 (main body) | [view][S6775-01] |
-| 3\* | 400nm - 700nm | Hamamatsu, S6775 (leaf clamp) | [view][S6775] |
+|   #   | Detection Range | Model                           |  Specifications  |
+| :---: | :-------------: | ------------------------------- | :--------------: |
+|   1   | 700nm - 1150nm  | Hamamatsu, S6775-01 (main body) | [view][S6775-01] |
+|  3\*  |  400nm - 700nm  | Hamamatsu, S6775 (leaf clamp)   |  [view][S6775]   |
 
 ::: warning *Note
 The detector 3 is covered with a BG-18 bandpass filter with a center wavelength around 493 nm. If you are using the detector to detect signals on the edges of the detection range, expect the signal strength to be low.
@@ -138,40 +138,40 @@ The detector 3 is covered with a BG-18 bandpass filter with a center wavelength 
 
 The MultispeQ v2.0 has a set of sensors to measure the environmental parameters.
 
-| Sensor | Model | Specifications |
-|-----|-----|:---:|
-| Ambient Temperature, Humidity, Pressure (2x) | BOSCH, BME280 | [view][BME280] |
-| Contactless Temperature | Melexis, MLX90615SSG-DAG-000-TU | [view][MLX90615] |
-| Accelerometer | Freescale, MMA8653FCR1 | [view][MMA8653FCR1] |
-| Magnetometer | Freescale, MAG3110FCR1 | [view][MAG3110FCR1] |
-| Hall Effect Sensor | TT Electronics, OHS3150U | [view][OHS3150U] |
-| PAR light sensor | AMS-TAOS USA, TCS34715FN + 700nm low pass filter | [view][TCS34715FN] |
+| Sensor                                       | Model                                            |   Specifications    |
+| -------------------------------------------- | ------------------------------------------------ | :-----------------: |
+| Ambient Temperature, Humidity, Pressure (2x) | BOSCH, BME280                                    |   [view][BME280]    |
+| Contactless Temperature                      | Melexis, MLX90615SSG-DAG-000-TU                  |  [view][MLX90615]   |
+| Accelerometer                                | Freescale, MMA8653FCR1                           | [view][MMA8653FCR1] |
+| Magnetometer                                 | Freescale, MAG3110FCR1                           | [view][MAG3110FCR1] |
+| Hall Effect Sensor                           | TT Electronics, OHS3150U                         |  [view][OHS3150U]   |
+| PAR light sensor                             | AMS-TAOS USA, TCS34715FN + 700nm low pass filter | [view][TCS34715FN]  |
 
 ### Filters
 
 The MultispeQ v2.0 has two filters, a Band Pass filter covering the visible light detector (#3) and a Low Pass filter used in the PAR sensor.
 
-| Filter | Model | Specifications |
-|-----|-----|:---:|
-| Band Pass | Schott, BG-18 1mm thickness  | [view][BG-18] |
-| Low Pass | UQC Optics, Hot Mirror HM-07 | [view][HMC-5051] |
+| Filter    | Model                        |  Specifications  |
+| --------- | ---------------------------- | :--------------: |
+| Band Pass | Schott, BG-18 1mm thickness  |  [view][BG-18]   |
+| Low Pass  | UQC Optics, Hot Mirror HM-07 | [view][HMC-5051] |
 
 ### Indicator Lights
 
 The MultispeQ v2.0 has now two indicator lights. One to indicate if the device is charging which is located next to the micro-USB port. The second one is located on top to indicate progress or required actions.
 
-| LED | Model | Specifications |
-|-----|-----|:---:|
-| Charging Indicator |  | --- |
+| LED                       | Model                  | Specifications |
+| ------------------------- | ---------------------- | :------------: |
+| Charging Indicator        |                        |      ---       |
 | Progress/Action Indicator | NeoPixel (RGB), SK6812 | [view][SK6812] |
 
 ### Battery
 
 The MultispeQ v2.0 has a Li-ion battery which can be charged through the micro USB port.
 
-| Battery | Model | Specifications |
-|-----|-----|:---:|
-| Main | Soshine Li-ion 26650 Protected Battery: 5500mAh 3.7V | [view][26650P-3.7-5500] |
+| Battery | Model                                                |     Specifications      |
+| ------- | ---------------------------------------------------- | :---------------------: |
+| Main    | Soshine Li-ion 26650 Protected Battery: 5500mAh 3.7V | [view][26650P-3.7-5500] |
 
 ## References
 
@@ -205,7 +205,7 @@ Kuhlgert, S., Austic, G., Zegarac, R. Osei-Bonsu, I.,Hoh, D., Chilvers, M. I., e
 
 [BG-18]: https://www.us.schott.com/d/advanced_optics/380b879e-f6d3-4130-b7e9-52d794f9bc4b/1.2/schott-bandpass-bg18-jun-2017-en.pdf
 
-[HMC-5051]: https://www.uqgoptics.com/pdf/Hot%20mirrors%20data%20sheet.pdf
+[HMC-5051]: https://www.uqgoptics.com/materials/hot-mirrors/
 
 [SK6812]: https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf
 

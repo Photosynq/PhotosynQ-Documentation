@@ -6,16 +6,16 @@ const jetpack = require('fs-jetpack');
 const chalk = require('chalk');
 var argv = require('minimist')(process.argv);
 
-const firmwareNewCommand = function(cb){
+const firmwareNewCommand = function (cb) {
 
-    if(argv.version !== undefined && argv.cmd !== undefined){
-        if(!jetpack.exists(`./firmware/${argv.version}`)){
+    if (argv.version !== undefined && argv.cmd !== undefined) {
+        if (!jetpack.exists(`./firmware/${argv.version}`)) {
             console.log(chalk.red(`Version does not exist`));
         }
-        else if(jetpack.exists(`./firmware/${argv.version}/${argv.cmd}.json`)){
+        else if (jetpack.exists(`./firmware/${argv.version}/${argv.cmd}.json`)) {
             console.log(chalk.red(`Command already exists`));
         }
-        else{
+        else {
             var data = {
                 "name": argv.cmd,
                 "abstract": "",
@@ -35,7 +35,7 @@ const firmwareNewCommand = function(cb){
             console.log(chalk.green(`Command created: ./firmware/${argv.version}/${argv.cmd}.json`));
         }
     }
-    else{
+    else {
         console.log(chalk.red(`Parameter missing`));
     }
     cb();

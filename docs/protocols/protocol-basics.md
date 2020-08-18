@@ -1,6 +1,8 @@
 # Protocol Basics
 
-Protocols are instructions for Instruments like the MultispeQ on how to run a measurement. Those instructions written in the **J**ava**S**cript **O**bject **N**otation or [JSON][JSON_URL]. PhotosynQ is providing preset Protocols indicated by a <i class="fa fa-star text-warning"></i> start icon called **Staff Picks**. They are listed in the applications as standard Protocols, as well as the standard Protocols when setting up a new Project. All Protocols developed on PhotosynQ are open and accessible through the website and the applications.
+Protocols are instructions for Instruments like the MultispeQ on how to run a measurement. Every time a measurement is taken, the Protocol is sent to the Instrument, and the results are sent back. Those instructions written in the **J**ava**S**cript **O**bject **N**otation or [JSON][JSON_URL]. PhotosynQ is providing preset Protocols indicated by a <i class="fa fa-star text-warning"></i> start icon called **Staff Picks**. They are listed in the applications as standard Protocols, as well as the standard Protocols when setting up a new Project. All Protocols developed on PhotosynQ are open and accessible through the website and the applications.
+
+![The steps involved in taking a measurement](./images/protocols-macros-workflow.jpg)
 
 ::: tip Tip
 Protocols can be associated with **Macros** which are small pieces of code that help you analyze a measurement immediately after it has been collected. When a Macro is available, it is indicated on the Website as well as in the Desktop Application.

@@ -6,7 +6,7 @@ The Console allows you to open a direct channel to your instrument to send comma
 
 ## Open the Console
 
-You can bring up the Console window, by selecting **View → Console** from the top menu bar or use the shortcut <kbd>Ctrl/⌘</kbd>+<kbd>7</kbd>.
+You can bring up the Console window, by selecting **View → Console** from the top menu bar or use the shortcut <kbd>Ctrl/⌘</kbd>+<kbd>5</kbd>.
 
 ## Sending a Command
 

@@ -5,11 +5,11 @@
 const jetpack = require('fs-jetpack');
 const Mustache = require('mustache');
 
-var macros = function(cb){
+var macros = function (cb) {
 	var filePath = jetpack.path('node_modules', 'photosynq-helpers', 'docs', 'documentation.md');
 	var content = jetpack.read(filePath) || "";
 	// Change header level
-	content = content.replace(/^(#+)/gm,'$1#');
+	content = content.replace(/^(#+)/gm, '$1#');
 	var template = jetpack.read('./macros/docs/provided-functions.md');
 	var md = Mustache.render(template, {
 		"macro-functions": content

@@ -2,7 +2,7 @@
  * Task: Build HTML from markdown
  */
 
-const {src,dest} = require('gulp');
+const { src, dest } = require('gulp');
 const rename = require('gulp-rename');
 const through2 = require('through2');
 const jetpack = require('fs-jetpack');
@@ -17,7 +17,7 @@ const hljs = require('highlight.js');
 const hljsLinenums = require('code-highlight-linenums');
 const sizeOf = require('image-size');
 
-const mdToHTML = function(content){
+const mdToHTML = function (content) {
 
     var md = new MarkdownIt({
         html: true,
@@ -37,7 +37,6 @@ const mdToHTML = function(content){
             try {
                 return hljsLinenums(str.trim(), {
                     hljs: hljs,
-                    lang: 'auto',
                     start: 1
                 });
             } catch (err) { }
@@ -45,31 +44,31 @@ const mdToHTML = function(content){
             return ''; // use external default escaping
         }
     })
-    .use(container, '', {
-        validate: function(params) {
-            return params.trim().match(/^(tip|warning|danger|details)\s?(.*)$/);
-        },
-       
-        render: function (tokens, idx) {
-            var m = tokens[idx].info.trim().match(/^(tip|warning|danger|details)\s?(.*)$/);
-            if (tokens[idx].nesting === 1) {
-                // opening tag
-                if(m[2] == '')
-                    return `<div class="custom-block ${m[1].trim()}">\n`;
-                else
-                    return `<div class="custom-block ${m[1].trim()}">\n<p class="title-${m[1].trim()}">${m[2].trim()}</p>\n`;
+        .use(container, '', {
+            validate: function (params) {
+                return params.trim().match(/^(tip|warning|danger|details)\s?(.*)$/);
+            },
 
-            } else {
-                // closing tag
-                return '</div>\n';
+            render: function (tokens, idx) {
+                var m = tokens[idx].info.trim().match(/^(tip|warning|danger|details)\s?(.*)$/);
+                if (tokens[idx].nesting === 1) {
+                    // opening tag
+                    if (m[2] == '')
+                        return `<div class="custom-block ${m[1].trim()}">\n`;
+                    else
+                        return `<div class="custom-block ${m[1].trim()}">\n<p class="title-${m[1].trim()}">${m[2].trim()}</p>\n`;
+
+                } else {
+                    // closing tag
+                    return '</div>\n';
+                }
             }
-        }
-    })
-    .use(figures,{
-        figcaption: true
-    })
-    .use(katex);
-    
+        })
+        .use(figures, {
+            figcaption: true
+        })
+        .use(katex);
+
     var html = md.render(content);
 
     html = html.replace(/<hr>\n{0,}<hr>/gim, '<hr>'); // Two page breaking <hr> in a row
@@ -80,15 +79,15 @@ const mdToHTML = function(content){
         if (element.match(/<img\/?[^>]+(>|$)/g)) {
             // Check source
             var src = element.match(/<img\/?[^>]+(>|$)/)[0].match(/(img\s?src\s?=\s?\")(.*?)(\")/im)[2];
-            if(src && !jetpack.exists(src))
+            if (src && !jetpack.exists(src))
                 console.log(chalk.red(`Error - Missing file: `) + src + '\n');
 
             // Update source url
             img = element.match(/<img\/?[^>]+(>|$)/)[0].replace(/(img\s?src\s?=\s?\")(.*?)(\")/im, `$1file://$2$3`);
             element = element.replace(/<img\/?[^>]+(>|$)/, img);
-            
+
             // Test dimensions
-            if(jetpack.exists(src)){
+            if (jetpack.exists(src)) {
                 var dimensions = sizeOf(src);
                 if (dimensions.height > 800 && (dimensions.width / dimensions.height) < 0.6) {
                     element = element.replace('<img', '<img style="max-width:50%" ');
@@ -123,9 +122,9 @@ const mdToHTML = function(content){
     return html;
 };
 
-const buildHTML = function(cb){
+const buildHTML = function (cb) {
     return src('dist/*.md')
-        .pipe(through2.obj(function(file, _, cb) {
+        .pipe(through2.obj(function (file, _, cb) {
             var md = file.contents.toString();
             md = md.trim();
             var html = mdToHTML(md);
@@ -146,4 +145,4 @@ const buildHTML = function(cb){
         .pipe(dest('dist'));
 };
 
-module.exports = { buildHTML, mdToHTML } ;
+module.exports = { buildHTML, mdToHTML };

@@ -5,10 +5,7 @@ module.exports = {
         ['link', { rel: 'icon', href: '/icons/favicon-32x32.png' }],
         ['link', { rel: 'manifest', href: '/manifest.json' }],
         ['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' }],
-        ['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css' }],
-        ['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/mermaid/7.0.0/mermaid.css' }],
-        ['script', {src: 'https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0/mermaid.min.js' }]
-
+        ['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css' }]
     ],
     base: '/',
     home: true,
@@ -20,13 +17,15 @@ module.exports = {
         }
     },
     markdown: {
-        lineNumbers: true,
+        lineNumbers: false,
         externalLinks: { target: '_blank', rel: 'noopener noreferrer' },
         toc: { includeLevel: [2, 3] },
         extendMarkdown: md => {
             md.set({ breaks: true });
             md.use(require('markdown-it-katex'));
-            md.use(require('markdown-it-mermaid').default);
+            md.use(require('markdown-it-implicit-figures'),{
+                figcaption: true
+            });
         }
     },
     extend: '@vuepress/theme-default',
@@ -34,39 +33,25 @@ module.exports = {
         logo: '/logo.svg',
         nav: [
             {
-                text: 'Documents',
+                text: 'Resources',
                 items: [
                     {
-                        text: 'Documents (PDF)',
+                        text: 'Downloads',
                         items: [
-                            { text: 'Help Manual', link: 'https://help.photosynq.org/downloads/PhotosynQ-Help-Manual.pdf' },
-                            { text: 'Tutorials', link: 'https://help.photosynq.org/downloads/PhotosynQ-Getting-Started.pdf' },
-                            { text: 'MultispeQ v1.0', link: 'https://help.photosynq.org/downloads/PhotosynQ-MultispeQ-v1.0.pdf' },
-                            { text: 'MultispeQ v2.0', link: 'https://help.photosynq.org/downloads/PhotosynQ-MultispeQ-v2.0.pdf' }
+                            { text: 'E-Book (epub)', link: 'https://help.photosynq.org/downloads/PhotosynQ-Documentation.epub' }
                         ]
                     },
                     {
-                        text: 'E-Books (epub)',
+                        text: 'Community',
                         items: [
-                            { text: 'Full Documentation', link: 'https://help.photosynq.org/downloads/PhotosynQ-Documentation.epub' }
-                        ]
-                    }
-                ]
-            },
-            {
-                text: 'More',
-                items: [
-                    {
-                        text: 'Resources',
-                        items: [
-                            { text: 'Forums', link: 'https://photosynq.org/forums' }
+                            { text: 'Forums', link: 'https://photosynq.org/forums' },
+                            { text: 'Twitter', link: 'https://twitter.com/photosynq' }
                         ]
                     },
                     {
                         text: 'Firmware',
                         items: [
-                            { text: 'Latest Firmware', link: 'https://github.com/Photosynq/MultispeQ-Firmware/releases/latest' },
-                            { text: 'Changelog', link: 'https://github.com/Photosynq/MultispeQ-Firmware/releases' }
+                            { text: 'Latest Firmware', link: 'https://github.com/Photosynq/MultispeQ-Firmware/releases/latest' }
                         ]
                     },
                     {
@@ -83,6 +68,20 @@ module.exports = {
         sidebar: [
             '/',
             {
+                title: 'Getting Started',
+                collapsable: true,
+                sidebarDepth: 1,
+                children: [
+                    'getting-started/what-is-photosynq',
+                    'getting-started/photosynq-glossary',
+                    'getting-started/starting-a-project',
+                    'getting-started/collecting-data',
+                    'getting-started/viewing-data',
+                    'getting-started/data-quality',
+                    'getting-started/data-analysis'
+                ]
+            },
+            {
                 title: 'Account',
                 collapsable: true,
                 sidebarDepth: 1,
@@ -95,8 +94,7 @@ module.exports = {
                     'account/your-subscriptions',
                     'account/project-invitations',
                     'account/sign-out-of-photosynq',
-                    'account/deactivate-an-account',
-                    'account/photosynq-glossary'
+                    'account/deactivate-an-account'
                 ]
             },
             {
@@ -131,7 +129,6 @@ module.exports = {
                     'desktop-application/protocols',
                     'desktop-application/macros',
                     'desktop-application/protocol-editor',
-                    'desktop-application/macro-editor',
                     'desktop-application/console'
                 ]
             },
@@ -177,7 +174,7 @@ module.exports = {
                     'view-and-analyze-data/download-data',
                     'view-and-analyze-data/external-libraries',
                     'view-and-analyze-data/how-to-cite',
-                    'view-and-analyze-data/references'
+                    'view-and-analyze-data/references-and-parameters'
                 ]
             },
             {
@@ -219,29 +216,26 @@ module.exports = {
                     'instruments/overview',
                     'instruments/multispeq-v2.0',
                     'instruments/multispeq-v1.0',
+                    'instruments/caliq',
                     'instruments/instrument-settings',
                     'instruments/instrument-calibrations',
+                    'instruments/light-guide-mask',
+                    'instruments/backups',
                     'instruments/firmware-updates',
                     'instruments/console-commands',
-                    'instruments/light-guide-mask',
-                    'instruments/leaf-mask-calibration'
+                    'instruments/troubleshooting'
                 ]
             },
             {
-                title: 'Tutorials',
+                title: 'Calibration',
                 collapsable: true,
                 sidebarDepth: 1,
                 children: [
-                    'tutorials/getting-started',
-                    'tutorials/creating-a-project',
-                    'tutorials/data-collection',
-                    'tutorials/data-viewing',
-                    'tutorials/data-quality',
-                    'tutorials/data-analysis',
-                    'tutorials/building-a-protocol',
-                    'tutorials/building-an-advanced-protocol',
-                    'tutorials/building-a-macro',
-                    'tutorials/building-an-advanced-macro'
+                    'calibrations/overview',
+                    'calibrations/multispeq-v2.0',
+                    'calibrations/multispeq-v1.0',
+                    'calibrations/caliq',
+                    'calibrations/light-guide-mask-calibration'
                 ]
             },
             {
@@ -281,6 +275,7 @@ module.exports = {
     },
     plugins: [
         ['vuepress-plugin-element-tabs'],
+        ['vuepress-plugin-mermaidjs'],
         ['@vuepress/back-to-top', true ],
         ['@vuepress/google-analytics', {
             'ga': (require('./.env.json')['ga-key'] || '')
@@ -303,7 +298,8 @@ module.exports = {
             site: {
               name   : 'PhotosynQ Documentation',
               twitter: 'photosynq',
-            }
+            },
+            canonical_base: 'https://help.photosynq.org'
         }]
     ]
 };

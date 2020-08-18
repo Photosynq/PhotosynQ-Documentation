@@ -4,7 +4,8 @@
 
 /** Set Font */
 body > * {
-  font-family: "Orkney", "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 300;
 }
 
 body {
@@ -67,7 +68,9 @@ h2 + p, h3 + p, h4 + p, h5 + p, h6 + p {
 
 h1, h2, h3, h4, h5, h6 {
   page-break-after:avoid !important;
-  color: rgb(51, 51, 51)
+  color: rgb(51, 51, 51);
+  font-family: "Orkney", "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 500;
 }
 
 /** Links */
