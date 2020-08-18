@@ -20,6 +20,8 @@ For the best results and precise calibrations, make sure the Instrument is clean
 
 The instruments come with supplies for the calibration. Make sure you have all the supplies ready and they are clean. Calibration cards should have no folds, since those might impact the quality of the calibration.
 
+![1. Thickness Calibration Cards, 2. Relative Chlorophyll Calibration Cards, 3. Fluorescence Calibration Card, 4. CaliQ](./images/supplies.jpg)
+
 ## 4. Desktop Application
 
 Make sure you have the latest version of the [Desktop Application](../desktop-application/general.md) installed. To check if you are running the latest version, **Edit** → **Check for Updates...** on Windows and Linux or select **PhotosynQ** → **Check for Updates...** on a Mac.
@@ -28,7 +30,7 @@ Make sure you have the latest version of the [Desktop Application](../desktop-ap
 
 Check if there is a new firmware version is available for the Instrument to be calibrated ([Firmware Updates](../instruments/firmware-updates.md)). Depending on the firmware, some calibrations might be different or are not available. Make sure to always run the latest firmware for the most up to date methods and best results.
 
-::: danger Update to Firmware v2.16
+::: danger Update to Firmware v2.343
 Please make sure you have a CaliQ at hand, since these firmware updates require a recalibration of the Instrument! In any case, please check what is required for a firmware update, before starting the update process.
 :::
 
