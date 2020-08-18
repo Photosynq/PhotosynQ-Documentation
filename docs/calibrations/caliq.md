@@ -44,7 +44,7 @@ Next you will be prompted to **“Attach CaliQ LED light source to external PAR 
 
 Click **OK** to continue (in the picture a LI-COR® LI-190R was used, but any similar cosine corrected PAR sensor will work).
 
-![Attach the external PAR sensor to the CaliQ](./images/caliq-attached-to-external-sensor.png)
+![Attach the external PAR sensor to the CaliQ](./images/caliq-attached-to-external-sensor.jpg)
 
 #### Step 3
 
