@@ -2,31 +2,81 @@
 
 Before getting started with the calibration, make sure you followed all the steps listed in the [Overview](./overview.md).
 
-## Calibration Routines
+## Calibration Assistants
 
-| Calibration Routine | Details | Steps |
-| ------------------- | ------- | ----- |
-| **Full Recalibration** | Reset the Instrument and recalibrate PAR Sensor,<br>LEDs, Leaf Thickness, Relative Chlorophyll and Open/Close position | 1. [Reset Calibrations]<br>2. [PAR Sensor]<br>3. [LEDs]<br>4. [Electronic Offsets]<br>5. [Leaf Thickness]<br>6. [Relative Chlorophyll (new)]<br>7. [Open/Close Position] |
-| **Open/Close Positions** | Set the open and close position for the leaf clamp | 1. [Open/Close Position] |
-| **Small Leaf Masks** | Recalibrate the Instrument to work with small leaf masks | 1. [Relative Chlorophyll (new)]<br>2. [Leaf Thickness] |
-| **PAR-Sensor** | Recalibrate the Instruments PAR sensor | 1. [PAR Sensor] |
-| **LEDs** | Recalibrate the Instruments LEDs | 1. [LEDs]<br>2. [Electronic Offsets] |
-| **Leaf Thickness Gauge** | Recalibrate the Leaf Thickness Gauge | 1. [Leaf Thickness] |
-| **Relative Chlorophyll (SPAD)** | Recalibrate relative Chlorophyll | 1. [Relative Chlorophyll (new)] |
-| **Relative Chlorophyll (SPAD)** - old method | Recalibrate relative Chlorophyll using the old version | 1. [Relative Chlorophyll (old)] |
+| Assistant | Description |
+| :-------- | :---------- |
+| **Complete Recalibration**<br><br>![](./images/assistants/multispeq-complete-recalibration.jpg) | Complete recalibration of the MultispeQ Instrument including the PAR Sensor, the LEDs of the main body and the Leaf Clamp, the Leaf Thickness Gauge, Relative Chlorophyll (SPAD), the Internal Compass and the Leaf Clamp's Open/Close position.<br><br>**Requirements:**<br>&square; CaliQ Instrument<br>&square; Chlorophyll Calibration Cards<br>&square; Fluorescent Card (pink)<br>&square; Thickness Calibration Cards<br>|
+| **Open & Close Positions**<br><br>![](./images/assistants/instrument-clamp-open-closed.jpg) | Set the open and close position of the Leaf Clamp. This becomes important when using the start protocol on open and/or close functions. This is not for calibrating the Leaf Thickness Gauge.|
+| **LEDs**<br><br>![](./images/assistants/multispeq-calibrate-leds.jpg) | Recalibrate the Instrument’s LEDs to match the set light intensities defined in measurement protocols. LEDs with an emission peak between 400nm and 700nm are calibrated to output intensities in PAR.<br><br>**Requirements:**<br>&square; CaliQ Instrument<br>&square; Chlorophyll Calibration Cards<br>&square; Fluorescent Card (pink)<br>|
+| **PAR Sensor**<br><br>![](./images/assistants/multispeq-calibrate-par-sensor.jpg) | Calibrate the Instrument's PAR sensor.<br><br>**Requirements:**<br>&square; CaliQ Instrument<br>|
+| **Leaf Thickness**<br><br>![](./images/assistants/multispeq-calibrate-leaf-thickness.jpg) | Calibrate the Instrument's Leaf Thickness Gauge.<br><br>**Requirements:**<br>&square; Thickness Calibration Cards<br>|
+| **Relative Chlorophyll (SPAD)**<br><br>![](./images/assistants/multispeq-clamp-spad-card.jpg) | Calibrate the MultispeQ for relative Chlorophyll measurements (Minolta SPAD).<br><br>**Requirements:**<br>&square; Chlorophyll Calibration Cards<br>|
+| **Small Leaf Masks**<br><br>![](./images/assistants/small-leaf-mask.jpg) | Recalibrate the Instrument to work with small leaf masks.<br><br>**Requirements:**<br>&square; CaliQ Instrument<br>&square; Chlorophyll Calibration Cards<br>&square; Fluorescent Card (pink)<br>&square; Thickness Calibration Cards<br>|
+
+
+## Manual Calibrations
 
 ::: tip Note
 Make sure to follow the steps in the correct order when a calibration contains multiple steps. The same is the case for steps within a calibration routine.
 :::
 
-[Reset Calibrations]: ./multispeq-v2.0.md#reset-calibrations
-[PAR Sensor]: ./multispeq-v2.0.md#par-sensor
-[LEDs]: ./multispeq-v2.0.md#leds
-[Electronic Offsets]: ./multispeq-v2.0.md#leaf-thickness
-[Leaf Thickness]: ./multispeq-v2.0.md#leaf-thickness
-[Relative Chlorophyll (new)]: ./multispeq-v2.0.md#relative-chlorophyll-new
-[Relative Chlorophyll (old)]: ./multispeq-v2.0.md#relative-chlorophyll-old
-[Open/Close Position]: ./multispeq-v2.0.md#open-close-position
+### Calibrate PAR Sensor
+
+| Calibrate PAR Sensor | Description | Details | Firmware |
+| :------------------- | :---------- | :-----: | :------: |
+| **Step 1:** Calibrate PAR Sensor | Follow the instructions prompted by the protocol. | [view](https://photosynq.org/protocols/2225) | `>=2.34` |
+
+When using the CaliQ for calibrating the PAR sensor, make sure it is connected and communicating before starting the calibration procedure. To check if it is properly connected, go to [Instrument Settings](https://help.photosynq.org/instruments/instrument-settings.html) and test the connection.
+
+`Note:` *These calibration steps require a CaliQ*
+
+### Calibrate LEDs
+
+| Calibrate LEDs | Description | Details | Firmware |
+| :------------- | :---------- | :-----: | :------: |
+| **Step 1:** Main Body LEDs | Follow the instructions prompted by the protocol. Make sure the CaliQ sensor has a snug fit. | [view](https://photosynq.org/protocols/2280) | `>=2.34` |
+| **Step 2:** Leaf Clamp LEDs | Follow the instructions prompted by the protocol. Make sure the CaliQ sensor has a snug fit. | [view](https://photosynq.org/protocols/2279) | `>=2.34` |
+| **Step 3:** IR LEDs | Follow the instructions prompted by the protocol. | [view](https://photosynq.org/protocols/2229) | `>=2.34` |
+
+`Note:` *These calibration steps require a CaliQ*
+
+### Electronic Offsets
+
+| Electronic Offsets | Description | Details | Firmware |
+| :----------------- | :---------- | :-----: | :------: |
+| **Step 1:** Detector Offsets | Follow the instructions prompted by the protocol. | [view](https://photosynq.org/protocols/2230) | `>=2.34` |
+| **Step 2:** Detector Offsets - Fluorescence | Follow the instructions prompted by the protocol. | [view](https://photosynq.org/protocols/2231) | `>=2.34` |
+
+`Note:` *These calibration steps require the chlorophyll calibration and the pink fluorescent cards*
+
+### Calibrate Leaf Thickness
+
+| Calibrate Leaf Thickness | Description | Details | Firmware |
+| :----------------------- | :---------- | :-----: | :------: |
+| **Step 1:** Leaf Thickness Gauge | Follow the instructions prompted by the protocol. Make sure the r² value is 0.98 or higher. If it is not the case, repeat the calibration. | [view](https://photosynq.org/protocols/2232) | `>=2.34` |
+
+`Note:` *These calibration steps require the thickness calibration cards*
+
+### Calibrate Relative Chlorophyll
+
+| Calibrate Relative Chlorophyll | Description | Details | Firmware |
+| :----------------------------- | :---------- | :-----: | :------: |
+| **Step 1:** Relative Chlorophyll (SPAD) | Follow the instructions prompted by the protocol. Make sure the panels of the calibration cards are properly clamped. | [view](https://photosynq.org/protocols/1890) | `>=2.34` |
+
+`Note:` *These calibration steps require the chlorophyll calibration cards*
+
+### Reset Instrument
+
+| Reset Instrument | Description | Details | Firmware |
+| :--------------- | :---------- | :-----: | :------: |
+| Reset to Default | Reset the MultispeQ to its default settings and remove all calibrations | [view](https://photosynq.org/protocols/2221) | `>=2.34` |
+
+`Note:` *After this step you must finish all further recalibration steps to use the MultispeQ!*
+
+
+
+<!-- 
 
 ## Reset Calibrations
 
@@ -136,7 +186,7 @@ Protocol: `CAL#11 Relative chlorophyll (SPAD) using the OLD method`
 The open and close position for the MultispeQ needs to be recalibrated in regular intervals. Otherwise it might happen, that the closing of the clamp is not properly detected and a protocol is not starting causing a measurement to take a lot longer than expected.
 
 1. Set the **opened** position by holding the clamp open at **~4mm** and clicking on the **Set** button.
-2. Set the **closed** position by holding the clamp open at **~2mm** and clicking on the **Set** button.
+2. Set the **closed** position by holding the clamp open at **~2mm** and clicking on the **Set** button. -->
 
 <!-- When using the Desktop App in order to repeat the Instrument Calibrations, follow these steps to get started.
 Connect your Instrument [link], using USB or Bluetooth. 
