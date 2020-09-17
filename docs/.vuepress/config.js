@@ -193,6 +193,7 @@ module.exports = {
                     'protocols/sensors',
                     'protocols/repeats',
                     'protocols/variables',
+                    'protocols/indicator-light',
                     'protocols/mathematical-expressions',
                     'protocols/commands'
                 ]
