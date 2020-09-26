@@ -38,7 +38,7 @@ module.exports = {
                     {
                         text: 'Downloads',
                         items: [
-                            { text: 'E-Book (epub)', link: 'https://help.photosynq.org/downloads/PhotosynQ-Documentation.epub' }
+                            { text: 'E-Book (epub)', link: 'https://help.photosynq.com/downloads/PhotosynQ-Documentation.epub' }
                         ]
                     },
                     {
