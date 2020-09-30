@@ -192,6 +192,7 @@ module.exports = {
                     'protocols/signal-intensities',
                     'protocols/sensors',
                     'protocols/repeats',
+                    'protocols/user-interaction',
                     'protocols/variables',
                     'protocols/indicator-light',
                     'protocols/mathematical-expressions',
@@ -206,6 +207,7 @@ module.exports = {
                     'macros/macro-basics',
                     'macros/create-edit-a-macro',
                     'macros/coding-and-functions',
+                    'macros/sanitize-user-input',
                     'macros/provided-functions'
                 ]
             },
