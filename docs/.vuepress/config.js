@@ -192,6 +192,7 @@ module.exports = {
                     'protocols/signal-intensities',
                     'protocols/sensors',
                     'protocols/repeats',
+                    'protocols/pre-illumination',
                     'protocols/user-interaction',
                     'protocols/variables',
                     'protocols/indicator-light',
