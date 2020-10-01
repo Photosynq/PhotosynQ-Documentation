@@ -289,7 +289,7 @@ module.exports = {
             updatePopup: true
         }],
         ['sitemap', {
-            hostname: 'https://help.photosynq.org',
+            hostname: 'https://help.photosynq.com',
             outFile: 'sitemap.xml'
         }],
         ['@vuepress/medium-zoom', {
@@ -303,7 +303,7 @@ module.exports = {
               name   : 'PhotosynQ Documentation',
               twitter: 'photosynq',
             },
-            canonical_base: 'https://help.photosynq.org'
+            canonical_base: 'https://help.photosynq.com'
         }]
     ]
 };
