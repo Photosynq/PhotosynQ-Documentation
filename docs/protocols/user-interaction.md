@@ -2,7 +2,7 @@
 
 Protocols allow different types of user interactions. In the previous chapter the open and close state of the MultispeQ's leaf clamp was used to control the [Protocol Flow](./flow-control.md) the protocol start and/or resume after a break during a running Protocol. The commands `alert` and `prompt` allow to control the flow as well as provide additional information and even allow additional user input that is available to the Protocol Macro.
 
-:::warning Note
+::: warning Note
 Currently `alert` and `prompt` are only supported by the Desktop Application!
 :::
 
@@ -16,7 +16,7 @@ Alerts are interrupting a running Protocol and displaying a popup dialog with a 
 "alert": "Alert message to the user",
 ```
 
-:::tip Handling Double Quotes
+::: tip Handling Double Quotes
 When your message is containing a double quotes, they must be escaped using a backslash before the double quote `\"`, e.g. `"alert": "A \"Word\" in quotes"`. When displayed, the text will be shown with regular quotes (`A "Word" in quotes`).
 :::
 
@@ -56,6 +56,6 @@ json.message["prompt", "Prompt message to the user", ""],
 json.message["prompt", "Prompt message to the user", "cancel"],
 ```
 
-:::tip User Input Handling
+::: tip User Input Handling
 Find more on how to handle the user input in a Macro in the Chapter [Sanitize User Input](../macros/sanitize-user-input.md).
 :::

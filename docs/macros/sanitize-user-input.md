@@ -55,7 +55,7 @@ else{
 }
 ```
 
-:::warning Note
+::: warning Note
 It is important to parse the user input as a number when a number is expected, because `1+"1"` would return `11` and not `2`!
 :::
 

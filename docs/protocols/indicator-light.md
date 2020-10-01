@@ -4,7 +4,7 @@ The MultispeQ has an indicator light on top to indicate the status of the Instru
 
 ![MultispeQ Indicator Light](./images/indicator-light.gif)
 
-:::warning Note
+::: warning Note
 This feature is only available for MultispeQ v2.0.
 :::
 

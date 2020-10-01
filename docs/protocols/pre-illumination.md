@@ -2,7 +2,7 @@
 
 It is often useful to pre-illuminate a sample at a given light intensity, for a given amount of time. The `pre_illumination` command allows to select a LED and use it for sample illumination for a set time at a certain light intensity in PAR (µE × s⁻¹ × m⁻²).
 
-:::warning Note
+::: warning Note
 Be aware, that the PAR values only work for LEDs with an emission peak between 400nm and 700nm. All other LEDs are not calibrated to be used with PAR values.
 :::
 
