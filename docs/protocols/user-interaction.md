@@ -1,6 +1,6 @@
 # User Interaction
 
-Protocols allow different types of user interactions. In the previous chapter the open and close state of the MultispeQ's leaf clamp was used to control the [Protocol Flow](./flow-control.md) the protocol start and/or resume after a break during a running Protocol. The commands `alert` and `prompt` allow to control the flow as well as provide additional information and even allow additional user input that is available to the Protocol Macro.
+Protocols allow different types of user interactions. In the previous chapter the open and close state of the MultispeQ's leaf clamp was used to control the [Protocol Flow](./flow-control.md) including the protocol start and/or resume after a break during a running Protocol. The commands `alert` and `prompt` allow to control the flow as well, using the Application instead of the MultispeQ's leaf clamp. The resulting popup dialogs can provide additional information and even allow for user input that is available to the Protocol's Macro after the measurement is done.
 
 ::: warning Note
 Currently `alert` and `prompt` are only supported by the Desktop Application!
