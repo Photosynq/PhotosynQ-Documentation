@@ -30,7 +30,7 @@ json.message["alert", "Alert message to the user", "ok"],
 
 ## Prompt
 
-Like alerts, prompts are also interrupting a running Protocol and displaying popup dialog with a message. But in addition to the message, the dialog also contains an input field, that allows for any user input.The user input to this alert can be **Cancel** or **OK**. When **OK** is selected, the Protocol resumes, when **Cancel** is selected, the Protocol is stopped.
+Like alerts, prompts are also interrupting a running Protocol and displaying  a popup dialog with a message. But in addition to the message, the dialog also contains an input field, that allows for any user input. When **OK** is selected, the Protocol resumes and the returned value is the user input, when **Cancel** is selected, the Protocol resumes and the returned value for the prompt is `cancel`.
 
 ### Code for Prompt
 
