@@ -191,6 +191,7 @@ module.exports = {
                     'protocols/detectors',
                     'protocols/signal-intensities',
                     'protocols/sensors',
+                    'protocols/light-intensity-par',
                     'protocols/repeats',
                     'protocols/pre-illumination',
                     'protocols/user-interaction',
