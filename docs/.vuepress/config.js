@@ -194,6 +194,7 @@ module.exports = {
                     'protocols/light-intensity-par',
                     'protocols/repeats',
                     'protocols/pre-illumination',
+                    'protocols/flow-control',
                     'protocols/user-interaction',
                     'protocols/variables',
                     'protocols/indicator-light',
