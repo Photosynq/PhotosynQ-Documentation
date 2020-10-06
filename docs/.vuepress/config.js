@@ -38,7 +38,7 @@ module.exports = {
                     {
                         text: 'Downloads',
                         items: [
-                            { text: 'E-Book (epub)', link: 'https://help.photosynq.org/downloads/PhotosynQ-Documentation.epub' }
+                            { text: 'E-Book (epub)', link: 'https://help.photosynq.com/downloads/PhotosynQ-Documentation.epub' }
                         ]
                     },
                     {
@@ -191,8 +191,13 @@ module.exports = {
                     'protocols/detectors',
                     'protocols/signal-intensities',
                     'protocols/sensors',
+                    'protocols/light-intensity-par',
                     'protocols/repeats',
+                    'protocols/pre-illumination',
+                    'protocols/flow-control',
+                    'protocols/user-interaction',
                     'protocols/variables',
+                    'protocols/indicator-light',
                     'protocols/mathematical-expressions',
                     'protocols/commands'
                 ]
@@ -205,6 +210,7 @@ module.exports = {
                     'macros/macro-basics',
                     'macros/create-edit-a-macro',
                     'macros/coding-and-functions',
+                    'macros/sanitize-user-input',
                     'macros/provided-functions'
                 ]
             },
@@ -285,7 +291,7 @@ module.exports = {
             updatePopup: true
         }],
         ['sitemap', {
-            hostname: 'https://help.photosynq.org',
+            hostname: 'https://help.photosynq.com',
             outFile: 'sitemap.xml'
         }],
         ['@vuepress/medium-zoom', {
@@ -299,7 +305,7 @@ module.exports = {
               name   : 'PhotosynQ Documentation',
               twitter: 'photosynq',
             },
-            canonical_base: 'https://help.photosynq.org'
+            canonical_base: 'https://help.photosynq.com'
         }]
     ]
 };

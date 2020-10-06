@@ -6,11 +6,11 @@ Calibration Information, Settings and as well as Instrument related information 
 
 In order to create a Backup, make sure your Instrument is connected. Under the item "Memory Backup" you will find the date and time of the latest Backup and the **Manage** button. Click on **Manage** and select **Create Backup** from the dropdown menu. After a few seconds a Backup is created and the date and time is updated to match the time point of the Backup.
 
-:::tip Firmware Updates
+::: tip Firmware Updates
 Before a Firmware Update, the Instrument's memory is automatically backed up, to ensure calibrations and settings can be safely transferred or restored after a Backup.
 :::
 
-:::tip Calibration Assistant
+::: tip Calibration Assistant
 When running an Assistant, the Instrument's data is automatically backed up after the Assistant has been successfully finished.
 :::
 
@@ -26,7 +26,7 @@ Click on the **Manage** button and select **View Latest** from the dropdown menu
 
 To view a specific Backup or share the file, click on the **Manage** button and select **Show Folder** to open the folder with all backup files in your file manager. Each file is named after the date and time the backup was created (e.g. 2020-07-07T19.07.58.json). The folder containing the files is named after the Instrument's ID without the colons (e.g. ID: `52:00:13:1f` | Folder: `5200131f`).
 
-:::warning Note
+::: warning Note
 Altering the files content or saving them when viewing will cause the file associated timestamp to be updated. This causes the backup file to be recognized as the latest, even though it is technically not the latest Backup.
 :::
 
@@ -40,7 +40,7 @@ To import the latest Backup, simply click on the **Manage** button and select **
 
 To manually select a Backup to restore, click on the **Manage** button and select **Restore Backup** from the dropdown menu. Then select the backup file you want to restore from the file open dialog. The standard folder for your Instrument Backups is select, but you can select a file from any location. After that the protocol to restore the Backup is executed and the procedure is the same as restoring the **Latest Backup**.
 
-:::warning Selecting a Backup
+::: warning Selecting a Backup
 When selecting a file, the Application will check if the Instruments ID and the ID saved in the Backup match. If this is not the case, a warning is shown, preventing you from accidentally restoring a Backup for a different Instrument. If, for any reason, you want to proceed anyways, just select **Restore** from the dialog.
 :::
 
@@ -58,6 +58,6 @@ If you have your Instrument connected, select **Instrument Settings** from the m
 
 If you using the console commands already, you can type the command `print_memory` instead of selecting the option from the Settings menu. The output of the instrument is the same in both cases.
 
-:::tip Questions for Support
+::: tip Questions for Support
 Whenever you have a question about the functionality of your Instrument or you have an issue, copy the output from the Console window and attach it to your email to allow the PhotosynQ Support to process your question faster.
 :::

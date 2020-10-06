@@ -29,7 +29,7 @@ In order to connect an Instrument with the PhotosynQ Software, after the serial 
 | device_firmware | `string`, `number` | Version of the custom firmware                                   |
 | settings        | `object`           | Not available                                                    |
 
-:::tip
+::: tip
 Since settings are currently not supported for custom Instruments, passing this parameter on has no effect.
 :::
 
@@ -103,7 +103,7 @@ A Measurement needs a [CRC32] checksum (length 8 characters) at the end for the 
 
 In order to indicate the end of a Measurement, it needs to be ended with two line-breaks `\n\n`. Otherwise the PhotosynQ Applications are continuing to wait for the end of the Measurement. At this point there is no timeout.
 
-:::warning
+::: warning
 Do not use line-breaks within the measurement, as it would end the Measurement prematurely.
 :::
 

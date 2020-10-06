@@ -58,7 +58,7 @@ In contrast to pulsed lights, if more than one light is defined, the lights are 
 
 ## Light Intensities
 
-When using the commands `pulsed_lights_brightness` and `nonpulsed_lights_brightness` the intensity depends on the type of LED. When using a LED that is within the PAR range of 400nm to 700nm, the value provided, defines the intensity in µE * s⁻¹ * m⁻². For all other LEDs the values can be between 0 and 4096, where 4096 is the maximum intensity.
+When using the commands `pulsed_lights_brightness` and `nonpulsed_lights_brightness` the intensity depends on the type of LED. When using a LED that is within the PAR range of 400nm to 700nm, the value provided, defines the intensity in µE × s⁻¹ × m⁻². For all other LEDs the values can be between 0 and 4096, where 4096 is the maximum intensity.
 
 Two sensor commands can be used in combination with`nonpulsed_lights_brightness`, `light_intensity` and `previous_light_intensity`. These allow the replication of the ambient light inside the measurement chamber. This only works together with the red actinic light at 655nm at this point.
 

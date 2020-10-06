@@ -20,7 +20,7 @@ First step is to setup an auto-gain control in a protocol. The following paramet
 ]
 ```
 
-:::tip
+::: tip
 Find the protocol command documentation [here](./commands.md#autogain).
 :::
 
@@ -39,7 +39,7 @@ Multiple auto-gains can be used inside a protocol, depending on the number of li
 }
 ```
 
-:::warning Note
+::: warning Note
 Always make sure, that the index used for each gain is unique. There is no error checking on the Instrument side.
 :::
 

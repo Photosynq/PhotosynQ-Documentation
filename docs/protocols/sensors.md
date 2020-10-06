@@ -24,7 +24,7 @@ When writing a protocol, the sensors that are supposed to be included into a mea
 
 | Command                          | Data Returned                                                                |
 | :------------------------------- | :--------------------------------------------------------------------------- |
-| `light_intensity`                | Light intensity in µmol photons m⁻² s⁻¹ (PAR)                                |
+| `light_intensity`                | Light intensity in µmol photons × s⁻¹ × m⁻² (PAR)                            |
 | `previous_light_intensity`       | Light intensity from previous measurement (only in `_protocols_set_`)        |
 | `temperature_humidity_pressure`  | Temperature (℃), rel. humidity (%), barometric pressure (mbar) - (sensor #1) |
 | `temperature_humidity_pressure2` | Temperature (℃), rel. humidity (%), barometric pressure (mbar) - (sensor #2) |

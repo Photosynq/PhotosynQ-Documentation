@@ -3,7 +3,7 @@ home: true
 heroImage: hero.png
 heroText: Documentation
 tagline: Accelerate Crop Improvements with PhotosynQ
-actionText: Getting Started →
+actionText: Getting Started
 actionLink: /getting-started/what-is-photosynq
 features:
 - title: The MultispeQ
@@ -40,6 +40,7 @@ footer: © PhotosynQ, Inc.
 footerShields:
   - https://img.shields.io/github/release/Photosynq/PhotosynQ-Documentation.svg?style=flat-square
   - https://img.shields.io/github/release-date/PhotosynQ/PhotosynQ-Documentation.svg?style=flat-square
+  - https://img.shields.io/github/contributors/PhotosynQ/PhotosynQ-Documentation?style=flat-square
   - https://img.shields.io/github/license/PhotosynQ/PhotosynQ-Documentation.svg?style=flat-square
 ---
 
