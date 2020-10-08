@@ -9,7 +9,7 @@ const jetpack = require('fs-jetpack');
 const chalk = require('chalk');
 
 const MarkdownIt = require('markdown-it');
-const katex = require('markdown-it-katex');
+const katex = require('@iktakahiro/markdown-it-katex');
 const container = require('markdown-it-container');
 const figures = require('markdown-it-implicit-figures');
 

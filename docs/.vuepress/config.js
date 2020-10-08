@@ -5,7 +5,7 @@ module.exports = {
         ['link', { rel: 'icon', href: '/icons/favicon-32x32.png' }],
         ['link', { rel: 'manifest', href: '/manifest.json' }],
         ['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' }],
-        ['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css' }]
+        ['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.css' }]
     ],
     base: '/',
     home: true,
@@ -22,7 +22,7 @@ module.exports = {
         toc: { includeLevel: [2, 3] },
         extendMarkdown: md => {
             md.set({ breaks: true });
-            md.use(require('markdown-it-katex'));
+            md.use(require('@iktakahiro/markdown-it-katex'));
             md.use(require('markdown-it-implicit-figures'),{
                 figcaption: true
             });
