@@ -50,6 +50,8 @@ var instruments = function (cb) {
             });
             basename = file.name.slice(0, -3).replace(/(calibrations-|assistants-)/g, '');
             var type = file.name.slice(0, -3).split('-')[0];
+            if(options[basename] === undefined)
+                options[basename] = {};
             if (options[basename] !== undefined && options[basename] == "")
                 options[basename] = {};
             options[basename][type] = content;
@@ -59,6 +61,10 @@ var instruments = function (cb) {
                 continue;
             var tempPath = jetpack.path('instruments', 'docs', `${out}.md`);
             var template = jetpack.read(tempPath);
+            if(!template || template === undefined){
+                console.log(`No Template availabe for ${out}.md`);
+                continue;
+            }
             var docPath = "";
             var md = "";
             if (out.match(/settings/)) {
