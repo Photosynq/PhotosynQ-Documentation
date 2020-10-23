@@ -23,35 +23,21 @@ const buildEPUB = function (cb) {
     cssString += jetpack.read(jetpack.path(cwd, 'node_modules', 'font-awesome', 'css', 'font-awesome.css')).replace(/\.\.\/fonts\/fontawesome/g, './fonts/fontawesome');
     cssString += jetpack.read(jetpack.path(cwd, "node_modules", "katex", "dist", "katex.min.css")).replace(/fonts\/KaTeX/g, './fonts/KaTeX');
 
+    /* Katex font files and Font Awesome ttf */
+    var fontsPath = jetpack.path(cwd, 'node_modules', 'katex', 'dist','fonts');
+    var fontFiles = jetpack.find(fontsPath,{matching:["*.ttf"]});
+    fontFiles = fontFiles.map(function(file){
+        return jetpack.path(cwd, file);
+    });
+    fontFiles.push( jetpack.path(cwd, 'node_modules', 'font-awesome', 'fonts', 'fontawesome-webfont.ttf') );
+
     var option = {
         title: "PhotosynQ Documentation", // *Required, title of the book.
         author: "PhotosynQ, Inc", // *Required, string or array.
         publisher: "PhotosynQ, Inc", // optional
         version: 3, // or 2
         css: cssString, // sting with css
-        fonts: [
-            jetpack.path(cwd, 'node_modules', 'font-awesome', 'fonts', 'fontawesome-webfont.ttf'),
-            jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_AMS-Regular.ttf'),
-            jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_Caligraphic-Bold.ttf'),
-            jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_Caligraphic-Regular.ttf'),
-            jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_Fraktur-Bold.ttf'),
-            jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_Fraktur-Regular.ttf'),
-            jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_Main-Bold.ttf'),
-            jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_Main-Italic.ttf'),
-            jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_Main-Regular.ttf'),
-            jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_Math-BoldItalic.ttf'),
-            jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_Math-Italic.ttf'),
-            jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_Math-Regular.ttf'),
-            jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_SansSerif-Bold.ttf'),
-            jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_SansSerif-Italic.ttf'),
-            jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_SansSerif-Regular.ttf'),
-            jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_Script-Regular.ttf'),
-            jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_Size1-Regular.ttf'),
-            jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_Size2-Regular.ttf'),
-            jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_Size3-Regular.ttf'),
-            jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_Size4-Regular.ttf'),
-            jetpack.path(cwd, 'node_modules', 'katex', 'dist', 'fonts', 'KaTeX_Typewriter-Regular.ttf')
-        ],
+        fonts: fontFiles,
         lang: 'en',
         tocTitle: 'Contents',
         customHtmlTocTemplatePath: jetpack.path(cwd, 'src', 'templates', 'toc.xhtml.ejs'),
