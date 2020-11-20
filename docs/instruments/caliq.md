@@ -14,10 +14,10 @@
 
 ![CaliQ attached to the MultispeQ v2.0 - For the Setup it is **only required** to plug in the CaliQ using the USB-C cable, not to clamp the PAR Sensor or attaching the Light Source (shown for demonstration purposes only).](./images/multispeq-caliq-setup.jpg)
 
-The CaliQ is simply connected to the MultispeQ by using the provided USB-C cable and plugging it into the MultispeQ's USB-C port located on the back next to the micro-USB port. Attaching the PAR Sensor of the CaliQ or its Light Source is not required (shown for demonstration purposes only). The Calibration routines will prompt you when to do so. The The CaliQ can be connected and disconnected at any time and doesn't require the MultispeQ to be powered down or restarted. To test for the correct cable orientation, follow the instructions below.
+The CaliQ is simply connected to the MultispeQ by using the provided USB-C cable and plugging it into the MultispeQ's USB-C port located on the back next to the micro-USB port. Attaching the PAR Sensor of the CaliQ or its Light Source is not required (shown for demonstration purposes only). The Calibration routines will prompt you when to do so. The CaliQ can be connected and disconnected at any time and doesn't require the MultispeQ to be powered down or restarted. To test for the correct cable orientation, follow the instructions below.
 
 ::: warning MultispeQ v1.0 Users
-Due to a hardware change, the MultispeQ v1.0 requires a small adapter for connecting the CaliQ. Please contact <support@photosynq.org> before purchasing a device.
+Due to a hardware change, the MultispeQ v1.0 requires a small adapter, available in the shop, for connecting the CaliQ. Please contact <support@photosynq.org> for further help in purchasing an instrument.
 :::
 
 ## Test the Connection
@@ -49,7 +49,7 @@ You may need to clean the plastic window over the LED light source occasionally.
 :::
 
 ::: danger
-Do not submerge in water, do not use solvents or detergents and do not use abrasive or rough cloths to clean light sources plastic window.
+Do not submerge in water, do not use solvents or detergents, and do not use abrasive or rough cloths to clean light sources plastic window.
 :::
 
 ### USB-C Port
@@ -57,7 +57,7 @@ Do not submerge in water, do not use solvents or detergents and do not use abras
 The [USB-C](https://en.wikipedia.org/wiki/USB-C) port is located on the PAR sensor part of the CaliQ. Connect the CaliQ with the supplied cable to the Accessory Port of the MultispeQ.
 
 ::: danger
-Do not connect the CaliQ to a power supply, computer or mobile device using the USB-C cable as it might damage the CaliQ.
+Do not connect the CaliQ to a power supply, computer, or mobile device using the USB-C cable as it might damage the CaliQ.
 :::
 
 ## Configuration
