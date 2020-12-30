@@ -83,11 +83,21 @@ The available settings depend on the type and version of the Instrument connecte
 | Leaf Clamp Positions | Description | Firmware |
 | :------------------- | :---------- | :------: |
 | Open and Close Position | Calibrate the *open* and *close* position of the clamp. During the calibration follow the instructions of the protocol. | `1.17` `1.23` |
+| Opened Position | Set the **opened** position by holding the clamp open at **~4mm** and clicking on the **Set** button. | `>=2.3` |
+| Closed Position | Set the **closed** position by holding the clamp open at **~2mm** and clicking on the **Set** button. | `>=2.3` |
+
+#### Recalibrate Compass
+
+| Recalibrate Compass | Description | Firmware |
+| :------------------ | :---------- | :------: |
+| Compass | Calibrate the Instruments internal compass. After starting the calibration, start moving the Instrument in a steady motion, describing a sphere. | `>=2.3` |
 
 #### Power Management
 
 | Power Management | Description | Firmware |
 | :--------------- | :---------- | :------: |
+| Automatic Shutdown | The initial time for Instruments to turn off is **30 minutes**. To start it up again you have to hold the button for ~10s to restart the Instrument. Adjust the time by selecting a shutdown interval. | `>=2.3` |
+| Stay On (USB) | When set to **Yes** the Instrument will not power down when connected through USB. Once disconnected, it will turn off according the the automatic shutdown time. | `>=2.3` |
 | Power | Turn off the Instrument completely. | `all` |
 
 #### Instrument Indicators
@@ -101,12 +111,15 @@ The available settings depend on the type and version of the Instrument connecte
 | Instrument Information | Description | Firmware |
 | :--------------------- | :---------- | :------: |
 | Stored Information (EEPROM) | Display all the information stored in the Instrument's internal memory. | `all` |
+| Instrument Clock | Set the Instrument's clock to the computers time. | `>=2.3` |
 
 #### Instrument Tests
 
 | Instrument Tests | Description | Firmware |
 | :--------------- | :---------- | :------: |
 | Instrument Connection | Check if the Instrument is connected and properly communicating. | `all` |
+| CaliQ Connection | Check if the CaliQ and Instrument are properly communicating. | `>=2.3` |
+| Instrument Sensors | Scan for Sensors (I²C address) and Test the communication. | `>=2.3` |
 
 :::
 
