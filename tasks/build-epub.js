@@ -6,12 +6,10 @@
 const jetpack = require('fs-jetpack');
 const config = require('../docs/.vuepress/config.js');
 const epub = require('epub-gen');
-const Entities = require('html-entities').XmlEntities;
+const entities = require('html-entities');
 const moment = require('moment-timezone');
 const { getGitTag } = require('./tag');
 const { mdToHTML } = require('./build-html');
-
-const entities = new Entities();
 
 const buildEPUB = function (cb) {
     var cwd = jetpack.cwd();
