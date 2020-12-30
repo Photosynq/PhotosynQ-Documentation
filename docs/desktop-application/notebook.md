@@ -25,6 +25,8 @@ A click on a measurement will bring up details in the side bar on the right. You
 
 To open and view a measurement, click on a measurement in the list and select **Open** from the side bar on the top or double click on the measurement in the list. A new window will open and show the measurement results. Multiple measurements can be opened at the same time. Simply check all the checkboxes for the measurements you want to open. Then pick **Open Selected** from the **Action** dropdown menu above the list of measurements. If measurements use the same protocol, traces will be displayed in the same graph, otherwise there will be a panel for each protocol.
 
+[More on viewing Measurements](./view-measurements.md)
+
 ## Re-Run a Measurement
 
 With every measurement in the Notebook, the Protocol used gets saved as well. When you select a measurement, in the side bar on the right under Protocol, you can re-run the Protocol that was used for that particular measurement by selecting **Run**. You can also view or edit the Protocol by selecting **Edit**.

@@ -126,6 +126,7 @@ module.exports = {
                     'desktop-application/projects',
                     'desktop-application/adding-notes-and-pictures',
                     'desktop-application/notebook',
+                    'desktop-application/view-measurements',
                     'desktop-application/protocols',
                     'desktop-application/macros',
                     'desktop-application/protocol-editor',
