@@ -45,10 +45,14 @@ Due to the small size of the graphs within the table the maximum number of data-
 
 ### Export Data (csv)
 
-The data from the measurements results can be exported as a csv file. Simply click on the menu button **☰** in the right corner of the panel header and select *Save Table (csv)* from the context menu and save the file to a selected location. When different Protocols were used in one Measurement or Measurements with different Protocols are selected at the same time, the data will only be saved for the corresponding panel.
+The data from the measurement results can be exported as a csv file. Simply click on the menu button **☰** in the right corner of the panel header and select *Save Data (csv)* from the context menu and save the file to a selected location. When different Protocols were used in one Measurement or Measurements with different Protocols are selected at the same time, the data will only be saved for the corresponding panel.
 
 Since some columns might hold traces, that are comma separated themselves, the traces are saved as strings, meaning they are enclosed in double quotes (e.g. `"1,2,5,3,..."`). So when importing the data into a program like Excel, make sure to set the delimiter to comma `,` and the **Text qualifier** to `"`. In a second step, the column with the traces, can be properly imported using the **Text to Columns** feature.
 
-::: warning Export as JSON
-In case you want to work with in a software package like R or Jupyter, you can also download the data in the JSON format. This format is not 100% compatible with our packages for Projects from the PhotosynQ website yet.
+### Export Data (JSON)
+
+The data from measurement results can be exported as a json file as well. The data has the same structure as a csv and might be easier to import/parse when having a lot of traces in the measurement results. Simply click on the menu button **☰** in the right corner of the panel header and select *Save Data (json)* from the context menu and save the file to a selected location. When different Protocols were used in one Measurement or Measurements with different Protocols are selected at the same time, the data will only be saved for the corresponding panel.
+
+::: danger Data Compatibility (JSON)
+In case you work with the software package for R or Jupyter, you can only use it with PhotosynQ Projects at this point.
 :::
