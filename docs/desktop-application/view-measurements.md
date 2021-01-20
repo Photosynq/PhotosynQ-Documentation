@@ -2,7 +2,7 @@
 
 Measurements saved in the applications Notebook can be viewed alone or multiple together ([The Notebook](./notebook.md#view-measurements)). The data can also be exported to be used in other applications.
 
-<!-- ![Viewing Measurements from the Notebook](./images/view-measurements.jpg) -->
+![Viewing Measurements from the Notebook](./images/notebook-measurement.png)
 
 ## Traces
 
