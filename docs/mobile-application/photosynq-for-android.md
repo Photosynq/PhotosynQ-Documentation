@@ -4,7 +4,7 @@ Taking measurements in the field, on the move? You can use the app to find proje
 
 ## Supported Android Versions
 
-Currently Android v4.4 or greater is supported. Below you find a list with compatible devices. However, some devices might experience issues. In this case help us by sending an email to <support@photosynq.org>.
+Android version 11 or greater is currently the best supported Android version. It is recommended that you update your device before attempting to download the PhotosynQ app however, other android versions of 4.4 or greater may function with the app as well. Below you find a list with compatible devices. Please note that some devices might experience issues. In this case you can help us update our information by sending an email to <support@photosynq.org>.
 
 ## Compatible Android Devices
 
