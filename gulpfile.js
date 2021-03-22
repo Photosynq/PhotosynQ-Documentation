@@ -4,13 +4,10 @@
  * command file.
  */
 
-const { series, parallel, watch } = require('gulp');
+const { series, watch } = require('gulp');
 
 // Require gulp tasks
 const cleanAll = require('./tasks/clean-all');
-const { showTag } = require('./tasks/tag');
-const { buildHTML } = require('./tasks/build-html');
-const buildEPUB = require('./tasks/build-epub');
 const macros = require('./tasks/macros');
 const testLinks = require('./tasks/test-links');
 
@@ -21,11 +18,8 @@ const firmwareCompile = require('./tasks/firmware-compile');
 const instruments = require('./tasks/instruments');
 
 exports.cleanAll = series(cleanAll);
-exports.buildHTML = series(buildHTML);
-exports.buildEPUB = series(buildEPUB);
 exports.macros = series(macros);
 exports.testLinks = series(testLinks);
-exports.showTag = series(showTag);
 
 exports.firmwareNewCommand = series(firmwareNewCommand);
 exports.firmwareDocs = series(firmwareDocs);
@@ -34,8 +28,7 @@ exports.firmwareCompile = series(firmwareCompile);
 
 exports.instruments = series(instruments);
 
-exports.build = series(cleanAll, showTag, parallel(buildEPUB, firmwareCompile));
-exports.ebook = series(buildEPUB);
+exports.build = series(cleanAll, firmwareCompile);
 
 exports.default = function () {
   watch('./firmware/**/*.json', series(firmwareDocs));
