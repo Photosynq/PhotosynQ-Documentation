@@ -1,6 +1,6 @@
 {
   "name": "photosynq-documentation",
-  "version": "1.4.25",
+  "version": "1.5.0",
   "description": "Create a static page for the documentation as well as pdfs and an ebook from markdown files.",
   "main": "index.js",
   "scripts": {
