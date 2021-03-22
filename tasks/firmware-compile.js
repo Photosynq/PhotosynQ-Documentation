@@ -3,7 +3,6 @@
  */
 
 const jetpack = require('fs-jetpack');
-const chalk = require('chalk');
 
 const firmwareCompile = function (cb) {
 
