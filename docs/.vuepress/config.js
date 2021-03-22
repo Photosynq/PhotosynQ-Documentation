@@ -36,12 +36,6 @@ module.exports = {
                 text: 'Resources',
                 items: [
                     {
-                        text: 'Downloads',
-                        items: [
-                            { text: 'E-Book (epub)', link: 'https://help.photosynq.com/downloads/PhotosynQ-Documentation.epub' }
-                        ]
-                    },
-                    {
                         text: 'Community',
                         items: [
                             { text: 'Forums', link: 'https://photosynq.org/forums' },
