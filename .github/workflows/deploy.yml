@@ -22,12 +22,24 @@ jobs:
         with:
           node-version: 12
           
-      - name: "Install and Build"
+      - name: "Install and Setup"
         run: |
           npm install -g yarn
           npm install --frozen-lockfile
           yarn install
-          yarn run postrelease
+
+      - name: "Create env File"
+        run: |
+          touch ./docs/.vuepress/.env.json
+          echo { >> ./docs/.vuepress/.env.json
+          echo \"algolia-key\": \"${{ secrets.ALGOLIA_KEY }}\", >> ./docs/.vuepress/.env.json
+          echo \"algolia-idxName\": \"${{ secrets.ALGOLIA_IDXNAME }}\", >> ./docs/.vuepress/.env.json
+          echo \"ga-key\": \"${{ secrets.GA_KEY }}\" >> ./docs/.vuepress/.env.json
+          echo } >> ./docs/.vuepress/.env.json
+          cat ./docs/.vuepress/.env.json
+          
+      - name: "Build Release"      
+        run: yarn run postrelease
       
       - name: "Configure AWS Credentials"
         uses: aws-actions/configure-aws-credentials@v1
