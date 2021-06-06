@@ -9,16 +9,17 @@ const natsort = require('natsort').default;
 
 var instruments = function (cb) {
     /* Get templates from instruments documentation folder */
-    var filePath = jetpack.path('..', 'instrument-definitions', 'docs');
-    var templates = jetpack.find('instruments/docs', { matching: ["*.md"] });
+    var templates = jetpack.find('templates/instruments', { matching: ["*.md"] });
     var options = {};
     var content = "";
     templates.map(function (x) {
         var file = jetpack.inspect(x);
-        options[file.name.slice(0, -3)] = "";
+        var basename = file.name.slice(0, -3);
+        options[basename] = "";
     });
 
     /* Check if instrument-definitions repo exists */
+    var filePath = jetpack.path('..', 'instrument-definitions', 'docs');
     if (filePath) {
 
         /* Get all the instrument settings files */
@@ -59,7 +60,7 @@ var instruments = function (cb) {
         for (var out in options) {
             if (options[out] == "")
                 continue;
-            var tempPath = jetpack.path('instruments', 'docs', `${out}.md`);
+            var tempPath = jetpack.path('templates','instruments', `${out}.md`);
             var template = jetpack.read(tempPath);
             if(!template || template === undefined){
                 console.log(`No Template availabe for ${out}.md`);

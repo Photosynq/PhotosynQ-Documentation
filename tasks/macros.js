@@ -10,7 +10,7 @@ var macros = function (cb) {
 	var content = jetpack.read(filePath) || "";
 	// Change header level
 	content = content.replace(/^(#+)/gm, '$1#');
-	var template = jetpack.read('./macros/docs/provided-functions.md');
+	var template = jetpack.read('./templates/macros/provided-functions.md');
 	var md = Mustache.render(template, {
 		"macro-functions": content
 	});
