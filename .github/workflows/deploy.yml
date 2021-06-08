@@ -48,5 +48,5 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1
           
-#       - name: "Sync with S3"
-#         run: aws s3 sync ./docs/.vuepress/dist/ s3://help.photosynq.com/ --acl public-read --delete
+      - name: "Sync with S3"
+        run: aws s3 sync ./docs/.vuepress/dist/ s3://help.photosynq.com/ --acl public-read --delete
