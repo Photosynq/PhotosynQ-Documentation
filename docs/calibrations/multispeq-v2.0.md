@@ -12,7 +12,6 @@ Before getting started with the calibration, make sure you followed all the step
 | **PAR Sensor**<br><br>![](./images/assistants/multispeq-calibrate-par-sensor.jpg) | Calibrate the Instrument's PAR sensor.<br><br>**Requirements:**<br>&square; CaliQ Instrument<br>|
 | **Leaf Thickness**<br><br>![](./images/assistants/multispeq-calibrate-leaf-thickness.jpg) | Calibrate the Instrument's Leaf Thickness Gauge.<br><br>**Requirements:**<br>&square; Thickness Calibration Cards<br>|
 | **Relative Chlorophyll (SPAD)**<br><br>![](./images/assistants/multispeq-clamp-spad-card.jpg) | Calibrate the MultispeQ for relative Chlorophyll measurements (Minolta SPAD).<br><br>**Requirements:**<br>&square; Chlorophyll Calibration Cards<br>|
-| **Small Leaf Masks**<br><br>![](./images/assistants/small-leaf-mask.jpg) | Recalibrate the Instrument to work with small leaf masks.<br><br>**Requirements:**<br>&square; CaliQ Instrument<br>&square; Chlorophyll Calibration Cards<br>&square; Fluorescent Card (pink)<br>&square; Thickness Calibration Cards<br>|
 
 
 ## Manual Calibrations
