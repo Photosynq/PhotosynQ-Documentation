@@ -1,10 +1,23 @@
 # Install PhotosynQ for R
 
-## Installation
+If you don't already have, install [RStudio] and [R] first. After that you can install the PhotosynQ package using one of the following options.
 
-If you don't already have, install [RStudio] and [R] first.
+## CRAN
 
-## From Package Archive File
+The easiest way to install PhotosynQ for R is through the [CRAN] network that is hosting the repository for R Packages.
+
+1. Open [RStudio]
+2. Select **Tools** from the menu and click on **Install Packages**
+3. Select Install from: Repository (CRAN)
+4. Type `PhotosynQ` into the Packages input field
+5. Make sure the **Install dependencies** checkbox is checked
+6. Click on **Install** to finish the installation and close the dialog
+
+::: warning Note
+If you are **not** using CRAN to install the PhotosynQ Package you might have to install the Packages `httr` and `getPass` it depends on manually using the command: `install.packages(c("httr","getPass"))`.
+:::
+
+## Package Archive File
 
 Download the latest release of the PhotosynQ R package. Select the file indicated as Source code (tar.gz). This is the format required by RStudio.
 
@@ -30,4 +43,5 @@ GitHub: [Source](https://github.com/PhotosynQ/PhotosynQ-R)
 
 [RStudio]: https://www.rstudio.com
 [R]: https://www.r-project.org
+[CRAN]: https://cran.r-project.org/
 [devtools]: https://github.com/hadley/devtools "devtools"
