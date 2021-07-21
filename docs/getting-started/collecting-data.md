@@ -12,33 +12,6 @@ Once you have selected the Project that you want to contribute measurements to, 
 If you are using the default protocol **Photosynthesis RIDES** the measurement will automatically start once you have opened the clamp and closed it over the leaf. Other protocols the measurement may begin as soon as you select **Take Measurement**. - **Make sure you know when the protocol you are using begins!**
 :::
 
-## Connect an Instrument
-
-You can use Bluetooth or USB to connect your Instrument with your device. Depending on the Instrument and device, some connection options may not be available.
-
-For data collection in the field, most people will use the mobile app. So lets focus on connecting the MultispeQ to your android phone. For tips on how to connect to the PhotosynQ desktop app please check out [Connect an Instrument - Desktop](../desktop-application/connect-an-instrument.md) or [Connect an Instrument - Mobile](../mobile-application/connect-an-instrument.md).
-
-**Before connecting your MultispeQ to the Android or Desktop App you need to turn on the MultispeQ by pressing and holding the power button for 5 seconds.** The indicator light will blink once every ten seconds to let you know if it is turned on.
-
-![Connect an Instrument: The arrow indicates the power and reset button.](./images/first-steps-turn-multispeq-on.jpg)
-
-1. In the app, select the Instrument icon on the top right corner.
-2. A list of available Bluetooth Instruments will appear.
-3. Below the Instrument name will be its ID. This should match the MAC address on your Instrument (screen A, below)
-   - If your Instrument does not appear, click on **SCAN DEVICES**
-   - You may have to click **SCAN DEVICES** multiple times before your Instrument appears.
-4. Select on the appropriate Instrument.
-5. If this is your first time connecting this MultispeQ, a pop-up will appear asking to pair the device by entering the Instrument PIN. **The PIN is 1234 and is the same for every MultispeQ.**
-6. After pairing the MultispeQ, you will be taken back to the Device list. Select your MultispeQ from the list, if the screen B (below) appears your device is connected.
-
-![Android - Bluetooth: (A) Scanning for MultispeQ devices. (B) Information about the connected device.](./images/first-steps-connect-multispeq.jpg)
-
-**You are now ready to take measurements with your MultispeQ!**
-
-::: tip
-If you are having trouble connecting to the MultispeQ, please look for trouble shooting tips on [Connect an Instrument - Desktop](../desktop-application/connect-an-instrument.md) or [Connect an Instrument - Mobile](../mobile-application/connect-an-instrument.md)
-:::
-
 ## Best Measurement Practices
 
 + Do not position your body so you are shading the leaf or the light sensor (A)
