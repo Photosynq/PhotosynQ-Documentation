@@ -2,7 +2,7 @@
 
 ![The PhotosynQ Platform](./images/photosynq-overview.png)
 
-## Design Experiment
+## Design an Experiment
 
 The PhotosynQ platform allows you to [design experiments](../projects/create-a-new-project.md) or join other’s projects through an intuitive and collaborative online application. Use staff-picked protocols and macros or create your own to personalise the data you collect. Further customize your experiments by collecting custom sets of meta-data with each measurement. This additional data, entered by answering Project questions, can be used to filter a data set or be part of the data collected such as plant size, treatment, et cetera. [Additionally generated data](../projects/import-custom-data.md) like dry weight, yield, or absolute chlorophyll content, can be added to the project post measurement data collection for more analytics.
 
