@@ -195,7 +195,8 @@ module.exports = {
                     'protocols/variables',
                     'protocols/indicator-light',
                     'protocols/mathematical-expressions',
-                    'protocols/commands'
+                    'protocols/commands',
+                    'protocols/snippets'
                 ]
             },
             {
