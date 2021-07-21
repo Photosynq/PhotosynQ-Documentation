@@ -4,7 +4,7 @@ Taking measurements in the lab or developing new measurement protocols and macro
 
 ## Download the PhotosynQ Application
 
-1. Go to [https://photosynq.org/software](https://photosynq.org/software/#desktop) and scroll to the **Desktop App**.
+1. Go to [https://photosynq.com/software](https://photosynq.com/software/#desktop) and scroll to the **Desktop App**.
 2. Download the application for your operating system.
 
 ## Installation

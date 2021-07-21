@@ -3,7 +3,7 @@
 ## Getting Started
 
 + **Charging:** Before using your CaliQ, make sure the MultispeQ is fully charged. The CaliQ has no battery and is powered through the MultispeQ.
-+ **Software:** Go to <https://photosynq.org/software> and download the Desktop Application.
++ **Software:** Go to <https://photosynq.com/software> and download the Desktop Application.
 + **MultispeQ Firmware:** Make sure your MultispeQ is running the firmware version `v2.16` or greater. If not, update your MultispeQ before continuing ([Update Firmware](./firmware-updates.md)).
 + **Connection:**
   + Make sure, the MultispeQ is turned on.

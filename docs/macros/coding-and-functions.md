@@ -114,4 +114,4 @@ Some of the functions available in JavaScript are not allowed to be used in macr
 
 [JavaScript_URL]: https://www.w3schools.com/js/
 
-[Desktop App]: https://photosynq.org/software
+[Desktop App]: https://photosynq.com/software

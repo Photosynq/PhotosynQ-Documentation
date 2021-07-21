@@ -216,7 +216,7 @@ When you have saved your protocol, go ahead and take a Measurement using a plant
 In order to process the Measurement and calculate you need to associate a Macro with your Protocol. See the tutorial [Building a Macro](./building-a-macro.md) on how to build a Macro and process the data coming out of the protocol you have just created.
 
 [JSON_URL]: https://www.w3schools.com/js/js_json_intro.asp
-[Desktop App]: https://photosynq.org/software#desktop
+[Desktop App]: https://photosynq.com/software#desktop
 
 ## Example - Advanced Protocol
 
