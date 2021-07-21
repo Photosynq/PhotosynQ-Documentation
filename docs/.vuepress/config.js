@@ -68,6 +68,7 @@ module.exports = {
                 children: [
                     'getting-started/what-is-photosynq',
                     'getting-started/photosynq-glossary',
+                    'getting-started/using-the-multispeq',
                     'getting-started/starting-a-project',
                     'getting-started/collecting-data',
                     'getting-started/viewing-data',
@@ -194,7 +195,8 @@ module.exports = {
                     'protocols/variables',
                     'protocols/indicator-light',
                     'protocols/mathematical-expressions',
-                    'protocols/commands'
+                    'protocols/commands',
+                    'protocols/snippets'
                 ]
             },
             {

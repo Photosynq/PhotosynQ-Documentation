@@ -53,10 +53,12 @@ Here is where you need to take your answers to the aforementioned questions and 
 
 Knowing how answers work is key for fast data collection and successful data analysis later on.
 
-1. **Multiple Choice** is the safest and quickest option, provided you know all the possible answers.
-2. **Short Answers**  can used to provide answers to questions, but be careful! You might answer “red corn” once and then “Red corn.” Both may be the correct, but they will be sorted as different answers by the data explorer, since the answers are case sensitive.
-3. **Multiple Choice with Pictures** is useful if you want to provide visual guidance, other than that, it is the same as a Multiple Choice Questions. Pictures cannot be analyzed in PhotosynQ.
-4. **Take a Picture** questions can be cumbersome on both the measurer and when analyzing data later on. If a picture is only sometimes needed, use the **notes function** with the [Desktop](../desktop-application/adding-notes-and-pictures.md) or [Mobile](../mobile-application/adding-notes-and-pictures.md) Applications instead.
+| Question&nbsp;Type | Description |
+| :------------ | :---------- |
+| **Multiple Choice** | The safest and quickest option, provided you know all the possible answers. |
+| **Short Answers** | Provide answers to questions, but be careful! You might answer “red corn” once and then “Red corn.” Both may be the correct, but they will be sorted as different answers by the data explorer, since the answers are case sensitive. |
+| **Multiple Choice with Pictures** | useful if you want to provide visual guidance, other than that, it is the same as a Multiple Choice Questions. Pictures cannot be analyzed in PhotosynQ. |
+| **Take a Picture** | Questions can be cumbersome on both the measurer and when analyzing data later on. If a picture is only sometimes needed, use the **notes function** with the [Desktop](../desktop-application/adding-notes-and-pictures.md) or [Mobile](../mobile-application/adding-notes-and-pictures.md) Applications instead. |
 
 You may notice there is a question for uploading questions/answers via a CSV, and this can be a powerful tool, especially if you have a large, well thought out experiment. For example, you would qualify for using a CSV if you had many varieties and knew how your field was laid out, so it would be possible to preload an exact plan to walk through the field. For more information on using a CSV for a large scale project you can check out our Guide [here](https://photosynqprod.s3.amazonaws.com/files/specialfeatures/uploading-project-questions-as-a-csv.pdf).
 

@@ -144,7 +144,7 @@ PAR = 17
 ```
 
 [JavaScript_URL]: https://www.w3schools.com/js/
-[Desktop App]: https://photosynq.org/software#desktop
+[Desktop App]: https://photosynq.com/software#desktop
 
 ## Example - Advanced Macro
 

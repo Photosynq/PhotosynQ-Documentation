@@ -15,7 +15,7 @@ To pre-illumination the sample using a single LED an Array with three items is u
 + **Intensity** - The light intensity as PAR. Only integers are allowed (i.e. `100` not `100.5`)
 
 ```javascript
-"pre_illumination": [#LED, duration_of_illumination_in_ms, PAR]
+"pre_illumination": [ <led>, <intensity>, <duration> ]
 ```
 
 ## Multiple LEDs
@@ -24,8 +24,8 @@ In some cases, you want to use multiple LEDs, just use an Array of Arrays as sho
 
 ```javascript
 "pre_illumination": [
-  [first_led#, duration_of_illumination_in_ms, PAR],
-  [second_led#, duration_of_illumination_in_ms, PAR],
+  [ <led>, <intensity>, <duration> ],
+  [ <led>, <intensity>, <duration> ],
   ...
 ]
 ```
@@ -40,7 +40,7 @@ Pre-Illumination with red actinic light (~650nm) for 10 minutes using a Multispe
     "_protocol_set_": [
       {
         "label": "Pre-Illumination",
-        "pre_illumination": [2, 600000, 200]
+        "pre_illumination": [2, 200, 600000]
       }
     ]
   },

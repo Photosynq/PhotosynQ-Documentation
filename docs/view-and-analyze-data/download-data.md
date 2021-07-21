@@ -76,4 +76,4 @@ Just select **External Libraries** from the download options on the Project page
 
 ![Dialog with code snippet to import the Project data into a data-frame](./images/external-libraries.png)
 
-For more on how to use the libraries, see the links to the [software](https://photosynq.org/software#analysis) page and [tutorials](tutorials/analysis) here and at the bottom of the dialog.
+For more on how to use the libraries, see the links to the [software](https://photosynq.com/software#analysis) page and [tutorials](tutorials/analysis) here and at the bottom of the dialog.
