@@ -4,7 +4,7 @@ Documentation on how to use the PhotosynQ Platform, including Help, Tutorials an
 
 ## Build
 
-The latest release is available at <https://help.photosynq.org>.
+The latest release is available at <https://help.photosynq.com>.
 
 ### Folders & Files
 
