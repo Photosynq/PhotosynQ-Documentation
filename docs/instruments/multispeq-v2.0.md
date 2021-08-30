@@ -185,7 +185,7 @@ Kuhlgert, S., Austic, G., Zegarac, R. Osei-Bonsu, I.,Hoh, D., Chilvers, M. I., e
 
 [ELSH-Q61F1-0LPNM-JF3F8]: https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/Shuen1W_Series.pdf
 
-[SFH 4786S]: https://dammedia.osram.info/media/resource/hires/osram-dam-4323044/SFH%204786S_2017-10-23.pdf
+[SFH 4786S]: https://dammedia.osram.info/media/resource/hires/osram-dam-5727347/SFH%204786S_EN.pdf
 
 [S6775]: https://www.hamamatsu.com/us/en/product/alpha/S/4103/S6775/index.html
 
