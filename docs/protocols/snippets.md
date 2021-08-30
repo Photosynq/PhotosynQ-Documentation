@@ -66,6 +66,10 @@ Recording environmental parameters using the MultispeQ during a measurement. Mor
 
 More details on the user interaction are in the following chapter - [User Interaction](./user-interaction.md).
 
+::: warning Note
+Currently `alert` and `prompt` are only supported by the Desktop Application!
+:::
+
 ### Show an Alert Dialog
 
 Show an Alert Dialog to inform the user (e.g. switch sample). The measurement will pause until the Dialog is closed.

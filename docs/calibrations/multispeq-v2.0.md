@@ -24,7 +24,7 @@ Make sure to follow the steps in the correct order when a calibration contains m
 
 | Calibrate PAR Sensor | Description | Details | Firmware |
 | :------------------- | :---------- | :-----: | :------: |
-| **Step 1:** Calibrate PAR Sensor | Follow the instructions prompted by the protocol. | [view](https://photosynq.com/protocols/2225) | `>=2.34` |
+| **Step 1:** Calibrate PAR Sensor | Follow the instructions prompted by the protocol. | [view](https://photosynq.org/protocols/2225) | `>=2.34` |
 
 When using the CaliQ for calibrating the PAR sensor, make sure it is connected and communicating before starting the calibration procedure. To check if it is properly connected, go to [Instrument Settings](https://help.photosynq.com/instruments/instrument-settings.html) and test the connection.
 
@@ -34,9 +34,9 @@ When using the CaliQ for calibrating the PAR sensor, make sure it is connected a
 
 | Calibrate LEDs | Description | Details | Firmware |
 | :------------- | :---------- | :-----: | :------: |
-| **Step 1:** Main Body LEDs | Follow the instructions prompted by the protocol. Make sure the CaliQ sensor has a snug fit. | [view](https://photosynq.com/protocols/2280) | `>=2.34` |
-| **Step 2:** Leaf Clamp LEDs | Follow the instructions prompted by the protocol. Make sure the CaliQ sensor has a snug fit. | [view](https://photosynq.com/protocols/2279) | `>=2.34` |
-| **Step 3:** IR LEDs | Follow the instructions prompted by the protocol. | [view](https://photosynq.com/protocols/2229) | `>=2.34` |
+| **Step 1:** Main Body LEDs | Follow the instructions prompted by the protocol. Make sure the CaliQ sensor has a snug fit. | [view](https://photosynq.org/protocols/2280) | `>=2.34` |
+| **Step 2:** Leaf Clamp LEDs | Follow the instructions prompted by the protocol. Make sure the CaliQ sensor has a snug fit. | [view](https://photosynq.org/protocols/2279) | `>=2.34` |
+| **Step 3:** IR LEDs | Follow the instructions prompted by the protocol. | [view](https://photosynq.org/protocols/2229) | `>=2.34` |
 
 `Note:` *These calibration steps require a CaliQ*
 
@@ -44,8 +44,8 @@ When using the CaliQ for calibrating the PAR sensor, make sure it is connected a
 
 | Electronic Offsets | Description | Details | Firmware |
 | :----------------- | :---------- | :-----: | :------: |
-| **Step 1:** Detector Offsets | Follow the instructions prompted by the protocol. | [view](https://photosynq.com/protocols/2230) | `>=2.34` |
-| **Step 2:** Detector Offsets - Fluorescence | Follow the instructions prompted by the protocol. | [view](https://photosynq.com/protocols/2231) | `>=2.34` |
+| **Step 1:** Detector Offsets | Follow the instructions prompted by the protocol. | [view](https://photosynq.org/protocols/2230) | `>=2.34` |
+| **Step 2:** Detector Offsets - Fluorescence | Follow the instructions prompted by the protocol. | [view](https://photosynq.org/protocols/2231) | `>=2.34` |
 
 `Note:` *These calibration steps require the chlorophyll calibration and the pink fluorescent cards*
 
@@ -53,7 +53,7 @@ When using the CaliQ for calibrating the PAR sensor, make sure it is connected a
 
 | Calibrate Leaf Thickness | Description | Details | Firmware |
 | :----------------------- | :---------- | :-----: | :------: |
-| **Step 1:** Leaf Thickness Gauge | Follow the instructions prompted by the protocol. Make sure the r² value is 0.98 or higher. If it is not the case, repeat the calibration. | [view](https://photosynq.com/protocols/2232) | `>=2.34` |
+| **Step 1:** Leaf Thickness Gauge | Follow the instructions prompted by the protocol. Make sure the r² value is 0.98 or higher. If it is not the case, repeat the calibration. | [view](https://photosynq.org/protocols/2232) | `>=2.34` |
 
 `Note:` *These calibration steps require the thickness calibration cards*
 
@@ -61,7 +61,7 @@ When using the CaliQ for calibrating the PAR sensor, make sure it is connected a
 
 | Calibrate Relative Chlorophyll | Description | Details | Firmware |
 | :----------------------------- | :---------- | :-----: | :------: |
-| **Step 1:** Relative Chlorophyll (SPAD) | Follow the instructions prompted by the protocol. Make sure the panels of the calibration cards are properly clamped. | [view](https://photosynq.com/protocols/1890) | `>=2.34` |
+| **Step 1:** Relative Chlorophyll (SPAD) | Follow the instructions prompted by the protocol. Make sure the panels of the calibration cards are properly clamped. | [view](https://photosynq.org/protocols/1890) | `>=2.34` |
 
 `Note:` *These calibration steps require the chlorophyll calibration cards*
 
@@ -69,7 +69,7 @@ When using the CaliQ for calibrating the PAR sensor, make sure it is connected a
 
 | Reset Instrument | Description | Details | Firmware |
 | :--------------- | :---------- | :-----: | :------: |
-| Reset to Default | Reset the MultispeQ to its default settings and remove all calibrations | [view](https://photosynq.com/protocols/2221) | `>=2.34` |
+| Reset to Default | Reset the MultispeQ to its default settings and remove all calibrations | [view](https://photosynq.org/protocols/2221) | `>=2.34` |
 
 `Note:` *After this step you must finish all further recalibration steps to use the MultispeQ!*
 

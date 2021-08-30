@@ -16,11 +16,14 @@ Baker, N.R. (2008) **Chlorophyll fluorescence: A probe of photosynthesis in vivo
 
 Kramer, D. M., and Evans, J. R. (2011). **The importance of energy balance in improving photosynthetic productivity.** *Plant Physiol.* 155, 70–8. [doi:10.1104/pp.110.166652].
 
-Cruz, J. A., Savage, L. J., Zegarac, R., Hall, C. C., Satoh-Cruz, M., Davis, G. A., et al. (2016). **Dynamic Environmental Photosynthetic Imaging Reveals Emergent Phenotypes.** *Cell Syst.* 2, 365–377. [doi:10.1016/j.cels.2016.06.001].
-
 Kalaji, H. M., Schansker, G., Ladle, R. J., Goltsev, V., Bosa, K., Allakhverdiev, S. I., et al. (2014) **Frequently asked questions about in vivo chlorophyll fluorescence: practical issues.** *Photosynthesis Research* 122, 121–158.[doi:10.1007/s11120-014-0024-6].
 
+Cruz, J. A., Savage, L. J., Zegarac, R., Hall, C. C., Satoh-Cruz, M., Davis, G. A., et al. (2016). **Dynamic Environmental Photosynthetic Imaging Reveals Emergent Phenotypes.** *Cell Syst.* 2, 365–377. [doi:10.1016/j.cels.2016.06.001].
+
 Kalaji, H. M., Schansker, G., Brestic, M., Bussotti, F., Calatayud, A., Ferroni, L., et al. (2016) **Frequently asked questions about chlorophyll fluorescence, the sequel.** *Photosynthesis Research* 132, 13–66. [doi:10.1007/s11120-016-0318-y].
+
+Cruz, J. A. & Avenson, T. J. (2021) **Photosynthesis: a multiscopic view.** *J Plant Res* 134, 665–682. [doi:10.1007/s10265-021-01321-4].
+  
 
 ## Environmental Parameters
 
@@ -234,3 +237,5 @@ The availability of parameters and how they are derived depends on the version a
 [doi:10.1007/s11120-014-0024-6]: https://doi.org/10.1007/s11120-014-0024-6
 
 [doi:10.1007/s11120-016-0318-y]: https://doi.org/10.1007/s11120-016-0318-y
+
+[doi:10.1007/s10265-021-01321-4]: http://dx.doi.org/10.1007/s10265-021-01321-4
