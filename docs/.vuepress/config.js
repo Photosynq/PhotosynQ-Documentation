@@ -45,7 +45,7 @@ module.exports = {
                     {
                         text: 'Firmware',
                         items: [
-                            { text: 'Latest Firmware', link: 'https://github.com/Photosynq/MultispeQ-Firmware/releases/latest' }
+                            { text: 'Latest Firmware', link: 'https://photosynq.com/software' }
                         ]
                     },
                     {
