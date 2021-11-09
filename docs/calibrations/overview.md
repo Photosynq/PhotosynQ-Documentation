@@ -22,7 +22,7 @@ Never use organic solvents and a wet or abrasive cloth to clean the Instrument a
 
 ## 3. Check Supplies
 
-The instruments come with supplies for the calibration. Make sure you have all the supplies ready and they are clean. Calibration cards should have no folds, since those might impact the quality of the calibration.
+The CaliQ instrument comes with supplies for the calibration. Make sure you have all the supplies ready and they are clean. Calibration cards should have no folds, since those might impact the quality of the calibration.
 
 ![(1) Thickness Calibration Cards, (2) Relative Chlorophyll Calibration Cards, (3) Fluorescence Calibration Card, (4) CaliQ](./images/supplies.jpg)
 
