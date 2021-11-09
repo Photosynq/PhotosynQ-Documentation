@@ -112,6 +112,24 @@ When the measurement is done, use the **Discard** button to return back to the p
 
 ![Example Output for a Photosystem II Quantum Efficiency Measurement](../desktop-application/images/notebook-measurement.png)
 
+### Other MultiseQ Parameters
+Parameter	Description of Parameter
+Phi2	The fraction of light energy captured by Photosystem II which is directed towards Photochemistry to make ATP and NADPH and ultimately sugar for the plant to grow. Typical range is 0 - 0.82.
+
+PhiNPQ	The fraction of light energy captured by Photosystem II which is directed towards non-photochemical quenching and is dissipated as heat inside the leaf. The plant actively 'shedding' excess captured light to avoid photodamage. Typical range is 0 - 0.85.
+
+PhiNO	The fraction of light energy captured by Photosystem II that is directed...somewhere. This generally represents light energy lost to unregulated processes that can damage Photochemistry. Typical range is 0.15 - 0.55.
+
+Relative Chlorophyll Content	The concentration of chlorophyll in the leaf. It ranges from 0-80 and is a relative value so it has no units.
+
+ECSt, vH+, gH+	These parameters describe the accumulation of protons in the thylakoid and their flow through ATP synthase which converts ADP to ATP, one of the main forms of transportable energy within the cell. This measurement often does not work well at low light intensities. Under these conditions it is common to get a pop-up message saying that the signal is too low or too noisy and you should accept the measurement. If you get this message under high light conditions, you may want to retake the measurement.
+
+Leaf Temp Differential	The difference between leaf temperature and ambient temperature in degrees Celsius. The typical range is from  -5 to +10.
+
+Light Intensity (PAR)	Photosynthetically Active Radiation in the 400 - 700 nanometer wavelengths that is used for photosynthesis. Typical ranges 0 to approximately 2000 microeinsteins (under full sun).
+
+![image](https://user-images.githubusercontent.com/92598812/137527980-64a5c638-842a-4def-a478-413cb1d3d8df.png)
+
 :::
 
 ::::
