@@ -37,7 +37,7 @@
     "markdown-it": "^12.2.0",
     "markdown-it-implicit-figures": "^0.10.0",
     "markdown-link-check": "3.8.7",
-    "minimist": "^1.2.5",
+    "minimist": "^1.2.6",
     "moment-timezone": "^0.5.33",
     "mustache": "4.2.0",
     "natsort": "^2.0.3",
