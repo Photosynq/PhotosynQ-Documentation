@@ -5,7 +5,6 @@
 + **Charging:** Before using your MultispeQ, charge it for 8 hours using the supplied micro-USB cable\*. When plugged in, the small green LED next to the micro-USB port lights up. Once the instrument is fully charged, the light will turn off.
 + **Turn On:** Press and hold the power/reset button in the rear for 5 seconds.
 + **Software:** Go to <https://photosynq.com/software> and download the Android app or the Desktop app.
-+ **Check Tutorials:** Before Using Your Instrument Make Sure To Check Out The "[Getting Started](../tutorials/getting-started.md)" Tutorials on how tho connect the Instrument and take the first Measurement.
 
 \* Power supply not included. Use a computer or standard USB power supply. Charging time depends on the power output of the power supply.
 
