@@ -45,3 +45,17 @@ Measurements that have already been uploaded are indicated by a cloud icon. You 
 ::: warning Note
 Measurements which have been uploaded can not be altered and re-uploaded.
 :::
+
+## Troubleshooting Measurements Not Uploading
+
+If measurements are not uploading after following the instructions above, please follow these instructions to troubleshoot the issue:
+
+1. Using a USB calbe, connect your phone to a computer
+2. Locate the PhotosynQ folder within your phone storage on the file explorer of your computer
+3. Within the PhotosynQ folder on the phone, find the measurements folder. This will contain all the raw json files of the data you have collected
+4. Copy and paste the raw json files from the measurement folder into a folder on your computer to make sure they are safe and backed up
+5. Uninstall, then reinstall the PhotosynQ mobile application on the phone
+6. With the phone still connected to the computer, copy the json files from where you saved them on the computer and paste them into the PhotosynQ folder and measurement folder on the phone (The same place you copied them from originally)
+7. Now you can go to the project and see the measurements and with an internet connection, you can upload the measurements online as well
+
+If you have questions, or if you are still encountering issues, please contact support@photosynq.org.
