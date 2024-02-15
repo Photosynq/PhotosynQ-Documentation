@@ -16,7 +16,7 @@
 
 The CaliQ is simply connected to the MultispeQ by using the provided USB-C cable and plugging it into the MultispeQ's USB-C port located on the back next to the micro-USB port. Attaching the PAR Sensor of the CaliQ or its Light Source is not required (shown for demonstration purposes only). The Calibration routines will prompt you when to do so. The CaliQ can be connected and disconnected at any time and doesn't require the MultispeQ to be powered down or restarted. To test for the correct cable orientation, follow the instructions below.
 
-::: warning MultispeQ v1.0 Users
+::: Warning MultispeQ v1.0 Users
 Due to a hardware change, the MultispeQ v1.0 requires a CaliQ adapter, available in the shop, for connecting the CaliQ. This adapter plugs directly into the MultispeQ V1.0 on one side and the CaliQ cord attaches on the other side. Please see <[support@photosynq.org](https://www.photosynq.com/product-page/multispeq-version-1-caliq-adapter)> for further help in purchasing this item.
 :::
 
