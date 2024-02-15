@@ -1,7 +1,7 @@
 # MultispeQ v1.0
 
 ::: warning Note
-The MultispeQ v1.0 has been discontinued. Please see the improved version [MultispeQ v2.0](./multispeq-v2.0.md). In general the [Getting Started](./multispeq-v2.0.md#getting-started) section from MultispeQ v2.0 applies to the v1.0 too.
+The MultispeQ v1.0 has been discontinued. Please see the improved version [MultispeQ v2.0](./multispeq-v2.0.md). In general the [Getting Started](./multispeq-v2.0.md#getting-started) section from MultispeQ v2.0 applies to the v1.0 too, though calibrations will require a CaliQ adapter.
 :::
 
 ## Configuration
